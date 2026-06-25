@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OsakaPNG | 大阪発のゲーム・配信コミュニティ</title>
+    <meta
+      name="description"
+      content="OsakaPNGは、大阪発のゲーム・配信コミュニティです。所属メンバーのニュース、配信、VTuber、クリエイター情報、グッズやSNSをまとめています。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="OsakaPNG トップへ">
+        <img src="./assets/brand-mark.png" alt="" />
+        <span>OsakaPNG</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="主要ナビゲーション">
+        <a href="#about">About</a>
+        <a href="#talents">Talents</a>
+        <a href="#services">Services</a>
+        <a href="#news">News</a>
+        <a href="#news" class="nav-cta">最新情報</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">GAME / STREAMING / VTUBER / OSAKA</p>
+            <h1><span>大阪から、</span><span>好きが集まる</span><span>遊び場を。</span></h1>
+            <p>
+              OsakaPNGは、ゲーム、配信、VTuber、クリエイターが集まる大阪発のコミュニティです。
+              推しの最新情報、配信、グッズ、イベントの動きを、ここから追えます。
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#news">最新ニュースを見る</a>
+              <a class="button secondary" href="#talents">所属タレントを見る</a>
+            </div>
+          </div>
+          <div class="hero-panel" aria-label="OsakaPNG ブランド">
+            <img class="hero-logo" src="./assets/hero-logo.png" alt="OsakaPNG" />
+            <dl class="hero-stats">
+              <div>
+                <dt>8</dt>
+                <dd>所属タレント</dd>
+              </div>
+              <div>
+                <dt>3</dt>
+                <dd>楽しみ方</dd>
+              </div>
+              <div>
+                <dt>2018</dt>
+                <dd>PACkage設立</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container split">
+          <div>
+            <p class="section-kicker">ABOUT</p>
+            <h2>推しを見つけて、一緒に盛り上がる。</h2>
+          </div>
+          <div class="lead">
+            <p>
+              OsakaPNGは、ゲームが好きな人、配信を見るのが好きな人、VTuberやクリエイターを応援したい人のための場所です。
+              メンバーの個性や活動を、ファンが見つけやすく、追いやすく、楽しみやすい形に整理します。
+            </p>
+            <p>
+              企業向けの相談窓口もありますが、サイトの中心はあくまでファンです。ニュース、メンバー、SNS、グッズへ自然に進める構成にします。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-kicker">ENJOY</p>
+            <h2>OsakaPNGの楽しみ方</h2>
+          </div>
+          <div class="service-grid">
+            <article>
+              <span class="service-num">01</span>
+              <h3>推しの配信を追う</h3>
+              <p>ゲーム配信、雑談、コラボ企画など、メンバーごとの活動をチェックできます。</p>
+            </article>
+            <article>
+              <span class="service-num">02</span>
+              <h3>ニュースで近況を知る</h3>
+              <p>新メンバー加入、復帰、イベント参加など、OsakaPNGの動きをまとめて見られます。</p>
+            </article>
+            <article>
+              <span class="service-num">03</span>
+              <h3>グッズ・SNSで応援する</h3>
+              <p>X、YouTube、SUZURIから、配信外でもメンバーやコミュニティを応援できます。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="talents" class="section talents">
+        <div class="container">
+          <div class="section-head compact">
+            <div>
+              <p class="section-kicker">TALENTS</p>
+              <h2>所属タレント</h2>
+            </div>
+            <div class="filter-tabs" aria-label="タレント種別">
+              <button class="active" type="button" data-filter="all">All</button>
+              <button type="button" data-filter="streamer">Streamer</button>
+              <button type="button" data-filter="vtuber">VTuber</button>
+              <button type="button" data-filter="creator">Creator</button>
+            </div>
+          </div>
+          <div class="talent-grid">
+            <article class="talent-card" data-kind="streamer">
+              <img src="./assets/talent-miyu.jpeg" alt="桜木みゆ" />
+              <div>
+                <p>FPS / Streamer</p>
+                <h3>桜木みゆ</h3>
+                <span>深夜帯のゲーム配信とFPS企画に強い復帰メンバー。</span>
+              </div>
+            </article>
+            <article class="talent-card" data-kind="creator">
+              <img src="./assets/talent-rarihon.jpeg" alt="らりほん" />
+              <div>
+                <p>Creator</p>
+                <h3>らりほん</h3>
+                <span>個性あるビジュアルとコミュニティ接点を持つクリエイター。</span>
+              </div>
+            </article>
+            <article class="talent-card" data-kind="streamer">
+              <img src="./assets/talent-rio.png" alt="紫ノ花りお" />
+              <div>
+                <p>Streamer / Event</p>
+                <h3>紫ノ花りお</h3>
+                <span>配信とイベント出演の両面で展開できるタレント。</span>
+              </div>
+            </article>
+            <article class="talent-card" data-kind="vtuber">
+              <img src="./assets/talent-aoko.png" alt="隣ノあおこ" />
+              <div>
+                <p>VTuber</p>
+                <h3>隣ノあおこ</h3>
+                <span>キャラクター性を活かした配信や企画で活躍。</span>
+              </div>
+            </article>
+            <article class="talent-card" data-kind="vtuber">
+              <img src="./assets/talent-kira.png" alt="kira" />
+              <div>
+                <p>VTuber / Goods</p>
+                <h3>kira</h3>
+                <span>親しみやすい世界観でファン接点を作るタレント。</span>
+              </div>
+            </article>
+            <article class="talent-card" data-kind="streamer">
+              <img src="./assets/talent-fukutsu.png" alt="不屈" />
+              <div>
+                <p>Streamer</p>
+                <h3>不屈</h3>
+                <span>配信コミュニティとの相性が高いストリーマー。</span>
+              </div>
+            </article>
+            <article class="talent-card" data-kind="vtuber">
+              <img src="./assets/talent-shion.jpeg" alt="神楽紫苑" />
+              <div>
+                <p>VTuber</p>
+                <h3>神楽紫苑</h3>
+                <span>キャラクター企画やオンライン配信で魅力を届ける所属者。</span>
+              </div>
+            </article>
+            <article class="talent-card" data-kind="vtuber">
+              <img src="./assets/talent-towasetsuna.png" alt="とわとせつな" />
+              <div>
+                <p>VTuber</p>
+                <h3>とわとせつな</h3>
+                <span>新規ファンづくりと配信連動企画に対応。</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section proof">
+        <div class="container proof-inner">
+          <div>
+            <p class="section-kicker">FOR FANS</p>
+            <h2>ニュースも、配信も、グッズも、ここから。</h2>
+            <p>
+              OsakaPNGの入口をひとつにまとめました。初めて来た人はメンバーを知り、いつも見ている人はニュースを追い、
+              もっと応援したい人はSNSやグッズへ進めます。
+            </p>
+          </div>
+          <div class="proof-list">
+            <div>
+              <strong>メンバーを見つける</strong>
+              <span>配信者、VTuber、クリエイターの個性を見比べられます。</span>
+            </div>
+            <div>
+              <strong>活動を追いかける</strong>
+              <span>加入ニュースやイベント情報を、迷わず確認できます。</span>
+            </div>
+            <div>
+              <strong>応援につながる</strong>
+              <span>X、YouTube、SUZURIへの導線をまとめています。</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="news" class="section news">
+        <div class="container">
+          <div class="section-head compact">
+            <div>
+              <p class="section-kicker">NEWS</p>
+              <h2>ニュース</h2>
+            </div>
+            <a class="text-link" href="https://www.pngesports.com/newsevents" target="_blank" rel="noreferrer">既存NEWSを見る</a>
+          </div>
+          <div class="news-grid">
+            <article class="feature-news">
+              <img src="./assets/news-miyu.png" alt="桜木みゆ復帰ニュースのビジュアル" />
+              <div>
+                <time datetime="2025-12-01">2025.12.01</time>
+                <h3>FPSストリーマー「桜木みゆ」がOsakaPNGに復帰</h3>
+                <p>配信・イベント・地域連携を広げるタレント戦略の新展開として発信。</p>
+              </div>
+            </article>
+            <div class="news-list">
+              <a href="https://www.pngesports.com/blog/0e65bf58f92?categoryId=25608" target="_blank" rel="noreferrer">
+                <span>Talent</span>
+                <strong>新メンバー加入のお知らせ：不屈</strong>
+              </a>
+              <a href="https://www.pngesports.com/blog/05cdd2c5100?categoryId=25608" target="_blank" rel="noreferrer">
+                <span>Talent</span>
+                <strong>新メンバー加入のお知らせ：とわとせつな</strong>
+              </a>
+              <a href="https://www.pngesports.com/blog/404f03b8bdf?categoryId=582377" target="_blank" rel="noreferrer">
+                <span>Talent</span>
+                <strong>新メンバー加入のお知らせ：神楽紫苑</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section sponsors">
+        <div class="container">
+          <p class="section-kicker">PARTNERS</p>
+          <h2>スポンサー・パートナー</h2>
+          <div class="sponsor-row">
+            <img src="./assets/sponsor-aoc.png" alt="AOC" />
+            <img src="./assets/sponsor-fumo.png" alt="ふもっふのおみせ" />
+            <img src="./assets/sponsor-pepabo.png" alt="GMOペパボ" />
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact-inner">
+          <div>
+            <p class="section-kicker">CONTACT</p>
+            <h2>お仕事・提携の相談</h2>
+            <p>
+              出演、コラボ、スポンサー、イベント連携など、事業相談はこちらから。ファン向け情報とは分けて、必要な人だけが使える位置に置いています。
+            </p>
+            <div class="operator">
+              <img src="./assets/package-logo.png" alt="PACkage" />
+              <div>
+                <strong>Produced by PACkage inc.</strong>
+                <span>代表取締役社長 山口勇 / info@package-inc.com</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form">
+            <label>
+              相談内容
+              <select required>
+                <option value="">選択してください</option>
+                <option>出演・イベント相談</option>
+                <option>配信・動画コラボ</option>
+                <option>取材・メディア掲載</option>
+                <option>スポンサー・提携</option>
+              </select>
+            </label>
+            <label>
+              お名前
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              メールアドレス
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              お問い合わせ内容
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button class="button primary" type="submit">送信内容を確認</button>
+            <p class="form-note" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>OsakaPNG</span>
+        <p>© PACkage Inc. All Rights Reserved.</p>
+        <div>
+          <a href="https://x.com/PNGesports" target="_blank" rel="noreferrer">X</a>
+          <a href="https://www.youtube.com/@osakapng" target="_blank" rel="noreferrer">YouTube</a>
+          <a href="https://suzuri.jp/Osaka_PNG" target="_blank" rel="noreferrer">SUZURI</a>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
