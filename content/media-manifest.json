@@ -1,0 +1,1039 @@
+{
+  "/images/icons/transparent.png": {
+    "status": "ok",
+    "local": "assets/brand-mark.png",
+    "sha256": "1eebee07ab3ed046fda144afe0795ac3e6692b1e89d64f368eb2a3b4b13865fb",
+    "bytes": 2106,
+    "mime": "image/png",
+    "disposition": "Empty Strikingly cover placeholder replaced with existing PNG brand mark; not an editorial content image."
+  },
+  "https://assets.strikingly.com/assets/themes/fresh/power.png": {
+    "status": "ok",
+    "local": "assets/archive/ad9f840fa90da74aad029819.png",
+    "sha256": "ad9f840fa90da74aad029819ea85e943efe43569ef67a8529add1986037eeb42",
+    "bytes": 1308,
+    "mime": "image/png"
+  },
+  "https://assets.strikingly.com/static/backgrounds/blur/2.jpg": {
+    "status": "ok",
+    "local": "assets/archive/53b660d6fe5aa632ee4a8fd2.jpg",
+    "sha256": "53b660d6fe5aa632ee4a8fd227968ed33c7e8236e7da226f27c393a41151b056",
+    "bytes": 54574,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_fill,fl_lossy,h_200,w_200,f_auto,g_faces:auto,q_auto/1321555/228384_823854.png": {
+    "status": "ok",
+    "local": "assets/archive/c6a07f5854ab1e456be140c5.png",
+    "sha256": "c6a07f5854ab1e456be140c5c77c278c32fd7af046fb640d4fd222711f0b8c4f",
+    "bytes": 26252,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_fill,fl_lossy,h_200,w_200,f_auto,g_faces:auto,q_auto/1321555/431944_436940.png": {
+    "status": "ok",
+    "local": "assets/archive/7a5c3128d05efc15fb0d8eeb.png",
+    "sha256": "7a5c3128d05efc15fb0d8eeb147d862ec18340dbe371f92ca13a6cd163665f80",
+    "bytes": 7081,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_fill,fl_lossy,h_200,w_200,f_auto,g_faces:auto,q_auto/1321555/440078_880426.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/01b64b35ae2226f39ce9ec4e.jpg",
+    "sha256": "01b64b35ae2226f39ce9ec4ef66f2454139c33bfdd75883657797022a7d70554",
+    "bytes": 8009,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_fill,fl_lossy,h_200,w_200,f_auto,g_faces:auto,q_auto/1321555/446237_441715.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/ca26d7ebc1254428049bfe6e.jpg",
+    "sha256": "ca26d7ebc1254428049bfe6e4a9cf5d891782ed85524ef4d9138b7158912723b",
+    "bytes": 10050,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_fill,fl_lossy,h_200,w_200,f_auto,g_faces:auto,q_auto/1321555/585935_854211.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/51af19450e5f621cddecf4a7.jpg",
+    "sha256": "51af19450e5f621cddecf4a78d40f2ba7bc59c4e64d79606965a19f04e942a92",
+    "bytes": 6056,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_fill,fl_lossy,h_200,w_200,f_auto,g_faces:auto,q_auto/1321555/660557_786633.png": {
+    "status": "ok",
+    "local": "assets/archive/5d97b1e11ffaf112edfa6ee3.png",
+    "sha256": "5d97b1e11ffaf112edfa6ee3ebba7448bb31902d3059d4af40b0d83b9e3525cb",
+    "bytes": 18547,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_fill,fl_lossy,h_200,w_200,f_auto,g_faces:auto,q_auto/1321555/72480_189750.png": {
+    "status": "ok",
+    "local": "assets/archive/03e31ae53b05ade12844904a.png",
+    "sha256": "03e31ae53b05ade12844904a68f4850617d033d196cb07c6bf24682e9e6ab495",
+    "bytes": 13002,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_fill,fl_lossy,h_200,w_200,f_auto,g_faces:auto,q_auto/1321555/797268_398604.png": {
+    "status": "ok",
+    "local": "assets/archive/ea2a7c717d77dbd2ba22e984.png",
+    "sha256": "ea2a7c717d77dbd2ba22e98454fd76e90e8d02730671fbcae02b99b73f9b0151",
+    "bytes": 15139,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1321555/265628_762581.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/7ba8137c3af6db38d94087ef.jpg",
+    "sha256": "7ba8137c3af6db38d94087ef3345dad65e98838ce59f901d7dcd614522f6dea2",
+    "bytes": 26957,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1321555/522023_366963.png": {
+    "status": "ok",
+    "local": "assets/archive/4b9fe68cb070f78071fc65e9.png",
+    "sha256": "4b9fe68cb070f78071fc65e9402b2c4d3f4e9c4c6f9638c47f727f93d3fd624a",
+    "bytes": 237239,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1321555/52561_367680.png": {
+    "status": "ok",
+    "local": "assets/archive/5591f804ead7d7301a91cd2f.png",
+    "sha256": "5591f804ead7d7301a91cd2f1d2f98b078762894a24fff476fcadce72ff6a898",
+    "bytes": 371277,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1321555/534519_20192.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/591df78d429c47e64119dc7b.jpg",
+    "sha256": "591df78d429c47e64119dc7bd50cf06e2af9fe880a319143a59d3f250deefd0c",
+    "bytes": 20398,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1321555/547132_295751.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/821f093e86e0ffa5517b7793.jpg",
+    "sha256": "821f093e86e0ffa5517b7793ba5e9edb594333b0629d180d69ed8ce81fffb572",
+    "bytes": 15675,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1321555/574733_906573.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/c50faffe856e218141519f42.jpg",
+    "sha256": "c50faffe856e218141519f42ce0dc16f3f329392b2a44499396731ceb0d378e6",
+    "bytes": 30749,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1321555/692484_425258.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/047de20ac5a4958edf3591d2.jpg",
+    "sha256": "047de20ac5a4958edf3591d2e59ad1a601a9a8245a44b2699a1ed0309c643e2e",
+    "bytes": 23491,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1321555/707542_88605.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/76841b83074dbca04d8ec8d8.jpg",
+    "sha256": "76841b83074dbca04d8ec8d8e79509865483371f6053ba3643948255896cfe11",
+    "bytes": 20082,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1321555/902229_888641.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/6a3f7df8c54b2260a053fd85.jpg",
+    "sha256": "6a3f7df8c54b2260a053fd855ff1b2f5cfb011cf0622cabaad8af370eb4f2b42",
+    "bytes": 18556,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1321555/927457_383125.png": {
+    "status": "ok",
+    "local": "assets/archive/bd789b8b44713d079e59a531.png",
+    "sha256": "bd789b8b44713d079e59a5316dce6df0a933f64a996d317219d883ffd4a40822",
+    "bytes": 223237,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1321555/940855_198701.png": {
+    "status": "ok",
+    "local": "assets/archive/4b9fe68cb070f78071fc65e9.png",
+    "sha256": "4b9fe68cb070f78071fc65e9402b2c4d3f4e9c4c6f9638c47f727f93d3fd624a",
+    "bytes": 237239,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1321555/94222_116200.png": {
+    "status": "ok",
+    "local": "assets/archive/960b3e6dd056e4e67bde9fbb.png",
+    "sha256": "960b3e6dd056e4e67bde9fbb0ecd40ad2917a9ae6ebd323db7efc7a755e2fe40",
+    "bytes": 235011,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1321555/99570_408557.png": {
+    "status": "ok",
+    "local": "assets/archive/485b7864c1993de3e3385451.png",
+    "sha256": "485b7864c1993de3e3385451ae8abcc3295707cee39974eedce2c4d8fd546c23",
+    "bytes": 235225,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1321555/765983_893972.png": {
+    "status": "ok",
+    "local": "assets/archive/1eebee07ab3ed046fda144af.png",
+    "sha256": "1eebee07ab3ed046fda144afe0795ac3e6692b1e89d64f368eb2a3b4b13865fb",
+    "bytes": 2106,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/1321555/203609_729681.png": {
+    "status": "ok",
+    "local": "assets/archive/cca3320316ae0abc0b99dd1d.png",
+    "sha256": "cca3320316ae0abc0b99dd1d20878266f8e38b5dfcb9c64a903d29661b2da6b0",
+    "bytes": 28835,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/119782_541051.png": {
+    "status": "ok",
+    "local": "assets/archive/17964c2025d13f615925f264.png",
+    "sha256": "17964c2025d13f615925f264d22f8c0f7f5acace8ef66dcd23c1540a0fec6f08",
+    "bytes": 235672,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/125004_83930.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/66fd11686667d62cda559735.jpg",
+    "sha256": "66fd11686667d62cda5597357044ee3022fa98b6f4dd0c68c4050e1cfdd0348b",
+    "bytes": 68721,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/127498_867015.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/8d578a9eaf7b37d16f3faec2.jpg",
+    "sha256": "8d578a9eaf7b37d16f3faec2fbbda0ecf3eed8b7963edc4642df60ee8ae31a27",
+    "bytes": 73497,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/147382_781022.png": {
+    "status": "ok",
+    "local": "assets/archive/771a01ce7b54a27e7497ace8.png",
+    "sha256": "771a01ce7b54a27e7497ace898b17ed8122ca5832e776b184db7b06f530ca60d",
+    "bytes": 90656,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/153076_38264.png": {
+    "status": "ok",
+    "local": "assets/archive/f7669906b5fb8f703701735d.png",
+    "sha256": "f7669906b5fb8f703701735d04a95c226706b3bad762b8260f8d31a3bfa18a29",
+    "bytes": 87256,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/155783_982767.png": {
+    "status": "ok",
+    "local": "assets/archive/c662959f0600196a954fde81.png",
+    "sha256": "c662959f0600196a954fde8168e127ef794533763223e24974430ca9ade472f8",
+    "bytes": 70408,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/162111_953336.png": {
+    "status": "ok",
+    "local": "assets/archive/aff5256e6d3afcaae4117630.png",
+    "sha256": "aff5256e6d3afcaae41176306c806e69375c069aa495ebf727fe1ec00c202155",
+    "bytes": 244634,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/180299_831358.png": {
+    "status": "ok",
+    "local": "assets/archive/9ba58bf81c7df60cce993ab5.png",
+    "sha256": "9ba58bf81c7df60cce993ab5bb4b1b49f2f1bc5becb78c913ab987a88a2c9ec1",
+    "bytes": 105400,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/180984_843042.png": {
+    "status": "ok",
+    "local": "assets/archive/2bf43b30d3b34f9374dbdae1.png",
+    "sha256": "2bf43b30d3b34f9374dbdae1b7b9dc6f1393954edebe3e04709d6c81ce8ecaa2",
+    "bytes": 297582,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/199297_793822.png": {
+    "status": "ok",
+    "local": "assets/archive/d9764c7aac25e03502b284aa.png",
+    "sha256": "d9764c7aac25e03502b284aabef8042f84abc985e02a30aa2acd580599149be9",
+    "bytes": 187591,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/200182_635616.png": {
+    "status": "ok",
+    "local": "assets/archive/2379f96ff28cc50f20ae4bd7.png",
+    "sha256": "2379f96ff28cc50f20ae4bd772a11917dc3d0511b335e30e5ffc4b3820329565",
+    "bytes": 151833,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/208659_83785.png": {
+    "status": "ok",
+    "local": "assets/archive/6834a16942fb9df3cfe2e878.png",
+    "sha256": "6834a16942fb9df3cfe2e878a76a3c0e98cd86b729d9eaab8a3f4f07d2511244",
+    "bytes": 67198,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/210978_763284.png": {
+    "status": "ok",
+    "local": "assets/archive/e6cf3fb57efca07466ef7b8d.png",
+    "sha256": "e6cf3fb57efca07466ef7b8df0a42e0a7fae1dce3be030d133c66242805fb116",
+    "bytes": 196896,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/215489_38100.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/8d578a9eaf7b37d16f3faec2.jpg",
+    "sha256": "8d578a9eaf7b37d16f3faec2fbbda0ecf3eed8b7963edc4642df60ee8ae31a27",
+    "bytes": 73497,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/218414_169583.png": {
+    "status": "ok",
+    "local": "assets/archive/92eaba156dbc19c898937e4d.png",
+    "sha256": "92eaba156dbc19c898937e4df4104887cbc997c3e97cdf35de1f3b68e1d603b6",
+    "bytes": 352110,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/225618_786086.png": {
+    "status": "ok",
+    "local": "assets/archive/a263e1d346ba958fd429f8a5.png",
+    "sha256": "a263e1d346ba958fd429f8a54d726a6af02d56e9060978aeef5ae1c1abd50c7d",
+    "bytes": 197781,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/228579_412583.png": {
+    "status": "ok",
+    "local": "assets/archive/acb39c4b67ea331b74d7c06c.png",
+    "sha256": "acb39c4b67ea331b74d7c06ccbb56e35d31c774dea1b6492bd13874d76e0e2ff",
+    "bytes": 304917,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/24835_983965.png": {
+    "status": "ok",
+    "local": "assets/archive/f293b14aef64eea5b680f297.png",
+    "sha256": "f293b14aef64eea5b680f29732ff669bd56c0acbd6934a58ace235deb182bed4",
+    "bytes": 134396,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/261625_982185.png": {
+    "status": "ok",
+    "local": "assets/archive/f88bb0f5f195936f80fc98ef.png",
+    "sha256": "f88bb0f5f195936f80fc98eff195556bfa0923236e90de489747dc65661636a2",
+    "bytes": 128180,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/265628_762581.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/7ba8137c3af6db38d94087ef.jpg",
+    "sha256": "7ba8137c3af6db38d94087ef3345dad65e98838ce59f901d7dcd614522f6dea2",
+    "bytes": 26957,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/271852_32946.png": {
+    "status": "ok",
+    "local": "assets/archive/b3c43405a774bfa29f971b72.png",
+    "sha256": "b3c43405a774bfa29f971b72516a8a7f5ab185bcb815fb83b4e98013ee95b2d8",
+    "bytes": 320205,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/272299_629888.png": {
+    "status": "ok",
+    "local": "assets/archive/2ee3adf3d48bab0e6d71500f.png",
+    "sha256": "2ee3adf3d48bab0e6d71500f8132808a5a4f9321e51497ab3b06bdf7f3d668d1",
+    "bytes": 166850,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/294136_254591.png": {
+    "status": "ok",
+    "local": "assets/archive/2f3bc5e8c9461606535d2c6a.png",
+    "sha256": "2f3bc5e8c9461606535d2c6abe06618bdee3d4029e437f4b4e2a597b12077af4",
+    "bytes": 273240,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/299077_614203.png": {
+    "status": "ok",
+    "local": "assets/archive/30330d5c14443be345ce482b.png",
+    "sha256": "30330d5c14443be345ce482b5078eda9acb26e9ec7f80fc3430dd3d459a80c73",
+    "bytes": 93965,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/305164_71407.png": {
+    "status": "ok",
+    "local": "assets/archive/0e5e1581b8c7b2ab9771d4a4.png",
+    "sha256": "0e5e1581b8c7b2ab9771d4a49e57f759cc3d53f0ba4a25dbcc72c3bc81731480",
+    "bytes": 460935,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/314484_18541.png": {
+    "status": "ok",
+    "local": "assets/archive/07f63ba9752698bab2230f0d.png",
+    "sha256": "07f63ba9752698bab2230f0d7a0c81db0f08612a18ffaabb9c147b35253656d5",
+    "bytes": 342391,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/315037_544524.png": {
+    "status": "ok",
+    "local": "assets/archive/2f841e7338db27dd63234d6c.png",
+    "sha256": "2f841e7338db27dd63234d6ccd52b3edd3651e0bcea20b3de9520a56d95fc54b",
+    "bytes": 117660,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/323942_599141.png": {
+    "status": "ok",
+    "local": "assets/archive/f4aa74c9c85834f66f3b8bf9.png",
+    "sha256": "f4aa74c9c85834f66f3b8bf95a58a2f381be7409a5cf7233768c8dd408e9bb10",
+    "bytes": 1552,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/330518_795149.png": {
+    "status": "ok",
+    "local": "assets/archive/3bcd549beee02afd8562269b.png",
+    "sha256": "3bcd549beee02afd8562269b2fd10bc6671263d94fef8dce2f5fb200ebc37733",
+    "bytes": 261187,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/332044_189346.png": {
+    "status": "ok",
+    "local": "assets/archive/4327764f8ee049733d198aae.png",
+    "sha256": "4327764f8ee049733d198aae76fa1b47f7676e6b7d4ff8307ebfd0b2f6aeaa77",
+    "bytes": 161273,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/333117_842063.png": {
+    "status": "ok",
+    "local": "assets/archive/35396f33838c574709a5e94c.png",
+    "sha256": "35396f33838c574709a5e94c0f61a92d05bfa6691c7a8beb2a8c88c0c878c96a",
+    "bytes": 227896,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/340562_279989.png": {
+    "status": "ok",
+    "local": "assets/archive/7db0a50f084910e862421811.png",
+    "sha256": "7db0a50f084910e862421811029856baedbe4f9bb9787d66ea21f42426cda717",
+    "bytes": 178891,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/345251_231209.png": {
+    "status": "ok",
+    "local": "assets/archive/072c069ea066cab8ce811468.png",
+    "sha256": "072c069ea066cab8ce8114684a3cd9815bc0cb5c95402102cbca15597b434986",
+    "bytes": 163707,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/350706_238292.png": {
+    "status": "ok",
+    "local": "assets/archive/a8e18657ad8bc9cebbb7cf4e.png",
+    "sha256": "a8e18657ad8bc9cebbb7cf4e4a41a115e915c04002924a0670febbab3ab175ea",
+    "bytes": 309359,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/366098_415689.png": {
+    "status": "ok",
+    "local": "assets/archive/3a7b4bbaff34a269dcfe0623.png",
+    "sha256": "3a7b4bbaff34a269dcfe062351e051ab8154bedf9245d40decfcdf141df48cf6",
+    "bytes": 110299,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/368674_919758.png": {
+    "status": "ok",
+    "local": "assets/archive/9213299e91710612e5f91e73.png",
+    "sha256": "9213299e91710612e5f91e73167e8810c81caa597f78e11746502ee8f6137f5b",
+    "bytes": 9728,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/376093_632730.png": {
+    "status": "ok",
+    "local": "assets/archive/3ba3ceb80e557182fb0ae594.png",
+    "sha256": "3ba3ceb80e557182fb0ae594da094c4827ffa92bc2c2ee3e609a505f824a1e5b",
+    "bytes": 113498,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/384108_939074.png": {
+    "status": "ok",
+    "local": "assets/archive/6f1c38b68ed80db6b97e94f4.png",
+    "sha256": "6f1c38b68ed80db6b97e94f4835d7b20b7b40cbf0786fbeea92566147ee6d215",
+    "bytes": 231832,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/40889_854710.png": {
+    "status": "ok",
+    "local": "assets/archive/0899e9719ff7635a5245ed19.png",
+    "sha256": "0899e9719ff7635a5245ed19c5af9e644e1c7403bc223a972cdb2856b09a594f",
+    "bytes": 211798,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/410453_26582.png": {
+    "status": "ok",
+    "local": "assets/archive/6a4db8634aee798e9f1c2115.png",
+    "sha256": "6a4db8634aee798e9f1c211575b3ce1cc8d93934ae0ef8c73854ac971146fecc",
+    "bytes": 369938,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/44027_530627.png": {
+    "status": "ok",
+    "local": "assets/archive/da079421dab16035b22c56b4.png",
+    "sha256": "da079421dab16035b22c56b4ca7d5a4d022b7b03bfd5cf940452cd85c748b842",
+    "bytes": 374186,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/440627_29861.png": {
+    "status": "ok",
+    "local": "assets/archive/7813f14e99ff4a671867b505.png",
+    "sha256": "7813f14e99ff4a671867b50538d22a4330da8af48729152bdd27e96239645960",
+    "bytes": 197917,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/442445_675316.png": {
+    "status": "ok",
+    "local": "assets/archive/adf2df34e42d4a224d7c26b2.png",
+    "sha256": "adf2df34e42d4a224d7c26b263c16c40c8e04f8fe49aed4c0b2b437b21ca5faf",
+    "bytes": 116560,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/443017_624195.png": {
+    "status": "ok",
+    "local": "assets/archive/7a5d3e8ee2b602ad06ee636c.png",
+    "sha256": "7a5d3e8ee2b602ad06ee636cf04075fad5579bc9a3bfba5691194a77c4eb2c99",
+    "bytes": 13234,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/487492_947942.png": {
+    "status": "ok",
+    "local": "assets/archive/f7103c37756428ea15d462bd.png",
+    "sha256": "f7103c37756428ea15d462bd115de78cb239e24443a630992b4fd3e519e5e504",
+    "bytes": 95299,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/491323_669338.png": {
+    "status": "ok",
+    "local": "assets/archive/b5e34b6d51eda46cee5d0830.png",
+    "sha256": "b5e34b6d51eda46cee5d0830324e65852706a6070f87f23c8933a59a2e92ab68",
+    "bytes": 376441,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/493917_638655.png": {
+    "status": "ok",
+    "local": "assets/archive/d64a778e6ede6dc9fc75e768.png",
+    "sha256": "d64a778e6ede6dc9fc75e7685b7236811948e73b2c710f835a8e908fd16d70ea",
+    "bytes": 199359,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/494745_81730.png": {
+    "status": "ok",
+    "local": "assets/archive/7af4b766d5fa47915eceb911.png",
+    "sha256": "7af4b766d5fa47915eceb911b8d6e8b5abf364508268c8536cbe180c2d65b3fa",
+    "bytes": 274790,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/494783_395967.png": {
+    "status": "ok",
+    "local": "assets/archive/ce2c6bfe30a609affe48a2c7.png",
+    "sha256": "ce2c6bfe30a609affe48a2c7750af0fd388fd1efaf1317677baf78d3a472914f",
+    "bytes": 252777,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/501382_990503.png": {
+    "status": "ok",
+    "local": "assets/archive/d6d991baf9c1f1471ff6479a.png",
+    "sha256": "d6d991baf9c1f1471ff6479abf69e3b7839064ba69c23468fe990a3e672766af",
+    "bytes": 153928,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/519384_697524.png": {
+    "status": "ok",
+    "local": "assets/archive/1ba06ed3d32e3b770e2b5dc0.png",
+    "sha256": "1ba06ed3d32e3b770e2b5dc053e8daf2b98d931eb28c5877a077786460a586ba",
+    "bytes": 222547,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/52561_367680.png": {
+    "status": "ok",
+    "local": "assets/archive/5591f804ead7d7301a91cd2f.png",
+    "sha256": "5591f804ead7d7301a91cd2f1d2f98b078762894a24fff476fcadce72ff6a898",
+    "bytes": 371277,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/534519_20192.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/591df78d429c47e64119dc7b.jpg",
+    "sha256": "591df78d429c47e64119dc7bd50cf06e2af9fe880a319143a59d3f250deefd0c",
+    "bytes": 20398,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/547132_295751.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/821f093e86e0ffa5517b7793.jpg",
+    "sha256": "821f093e86e0ffa5517b7793ba5e9edb594333b0629d180d69ed8ce81fffb572",
+    "bytes": 15675,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/567222_849876.png": {
+    "status": "ok",
+    "local": "assets/archive/fdcc977e372f5791ee9954f9.png",
+    "sha256": "fdcc977e372f5791ee9954f9f7176d78d450dfcb0adfbe081c82ad452445510d",
+    "bytes": 31868,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/574733_906573.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/c50faffe856e218141519f42.jpg",
+    "sha256": "c50faffe856e218141519f42ce0dc16f3f329392b2a44499396731ceb0d378e6",
+    "bytes": 30749,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/575725_907931.png": {
+    "status": "ok",
+    "local": "assets/archive/7c5e73e6a713a8f3c8be15e6.png",
+    "sha256": "7c5e73e6a713a8f3c8be15e689bc1c8d142d821f2f036a432b53d2eefa76ea16",
+    "bytes": 55072,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/576195_511576.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/fc00a93a8d243bc93832c073.jpg",
+    "sha256": "fc00a93a8d243bc93832c0735b3d4769b5b0088bd1a3afe690f58f1ef1bfcd59",
+    "bytes": 21916,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/586296_102943.png": {
+    "status": "ok",
+    "local": "assets/archive/bde6eaa6ddcfb411b13791bd.png",
+    "sha256": "bde6eaa6ddcfb411b13791bd63fb6e4ce805b1e3b86dca600625498a672a2d90",
+    "bytes": 278830,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/586460_521053.png": {
+    "status": "ok",
+    "local": "assets/archive/142bfa1d51c64151ce9a7628.png",
+    "sha256": "142bfa1d51c64151ce9a76281f45c9fc4b528db2d3b6f9d05f77554e15fb8261",
+    "bytes": 569019,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/599739_479422.png": {
+    "status": "ok",
+    "local": "assets/archive/1939ad0be55bfe040dc4357a.png",
+    "sha256": "1939ad0be55bfe040dc4357abd3362d2ffa4cdfbea8b4fafcad79c11280be61c",
+    "bytes": 122324,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/613432_996831.png": {
+    "status": "ok",
+    "local": "assets/archive/ddd867f479582170190db0d8.png",
+    "sha256": "ddd867f479582170190db0d8de02a7491bbeb3be2f1d30799bb7328021922195",
+    "bytes": 11950,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/615587_383082.png": {
+    "status": "ok",
+    "local": "assets/archive/acb39c4b67ea331b74d7c06c.png",
+    "sha256": "acb39c4b67ea331b74d7c06ccbb56e35d31c774dea1b6492bd13874d76e0e2ff",
+    "bytes": 304917,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/621054_988880.png": {
+    "status": "ok",
+    "local": "assets/archive/e4780ab9e3ea2e1d6b85c29a.png",
+    "sha256": "e4780ab9e3ea2e1d6b85c29a0512ce89f7cf372c8e0388873fc647ac84ac77bd",
+    "bytes": 287645,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/624074_617522.png": {
+    "status": "ok",
+    "local": "assets/archive/673a39d309d9e21aa0ee2292.png",
+    "sha256": "673a39d309d9e21aa0ee2292565a91dd7f8b6ecf3163b2c4c4191af7c9dc5c8d",
+    "bytes": 5493,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/634179_633365.png": {
+    "status": "ok",
+    "local": "assets/archive/12a79a5d31bd4278b3ec81ac.png",
+    "sha256": "12a79a5d31bd4278b3ec81ac0de49fd5e3116fd34b0d08aeb3f29e84d2c7b269",
+    "bytes": 238378,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/643415_476852.png": {
+    "status": "ok",
+    "local": "assets/archive/241514c0eefe3b4eadcd1552.png",
+    "sha256": "241514c0eefe3b4eadcd15523198a3977b5c924219c3f12dd63b4d15ac022980",
+    "bytes": 72573,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/645361_709319.png": {
+    "status": "ok",
+    "local": "assets/archive/433ece55bc53c1a7ad1958a5.png",
+    "sha256": "433ece55bc53c1a7ad1958a5348f67fab920a9966d9a13319a8a96e05d0d0c18",
+    "bytes": 123997,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/645612_446563.png": {
+    "status": "ok",
+    "local": "assets/archive/cd7b4bd8e9170d3043ff2018.png",
+    "sha256": "cd7b4bd8e9170d3043ff201848a1880cb0b0d1c7179df5852f5a4f3925a4adce",
+    "bytes": 236628,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/646816_41889.png": {
+    "status": "ok",
+    "local": "assets/archive/69d2a15d58c2b55584c114f5.png",
+    "sha256": "69d2a15d58c2b55584c114f59656bc898e7ffe731d1c2d5d23133436d3dec63a",
+    "bytes": 111856,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/670466_458274.png": {
+    "status": "ok",
+    "local": "assets/archive/fba3961ae28b7c929ae4aa82.png",
+    "sha256": "fba3961ae28b7c929ae4aa825ed15e5f5fa71e6677bcd5f160f14b1e113ff501",
+    "bytes": 77366,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/672736_569386.png": {
+    "status": "ok",
+    "local": "assets/archive/fbbc27290bb765191cecc9e8.png",
+    "sha256": "fbbc27290bb765191cecc9e85d0310900bce0d3c2a04f7bb765a869bb26f9667",
+    "bytes": 104854,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/688318_908684.png": {
+    "status": "ok",
+    "local": "assets/archive/118244b444c80422ad7f047a.png",
+    "sha256": "118244b444c80422ad7f047aa87a9862b4506f7a4d872bd86198ee179dddf1e4",
+    "bytes": 495805,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/692484_425258.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/047de20ac5a4958edf3591d2.jpg",
+    "sha256": "047de20ac5a4958edf3591d2e59ad1a601a9a8245a44b2699a1ed0309c643e2e",
+    "bytes": 23491,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/70278_192520.png": {
+    "status": "ok",
+    "local": "assets/archive/2ea6b45fa6e32a1100082da0.png",
+    "sha256": "2ea6b45fa6e32a1100082da05ca45771f1415c0c52b67dbd44630e40a8b35be5",
+    "bytes": 303870,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/707542_88605.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/76841b83074dbca04d8ec8d8.jpg",
+    "sha256": "76841b83074dbca04d8ec8d8e79509865483371f6053ba3643948255896cfe11",
+    "bytes": 20082,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/711022_32296.png": {
+    "status": "ok",
+    "local": "assets/archive/fdc997de6194eb80d9cd2891.png",
+    "sha256": "fdc997de6194eb80d9cd2891df4b91c4637c015fe3afd73b73f8ae364006291d",
+    "bytes": 245788,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/715537_801397.png": {
+    "status": "ok",
+    "local": "assets/archive/2561a647ca977c495386c639.png",
+    "sha256": "2561a647ca977c495386c63935af190354daaabc9204fc5cdb667b42135ac6fc",
+    "bytes": 78795,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/715753_182441.png": {
+    "status": "ok",
+    "local": "assets/archive/6059ad00fff965f77984c91d.png",
+    "sha256": "6059ad00fff965f77984c91d9606c088cdf706ec2c256b19b332ed311ff405cf",
+    "bytes": 189534,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/736648_349740.png": {
+    "status": "ok",
+    "local": "assets/archive/66a05d94e0a5c911a551b6d8.png",
+    "sha256": "66a05d94e0a5c911a551b6d8929506102332112ca3fa03365d37348937e7140a",
+    "bytes": 92468,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/739806_176871.png": {
+    "status": "ok",
+    "local": "assets/archive/89028632c961e24fbca3544c.png",
+    "sha256": "89028632c961e24fbca3544cdb205b098d08049383d217d9888f912b8ed02fd7",
+    "bytes": 214911,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/743709_360131.png": {
+    "status": "ok",
+    "local": "assets/archive/5a38c6d5d876dbe41b198a00.png",
+    "sha256": "5a38c6d5d876dbe41b198a00e8bb40cb8a8950cd55a0e92425412ead4f6baf31",
+    "bytes": 518,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/746522_12763.png": {
+    "status": "ok",
+    "local": "assets/archive/e015a620f1403d45c685891c.png",
+    "sha256": "e015a620f1403d45c685891c16b3beb04ee532485f160f5a68c35e9133db8d8e",
+    "bytes": 469006,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/746728_216361.png": {
+    "status": "ok",
+    "local": "assets/archive/c410ca0a28954caf658d4561.png",
+    "sha256": "c410ca0a28954caf658d456160452e0c4e1447f365cfb8c6a438b80cb33d6b4c",
+    "bytes": 65704,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/747748_529918.png": {
+    "status": "ok",
+    "local": "assets/archive/3c1a975062d939e2d2aa8e20.png",
+    "sha256": "3c1a975062d939e2d2aa8e201428b76fdd4755af880b014da9a1621f9e2402fe",
+    "bytes": 292074,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/748775_830605.png": {
+    "status": "ok",
+    "local": "assets/archive/b83d908ba05b4e57607ea60f.png",
+    "sha256": "b83d908ba05b4e57607ea60fec2adb592f1667600396022f623b764fe9d617ad",
+    "bytes": 203140,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/749356_333683.png": {
+    "status": "ok",
+    "local": "assets/archive/b7a69f6a0f8120509a262c64.png",
+    "sha256": "b7a69f6a0f8120509a262c645b4d6e5e1337c6efc4afe20b4d85ab52c9b708b0",
+    "bytes": 251957,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/750399_808898.png": {
+    "status": "ok",
+    "local": "assets/archive/ab58f31f4792d8425cdb682f.png",
+    "sha256": "ab58f31f4792d8425cdb682fa7fd89746b7d3e837cb863a5bed48a3263c34bdd",
+    "bytes": 167774,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/758940_126990.png": {
+    "status": "ok",
+    "local": "assets/archive/0a2c867726f4d64b7cfeb440.png",
+    "sha256": "0a2c867726f4d64b7cfeb440e6ac0df0c7958cc7cf89ced81edd876fddf925d6",
+    "bytes": 66066,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/760778_239405.png": {
+    "status": "ok",
+    "local": "assets/archive/ab58d9e5c6391d82237a5a4a.png",
+    "sha256": "ab58d9e5c6391d82237a5a4a93a1972b241f231e34fb940e4385613b8b7ef73a",
+    "bytes": 221323,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/765370_242175.png": {
+    "status": "ok",
+    "local": "assets/archive/8039a2203e50ad0a6b75406a.png",
+    "sha256": "8039a2203e50ad0a6b75406a9fa7178bcdff3ff73978418d25c737e705066a88",
+    "bytes": 17923,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/767375_281864.png": {
+    "status": "ok",
+    "local": "assets/archive/038b05ad82a15ab59f593f45.png",
+    "sha256": "038b05ad82a15ab59f593f45411b3cb60d5cf4ec322ab9190f1a70d03049bc9d",
+    "bytes": 834690,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/779925_690690.png": {
+    "status": "ok",
+    "local": "assets/archive/33642fe82de9d6f3a849156b.png",
+    "sha256": "33642fe82de9d6f3a849156baccbc7a447ad849e916ab7cea6f50fa08b241982",
+    "bytes": 208920,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/790680_961700.png": {
+    "status": "ok",
+    "local": "assets/archive/226c9b975aebbaeeb4200aed.png",
+    "sha256": "226c9b975aebbaeeb4200aed6f3444b03cbe94d88d31c8ff52e40a95c57fecc9",
+    "bytes": 93209,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/793919_377582.png": {
+    "status": "ok",
+    "local": "assets/archive/bb05e060e6551e3117b325cf.png",
+    "sha256": "bb05e060e6551e3117b325cf50c39498edd5ea2c5768d652b6dfc288772f7be7",
+    "bytes": 241570,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/811526_419733.png": {
+    "status": "ok",
+    "local": "assets/archive/cb7486756b2ea2d23626b523.png",
+    "sha256": "cb7486756b2ea2d23626b52362224416c062c6b1b83f6a3c2d30c79c862102d9",
+    "bytes": 887480,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/81794_434702.png": {
+    "status": "ok",
+    "local": "assets/archive/0459a2f64840e856de760d0c.png",
+    "sha256": "0459a2f64840e856de760d0c4454955481101fe2dc2a806d3d2c10b64f5b10a9",
+    "bytes": 133790,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/837138_840191.png": {
+    "status": "ok",
+    "local": "assets/archive/6e006eead5f81cab515254dd.png",
+    "sha256": "6e006eead5f81cab515254dd15754711bd77b7ce61ea88861691374ef6945390",
+    "bytes": 159769,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/840105_476957.png": {
+    "status": "ok",
+    "local": "assets/archive/cc9edf50ad1e5c9eff693d5a.png",
+    "sha256": "cc9edf50ad1e5c9eff693d5aef684b5503821f42d59148502aeb96e5583fe722",
+    "bytes": 127640,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/843902_284305.png": {
+    "status": "ok",
+    "local": "assets/archive/8d738e147507a00f82812a88.png",
+    "sha256": "8d738e147507a00f82812a881e6379b58df94c579975dc071acadb2044cc0ea9",
+    "bytes": 5070,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/848711_905640.png": {
+    "status": "ok",
+    "local": "assets/archive/716e1546289ae9f6ea5611ec.png",
+    "sha256": "716e1546289ae9f6ea5611ec0d28bd761124c7287beec1c158af42c2071bcf5a",
+    "bytes": 99259,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/864018_375196.png": {
+    "status": "ok",
+    "local": "assets/archive/e0aac4d84d8c0dee605caf04.png",
+    "sha256": "e0aac4d84d8c0dee605caf04802ead2e4279f8e777e5d7ba61a4b38b1b8ccbd5",
+    "bytes": 176829,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/866230_121554.png": {
+    "status": "ok",
+    "local": "assets/archive/3ba3ceb80e557182fb0ae594.png",
+    "sha256": "3ba3ceb80e557182fb0ae594da094c4827ffa92bc2c2ee3e609a505f824a1e5b",
+    "bytes": 113498,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/868844_127940.png": {
+    "status": "ok",
+    "local": "assets/archive/8b9634e2f2a056213f5bc425.png",
+    "sha256": "8b9634e2f2a056213f5bc425af1f9c4250acbdb2e64deee91b3d1d2f191c363f",
+    "bytes": 51992,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/871499_801728.png": {
+    "status": "ok",
+    "local": "assets/archive/6e8de4cec226d2fb2123b42b.png",
+    "sha256": "6e8de4cec226d2fb2123b42b22c4b825a483b229e1811c5f5a1657aa6fc10dea",
+    "bytes": 282606,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/89868_99481.png": {
+    "status": "ok",
+    "local": "assets/archive/de054b7f7a629d6a2a4401c8.png",
+    "sha256": "de054b7f7a629d6a2a4401c8c3b01abadfb9854d7ca82b9e28515a42d77268d6",
+    "bytes": 58937,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/902229_888641.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/6a3f7df8c54b2260a053fd85.jpg",
+    "sha256": "6a3f7df8c54b2260a053fd855ff1b2f5cfb011cf0622cabaad8af370eb4f2b42",
+    "bytes": 18556,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/91352_842053.png": {
+    "status": "ok",
+    "local": "assets/archive/6b18b468157279595c360f96.png",
+    "sha256": "6b18b468157279595c360f964c58843f4be019ae9c6a95cc92f3cfc334551330",
+    "bytes": 662354,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/930_845716.png": {
+    "status": "ok",
+    "local": "assets/archive/533983f235d3469d9e958912.png",
+    "sha256": "533983f235d3469d9e95891299b58300de92a334552fccd3b31e20aed1fbf1b6",
+    "bytes": 164997,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/939387_748668.png": {
+    "status": "ok",
+    "local": "assets/archive/b6dbae0f089fc1368abd9b03.png",
+    "sha256": "b6dbae0f089fc1368abd9b03f41f45bedcb748ac9929e9894b5e7cd0ac84fab8",
+    "bytes": 390823,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/94222_116200.png": {
+    "status": "ok",
+    "local": "assets/archive/a263e1d346ba958fd429f8a5.png",
+    "sha256": "a263e1d346ba958fd429f8a54d726a6af02d56e9060978aeef5ae1c1abd50c7d",
+    "bytes": 197781,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/943545_973681.png": {
+    "status": "ok",
+    "local": "assets/archive/170a98bac33714cde86bc5ad.png",
+    "sha256": "170a98bac33714cde86bc5adb5f4adee848d3dec1ffb31fae9877f95d87e8df7",
+    "bytes": 427846,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/949947_654841.png": {
+    "status": "ok",
+    "local": "assets/archive/e6ee46a8f32bada36d641984.png",
+    "sha256": "e6ee46a8f32bada36d6419843a66f768f283fcecdd35114ed9840591de508f77",
+    "bytes": 444719,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/954573_387416.png": {
+    "status": "ok",
+    "local": "assets/archive/9a282286d094f428191136de.png",
+    "sha256": "9a282286d094f428191136def297f6b1f72b31c94e3beae25ee2a1b7b653d418",
+    "bytes": 365988,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/955131_582702.png": {
+    "status": "ok",
+    "local": "assets/archive/3de95162b56f4ffa43271471.png",
+    "sha256": "3de95162b56f4ffa432714713e1ccbc044a9b87b8b0f5cde337561efd55cb72f",
+    "bytes": 253345,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/963700_678476.png": {
+    "status": "ok",
+    "local": "assets/archive/23736603f85d9d6fa21ab5de.png",
+    "sha256": "23736603f85d9d6fa21ab5de2d98bc362cbf75e044962c658cca03914913e26b",
+    "bytes": 209793,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/964724_488155.png": {
+    "status": "ok",
+    "local": "assets/archive/bb5c77e8264edb80baf6c552.png",
+    "sha256": "bb5c77e8264edb80baf6c5526fc4bf0cdf1662f1bf7e4ebbabe0cb4cba4f3aca",
+    "bytes": 242255,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/984969_929858.png": {
+    "status": "ok",
+    "local": "assets/archive/7c601f16687b13528d6b2d38.png",
+    "sha256": "7c601f16687b13528d6b2d385ec143231605c34781a2e09689f896669c8406e6",
+    "bytes": 273113,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/986763_740495.jpeg": {
+    "status": "ok",
+    "local": "assets/archive/56510c84cd51cbd077689f65.jpg",
+    "sha256": "56510c84cd51cbd077689f65bc080b2784f3da6fbbbe9a37f7f881365b18c11c",
+    "bytes": 112203,
+    "mime": "image/jpeg"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/988915_548803.png": {
+    "status": "ok",
+    "local": "assets/archive/13301c068887ed9e7eebb27e.png",
+    "sha256": "13301c068887ed9e7eebb27ef308ecdc093c20135fd5c80ef7a32d2515c47826",
+    "bytes": 450828,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/99570_408557.png": {
+    "status": "ok",
+    "local": "assets/archive/3a950cb9da419371796eca50.png",
+    "sha256": "3a950cb9da419371796eca501b29e1df4737a1ed5ebc813883bf13bfeeac89b6",
+    "bytes": 141100,
+    "mime": "image/png"
+  },
+  "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1321555/99680_903194.png": {
+    "status": "ok",
+    "local": "assets/archive/ff9f7ac38a15d6debdf7486b.png",
+    "sha256": "ff9f7ac38a15d6debdf7486ba2eaa5f054499a73e989049c262d94de50776eb4",
+    "bytes": 314341,
+    "mime": "image/png"
+  }
+}

@@ -1,0 +1,1797 @@
+{
+  "complete": true,
+  "checks": 204,
+  "failures": [],
+  "report": [
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/",
+        "width": 320,
+        "scroll": 305,
+        "client": 305
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/",
+        "width": 320
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/",
+        "width": 320,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/",
+        "width": 375,
+        "scroll": 360,
+        "client": 360
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/",
+        "width": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/",
+        "width": 375,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/",
+        "width": 390,
+        "scroll": 375,
+        "client": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/",
+        "width": 390
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/",
+        "width": 390,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/",
+        "width": 768,
+        "scroll": 753,
+        "client": 753
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/",
+        "width": 768
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/",
+        "width": 768,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/",
+        "width": 1024,
+        "scroll": 1009,
+        "client": 1009
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/",
+        "width": 1024
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/",
+        "width": 1024,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/",
+        "width": 1440,
+        "scroll": 1425,
+        "client": 1425
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/",
+        "width": 1440
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/",
+        "width": 1440,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/member/",
+        "width": 320,
+        "scroll": 305,
+        "client": 305
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/member/",
+        "width": 320
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/member/",
+        "width": 320,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/member/",
+        "width": 375,
+        "scroll": 360,
+        "client": 360
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/member/",
+        "width": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/member/",
+        "width": 375,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/member/",
+        "width": 390,
+        "scroll": 375,
+        "client": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/member/",
+        "width": 390
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/member/",
+        "width": 390,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/member/",
+        "width": 768,
+        "scroll": 753,
+        "client": 753
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/member/",
+        "width": 768
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/member/",
+        "width": 768,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/member/",
+        "width": 1024,
+        "scroll": 1009,
+        "client": 1009
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/member/",
+        "width": 1024
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/member/",
+        "width": 1024,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/member/",
+        "width": 1440,
+        "scroll": 1425,
+        "client": 1425
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/member/",
+        "width": 1440
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/member/",
+        "width": 1440,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 320,
+        "scroll": 305,
+        "client": 305
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 320
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 320,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 375,
+        "scroll": 360,
+        "client": 360
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 375,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 390,
+        "scroll": 375,
+        "client": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 390
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 390,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 768,
+        "scroll": 753,
+        "client": 753
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 768
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 768,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 1024,
+        "scroll": 1009,
+        "client": 1009
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 1024
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 1024,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 1440,
+        "scroll": 1425,
+        "client": 1425
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 1440
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 1440,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/about/",
+        "width": 320,
+        "scroll": 305,
+        "client": 305
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/about/",
+        "width": 320
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/about/",
+        "width": 320,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/about/",
+        "width": 375,
+        "scroll": 360,
+        "client": 360
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/about/",
+        "width": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/about/",
+        "width": 375,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/about/",
+        "width": 390,
+        "scroll": 375,
+        "client": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/about/",
+        "width": 390
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/about/",
+        "width": 390,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/about/",
+        "width": 768,
+        "scroll": 753,
+        "client": 753
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/about/",
+        "width": 768
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/about/",
+        "width": 768,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/about/",
+        "width": 1024,
+        "scroll": 1009,
+        "client": 1009
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/about/",
+        "width": 1024
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/about/",
+        "width": 1024,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/about/",
+        "width": 1440,
+        "scroll": 1425,
+        "client": 1425
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/about/",
+        "width": 1440
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/about/",
+        "width": 1440,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/contact/",
+        "width": 320,
+        "scroll": 305,
+        "client": 305
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/contact/",
+        "width": 320
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/contact/",
+        "width": 320,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/contact/",
+        "width": 375,
+        "scroll": 360,
+        "client": 360
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/contact/",
+        "width": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/contact/",
+        "width": 375,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/contact/",
+        "width": 390,
+        "scroll": 375,
+        "client": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/contact/",
+        "width": 390
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/contact/",
+        "width": 390,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/contact/",
+        "width": 768,
+        "scroll": 753,
+        "client": 753
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/contact/",
+        "width": 768
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/contact/",
+        "width": 768,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/contact/",
+        "width": 1024,
+        "scroll": 1009,
+        "client": 1009
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/contact/",
+        "width": 1024
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/contact/",
+        "width": 1024,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/contact/",
+        "width": 1440,
+        "scroll": 1425,
+        "client": 1425
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/contact/",
+        "width": 1440
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/contact/",
+        "width": 1440,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/stories/",
+        "width": 320,
+        "scroll": 305,
+        "client": 305
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/stories/",
+        "width": 320
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/stories/",
+        "width": 320,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/stories/",
+        "width": 375,
+        "scroll": 360,
+        "client": 360
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/stories/",
+        "width": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/stories/",
+        "width": 375,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/stories/",
+        "width": 390,
+        "scroll": 375,
+        "client": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/stories/",
+        "width": 390
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/stories/",
+        "width": 390,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/stories/",
+        "width": 768,
+        "scroll": 753,
+        "client": 753
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/stories/",
+        "width": 768
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/stories/",
+        "width": 768,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/stories/",
+        "width": 1024,
+        "scroll": 1009,
+        "client": 1009
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/stories/",
+        "width": 1024
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/stories/",
+        "width": 1024,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/stories/",
+        "width": 1440,
+        "scroll": 1425,
+        "client": 1425
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/stories/",
+        "width": 1440
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/stories/",
+        "width": 1440,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 320,
+        "scroll": 305,
+        "client": 305
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 320
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 320,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 375,
+        "scroll": 360,
+        "client": 360
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 375,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 390,
+        "scroll": 375,
+        "client": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 390
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 390,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 768,
+        "scroll": 753,
+        "client": 753
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 768
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 768,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 1024,
+        "scroll": 1009,
+        "client": 1009
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 1024
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 1024,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 1440,
+        "scroll": 1425,
+        "client": 1425
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 1440
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/7e2b75b2ff9/",
+        "width": 1440,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 320,
+        "scroll": 305,
+        "client": 305
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 320
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 320,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 375,
+        "scroll": 360,
+        "client": 360
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 375,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 390,
+        "scroll": 375,
+        "client": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 390
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 390,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 768,
+        "scroll": 753,
+        "client": 753
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 768
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 768,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 1024,
+        "scroll": 1009,
+        "client": 1009
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 1024
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 1024,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 1440,
+        "scroll": 1425,
+        "client": 1425
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 1440
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/d8211521a58/",
+        "width": 1440,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 320,
+        "scroll": 305,
+        "client": 305
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 320
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 320,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 375,
+        "scroll": 360,
+        "client": 360
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 375,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 390,
+        "scroll": 375,
+        "client": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 390
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 390,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 768,
+        "scroll": 753,
+        "client": 753
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 768
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 768,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 1024,
+        "scroll": 1009,
+        "client": 1009
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 1024
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 1024,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 1440,
+        "scroll": 1425,
+        "client": 1425
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 1440
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/3328bc126c9/",
+        "width": 1440,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 320,
+        "scroll": 305,
+        "client": 305
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 320
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 320,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 375,
+        "scroll": 360,
+        "client": 360
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 375,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 390,
+        "scroll": 375,
+        "client": 375
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 390
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 390,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 768,
+        "scroll": 753,
+        "client": 753
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 768
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 768,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 1024,
+        "scroll": 1009,
+        "client": 1009
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 1024
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 1024,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_horizontal_overflow",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 1440,
+        "scroll": 1425,
+        "client": 1425
+      }
+    },
+    {
+      "pass": true,
+      "name": "heading_visible",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 1440
+      }
+    },
+    {
+      "pass": true,
+      "name": "no_broken_loaded_images",
+      "detail": {
+        "route": "/blog/e-pngesports-osakapng/",
+        "width": 1440,
+        "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "text_200_percent",
+      "detail": {
+        "route": "/",
+        "width": 375,
+        "scroll": 360,
+        "client": 360
+      }
+    },
+    {
+      "pass": true,
+      "name": "text_200_percent",
+      "detail": {
+        "route": "/",
+        "width": 768,
+        "scroll": 753,
+        "client": 753
+      }
+    },
+    {
+      "pass": true,
+      "name": "text_200_percent",
+      "detail": {
+        "route": "/",
+        "width": 1440,
+        "scroll": 1425,
+        "client": 1425
+      }
+    },
+    {
+      "pass": true,
+      "name": "text_200_percent",
+      "detail": {
+        "route": "/member/",
+        "width": 375,
+        "scroll": 360,
+        "client": 360
+      }
+    },
+    {
+      "pass": true,
+      "name": "text_200_percent",
+      "detail": {
+        "route": "/member/",
+        "width": 768,
+        "scroll": 753,
+        "client": 753
+      }
+    },
+    {
+      "pass": true,
+      "name": "text_200_percent",
+      "detail": {
+        "route": "/member/",
+        "width": 1440,
+        "scroll": 1425,
+        "client": 1425
+      }
+    },
+    {
+      "pass": true,
+      "name": "text_200_percent",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 375,
+        "scroll": 360,
+        "client": 360
+      }
+    },
+    {
+      "pass": true,
+      "name": "text_200_percent",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 768,
+        "scroll": 753,
+        "client": 753
+      }
+    },
+    {
+      "pass": true,
+      "name": "text_200_percent",
+      "detail": {
+        "route": "/newsevents/",
+        "width": 1440,
+        "scroll": 1425,
+        "client": 1425
+      }
+    },
+    {
+      "pass": true,
+      "name": "text_200_percent",
+      "detail": {
+        "route": "/contact/",
+        "width": 375,
+        "scroll": 360,
+        "client": 360
+      }
+    },
+    {
+      "pass": true,
+      "name": "text_200_percent",
+      "detail": {
+        "route": "/contact/",
+        "width": 768,
+        "scroll": 753,
+        "client": 753
+      }
+    },
+    {
+      "pass": true,
+      "name": "text_200_percent",
+      "detail": {
+        "route": "/contact/",
+        "width": 1440,
+        "scroll": 1425,
+        "client": 1425
+      }
+    },
+    {
+      "pass": true,
+      "name": "news_text_filter",
+      "detail": 1
+    },
+    {
+      "pass": true,
+      "name": "news_empty_state"
+    },
+    {
+      "pass": true,
+      "name": "news_year_filter",
+      "detail": 28
+    },
+    {
+      "pass": true,
+      "name": "news_reset"
+    },
+    {
+      "pass": true,
+      "name": "year_url_restored"
+    },
+    {
+      "pass": true,
+      "name": "mobile_menu_open"
+    },
+    {
+      "pass": true,
+      "name": "mobile_menu_escape"
+    },
+    {
+      "pass": true,
+      "name": "contact_required_fields"
+    },
+    {
+      "pass": true,
+      "name": "contact_reject_invalid_email"
+    },
+    {
+      "pass": true,
+      "name": "contact_valid_input"
+    },
+    {
+      "pass": true,
+      "name": "contact_copy_prepared_text"
+    },
+    {
+      "pass": true,
+      "name": "contact_copy_status"
+    }
+  ]
+}

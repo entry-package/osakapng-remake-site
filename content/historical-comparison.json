@@ -1,0 +1,34 @@
+[
+  {
+    "snapshot": "2026-06-24 home",
+    "route": "/",
+    "text_changes": [
+      {
+        "old": "December 1, ",
+        "current": ""
+      },
+      {
+        "old": "",
+        "current": "年12月1日"
+      }
+    ],
+    "article_links_missing_from_current_corpus": [],
+    "conclusion": "Only date localization and current official spelling 紫乃花 differ; linked article routes all captured."
+  },
+  {
+    "snapshot": "2026-06-24 member",
+    "route": "/member",
+    "text_changes": [
+      {
+        "old": "١ ديسمبر ٢٠٢٥",
+        "current": "December 1, 2025"
+      },
+      {
+        "old": "ノ",
+        "current": "乃"
+      }
+    ],
+    "article_links_missing_from_current_corpus": [],
+    "conclusion": "Only date localization and current official spelling 紫乃花 differ; linked article routes all captured."
+  }
+]

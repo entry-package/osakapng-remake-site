@@ -1,0 +1,2280 @@
+{
+  "policy": "Public unauthenticated GET only. No login, challenge bypass, retries or external sends. 403/429 are unverified, not evidence of deletion. Historical links retained.",
+  "count": 215,
+  "counts": {
+    "unverified_response": 3,
+    "unverified_network": 5,
+    "responded": 161,
+    "missing": 46
+  },
+  "links": {
+    "http://site-1321555-7690-9695.strikingly.com/contact": {
+      "status": 403,
+      "result": "unverified_response",
+      "pages": [
+        "blog/hp/index.html"
+      ]
+    },
+    "http://twitter.com/altema2828": {
+      "status": 520,
+      "result": "unverified_response",
+      "pages": [
+        "blog/4d015cf64dc/index.html"
+      ]
+    },
+    "http://www.kobayashiseni.com/index.html": {
+      "status": null,
+      "result": "unverified_network",
+      "error_type": "URLError",
+      "pages": [
+        "blog/0bcdf69cfa5/index.html"
+      ]
+    },
+    "https://camp-fire.jp/projects/view/176442": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "camp-fire.jp",
+      "pages": [
+        "blog/pc-7186b7a9-6ff8-43af-afec-3b19075d28c0/index.html",
+        "blog/pc/index.html"
+      ]
+    },
+    "https://docs.google.com/forms/d/e/1FAIpQLSenkAABi44djUaxaAcpNHvgGdUhTfR4H-8J8EEBGAjFlEezYA/viewform": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "docs.google.com",
+      "pages": [
+        "blog/cod-4abb9c80-6e09-42c2-8cbc-85127ef4426e/index.html"
+      ]
+    },
+    "https://forms.gle/H5sNrTz58MQNcK586": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/pubg-949a3d5b-b2c7-4a31-b018-212ed658431b/index.html"
+      ]
+    },
+    "https://forms.gle/MKLkoNsdvyeLD5ty7": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/9cb110985ce/index.html"
+      ]
+    },
+    "https://forms.gle/P8XFqZ9HMLhDCwze9": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/1744a94b35b/index.html",
+        "blog/97f12170518/index.html"
+      ]
+    },
+    "https://fumo-shop.com": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.fumoshop.com",
+      "pages": [
+        "index.html"
+      ]
+    },
+    "https://goo.gl/forms/iw72RT9aOZ7LAkTF2": {
+      "status": 401,
+      "result": "unverified_response",
+      "pages": [
+        "blog/a11f5d8d2d4/index.html"
+      ]
+    },
+    "https://gyazo.com/": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "gyazo.com",
+      "pages": [
+        "blog/png-gyazo/index.html"
+      ]
+    },
+    "https://gyazo.com/pro?lang=ja": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "gyazo.com",
+      "pages": [
+        "blog/pubg-png-fairy-pjs/index.html"
+      ]
+    },
+    "https://jp.aoc.com": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.aoc.com",
+      "pages": [
+        "index.html"
+      ]
+    },
+    "https://live.line.me/channels/2252323": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "live.line.me",
+      "pages": [
+        "blog/streamer-1467d8df-d95f-4366-844f-321a1f1b2504/index.html"
+      ]
+    },
+    "https://m.twitch.tv/nikinanagi_twitch": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "m.twitch.tv",
+      "pages": [
+        "blog/97350b4ba14/index.html"
+      ]
+    },
+    "https://package-inc.com/": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.package-inc.com",
+      "pages": [
+        "blog/e-pngesports-osakapng/index.html"
+      ]
+    },
+    "https://package.official.ec/": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "package.official.ec",
+      "pages": [
+        "blog/png/index.html"
+      ]
+    },
+    "https://pepabo.com": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "pepabo.com",
+      "pages": [
+        "index.html"
+      ]
+    },
+    "https://pubgleague.dmm.com/": {
+      "status": null,
+      "result": "unverified_network",
+      "error_type": "URLError",
+      "pages": [
+        "blog/pubg-pjs-pna/index.html",
+        "blog/pubg-pjs-pnf/index.html",
+        "blog/pubg-pna-pjs/index.html",
+        "blog/pubg-pnf-pjs-season2-g2/index.html",
+        "blog/pubg-pnf-pjs/index.html"
+      ]
+    },
+    "https://pubgleague.dmm.com/about/": {
+      "status": null,
+      "result": "unverified_network",
+      "error_type": "URLError",
+      "pages": [
+        "blog/pubg-pjs-pna/index.html",
+        "blog/pubg-pjs-pnf/index.html"
+      ]
+    },
+    "https://pubgleague.dmm.com/news/detail/s2d1": {
+      "status": null,
+      "result": "unverified_network",
+      "error_type": "URLError",
+      "pages": [
+        "blog/pubg-pnf-pjs-season2-g2/index.html"
+      ]
+    },
+    "https://socialcast.jp/news/?p=8163": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "socialcast.jp",
+      "pages": [
+        "blog/108738c4976/index.html"
+      ]
+    },
+    "https://store.line.me/stickershop/product/23122447/ja": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "store.line.me",
+      "pages": [
+        "blog/osakapng-line/index.html",
+        "index.html"
+      ]
+    },
+    "https://suzuri.jp/Osaka_PNG": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "suzuri.jp",
+      "pages": [
+        "404.html",
+        "404/index.html",
+        "_blog/index.html",
+        "about/index.html",
+        "blog/05cdd2c5100/index.html",
+        "blog/0bcdf69cfa5/index.html",
+        "blog/0dd55196123/index.html",
+        "blog/0e65bf58f92/index.html",
+        "blog/0f5ba6c582a/index.html",
+        "blog/108738c4976/index.html",
+        "blog/1744a94b35b/index.html",
+        "blog/1880bfa494b/index.html",
+        "blog/1bb74edb5c7/index.html",
+        "blog/1bbf655d0a6/index.html",
+        "blog/2b3fcc5775e/index.html",
+        "blog/31cd990152d/index.html",
+        "blog/3328bc126c9/index.html",
+        "blog/3850086cf44/index.html",
+        "blog/404f03b8bdf/index.html",
+        "blog/4d015cf64dc/index.html",
+        "blog/5933d5ed62d/index.html",
+        "blog/595d767bb6b/index.html",
+        "blog/61232bba2a3/index.html",
+        "blog/74d57563b63/index.html",
+        "blog/7e2b75b2ff9/index.html",
+        "blog/85ad38d52ae/index.html",
+        "blog/9315b40d324/index.html",
+        "blog/97350b4ba14/index.html",
+        "blog/97f12170518/index.html",
+        "blog/9c36e1d2630/index.html",
+        "blog/9c4a55ab739/index.html",
+        "blog/9cb110985ce/index.html",
+        "blog/a11f5d8d2d4/index.html",
+        "blog/adc014909c5/index.html",
+        "blog/ae76c9eb74d/index.html",
+        "blog/aoc-web-png/index.html",
+        "blog/apple4g-finalmouse/index.html",
+        "blog/atelier/index.html",
+        "blog/c8323f90f40/index.html",
+        "blog/categories/index.html",
+        "blog/categories/member-1155238/index.html",
+        "blog/categories/news-1175894/index.html",
+        "blog/cod-4abb9c80-6e09-42c2-8cbc-85127ef4426e/index.html",
+        "blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020/index.html",
+        "blog/cod/index.html",
+        "blog/csgo-9973abda-5219-48dd-82e4-9661f78e2aba/index.html",
+        "blog/csgo-feily/index.html",
+        "blog/csgo-howzer/index.html",
+        "blog/csgo/index.html",
+        "blog/d8211521a58/index.html",
+        "blog/e-pngesports-osakapng/index.html",
+        "blog/eb1cd25e223/index.html",
+        "blog/ed353de741a/index.html",
+        "blog/evo-japan/index.html",
+        "blog/f26d31c59a6/index.html",
+        "blog/f2a43fc69c2/index.html",
+        "blog/f8db13bb13b/index.html",
+        "blog/fortnite-a27d50c4-6807-4c9c-b91a-e5be85a0d75f/index.html",
+        "blog/fortnite-ade02eba-a389-4923-ab3a-5149eddc3030/index.html",
+        "blog/fortnite-af448633-a2e8-4469-b112-835769e5f95d/index.html",
+        "blog/fortnite-png-esports-part1-kero/index.html",
+        "blog/fortnite-png-esports-part2-pinky-ponky/index.html",
+        "blog/fortnite/index.html",
+        "blog/fyx/index.html",
+        "blog/happy-new-year/index.html",
+        "blog/hayate/index.html",
+        "blog/hp-54c517b8-73a4-4d8d-80ff-d43f2ceb4a91/index.html",
+        "blog/hp/index.html",
+        "blog/kero/index.html",
+        "blog/kira/index.html",
+        "blog/miyu-e0012ca6-a41e-4f95-83e1-6d2ec305bcb9/index.html",
+        "blog/mushamaru-finalmouse/index.html",
+        "blog/osakapng-line/index.html",
+        "blog/pc-7186b7a9-6ff8-43af-afec-3b19075d28c0/index.html",
+        "blog/pc/index.html",
+        "blog/png-esports-cod/index.html",
+        "blog/png-esports-csgo/index.html",
+        "blog/png-esports-part3/index.html",
+        "blog/png-esports-part4/index.html",
+        "blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033/index.html",
+        "blog/png-esports-pubg/index.html",
+        "blog/png-gyazo/index.html",
+        "blog/png-sofia/index.html",
+        "blog/png-spark-c370431c-bd8a-47e7-a481-b7042f9e2596/index.html",
+        "blog/png-spark/index.html",
+        "blog/png/index.html",
+        "blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/index.html",
+        "blog/pubg-949a3d5b-b2c7-4a31-b018-212ed658431b/index.html",
+        "blog/pubg-mobile/index.html",
+        "blog/pubg-pjs-pna/index.html",
+        "blog/pubg-pjs-pnf/index.html",
+        "blog/pubg-pjs/index.html",
+        "blog/pubg-pna-pjs/index.html",
+        "blog/pubg-pnf-pjs-season2-g2/index.html",
+        "blog/pubg-pnf-pjs/index.html",
+        "blog/pubg-pnf/index.html",
+        "blog/pubg-png-fairy-pjs/index.html",
+        "blog/pubg-png-fairy/index.html",
+        "blog/pubg/index.html",
+        "blog/r6s-06c0ee00-af39-4bb5-ba62-f976b86c129e/index.html",
+        "blog/r6s/index.html",
+        "blog/re-miyu/index.html",
+        "blog/s1yuq/index.html",
+        "blog/streamer-1467d8df-d95f-4366-844f-321a1f1b2504/index.html",
+        "blog/streamer-harley/index.html",
+        "blog/streamer/index.html",
+        "blog/twitchbonenkai2024/index.html",
+        "blog/visionup/index.html",
+        "contact/index.html",
+        "index.html",
+        "member/index.html",
+        "newsevents/index.html",
+        "pages/cookie-policy/index.html",
+        "stories/index.html"
+      ]
+    },
+    "https://twitch.tv/pinkyp0nky": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/0f5ba6c582a/index.html"
+      ]
+    },
+    "https://twitter.com/38_4a": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/pubg-png-fairy/index.html"
+      ]
+    },
+    "https://twitter.com/46kun_jp": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/png-spark/index.html",
+        "blog/pubg-mobile/index.html"
+      ]
+    },
+    "https://twitter.com/Apple4G_": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/index.html",
+        "blog/pubg-pnf-pjs-season2-g2/index.html"
+      ]
+    },
+    "https://twitter.com/Apple_iPhone_ds": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/hp/index.html",
+        "blog/pubg-pnf-pjs/index.html"
+      ]
+    },
+    "https://twitter.com/Arcfps": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/index.html",
+        "blog/pubg-pnf-pjs-season2-g2/index.html",
+        "blog/pubg-pnf/index.html"
+      ]
+    },
+    "https://twitter.com/AtelieRsb_": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/c8323f90f40/index.html",
+        "blog/evo-japan/index.html"
+      ]
+    },
+    "https://twitter.com/AtelieRsb_?s=20": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/atelier/index.html"
+      ]
+    },
+    "https://twitter.com/CUREMERO126": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/streamer-1467d8df-d95f-4366-844f-321a1f1b2504/index.html"
+      ]
+    },
+    "https://twitter.com/CUREMERO126/": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/streamer-1467d8df-d95f-4366-844f-321a1f1b2504/index.html"
+      ]
+    },
+    "https://twitter.com/Centrody": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020/index.html"
+      ]
+    },
+    "https://twitter.com/EsportsPNG": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/pubg-pna-pjs/index.html",
+        "blog/pubg-pnf-pjs/index.html"
+      ]
+    },
+    "https://twitter.com/FN_Fyx": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/fortnite-ade02eba-a389-4923-ab3a-5149eddc3030/index.html"
+      ]
+    },
+    "https://twitter.com/FeilyAstros": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/csgo-feily/index.html"
+      ]
+    },
+    "https://twitter.com/GAMERSLIFE_JP": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/hp/index.html"
+      ]
+    },
+    "https://twitter.com/Hayatezl": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/hayate/index.html"
+      ]
+    },
+    "https://twitter.com/IessMotivated": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/kero/index.html"
+      ]
+    },
+    "https://twitter.com/KeroFighting": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/fortnite-ade02eba-a389-4923-ab3a-5149eddc3030/index.html"
+      ]
+    },
+    "https://twitter.com/Light___0228": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033/index.html"
+      ]
+    },
+    "https://twitter.com/LoveIy_Lary": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020/index.html",
+        "blog/png-esports-cod/index.html"
+      ]
+    },
+    "https://twitter.com/NetBenK_FN": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/0f5ba6c582a/index.html"
+      ]
+    },
+    "https://twitter.com/NyanStarXD": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/hp/index.html",
+        "blog/r6s/index.html"
+      ]
+    },
+    "https://twitter.com/NyaruNeko1012": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/ed353de741a/index.html"
+      ]
+    },
+    "https://twitter.com/P1xela": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/85ad38d52ae/index.html"
+      ]
+    },
+    "https://twitter.com/PACkage_2018": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/1880bfa494b/index.html",
+        "blog/e-pngesports-osakapng/index.html",
+        "blog/hp/index.html"
+      ]
+    },
+    "https://twitter.com/PNG_GODzilla": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/pubg-pnf-pjs/index.html"
+      ]
+    },
+    "https://twitter.com/PNGesports": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/pubg-png-fairy-pjs/index.html"
+      ]
+    },
+    "https://twitter.com/PNS_Asuka": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/png-spark-c370431c-bd8a-47e7-a481-b7042f9e2596/index.html"
+      ]
+    },
+    "https://twitter.com/Pinky_Ponky_PNG": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/fortnite-ade02eba-a389-4923-ab3a-5149eddc3030/index.html"
+      ]
+    },
+    "https://twitter.com/R4qris": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020/index.html"
+      ]
+    },
+    "https://twitter.com/RAIFU8810": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/1880bfa494b/index.html",
+        "blog/hp/index.html"
+      ]
+    },
+    "https://twitter.com/RAluS09/status/1101470456022855685": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/csgo-howzer/index.html"
+      ]
+    },
+    "https://twitter.com/Relaive_": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/hp/index.html",
+        "blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/index.html",
+        "blog/pubg-pna-pjs/index.html"
+      ]
+    },
+    "https://twitter.com/Rumiq7": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/png-esports-cod/index.html"
+      ]
+    },
+    "https://twitter.com/S1Yuq": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/s1yuq/index.html"
+      ]
+    },
+    "https://twitter.com/SF2_ayaxx/": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/streamer-1467d8df-d95f-4366-844f-321a1f1b2504/index.html"
+      ]
+    },
+    "https://twitter.com/SF2_ayaxx/status/1170602589857042433": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/png-esports-csgo/index.html"
+      ]
+    },
+    "https://twitter.com/SaltSugar_PUBG": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/pubg-mobile/index.html"
+      ]
+    },
+    "https://twitter.com/Sama_sa_fin": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/fortnite-af448633-a2e8-4469-b112-835769e5f95d/index.html"
+      ]
+    },
+    "https://twitter.com/Scorpion_WG": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020/index.html"
+      ]
+    },
+    "https://twitter.com/SetoFunny": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/png-esports-cod/index.html"
+      ]
+    },
+    "https://twitter.com/ShowHeyhey0404": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/f8db13bb13b/index.html"
+      ]
+    },
+    "https://twitter.com/ShowHeyhey0404?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/evo-japan/index.html"
+      ]
+    },
+    "https://twitter.com/SmbrSryk?s=20": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/74d57563b63/index.html"
+      ]
+    },
+    "https://twitter.com/SmbrSryk?s=20&t=LeT0DVz4cfs7nBY9Imw2UQ": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/9c36e1d2630/index.html"
+      ]
+    },
+    "https://twitter.com/Sw_bear": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/hp/index.html",
+        "blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/index.html",
+        "blog/pubg-pnf-pjs-season2-g2/index.html",
+        "blog/pubg-pnf-pjs/index.html"
+      ]
+    },
+    "https://twitter.com/Sx_asuka": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/pubg-mobile/index.html"
+      ]
+    },
+    "https://twitter.com/T1_aRe": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033/index.html"
+      ]
+    },
+    "https://twitter.com/TAISAAA_": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020/index.html"
+      ]
+    },
+    "https://twitter.com/Taka_R6S": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/r6s/index.html"
+      ]
+    },
+    "https://twitter.com/Taka_R6S?lang=ja": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/hp/index.html"
+      ]
+    },
+    "https://twitter.com/VeL_1st": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/r6s/index.html"
+      ]
+    },
+    "https://twitter.com/ZettR6": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/r6s/index.html"
+      ]
+    },
+    "https://twitter.com/Zett_SiG?lang=ja": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/hp/index.html"
+      ]
+    },
+    "https://twitter.com/_TATSU_PUBG": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/png-spark/index.html",
+        "blog/pubg-mobile/index.html"
+      ]
+    },
+    "https://twitter.com/_dAzR": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/hp/index.html",
+        "blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/index.html",
+        "blog/pubg-pnf-pjs-season2-g2/index.html",
+        "blog/pubg-pnf-pjs/index.html"
+      ]
+    },
+    "https://twitter.com/aoaoaozilla": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/hp/index.html"
+      ]
+    },
+    "https://twitter.com/aomochisan?s=20": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/31cd990152d/index.html"
+      ]
+    },
+    "https://twitter.com/ciel00191": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/streamer-harley/index.html"
+      ]
+    },
+    "https://twitter.com/cityryo?s=20": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/74d57563b63/index.html"
+      ]
+    },
+    "https://twitter.com/cityryo?s=20&t=LeT0DVz4cfs7nBY9Imw2UQ": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/9c36e1d2630/index.html"
+      ]
+    },
+    "https://twitter.com/cs_miipoyo94": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/adc014909c5/index.html",
+        "blog/hp/index.html"
+      ]
+    },
+    "https://twitter.com/dandy_PNG": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/cod-4abb9c80-6e09-42c2-8cbc-85127ef4426e/index.html",
+        "blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020/index.html"
+      ]
+    },
+    "https://twitter.com/dtdsQ": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/hp/index.html",
+        "blog/pubg-pna-pjs/index.html"
+      ]
+    },
+    "https://twitter.com/dtdsZzz": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/index.html"
+      ]
+    },
+    "https://twitter.com/flavor_risa": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/hp/index.html"
+      ]
+    },
+    "https://twitter.com/fpshek7or": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/index.html",
+        "blog/pubg-pna-pjs/index.html"
+      ]
+    },
+    "https://twitter.com/fpshek7or?lang=ja": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/hp/index.html"
+      ]
+    },
+    "https://twitter.com/fumoshop": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/1bb74edb5c7/index.html",
+        "blog/apple4g-finalmouse/index.html",
+        "blog/mushamaru-finalmouse/index.html",
+        "blog/pubg-png-fairy-pjs/index.html"
+      ]
+    },
+    "https://twitter.com/gati_mero": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/2b3fcc5775e/index.html"
+      ]
+    },
+    "https://twitter.com/gati_mero?lang=ja": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/f26d31c59a6/index.html"
+      ]
+    },
+    "https://twitter.com/gyazo_ninja": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/pubg-png-fairy-pjs/index.html"
+      ]
+    },
+    "https://twitter.com/hasuyan_SiG": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/hp/index.html"
+      ]
+    },
+    "https://twitter.com/hikaru_7m": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/r6s/index.html"
+      ]
+    },
+    "https://twitter.com/hikaru_sig": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/hp/index.html"
+      ]
+    },
+    "https://twitter.com/hodakana": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/hp/index.html",
+        "blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/index.html"
+      ]
+    },
+    "https://twitter.com/juec2020": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/png-sofia/index.html"
+      ]
+    },
+    "https://twitter.com/kiminosuke__": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/png-esports-cod/index.html"
+      ]
+    },
+    "https://twitter.com/laggaming_gg": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/index.html"
+      ]
+    },
+    "https://twitter.com/masashipit?s=20": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/74d57563b63/index.html"
+      ]
+    },
+    "https://twitter.com/matopenpen": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033/index.html"
+      ]
+    },
+    "https://twitter.com/mayuchi_n_": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/1880bfa494b/index.html",
+        "blog/c8323f90f40/index.html"
+      ]
+    },
+    "https://twitter.com/minekun0325": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/0f5ba6c582a/index.html"
+      ]
+    },
+    "https://twitter.com/miyu_love_89": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/0f5ba6c582a/index.html"
+      ]
+    },
+    "https://twitter.com/mizuki20_game": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/pubg-mobile/index.html"
+      ]
+    },
+    "https://twitter.com/mmr_gaming": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/hp/index.html",
+        "blog/mushamaru-finalmouse/index.html",
+        "blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/index.html",
+        "blog/pubg-pna-pjs/index.html"
+      ]
+    },
+    "https://twitter.com/neco_tsurara_": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/2b3fcc5775e/index.html",
+        "blog/c8323f90f40/index.html"
+      ]
+    },
+    "https://twitter.com/nikinanagi_VT": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/97350b4ba14/index.html"
+      ]
+    },
+    "https://twitter.com/onionikun_": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033/index.html"
+      ]
+    },
+    "https://twitter.com/palucchini": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/hp/index.html"
+      ]
+    },
+    "https://twitter.com/pata_SiG": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/hp/index.html"
+      ]
+    },
+    "https://twitter.com/piiiii_iiiiitan": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033/index.html"
+      ]
+    },
+    "https://twitter.com/pngesports": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/csgo/index.html",
+        "blog/e-pngesports-osakapng/index.html"
+      ]
+    },
+    "https://twitter.com/potunon": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/hp/index.html"
+      ]
+    },
+    "https://twitter.com/pubg_clond": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033/index.html"
+      ]
+    },
+    "https://twitter.com/saku_ren8": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/png-esports-cod/index.html"
+      ]
+    },
+    "https://twitter.com/socialcast_jp": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/hp-54c517b8-73a4-4d8d-80ff-d43f2ceb4a91/index.html"
+      ]
+    },
+    "https://twitter.com/sofia__2217": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/0f5ba6c582a/index.html"
+      ]
+    },
+    "https://twitter.com/srg_kirin": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/pubg-mobile/index.html"
+      ]
+    },
+    "https://twitter.com/syaru36": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/r6s-06c0ee00-af39-4bb5-ba62-f976b86c129e/index.html",
+        "blog/r6s/index.html"
+      ]
+    },
+    "https://twitter.com/tier_wildes": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020/index.html"
+      ]
+    },
+    "https://twitter.com/tsurara_shira?s=20": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/0dd55196123/index.html"
+      ]
+    },
+    "https://twitter.com/vmarumaru__": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/c8323f90f40/index.html",
+        "blog/f26d31c59a6/index.html"
+      ]
+    },
+    "https://twitter.com/vxNoelsh": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020/index.html"
+      ]
+    },
+    "https://twitter.com/yukuno2552": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/1880bfa494b/index.html"
+      ]
+    },
+    "https://visionup.jp/": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "visionup.jp",
+      "pages": [
+        "blog/visionup/index.html"
+      ]
+    },
+    "https://www.callofduty.com/ja/blackops4": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.callofduty.com",
+      "pages": [
+        "blog/cod-4abb9c80-6e09-42c2-8cbc-85127ef4426e/index.html"
+      ]
+    },
+    "https://www.evojapan.net/2020/": {
+      "status": null,
+      "result": "unverified_network",
+      "error_type": "URLError",
+      "pages": [
+        "blog/evo-japan/index.html"
+      ]
+    },
+    "https://www.fumo-shop.com/": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.fumoshop.com",
+      "pages": [
+        "blog/1bb74edb5c7/index.html",
+        "blog/apple4g-finalmouse/index.html",
+        "blog/mushamaru-finalmouse/index.html"
+      ]
+    },
+    "https://www.fumo-shop.com/fm-ultralight-phantom.html": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.fumoshop.com",
+      "pages": [
+        "blog/apple4g-finalmouse/index.html",
+        "blog/mushamaru-finalmouse/index.html"
+      ]
+    },
+    "https://www.fumo-shop.com/varmilo-zomo-airdropbox.html": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/pubg-png-fairy-pjs/index.html"
+      ]
+    },
+    "https://www.instagram.com/muze_777/#": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.instagram.com",
+      "pages": [
+        "blog/categories/member-1155238/index.html",
+        "blog/miyu-e0012ca6-a41e-4f95-83e1-6d2ec305bcb9/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.openrec.tv/live/VP5A83u8DCh9pC4": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/pubg-pjs/index.html"
+      ]
+    },
+    "https://www.openrec.tv/live/kuWLMK8QwVPjXrx": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/pubg-pjs/index.html"
+      ]
+    },
+    "https://www.openrec.tv/user/NoPain893": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.openrec.tv",
+      "pages": [
+        "blog/0e65bf58f92/index.html",
+        "blog/categories/member-1155238/index.html",
+        "blog/d8211521a58/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.package-inc.com/": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.package-inc.com",
+      "pages": [
+        "404.html",
+        "404/index.html",
+        "_blog/index.html",
+        "about/index.html",
+        "blog/05cdd2c5100/index.html",
+        "blog/0bcdf69cfa5/index.html",
+        "blog/0dd55196123/index.html",
+        "blog/0e65bf58f92/index.html",
+        "blog/0f5ba6c582a/index.html",
+        "blog/108738c4976/index.html",
+        "blog/1744a94b35b/index.html",
+        "blog/1880bfa494b/index.html",
+        "blog/1bb74edb5c7/index.html",
+        "blog/1bbf655d0a6/index.html",
+        "blog/2b3fcc5775e/index.html",
+        "blog/31cd990152d/index.html",
+        "blog/3328bc126c9/index.html",
+        "blog/3850086cf44/index.html",
+        "blog/404f03b8bdf/index.html",
+        "blog/4d015cf64dc/index.html",
+        "blog/5933d5ed62d/index.html",
+        "blog/595d767bb6b/index.html",
+        "blog/61232bba2a3/index.html",
+        "blog/74d57563b63/index.html",
+        "blog/7e2b75b2ff9/index.html",
+        "blog/85ad38d52ae/index.html",
+        "blog/9315b40d324/index.html",
+        "blog/97350b4ba14/index.html",
+        "blog/97f12170518/index.html",
+        "blog/9c36e1d2630/index.html",
+        "blog/9c4a55ab739/index.html",
+        "blog/9cb110985ce/index.html",
+        "blog/a11f5d8d2d4/index.html",
+        "blog/adc014909c5/index.html",
+        "blog/ae76c9eb74d/index.html",
+        "blog/aoc-web-png/index.html",
+        "blog/apple4g-finalmouse/index.html",
+        "blog/atelier/index.html",
+        "blog/c8323f90f40/index.html",
+        "blog/categories/index.html",
+        "blog/categories/member-1155238/index.html",
+        "blog/categories/news-1175894/index.html",
+        "blog/cod-4abb9c80-6e09-42c2-8cbc-85127ef4426e/index.html",
+        "blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020/index.html",
+        "blog/cod/index.html",
+        "blog/csgo-9973abda-5219-48dd-82e4-9661f78e2aba/index.html",
+        "blog/csgo-feily/index.html",
+        "blog/csgo-howzer/index.html",
+        "blog/csgo/index.html",
+        "blog/d8211521a58/index.html",
+        "blog/e-pngesports-osakapng/index.html",
+        "blog/eb1cd25e223/index.html",
+        "blog/ed353de741a/index.html",
+        "blog/evo-japan/index.html",
+        "blog/f26d31c59a6/index.html",
+        "blog/f2a43fc69c2/index.html",
+        "blog/f8db13bb13b/index.html",
+        "blog/fortnite-a27d50c4-6807-4c9c-b91a-e5be85a0d75f/index.html",
+        "blog/fortnite-ade02eba-a389-4923-ab3a-5149eddc3030/index.html",
+        "blog/fortnite-af448633-a2e8-4469-b112-835769e5f95d/index.html",
+        "blog/fortnite-png-esports-part1-kero/index.html",
+        "blog/fortnite-png-esports-part2-pinky-ponky/index.html",
+        "blog/fortnite/index.html",
+        "blog/fyx/index.html",
+        "blog/happy-new-year/index.html",
+        "blog/hayate/index.html",
+        "blog/hp-54c517b8-73a4-4d8d-80ff-d43f2ceb4a91/index.html",
+        "blog/hp/index.html",
+        "blog/kero/index.html",
+        "blog/kira/index.html",
+        "blog/miyu-e0012ca6-a41e-4f95-83e1-6d2ec305bcb9/index.html",
+        "blog/mushamaru-finalmouse/index.html",
+        "blog/osakapng-line/index.html",
+        "blog/pc-7186b7a9-6ff8-43af-afec-3b19075d28c0/index.html",
+        "blog/pc/index.html",
+        "blog/png-esports-cod/index.html",
+        "blog/png-esports-csgo/index.html",
+        "blog/png-esports-part3/index.html",
+        "blog/png-esports-part4/index.html",
+        "blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033/index.html",
+        "blog/png-esports-pubg/index.html",
+        "blog/png-gyazo/index.html",
+        "blog/png-sofia/index.html",
+        "blog/png-spark-c370431c-bd8a-47e7-a481-b7042f9e2596/index.html",
+        "blog/png-spark/index.html",
+        "blog/png/index.html",
+        "blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/index.html",
+        "blog/pubg-949a3d5b-b2c7-4a31-b018-212ed658431b/index.html",
+        "blog/pubg-mobile/index.html",
+        "blog/pubg-pjs-pna/index.html",
+        "blog/pubg-pjs-pnf/index.html",
+        "blog/pubg-pjs/index.html",
+        "blog/pubg-pna-pjs/index.html",
+        "blog/pubg-pnf-pjs-season2-g2/index.html",
+        "blog/pubg-pnf-pjs/index.html",
+        "blog/pubg-pnf/index.html",
+        "blog/pubg-png-fairy-pjs/index.html",
+        "blog/pubg-png-fairy/index.html",
+        "blog/pubg/index.html",
+        "blog/r6s-06c0ee00-af39-4bb5-ba62-f976b86c129e/index.html",
+        "blog/r6s/index.html",
+        "blog/re-miyu/index.html",
+        "blog/s1yuq/index.html",
+        "blog/streamer-1467d8df-d95f-4366-844f-321a1f1b2504/index.html",
+        "blog/streamer-harley/index.html",
+        "blog/streamer/index.html",
+        "blog/twitchbonenkai2024/index.html",
+        "blog/visionup/index.html",
+        "contact/index.html",
+        "index.html",
+        "member/index.html",
+        "newsevents/index.html",
+        "pages/cookie-policy/index.html",
+        "stories/index.html"
+      ]
+    },
+    "https://www.package-inc.com/blog/e-osakapng": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.package-inc.com",
+      "pages": [
+        "stories/index.html"
+      ]
+    },
+    "https://www.package-inc.com/blog/e-osakapng-kira": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.package-inc.com",
+      "pages": [
+        "stories/index.html"
+      ]
+    },
+    "https://www.package-inc.com/blog/e-pngesports-osakapng": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.package-inc.com",
+      "pages": [
+        "stories/index.html"
+      ]
+    },
+    "https://www.package-inc.com/blog/pacfes-2025-summer": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.package-inc.com",
+      "pages": [
+        "about/index.html",
+        "index.html",
+        "stories/index.html"
+      ]
+    },
+    "https://www.package-inc.com/blog/pacfes-vol-10": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.package-inc.com",
+      "pages": [
+        "about/index.html",
+        "index.html",
+        "stories/index.html"
+      ]
+    },
+    "https://www.package-inc.com/blog/pacfes-vol-9": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.package-inc.com",
+      "pages": [
+        "about/index.html",
+        "index.html",
+        "stories/index.html"
+      ]
+    },
+    "https://www.package-inc.com/blog/pacfesvol-6": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.package-inc.com",
+      "pages": [
+        "stories/index.html"
+      ]
+    },
+    "https://www.package-inc.com/blog/pacfesvol-7": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.package-inc.com",
+      "pages": [
+        "stories/index.html"
+      ]
+    },
+    "https://www.package-inc.com/online-store-top": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/1bb74edb5c7/index.html",
+        "blog/85ad38d52ae/index.html"
+      ]
+    },
+    "https://www.periscope.tv/PUBG_DMM/": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.periscope.tv",
+      "pages": [
+        "blog/pubg-pjs/index.html"
+      ]
+    },
+    "https://www.tiktok.com/@hukutu893": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.tiktok.com",
+      "pages": [
+        "blog/categories/member-1155238/index.html",
+        "blog/d8211521a58/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.tiktok.com/@otokomaex?is_from_webapp=1&sender_device=pc": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.tiktok.com",
+      "pages": [
+        "blog/61232bba2a3/index.html",
+        "blog/categories/member-1155238/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.tiktok.com/@shiraboshi_tsurara": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.tiktok.com",
+      "pages": [
+        "blog/0dd55196123/index.html"
+      ]
+    },
+    "https://www.twitch.tv/aoapplezilla": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/pubg-pjs-pnf/index.html"
+      ]
+    },
+    "https://www.twitch.tv/aomochisan": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/3328bc126c9/index.html",
+        "blog/categories/member-1155238/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.twitch.tv/apple4g": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/pubg-pnf-pjs-season2-g2/index.html"
+      ]
+    },
+    "https://www.twitch.tv/apple_iphone0167": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/pubg-pjs-pnf/index.html",
+        "blog/pubg-pjs/index.html"
+      ]
+    },
+    "https://www.twitch.tv/arcfps": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/pubg-pnf-pjs-season2-g2/index.html",
+        "blog/pubg-pnf/index.html"
+      ]
+    },
+    "https://www.twitch.tv/ayaxx1127": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/streamer-1467d8df-d95f-4366-844f-321a1f1b2504/index.html"
+      ]
+    },
+    "https://www.twitch.tv/dazurrr": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/pubg-pjs-pnf/index.html",
+        "blog/pubg-pjs/index.html",
+        "blog/pubg-pnf-pjs-season2-g2/index.html"
+      ]
+    },
+    "https://www.twitch.tv/dtds": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/pubg-pjs-pna/index.html",
+        "blog/pubg-pjs/index.html"
+      ]
+    },
+    "https://www.twitch.tv/hek7orow": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/pubg-pjs-pna/index.html"
+      ]
+    },
+    "https://www.twitch.tv/hek7orxd": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/pubg-pjs/index.html"
+      ]
+    },
+    "https://www.twitch.tv/hukutu4949": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/categories/member-1155238/index.html",
+        "blog/d8211521a58/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.twitch.tv/kirasroom0": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/categories/member-1155238/index.html",
+        "blog/kira/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.twitch.tv/mushamaru_": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/pubg-pjs-pna/index.html",
+        "blog/pubg-pjs/index.html"
+      ]
+    },
+    "https://www.twitch.tv/muze_77": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/categories/member-1155238/index.html",
+        "blog/miyu-e0012ca6-a41e-4f95-83e1-6d2ec305bcb9/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.twitch.tv/pngpinkyponky/videos/all": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/fortnite-ade02eba-a389-4923-ab3a-5149eddc3030/index.html"
+      ]
+    },
+    "https://www.twitch.tv/relaive": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/pubg-pjs-pna/index.html",
+        "blog/pubg-pjs/index.html"
+      ]
+    },
+    "https://www.twitch.tv/rio_shinohana": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/7e2b75b2ff9/index.html",
+        "blog/categories/member-1155238/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.twitch.tv/shiraboshi_tsurara": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/0dd55196123/index.html"
+      ]
+    },
+    "https://www.twitch.tv/shyouhei_ruin": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/evo-japan/index.html"
+      ]
+    },
+    "https://www.twitch.tv/sw_bear": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.twitch.tv",
+      "pages": [
+        "blog/pubg-pjs-pnf/index.html",
+        "blog/pubg-pjs/index.html",
+        "blog/pubg-pnf-pjs-season2-g2/index.html"
+      ]
+    },
+    "https://www.youtube.com/@Rio_Shinohana": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/7e2b75b2ff9/index.html",
+        "blog/categories/member-1155238/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.youtube.com/@Towawa_Setsuna": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/1bbf655d0a6/index.html",
+        "blog/categories/member-1155238/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.youtube.com/@aomochisan/featured": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/3328bc126c9/index.html",
+        "blog/categories/member-1155238/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.youtube.com/@kalrashion_ch": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/404f03b8bdf/index.html",
+        "blog/categories/member-1155238/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.youtube.com/@miyu_channel": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/categories/member-1155238/index.html",
+        "blog/miyu-e0012ca6-a41e-4f95-83e1-6d2ec305bcb9/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.youtube.com/@nikinanagi-uber": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/97350b4ba14/index.html"
+      ]
+    },
+    "https://www.youtube.com/@nopain893": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/0e65bf58f92/index.html",
+        "blog/categories/member-1155238/index.html",
+        "blog/d8211521a58/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.youtube.com/@osakapng": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "404.html",
+        "404/index.html",
+        "_blog/index.html",
+        "about/index.html",
+        "blog/05cdd2c5100/index.html",
+        "blog/0bcdf69cfa5/index.html",
+        "blog/0dd55196123/index.html",
+        "blog/0e65bf58f92/index.html",
+        "blog/0f5ba6c582a/index.html",
+        "blog/108738c4976/index.html",
+        "blog/1744a94b35b/index.html",
+        "blog/1880bfa494b/index.html",
+        "blog/1bb74edb5c7/index.html",
+        "blog/1bbf655d0a6/index.html",
+        "blog/2b3fcc5775e/index.html",
+        "blog/31cd990152d/index.html",
+        "blog/3328bc126c9/index.html",
+        "blog/3850086cf44/index.html",
+        "blog/404f03b8bdf/index.html",
+        "blog/4d015cf64dc/index.html",
+        "blog/5933d5ed62d/index.html",
+        "blog/595d767bb6b/index.html",
+        "blog/61232bba2a3/index.html",
+        "blog/74d57563b63/index.html",
+        "blog/7e2b75b2ff9/index.html",
+        "blog/85ad38d52ae/index.html",
+        "blog/9315b40d324/index.html",
+        "blog/97350b4ba14/index.html",
+        "blog/97f12170518/index.html",
+        "blog/9c36e1d2630/index.html",
+        "blog/9c4a55ab739/index.html",
+        "blog/9cb110985ce/index.html",
+        "blog/a11f5d8d2d4/index.html",
+        "blog/adc014909c5/index.html",
+        "blog/ae76c9eb74d/index.html",
+        "blog/aoc-web-png/index.html",
+        "blog/apple4g-finalmouse/index.html",
+        "blog/atelier/index.html",
+        "blog/c8323f90f40/index.html",
+        "blog/categories/index.html",
+        "blog/categories/member-1155238/index.html",
+        "blog/categories/news-1175894/index.html",
+        "blog/cod-4abb9c80-6e09-42c2-8cbc-85127ef4426e/index.html",
+        "blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020/index.html",
+        "blog/cod/index.html",
+        "blog/csgo-9973abda-5219-48dd-82e4-9661f78e2aba/index.html",
+        "blog/csgo-feily/index.html",
+        "blog/csgo-howzer/index.html",
+        "blog/csgo/index.html",
+        "blog/d8211521a58/index.html",
+        "blog/e-pngesports-osakapng/index.html",
+        "blog/eb1cd25e223/index.html",
+        "blog/ed353de741a/index.html",
+        "blog/evo-japan/index.html",
+        "blog/f26d31c59a6/index.html",
+        "blog/f2a43fc69c2/index.html",
+        "blog/f8db13bb13b/index.html",
+        "blog/fortnite-a27d50c4-6807-4c9c-b91a-e5be85a0d75f/index.html",
+        "blog/fortnite-ade02eba-a389-4923-ab3a-5149eddc3030/index.html",
+        "blog/fortnite-af448633-a2e8-4469-b112-835769e5f95d/index.html",
+        "blog/fortnite-png-esports-part1-kero/index.html",
+        "blog/fortnite-png-esports-part2-pinky-ponky/index.html",
+        "blog/fortnite/index.html",
+        "blog/fyx/index.html",
+        "blog/happy-new-year/index.html",
+        "blog/hayate/index.html",
+        "blog/hp-54c517b8-73a4-4d8d-80ff-d43f2ceb4a91/index.html",
+        "blog/hp/index.html",
+        "blog/kero/index.html",
+        "blog/kira/index.html",
+        "blog/miyu-e0012ca6-a41e-4f95-83e1-6d2ec305bcb9/index.html",
+        "blog/mushamaru-finalmouse/index.html",
+        "blog/osakapng-line/index.html",
+        "blog/pc-7186b7a9-6ff8-43af-afec-3b19075d28c0/index.html",
+        "blog/pc/index.html",
+        "blog/png-esports-cod/index.html",
+        "blog/png-esports-csgo/index.html",
+        "blog/png-esports-part3/index.html",
+        "blog/png-esports-part4/index.html",
+        "blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033/index.html",
+        "blog/png-esports-pubg/index.html",
+        "blog/png-gyazo/index.html",
+        "blog/png-sofia/index.html",
+        "blog/png-spark-c370431c-bd8a-47e7-a481-b7042f9e2596/index.html",
+        "blog/png-spark/index.html",
+        "blog/png/index.html",
+        "blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/index.html",
+        "blog/pubg-949a3d5b-b2c7-4a31-b018-212ed658431b/index.html",
+        "blog/pubg-mobile/index.html",
+        "blog/pubg-pjs-pna/index.html",
+        "blog/pubg-pjs-pnf/index.html",
+        "blog/pubg-pjs/index.html",
+        "blog/pubg-pna-pjs/index.html",
+        "blog/pubg-pnf-pjs-season2-g2/index.html",
+        "blog/pubg-pnf-pjs/index.html",
+        "blog/pubg-pnf/index.html",
+        "blog/pubg-png-fairy-pjs/index.html",
+        "blog/pubg-png-fairy/index.html",
+        "blog/pubg/index.html",
+        "blog/r6s-06c0ee00-af39-4bb5-ba62-f976b86c129e/index.html",
+        "blog/r6s/index.html",
+        "blog/re-miyu/index.html",
+        "blog/s1yuq/index.html",
+        "blog/streamer-1467d8df-d95f-4366-844f-321a1f1b2504/index.html",
+        "blog/streamer-harley/index.html",
+        "blog/streamer/index.html",
+        "blog/twitchbonenkai2024/index.html",
+        "blog/visionup/index.html",
+        "contact/index.html",
+        "index.html",
+        "member/index.html",
+        "newsevents/index.html",
+        "pages/cookie-policy/index.html",
+        "stories/index.html"
+      ]
+    },
+    "https://www.youtube.com/@rarihon-x": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/61232bba2a3/index.html",
+        "blog/categories/member-1155238/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.youtube.com/@tsurarach": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/0dd55196123/index.html"
+      ]
+    },
+    "https://www.youtube.com/c/sofiach2217": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/0f5ba6c582a/index.html"
+      ]
+    },
+    "https://www.youtube.com/channel/UC-7ioA5U8kmJrz39f7PvwXQ": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/fortnite-af448633-a2e8-4469-b112-835769e5f95d/index.html"
+      ]
+    },
+    "https://www.youtube.com/channel/UC49cHU7sGTphMstfakq1Y1g": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/streamer-harley/index.html"
+      ]
+    },
+    "https://www.youtube.com/channel/UC4SoDEdCz5cuWkC-maPRrjw": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/categories/member-1155238/index.html",
+        "blog/kira/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.youtube.com/channel/UC4pXyuL74MZYADy7vCToNGw/featured?view_as=subscriber": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/evo-japan/index.html"
+      ]
+    },
+    "https://www.youtube.com/channel/UCBgkT-HDPtjfTDyfih0wIHg": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/fortnite-ade02eba-a389-4923-ab3a-5149eddc3030/index.html"
+      ]
+    },
+    "https://www.youtube.com/channel/UCZbg97eE3Hef-w849vAm34Q": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/pubg-pjs/index.html"
+      ]
+    },
+    "https://www.youtube.com/channel/UCefu0BvyxIwbxNOb_NGvUzw": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/fortnite-ade02eba-a389-4923-ab3a-5149eddc3030/index.html"
+      ]
+    },
+    "https://www.youtube.com/channel/UCpNr-dqSYzko_9XzYWASIRg/videos": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/0f5ba6c582a/index.html"
+      ]
+    },
+    "https://www.youtube.com/channel/UCqT24z0FQiR-zgD_zAdPhFQ": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/categories/member-1155238/index.html",
+        "blog/d8211521a58/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://www.youtube.com/channel/UCu7_O7tDakb3269HvVM5aCg": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/0f5ba6c582a/index.html"
+      ]
+    },
+    "https://www.youtube.com/channel/UCuTHM_VLYGOdWmzNIk5AycQ": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/e-pngesports-osakapng/index.html"
+      ]
+    },
+    "https://www.youtube.com/user/gatimero": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/f26d31c59a6/index.html"
+      ]
+    },
+    "https://www.youtube.com/watch?v=MUyVuHYjiUg": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/pubg-pjs/index.html"
+      ]
+    },
+    "https://www.youtube.com/watch?v=aVPK_w0bEZ8": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/pubg-pjs/index.html"
+      ]
+    },
+    "https://www.youtube.com/watch?v=baQbw7tuDV0": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/pubg-pjs/index.html"
+      ]
+    },
+    "https://www.youtube.com/watch?v=uoWGYPlJAcM": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "www.youtube.com",
+      "pages": [
+        "blog/pubg-pjs/index.html"
+      ]
+    },
+    "https://x.com/MuZe_77": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/categories/member-1155238/index.html",
+        "blog/miyu-e0012ca6-a41e-4f95-83e1-6d2ec305bcb9/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://x.com/MuZe_Gz": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/5933d5ed62d/index.html"
+      ]
+    },
+    "https://x.com/NoPain893": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/0e65bf58f92/index.html"
+      ]
+    },
+    "https://x.com/PNGesports": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "404.html",
+        "404/index.html",
+        "_blog/index.html",
+        "about/index.html",
+        "blog/05cdd2c5100/index.html",
+        "blog/0bcdf69cfa5/index.html",
+        "blog/0dd55196123/index.html",
+        "blog/0e65bf58f92/index.html",
+        "blog/0f5ba6c582a/index.html",
+        "blog/108738c4976/index.html",
+        "blog/1744a94b35b/index.html",
+        "blog/1880bfa494b/index.html",
+        "blog/1bb74edb5c7/index.html",
+        "blog/1bbf655d0a6/index.html",
+        "blog/2b3fcc5775e/index.html",
+        "blog/31cd990152d/index.html",
+        "blog/3328bc126c9/index.html",
+        "blog/3850086cf44/index.html",
+        "blog/404f03b8bdf/index.html",
+        "blog/4d015cf64dc/index.html",
+        "blog/5933d5ed62d/index.html",
+        "blog/595d767bb6b/index.html",
+        "blog/61232bba2a3/index.html",
+        "blog/74d57563b63/index.html",
+        "blog/7e2b75b2ff9/index.html",
+        "blog/85ad38d52ae/index.html",
+        "blog/9315b40d324/index.html",
+        "blog/97350b4ba14/index.html",
+        "blog/97f12170518/index.html",
+        "blog/9c36e1d2630/index.html",
+        "blog/9c4a55ab739/index.html",
+        "blog/9cb110985ce/index.html",
+        "blog/a11f5d8d2d4/index.html",
+        "blog/adc014909c5/index.html",
+        "blog/ae76c9eb74d/index.html",
+        "blog/aoc-web-png/index.html",
+        "blog/apple4g-finalmouse/index.html",
+        "blog/atelier/index.html",
+        "blog/c8323f90f40/index.html",
+        "blog/categories/index.html",
+        "blog/categories/member-1155238/index.html",
+        "blog/categories/news-1175894/index.html",
+        "blog/cod-4abb9c80-6e09-42c2-8cbc-85127ef4426e/index.html",
+        "blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020/index.html",
+        "blog/cod/index.html",
+        "blog/csgo-9973abda-5219-48dd-82e4-9661f78e2aba/index.html",
+        "blog/csgo-feily/index.html",
+        "blog/csgo-howzer/index.html",
+        "blog/csgo/index.html",
+        "blog/d8211521a58/index.html",
+        "blog/e-pngesports-osakapng/index.html",
+        "blog/eb1cd25e223/index.html",
+        "blog/ed353de741a/index.html",
+        "blog/evo-japan/index.html",
+        "blog/f26d31c59a6/index.html",
+        "blog/f2a43fc69c2/index.html",
+        "blog/f8db13bb13b/index.html",
+        "blog/fortnite-a27d50c4-6807-4c9c-b91a-e5be85a0d75f/index.html",
+        "blog/fortnite-ade02eba-a389-4923-ab3a-5149eddc3030/index.html",
+        "blog/fortnite-af448633-a2e8-4469-b112-835769e5f95d/index.html",
+        "blog/fortnite-png-esports-part1-kero/index.html",
+        "blog/fortnite-png-esports-part2-pinky-ponky/index.html",
+        "blog/fortnite/index.html",
+        "blog/fyx/index.html",
+        "blog/happy-new-year/index.html",
+        "blog/hayate/index.html",
+        "blog/hp-54c517b8-73a4-4d8d-80ff-d43f2ceb4a91/index.html",
+        "blog/hp/index.html",
+        "blog/kero/index.html",
+        "blog/kira/index.html",
+        "blog/miyu-e0012ca6-a41e-4f95-83e1-6d2ec305bcb9/index.html",
+        "blog/mushamaru-finalmouse/index.html",
+        "blog/osakapng-line/index.html",
+        "blog/pc-7186b7a9-6ff8-43af-afec-3b19075d28c0/index.html",
+        "blog/pc/index.html",
+        "blog/png-esports-cod/index.html",
+        "blog/png-esports-csgo/index.html",
+        "blog/png-esports-part3/index.html",
+        "blog/png-esports-part4/index.html",
+        "blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033/index.html",
+        "blog/png-esports-pubg/index.html",
+        "blog/png-gyazo/index.html",
+        "blog/png-sofia/index.html",
+        "blog/png-spark-c370431c-bd8a-47e7-a481-b7042f9e2596/index.html",
+        "blog/png-spark/index.html",
+        "blog/png/index.html",
+        "blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/index.html",
+        "blog/pubg-949a3d5b-b2c7-4a31-b018-212ed658431b/index.html",
+        "blog/pubg-mobile/index.html",
+        "blog/pubg-pjs-pna/index.html",
+        "blog/pubg-pjs-pnf/index.html",
+        "blog/pubg-pjs/index.html",
+        "blog/pubg-pna-pjs/index.html",
+        "blog/pubg-pnf-pjs-season2-g2/index.html",
+        "blog/pubg-pnf-pjs/index.html",
+        "blog/pubg-pnf/index.html",
+        "blog/pubg-png-fairy-pjs/index.html",
+        "blog/pubg-png-fairy/index.html",
+        "blog/pubg/index.html",
+        "blog/r6s-06c0ee00-af39-4bb5-ba62-f976b86c129e/index.html",
+        "blog/r6s/index.html",
+        "blog/re-miyu/index.html",
+        "blog/s1yuq/index.html",
+        "blog/streamer-1467d8df-d95f-4366-844f-321a1f1b2504/index.html",
+        "blog/streamer-harley/index.html",
+        "blog/streamer/index.html",
+        "blog/twitchbonenkai2024/index.html",
+        "blog/visionup/index.html",
+        "contact/index.html",
+        "index.html",
+        "member/index.html",
+        "newsevents/index.html",
+        "pages/cookie-policy/index.html",
+        "stories/index.html"
+      ]
+    },
+    "https://x.com/Setsu7a_Towawa": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/05cdd2c5100/index.html"
+      ]
+    },
+    "https://x.com/aomochisan?s=20": {
+      "status": 404,
+      "result": "missing",
+      "pages": [
+        "blog/3328bc126c9/index.html",
+        "blog/categories/member-1155238/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://x.com/kalrashion": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/3850086cf44/index.html"
+      ]
+    },
+    "https://x.com/kalrashion?s=21&t=-IchBmjYdcRuaLyoHDvGXA": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/404f03b8bdf/index.html",
+        "blog/categories/member-1155238/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://x.com/kiraokaira?s=20": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/categories/member-1155238/index.html",
+        "blog/kira/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://x.com/nikinanagi_VT": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/9315b40d324/index.html"
+      ]
+    },
+    "https://x.com/nopain893?s=21&t=-IchBmjYdcRuaLyoHDvGXA": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/categories/member-1155238/index.html",
+        "blog/d8211521a58/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://x.com/rarihooon": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/61232bba2a3/index.html",
+        "blog/categories/member-1155238/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://x.com/rio_shinohana": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/7e2b75b2ff9/index.html",
+        "blog/categories/member-1155238/index.html",
+        "blog/twitchbonenkai2024/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://x.com/setsu7a_towawa?s=21&t=-IchBmjYdcRuaLyoHDvGXA": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/1bbf655d0a6/index.html",
+        "blog/categories/member-1155238/index.html",
+        "index.html",
+        "member/index.html"
+      ]
+    },
+    "https://x.com/sofia__2217": {
+      "status": 200,
+      "result": "responded",
+      "final_host": "x.com",
+      "pages": [
+        "blog/5933d5ed62d/index.html"
+      ]
+    }
+  }
+}

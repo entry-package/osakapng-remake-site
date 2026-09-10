@@ -1,0 +1,684 @@
+{
+  "routes": 113,
+  "failures": [],
+  "responses": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 22372,
+      "redirected": false
+    },
+    {
+      "path": "/member",
+      "status": 200,
+      "bytes": 9977,
+      "redirected": true
+    },
+    {
+      "path": "/blog/categories/member-1155238",
+      "status": 200,
+      "bytes": 10117,
+      "redirected": true
+    },
+    {
+      "path": "/newsevents",
+      "status": 200,
+      "bytes": 231422,
+      "redirected": true
+    },
+    {
+      "path": "/_blog",
+      "status": 200,
+      "bytes": 231424,
+      "redirected": true
+    },
+    {
+      "path": "/blog/categories/news-1175894",
+      "status": 200,
+      "bytes": 231746,
+      "redirected": true
+    },
+    {
+      "path": "/blog/categories",
+      "status": 200,
+      "bytes": 230838,
+      "redirected": true
+    },
+    {
+      "path": "/blog/05cdd2c5100",
+      "status": 200,
+      "bytes": 5546,
+      "redirected": true
+    },
+    {
+      "path": "/blog/0bcdf69cfa5",
+      "status": 200,
+      "bytes": 7804,
+      "redirected": true
+    },
+    {
+      "path": "/blog/0dd55196123",
+      "status": 200,
+      "bytes": 5743,
+      "redirected": true
+    },
+    {
+      "path": "/blog/0e65bf58f92",
+      "status": 200,
+      "bytes": 5963,
+      "redirected": true
+    },
+    {
+      "path": "/blog/0f5ba6c582a",
+      "status": 200,
+      "bytes": 6799,
+      "redirected": true
+    },
+    {
+      "path": "/blog/108738c4976",
+      "status": 200,
+      "bytes": 6373,
+      "redirected": true
+    },
+    {
+      "path": "/blog/1744a94b35b",
+      "status": 200,
+      "bytes": 9347,
+      "redirected": true
+    },
+    {
+      "path": "/blog/1880bfa494b",
+      "status": 200,
+      "bytes": 6955,
+      "redirected": true
+    },
+    {
+      "path": "/blog/1bb74edb5c7",
+      "status": 200,
+      "bytes": 9172,
+      "redirected": true
+    },
+    {
+      "path": "/blog/1bbf655d0a6",
+      "status": 200,
+      "bytes": 4555,
+      "redirected": true
+    },
+    {
+      "path": "/blog/2b3fcc5775e",
+      "status": 200,
+      "bytes": 6475,
+      "redirected": true
+    },
+    {
+      "path": "/blog/31cd990152d",
+      "status": 200,
+      "bytes": 6143,
+      "redirected": true
+    },
+    {
+      "path": "/blog/3328bc126c9",
+      "status": 200,
+      "bytes": 5166,
+      "redirected": true
+    },
+    {
+      "path": "/blog/3850086cf44",
+      "status": 200,
+      "bytes": 5510,
+      "redirected": true
+    },
+    {
+      "path": "/blog/404f03b8bdf",
+      "status": 200,
+      "bytes": 4443,
+      "redirected": true
+    },
+    {
+      "path": "/blog/4d015cf64dc",
+      "status": 200,
+      "bytes": 5649,
+      "redirected": true
+    },
+    {
+      "path": "/blog/5933d5ed62d",
+      "status": 200,
+      "bytes": 5763,
+      "redirected": true
+    },
+    {
+      "path": "/blog/595d767bb6b",
+      "status": 200,
+      "bytes": 6155,
+      "redirected": true
+    },
+    {
+      "path": "/blog/61232bba2a3",
+      "status": 200,
+      "bytes": 4574,
+      "redirected": true
+    },
+    {
+      "path": "/blog/74d57563b63",
+      "status": 200,
+      "bytes": 5946,
+      "redirected": true
+    },
+    {
+      "path": "/blog/7e2b75b2ff9",
+      "status": 200,
+      "bytes": 4760,
+      "redirected": true
+    },
+    {
+      "path": "/blog/85ad38d52ae",
+      "status": 200,
+      "bytes": 6299,
+      "redirected": true
+    },
+    {
+      "path": "/blog/9315b40d324",
+      "status": 200,
+      "bytes": 5645,
+      "redirected": true
+    },
+    {
+      "path": "/blog/97350b4ba14",
+      "status": 200,
+      "bytes": 5844,
+      "redirected": true
+    },
+    {
+      "path": "/blog/97f12170518",
+      "status": 200,
+      "bytes": 9111,
+      "redirected": true
+    },
+    {
+      "path": "/blog/9c36e1d2630",
+      "status": 200,
+      "bytes": 6811,
+      "redirected": true
+    },
+    {
+      "path": "/blog/9c4a55ab739",
+      "status": 200,
+      "bytes": 5989,
+      "redirected": true
+    },
+    {
+      "path": "/blog/9cb110985ce",
+      "status": 200,
+      "bytes": 12120,
+      "redirected": true
+    },
+    {
+      "path": "/blog/a11f5d8d2d4",
+      "status": 200,
+      "bytes": 7531,
+      "redirected": true
+    },
+    {
+      "path": "/blog/adc014909c5",
+      "status": 200,
+      "bytes": 5277,
+      "redirected": true
+    },
+    {
+      "path": "/blog/ae76c9eb74d",
+      "status": 200,
+      "bytes": 5377,
+      "redirected": true
+    },
+    {
+      "path": "/blog/aoc-web-png",
+      "status": 200,
+      "bytes": 6522,
+      "redirected": true
+    },
+    {
+      "path": "/blog/apple4g-finalmouse",
+      "status": 200,
+      "bytes": 11657,
+      "redirected": true
+    },
+    {
+      "path": "/blog/atelier",
+      "status": 200,
+      "bytes": 15544,
+      "redirected": true
+    },
+    {
+      "path": "/blog/c8323f90f40",
+      "status": 200,
+      "bytes": 7431,
+      "redirected": true
+    },
+    {
+      "path": "/blog/cod",
+      "status": 200,
+      "bytes": 6064,
+      "redirected": true
+    },
+    {
+      "path": "/blog/cod-4abb9c80-6e09-42c2-8cbc-85127ef4426e",
+      "status": 200,
+      "bytes": 6796,
+      "redirected": true
+    },
+    {
+      "path": "/blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020",
+      "status": 200,
+      "bytes": 7412,
+      "redirected": true
+    },
+    {
+      "path": "/blog/csgo",
+      "status": 200,
+      "bytes": 6969,
+      "redirected": true
+    },
+    {
+      "path": "/blog/csgo-9973abda-5219-48dd-82e4-9661f78e2aba",
+      "status": 200,
+      "bytes": 5816,
+      "redirected": true
+    },
+    {
+      "path": "/blog/csgo-feily",
+      "status": 200,
+      "bytes": 5192,
+      "redirected": true
+    },
+    {
+      "path": "/blog/csgo-howzer",
+      "status": 200,
+      "bytes": 9452,
+      "redirected": true
+    },
+    {
+      "path": "/blog/d8211521a58",
+      "status": 200,
+      "bytes": 5418,
+      "redirected": true
+    },
+    {
+      "path": "/blog/e-pngesports-osakapng",
+      "status": 200,
+      "bytes": 9613,
+      "redirected": true
+    },
+    {
+      "path": "/blog/eb1cd25e223",
+      "status": 200,
+      "bytes": 5267,
+      "redirected": true
+    },
+    {
+      "path": "/blog/ed353de741a",
+      "status": 200,
+      "bytes": 5729,
+      "redirected": true
+    },
+    {
+      "path": "/blog/evo-japan",
+      "status": 200,
+      "bytes": 7295,
+      "redirected": true
+    },
+    {
+      "path": "/blog/f26d31c59a6",
+      "status": 200,
+      "bytes": 7334,
+      "redirected": true
+    },
+    {
+      "path": "/blog/f2a43fc69c2",
+      "status": 200,
+      "bytes": 5441,
+      "redirected": true
+    },
+    {
+      "path": "/blog/f8db13bb13b",
+      "status": 200,
+      "bytes": 5377,
+      "redirected": true
+    },
+    {
+      "path": "/blog/fortnite",
+      "status": 200,
+      "bytes": 6219,
+      "redirected": true
+    },
+    {
+      "path": "/blog/fortnite-a27d50c4-6807-4c9c-b91a-e5be85a0d75f",
+      "status": 200,
+      "bytes": 5749,
+      "redirected": true
+    },
+    {
+      "path": "/blog/fortnite-ade02eba-a389-4923-ab3a-5149eddc3030",
+      "status": 200,
+      "bytes": 7832,
+      "redirected": true
+    },
+    {
+      "path": "/blog/fortnite-af448633-a2e8-4469-b112-835769e5f95d",
+      "status": 200,
+      "bytes": 6207,
+      "redirected": true
+    },
+    {
+      "path": "/blog/fortnite-png-esports-part1-kero",
+      "status": 200,
+      "bytes": 12735,
+      "redirected": true
+    },
+    {
+      "path": "/blog/fortnite-png-esports-part2-pinky-ponky",
+      "status": 200,
+      "bytes": 11899,
+      "redirected": true
+    },
+    {
+      "path": "/blog/fyx",
+      "status": 200,
+      "bytes": 6064,
+      "redirected": true
+    },
+    {
+      "path": "/blog/happy-new-year",
+      "status": 200,
+      "bytes": 6093,
+      "redirected": true
+    },
+    {
+      "path": "/blog/hayate",
+      "status": 200,
+      "bytes": 5075,
+      "redirected": true
+    },
+    {
+      "path": "/blog/hp",
+      "status": 200,
+      "bytes": 8594,
+      "redirected": true
+    },
+    {
+      "path": "/blog/hp-54c517b8-73a4-4d8d-80ff-d43f2ceb4a91",
+      "status": 200,
+      "bytes": 5462,
+      "redirected": true
+    },
+    {
+      "path": "/blog/kero",
+      "status": 200,
+      "bytes": 5146,
+      "redirected": true
+    },
+    {
+      "path": "/blog/kira",
+      "status": 200,
+      "bytes": 4515,
+      "redirected": true
+    },
+    {
+      "path": "/blog/miyu-e0012ca6-a41e-4f95-83e1-6d2ec305bcb9",
+      "status": 200,
+      "bytes": 4704,
+      "redirected": true
+    },
+    {
+      "path": "/blog/mushamaru-finalmouse",
+      "status": 200,
+      "bytes": 10127,
+      "redirected": true
+    },
+    {
+      "path": "/blog/osakapng-line",
+      "status": 200,
+      "bytes": 6037,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pc",
+      "status": 200,
+      "bytes": 7300,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pc-7186b7a9-6ff8-43af-afec-3b19075d28c0",
+      "status": 200,
+      "bytes": 7415,
+      "redirected": true
+    },
+    {
+      "path": "/blog/png",
+      "status": 200,
+      "bytes": 6981,
+      "redirected": true
+    },
+    {
+      "path": "/blog/png-esports-cod",
+      "status": 200,
+      "bytes": 5931,
+      "redirected": true
+    },
+    {
+      "path": "/blog/png-esports-csgo",
+      "status": 200,
+      "bytes": 7971,
+      "redirected": true
+    },
+    {
+      "path": "/blog/png-esports-part3",
+      "status": 200,
+      "bytes": 13352,
+      "redirected": true
+    },
+    {
+      "path": "/blog/png-esports-part4",
+      "status": 200,
+      "bytes": 14301,
+      "redirected": true
+    },
+    {
+      "path": "/blog/png-esports-pubg",
+      "status": 200,
+      "bytes": 7501,
+      "redirected": true
+    },
+    {
+      "path": "/blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033",
+      "status": 200,
+      "bytes": 6892,
+      "redirected": true
+    },
+    {
+      "path": "/blog/png-gyazo",
+      "status": 200,
+      "bytes": 8522,
+      "redirected": true
+    },
+    {
+      "path": "/blog/png-sofia",
+      "status": 200,
+      "bytes": 14628,
+      "redirected": true
+    },
+    {
+      "path": "/blog/png-spark",
+      "status": 200,
+      "bytes": 5757,
+      "redirected": true
+    },
+    {
+      "path": "/blog/png-spark-c370431c-bd8a-47e7-a481-b7042f9e2596",
+      "status": 200,
+      "bytes": 6243,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pubg",
+      "status": 200,
+      "bytes": 6670,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa",
+      "status": 200,
+      "bytes": 6676,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pubg-949a3d5b-b2c7-4a31-b018-212ed658431b",
+      "status": 200,
+      "bytes": 8093,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pubg-mobile",
+      "status": 200,
+      "bytes": 6913,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pubg-pjs",
+      "status": 200,
+      "bytes": 9260,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pubg-pjs-pna",
+      "status": 200,
+      "bytes": 6951,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pubg-pjs-pnf",
+      "status": 200,
+      "bytes": 7293,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pubg-pna-pjs",
+      "status": 200,
+      "bytes": 7813,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pubg-pnf",
+      "status": 200,
+      "bytes": 7071,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pubg-pnf-pjs",
+      "status": 200,
+      "bytes": 7385,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pubg-pnf-pjs-season2-g2",
+      "status": 200,
+      "bytes": 7318,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pubg-png-fairy",
+      "status": 200,
+      "bytes": 6633,
+      "redirected": true
+    },
+    {
+      "path": "/blog/pubg-png-fairy-pjs",
+      "status": 200,
+      "bytes": 9850,
+      "redirected": true
+    },
+    {
+      "path": "/blog/r6s",
+      "status": 200,
+      "bytes": 6958,
+      "redirected": true
+    },
+    {
+      "path": "/blog/r6s-06c0ee00-af39-4bb5-ba62-f976b86c129e",
+      "status": 200,
+      "bytes": 7045,
+      "redirected": true
+    },
+    {
+      "path": "/blog/re-miyu",
+      "status": 200,
+      "bytes": 10516,
+      "redirected": true
+    },
+    {
+      "path": "/blog/s1yuq",
+      "status": 200,
+      "bytes": 5808,
+      "redirected": true
+    },
+    {
+      "path": "/blog/streamer",
+      "status": 200,
+      "bytes": 5995,
+      "redirected": true
+    },
+    {
+      "path": "/blog/streamer-1467d8df-d95f-4366-844f-321a1f1b2504",
+      "status": 200,
+      "bytes": 7562,
+      "redirected": true
+    },
+    {
+      "path": "/blog/streamer-harley",
+      "status": 200,
+      "bytes": 6140,
+      "redirected": true
+    },
+    {
+      "path": "/blog/twitchbonenkai2024",
+      "status": 200,
+      "bytes": 6289,
+      "redirected": true
+    },
+    {
+      "path": "/blog/visionup",
+      "status": 200,
+      "bytes": 6100,
+      "redirected": true
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "bytes": 6610,
+      "redirected": true
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "bytes": 5111,
+      "redirected": true
+    },
+    {
+      "path": "/stories",
+      "status": 200,
+      "bytes": 6013,
+      "redirected": true
+    },
+    {
+      "path": "/pages/cookie-policy",
+      "status": 200,
+      "bytes": 4272,
+      "redirected": true
+    },
+    {
+      "path": "/404",
+      "status": 200,
+      "bytes": 3515,
+      "redirected": true
+    }
+  ]
+}

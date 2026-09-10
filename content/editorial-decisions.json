@@ -1,0 +1,12 @@
+{
+  "title_corrections": {
+    "/blog/adc014909c5": "美月姫 脱退のお知らせ",
+    "/blog/f2a43fc69c2": "CoD部門 NevvtonX選手 脱退のお知らせ"
+  },
+  "body_policy": "All 101 original article/profile bodies retained, including historical wording. Mark past news as historical.",
+  "profile_copy": "Homepage summaries based only on captured current MEMBER pages; current spelling 紫乃花 りお; VALORANT corrected in summary only.",
+  "cookie_policy": "Platform-specific Strikingly policy replaced with implementation-specific text; original retained in source-pages.json.",
+  "contact": "Static mail composer and copy fallback; never show an unverified delivery-success message.",
+  "related_news": "Eight official company articles linked with original publication dates, selected from eleven reviewed articles. No unrelated neighboring posts imported.",
+  "not_proven": "All disappeared content from pre-existing esportspng.com and unpublished/internal/SNS-only information remains unverified."
+}
