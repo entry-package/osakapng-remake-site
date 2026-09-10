@@ -1,6 +1,6 @@
 {
   "complete": true,
-  "checks": 204,
+  "checks": 216,
   "failures": [],
   "report": [
     {
@@ -356,6 +356,22 @@
     },
     {
       "pass": true,
+      "name": "all_editorial_images_loaded",
+      "detail": {
+        "width": 320,
+        "count": 22
+      }
+    },
+    {
+      "pass": true,
+      "name": "editorial_titles_not_cropped",
+      "detail": {
+        "width": 320,
+        "clipped": []
+      }
+    },
+    {
+      "pass": true,
       "name": "no_horizontal_overflow",
       "detail": {
         "route": "/newsevents/",
@@ -379,6 +395,22 @@
         "route": "/newsevents/",
         "width": 375,
         "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "all_editorial_images_loaded",
+      "detail": {
+        "width": 375,
+        "count": 22
+      }
+    },
+    {
+      "pass": true,
+      "name": "editorial_titles_not_cropped",
+      "detail": {
+        "width": 375,
+        "clipped": []
       }
     },
     {
@@ -410,6 +442,22 @@
     },
     {
       "pass": true,
+      "name": "all_editorial_images_loaded",
+      "detail": {
+        "width": 390,
+        "count": 22
+      }
+    },
+    {
+      "pass": true,
+      "name": "editorial_titles_not_cropped",
+      "detail": {
+        "width": 390,
+        "clipped": []
+      }
+    },
+    {
+      "pass": true,
       "name": "no_horizontal_overflow",
       "detail": {
         "route": "/newsevents/",
@@ -433,6 +481,22 @@
         "route": "/newsevents/",
         "width": 768,
         "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "all_editorial_images_loaded",
+      "detail": {
+        "width": 768,
+        "count": 22
+      }
+    },
+    {
+      "pass": true,
+      "name": "editorial_titles_not_cropped",
+      "detail": {
+        "width": 768,
+        "clipped": []
       }
     },
     {
@@ -464,6 +528,22 @@
     },
     {
       "pass": true,
+      "name": "all_editorial_images_loaded",
+      "detail": {
+        "width": 1024,
+        "count": 22
+      }
+    },
+    {
+      "pass": true,
+      "name": "editorial_titles_not_cropped",
+      "detail": {
+        "width": 1024,
+        "clipped": []
+      }
+    },
+    {
+      "pass": true,
       "name": "no_horizontal_overflow",
       "detail": {
         "route": "/newsevents/",
@@ -487,6 +567,22 @@
         "route": "/newsevents/",
         "width": 1440,
         "broken": []
+      }
+    },
+    {
+      "pass": true,
+      "name": "all_editorial_images_loaded",
+      "detail": {
+        "width": 1440,
+        "count": 22
+      }
+    },
+    {
+      "pass": true,
+      "name": "editorial_titles_not_cropped",
+      "detail": {
+        "width": 1440,
+        "clipped": []
       }
     },
     {

@@ -28,6 +28,8 @@ for authored in sorted((ROOT/'content/posts').glob('*.json')):
     PAGES.append(record)
 BY_PATH = {p['path']: p for p in PAGES}
 MEDIA = json.loads((ROOT / 'content/media-manifest.json').read_text())
+THUMBNAIL_ASSETS = json.loads((ROOT / 'content/thumbnail-assets.json').read_text())
+THUMBNAIL_OVERRIDES = json.loads((ROOT / 'content/thumbnail-overrides.json').read_text())
 MEMBER_UPDATES = json.loads((ROOT / 'content/member-updates.json').read_text())
 ARTICLES = [p for p in PAGES if p['type'] == 'article']
 MEMBERS = [BY_PATH[path] for path in dict.fromkeys(urlsplit(a['href']).path for a in BY_PATH['/member']['links'] if '/blog/' in a['href'])]
@@ -85,6 +87,18 @@ def media(url, current):
     return asset(row['local'], current)
 
 
+def cover_asset(path, source_cover):
+    """Editorial images replace only reviewed missing covers, never source bodies."""
+    override = THUMBNAIL_OVERRIDES.get(path)
+    if override:
+        if source_cover != override['source_cover']:
+            raise ValueError('Source cover changed; review the thumbnail override: ' + path)
+        return THUMBNAIL_ASSETS[override['asset']]['local']
+    if not source_cover:
+        return 'assets/hero-logo.png'
+    return MEDIA[source_cover]['local']
+
+
 def anchor(url, text, current, cls=''):
     return f'<a class="{cls}" href="{e(link(url, current), quote=True)}">{e(text)}</a>'
 
@@ -140,9 +154,13 @@ def talent_cards(current):
 def news_card(p, current, featured=False):
     desc = p['source_text']
     short = desc[:110].strip() + ('…' if len(desc) > 110 else '')
-    cover = f'<img src="{e(media(p["cover"], current))}" alt="" width="720" height="400" loading="lazy">' if p['cover'] else ''
+    generated = p['path'] in THUMBNAIL_OVERRIDES
+    local_cover = cover_asset(p['path'], p['cover'])
+    dimensions = THUMBNAIL_ASSETS[THUMBNAIL_OVERRIDES[p['path']]['asset']] if generated else {'width':720,'height':400}
+    cover = f'<img src="{e(asset(local_cover, current))}" alt="" width="{dimensions["width"]}" height="{dimensions["height"]}" loading="lazy" decoding="async">'
+    cls = 'news-card news-card--generated' if generated else 'news-card'
     data = e((title(p) + ' ' + desc).lower(), quote=True)
-    return f'<article class="news-card" data-news data-year="{dated(p)[:4]}" data-search="{data}"><a href="{e(link(p["path"], current))}" class="news-cover" tabindex="-1" aria-hidden="true">{cover}</a><div class="news-copy"><p class="meta"><time datetime="{dated(p).replace(".","-")}">{dated(p)}</time><span>NEWS</span></p><h3>{anchor(p["path"], title(p), current)}</h3><p class="excerpt">{e(short)}</p></div></article>'
+    return f'<article class="{cls}" data-news data-year="{dated(p)[:4]}" data-search="{data}"><a href="{e(link(p["path"], current))}" class="news-cover" tabindex="-1" aria-hidden="true">{cover}</a><div class="news-copy"><p class="meta"><time datetime="{dated(p).replace(".","-")}">{dated(p)}</time><span>NEWS</span></p><h3>{anchor(p["path"], title(p), current)}</h3><p class="excerpt">{e(short)}</p></div></article>'
 
 
 def related(current, all_stories=False):
@@ -216,7 +234,7 @@ def render(path, heading, body, description='', cover='', production=False):
     css = asset('styles.css', path); js = asset('script.js', path)
     nav = ''.join(anchor(url,name,path) for url,name in [('/member','MEMBER'),('/newsevents','NEWS'),('/about','ABOUT'),('/#goods','GOODS'),('/contact','CONTACT')])
     footer = ''.join(anchor(url,name,path) for name,url in SOCIALS)
-    og = ORIGIN + '/' + MEDIA[cover]['local'] if cover else ORIGIN + '/assets/hero-logo.png'
+    og = ORIGIN + '/' + cover_asset(path, cover)
     breadcrumb = {'@context':'https://schema.org','@type':'Organization','name':'OsakaPNG','url':ORIGIN,'sameAs':[u for _,u in SOCIALS[:2]],'parentOrganization':{'@type':'Organization','name':'株式会社PACkage','url':'https://www.package-inc.com/'}}
     p = BY_PATH.get(path)
     structured = breadcrumb

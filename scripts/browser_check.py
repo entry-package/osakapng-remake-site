@@ -28,6 +28,16 @@ for(const route of routes)for(const width of widths){
  assert(d.querySelector('h1')?.getBoundingClientRect().width>0,'heading_visible',{route,width});
  const broken=[...d.images].filter(i=>i.complete && i.naturalWidth===0).map(i=>i.getAttribute('src'));
  assert(!broken.length,'no_broken_loaded_images',{route,width,broken});
+ if(route==='/newsevents/'){
+  const images=[...d.querySelectorAll('.news-card--generated .news-cover img')];
+  images.forEach(i=>i.loading='eager');
+  // Image decode promises can outlive headless virtual-time capture. Verify the
+  // actual loaded resources after the eager requests have settled instead.
+  await new Promise(r=>setTimeout(r,300));
+  assert(images.length===22&&images.every(i=>i.complete&&i.naturalWidth===1672),'all_editorial_images_loaded',{width,count:images.length});
+  const clipped=images.filter(i=>{const r=i.getBoundingClientRect(),c=i.parentElement.getBoundingClientRect();return w.getComputedStyle(i).objectFit!=='contain'||Math.abs(r.width/r.height-i.naturalWidth/i.naturalHeight)>.01||r.bottom>c.bottom+1||r.right>c.right+1});
+  assert(!clipped.length,'editorial_titles_not_cropped',{width,clipped:clipped.map(i=>i.src)});
+ }
 }
 for(const route of ['/','/member/','/newsevents/','/contact/'])for(const width of [375,768,1440]){
  const d=await load(route,width);d.documentElement.style.fontSize='200%';
@@ -75,7 +85,7 @@ def main():
     # Archive the temporary test page outside the deliverable.
     harness.replace(AUDIT/'qa-local-only.html')
     print(json.dumps({k:v for k,v in report.items() if k!='report'},ensure_ascii=False),flush=True)
-    for name,path,width,height in [('home-desktop','/',1440,1050),('home-mobile','/',390,1000),('members-mobile','/member/',390,1200),('profile-mobile','/blog/7e2b75b2ff9/',390,1200),('archive-mobile','/newsevents/',390,1100)]:
+    for name,path,width,height in [('home-desktop','/',1440,1050),('home-mobile','/',390,1000),('members-mobile','/member/',390,1200),('profile-mobile','/blog/7e2b75b2ff9/',390,1200),('archive-mobile','/newsevents/',390,1100),('thumbnails-desktop','/newsevents/?year=2018',1440,1350),('thumbnails-mobile','/newsevents/?year=2018',390,1600)]:
         file=AUDIT/(name+'.png')
         # A new filename makes completion independent of a previous run.
         stamp=str(time.time_ns());fresh=AUDIT/(name+'-'+stamp+'.png')

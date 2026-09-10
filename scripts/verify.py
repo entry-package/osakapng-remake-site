@@ -10,7 +10,12 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'dist'
 pages = json.loads((ROOT/'content/source-pages.json').read_text())
+article_lookup = {p['path']:p for p in pages}
+for file in (ROOT/'content/posts').glob('*.json'):
+    p=json.loads(file.read_text()); article_lookup[p['path']]=p
 media = json.loads((ROOT/'content/media-manifest.json').read_text())
+thumbnail_assets = json.loads((ROOT/'content/thumbnail-assets.json').read_text())
+thumbnail_overrides = json.loads((ROOT/'content/thumbnail-overrides.json').read_text())
 routes = json.loads((ROOT/'content/route-manifest.json').read_text())
 failures = []
 checks = []
@@ -43,6 +48,37 @@ for url,entry in media.items():
     file = ROOT/entry.get('local','missing')
     check(entry['status']=='ok' and file.is_file() and hashlib.sha256(file.read_bytes()).hexdigest()==entry.get('sha256'), 'media_checksum',url)
 
+missing_covers = {p['path'] for p in pages if p['type']=='article' and (not p['cover'] or p['cover'].endswith('/images/icons/transparent.png'))}
+check(set(thumbnail_overrides)==missing_covers, 'all_missing_thumbnails_covered', {'missing':sorted(missing_covers-set(thumbnail_overrides)),'unexpected':sorted(set(thumbnail_overrides)-missing_covers)})
+for key,entry in thumbnail_assets.items():
+    file = ROOT/entry['local']
+    check(file.is_file() and hashlib.sha256(file.read_bytes()).hexdigest()==entry['sha256'], 'thumbnail_checksum',key)
+    check((OUT/entry['local']).read_bytes()==file.read_bytes(), 'thumbnail_distributed',key)
+for p in (p for p in pages if p['type']=='article'):
+    override = thumbnail_overrides.get(p['path'])
+    expected = thumbnail_assets[override['asset']]['local'] if override else media[p['cover']]['local']
+    soup = BeautifulSoup((OUT/routes[p['path']]['file']).read_text(),'html.parser')
+    image_url = 'https://www.pngesports.com/'+expected
+    check(soup.select_one('meta[property="og:image"]')['content']==image_url, 'article_cover_matches',p['path'])
+    check(soup.select_one('meta[name="twitter:image"]')['content']==image_url, 'twitter_cover_matches',p['path'])
+    structured=json.loads(soup.select_one('script[type="application/ld+json"]').string)
+    if structured['@type']=='NewsArticle':
+        check(structured['image']==image_url,'structured_cover_matches',p['path'])
+    if override:
+        check(override['source_cover']==p['cover'],'only_missing_cover_overridden',p['path'])
+for route in ['/newsevents','/_blog','/blog/categories/news-1175894','/blog/categories']:
+    soup=BeautifulSoup((OUT/routes[route]['file']).read_text(),'html.parser')
+    seen=set()
+    for card in soup.select('[data-news]'):
+        path=urlsplit(urljoin('https://preview.invalid'+route+'/',card.select_one('h3 a')['href'])).path.rstrip('/')
+        p=article_lookup[path]
+        override=thumbnail_overrides.get(path)
+        expected=thumbnail_assets[override['asset']]['local'] if override else (media[p['cover']]['local'] if p['cover'] else 'assets/hero-logo.png')
+        actual=urlsplit(urljoin('https://preview.invalid'+route+'/',card.select_one('.news-cover img')['src'])).path.lstrip('/')
+        check(actual==expected,'news_card_cover_matches',{'listing':route,'article':path})
+        if override: seen.add(path)
+    check(seen==missing_covers,'all_editorial_covers_listed',route)
+
 for path,entry in routes.items():
     file = OUT/entry['file']; html = file.read_text(); soup=BeautifulSoup(html,'html.parser')
     check(len(soup.find_all('h1'))==1, 'single_h1',path)
@@ -68,7 +104,7 @@ for path,entry in routes.items():
         except Exception:valid=False
         check(valid,'structured_data',path)
 
-summary={'source_pages':len(pages),'articles_verified':sum(p['type']=='article' for p in pages),'source_image_references':sum(len(p['images']) for p in pages if p['type']=='article'),'routes':len(routes),'checks':len(checks),'failures':failures,'result':'PASS' if not failures else 'FAIL'}
+summary={'source_pages':len(pages),'articles_verified':sum(p['type']=='article' for p in pages),'source_image_references':sum(len(p['images']) for p in pages if p['type']=='article'),'routes':len(routes),'editorial_thumbnails':len(thumbnail_overrides),'thumbnail_designs':len(thumbnail_assets),'checks':len(checks),'failures':failures,'result':'PASS' if not failures else 'FAIL'}
 (ROOT/'content/verification.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(summary,ensure_ascii=False,indent=2))
 raise SystemExit(bool(failures))
