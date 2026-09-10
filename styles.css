@@ -1495,7 +1495,7 @@ textarea {
 .profile-update .text-link {
   font-size:.875rem
 }
-/* Preserve the full Japanese title and archive label in editorial thumbnails. */
+/* Preserve the full Japanese title in editorial thumbnails. */
 .news-card--generated .news-cover {
   aspect-ratio:1672 / 941;
   height:auto;

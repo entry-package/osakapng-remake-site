@@ -12,7 +12,7 @@ Strikinglyの公開ページ109件から、記事・プロフィール101件を�
 - `content/stories.json` / `related-sources.json`：PACkage公式の記事11件の調査と、PNGに直接関連する8件の掲載案内。
 - `content/posts/*.json`：新規ニュースの原稿。取得原文とは分けて管理する。
 - `content/media-manifest.json`：画像148参照とローカル保存先・SHA-256。実画像147参照を取得、空のプラットフォーム用カバー1参照は既存ロゴへ置換。
-- `content/thumbnail-overrides.json` / `thumbnail-assets.json`：サムネイル未設定22記事に追加した10種類の編集用画像。生成条件・チェックサムと記事対応を保存。既存のカバー79件と取得本文は変更せず、一覧・OGP・構造化データに反映する。画像には過去のニュースを示す `PNG / ARCHIVE` を記載。
+- `content/thumbnail-overrides.json` / `thumbnail-assets.json`：サムネイル未設定22記事に追加した10種類の編集用画像。生成条件・チェックサムと記事対応を保存。既存のカバー79件と取得本文は変更せず、一覧・OGP・構造化データに反映する。画像内の文言は掲載時点の告知として自然な表現を使う。掲載時期は日付とページ側の注記で伝える。
 - `content/route-manifest.json`：旧URLから出力ファイルへの対応表。
 - `content/editorial-decisions.json`：表題補正・Cookie説明更新などの編集判断。
 - `content/verification.json` / `browser-verification.json` / `external-link-verification.json`：検証結果。
@@ -41,7 +41,7 @@ node --check script.js
 
 `browser_check.py` はMacのChromeのheadless CLIを使用し、ユーザーのログイン済みプロファイルを使わずにローカルサイトだけを確認します。先に上記HTTPサーバーを起動します。6種類の画面幅、文字拡大、検索・リセット、モバイルメニュー、問い合わせの入力検証・本文作成を確認します。メールは送信しません。
 
-追加サムネイルは内蔵image_genで生成したイラストです。実在人物・製品の写真として扱いません。同じ種別の記事には共通デザインを割り当て、固有名詞・日付は原記事の見出しで区別します。WebPは画素寸法を維持して配信用に圧縮したものです。元PNGは `.audit/thumbnail-originals/` に保管し、配布物には軽量なWebPを含めます。原サイトでカバーが追加・変更された場合はビルドを停止し、追補の再確認を求めます。
+追加サムネイルは内蔵image_genで生成したイラストです。実在人物・製品の写真として扱いません。同じ種別の記事には共通デザインを割り当て、固有名詞・日付は原記事の見出しで区別します。WebPは画素寸法を維持して配信用に圧縮したものです。元PNGは `.audit/thumbnail-originals/` に保管し、配布物には軽量なWebPを含めます。修正前の画像は `_archive/thumbnail-v1/` に保管し、サイトには配布しません。原サイトでカバーが追加・変更された場合はビルドを停止し、追補の再確認を求めます。
 
 ## ニュース更新
 

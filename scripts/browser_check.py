@@ -34,7 +34,7 @@ for(const route of routes)for(const width of widths){
   // Image decode promises can outlive headless virtual-time capture. Verify the
   // actual loaded resources after the eager requests have settled instead.
   await new Promise(r=>setTimeout(r,300));
-  assert(images.length===22&&images.every(i=>i.complete&&i.naturalWidth===1672),'all_editorial_images_loaded',{width,count:images.length});
+  assert(images.length===22&&images.every(i=>i.complete&&i.naturalWidth===Number(i.getAttribute('width'))),'all_editorial_images_loaded',{width,count:images.length});
   const clipped=images.filter(i=>{const r=i.getBoundingClientRect(),c=i.parentElement.getBoundingClientRect();return w.getComputedStyle(i).objectFit!=='contain'||Math.abs(r.width/r.height-i.naturalWidth/i.naturalHeight)>.01||r.bottom>c.bottom+1||r.right>c.right+1});
   assert(!clipped.length,'editorial_titles_not_cropped',{width,clipped:clipped.map(i=>i.src)});
  }
