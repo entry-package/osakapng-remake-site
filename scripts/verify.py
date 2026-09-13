@@ -17,6 +17,7 @@ media = json.loads((ROOT/'content/media-manifest.json').read_text())
 thumbnail_assets = json.loads((ROOT/'content/thumbnail-assets.json').read_text())
 thumbnail_overrides = json.loads((ROOT/'content/thumbnail-overrides.json').read_text())
 routes = json.loads((ROOT/'content/route-manifest.json').read_text())
+member_updates = json.loads((ROOT/'content/member-updates.json').read_text())
 failures = []
 checks = []
 def check(ok, kind, detail):
@@ -103,6 +104,18 @@ for path,entry in routes.items():
         try:json.loads(structured.string);valid=True
         except Exception:valid=False
         check(valid,'structured_data',path)
+
+departed = {path for path, update in member_updates.items() if update.get('membership_state') == 'departed'}
+for route in ['/', '/member', '/blog/categories/member-1155238']:
+    soup = BeautifulSoup((OUT/routes[route]['file']).read_text(),'html.parser')
+    listed = {urlsplit(urljoin('https://preview.invalid'+route+'/',a['href'])).path.rstrip('/') for a in soup.select('.talent-card h3 a')}
+    check(not (listed & departed), 'departed_members_not_in_current_roster', route)
+    source_members = {urlsplit(a['href']).path for a in next(p for p in pages if p['path']=='/member')['links'] if '/blog/' in a['href']}
+    check(listed == source_members - departed, 'current_roster_preserved', route)
+for path in departed:
+    soup = BeautifulSoup((OUT/routes[path]['file']).read_text(),'html.parser')
+    check('脱退済み' in soup.select_one('.profile-update').get_text(), 'departure_notice_above_archived_profile', path)
+    check('脱退済み' in soup.find('meta',attrs={'name':'description'})['content'], 'departure_in_profile_description', path)
 
 summary={'source_pages':len(pages),'articles_verified':sum(p['type']=='article' for p in pages),'source_image_references':sum(len(p['images']) for p in pages if p['type']=='article'),'routes':len(routes),'editorial_thumbnails':len(thumbnail_overrides),'thumbnail_designs':len(thumbnail_assets),'checks':len(checks),'failures':failures,'result':'PASS' if not failures else 'FAIL'}
 (ROOT/'content/verification.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')

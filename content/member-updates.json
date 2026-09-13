@@ -1,22 +1,33 @@
 {
- "/blog/3328bc126c9": {
-  "status": "活動休止中",
-  "notice": "Twitchの公式プロフィールで、2025年11月からの活動休止が案内されています。これまでのプロフィールと配信先を掲載しています。",
-  "summary": "幅広いゲームを楽しむマルチタレント。2025年11月から活動休止中。",
-  "source_urls": ["https://www.twitch.tv/aomochisan"],
-  "observed_at": "2026-09-10",
-  "source_excerpt": "OsakaPNG(タレント部門)所属｜2025.11~活動休止",
-  "additional_links": []
- },
- "/blog/d8211521a58": {
-  "notice": "YouTube「不屈【PNG】」では、Battlefield 6を中心とした実況動画を公開しています。本人の公開プロフィールに掲載されている配信先も、こちらからご覧いただけます。",
-  "summary": "Battlefield 6の実況動画を中心に、ゲーム配信を届ける。",
-  "source_urls": ["https://www.openrec.tv/user/NoPain893", "https://www.youtube.com/@%E4%B8%8D%E5%B1%88PNG"],
-  "observed_at": "2026-09-10",
-  "source_excerpt": "メインチャンネル https://www.youtube.com/@%E4%B8%8D%E5%B1%88PNG / サブ https://www.youtube.com/@NoPain893 / Twitch https://www.twitch.tv/hukutu4949",
-  "additional_links": [
-   {"text":"YouTube 不屈【PNG】", "href":"https://www.youtube.com/channel/UCqT24z0FQiR-zgD_zAdPhFQ"},
-   {"text":"Twitch", "href":"https://www.twitch.tv/hukutu4949"}
-  ]
- }
+  "/blog/3328bc126c9": {
+    "membership_state": "departed",
+    "status": "脱退済み",
+    "notice": "隣ノあおこはOsakaPNGを脱退しています。このページのプロフィール・配信先は、所属当時の記録として掲載しています。",
+    "summary": "隣ノあおこ（OsakaPNG脱退済み）。所属当時のプロフィールと活動の記録。",
+    "source_type": "direct_owner_correction",
+    "observed_at": "2026-09-13",
+    "source_note": "Owner directly confirmed departure in the website review on 2026-09-13. Departure date was not provided.",
+    "source_urls": [],
+    "additional_links": []
+  },
+  "/blog/d8211521a58": {
+    "notice": "YouTube「不屈【PNG】」では、Battlefield 6を中心とした実況動画を公開しています。本人の公開プロフィールに掲載されている配信先も、こちらからご覧いただけます。",
+    "summary": "Battlefield 6の実況動画を中心に、ゲーム配信を届ける。",
+    "source_urls": [
+      "https://www.openrec.tv/user/NoPain893",
+      "https://www.youtube.com/@%E4%B8%8D%E5%B1%88PNG"
+    ],
+    "observed_at": "2026-09-10",
+    "source_excerpt": "メインチャンネル https://www.youtube.com/@%E4%B8%8D%E5%B1%88PNG / サブ https://www.youtube.com/@NoPain893 / Twitch https://www.twitch.tv/hukutu4949",
+    "additional_links": [
+      {
+        "text": "YouTube 不屈【PNG】",
+        "href": "https://www.youtube.com/channel/UCqT24z0FQiR-zgD_zAdPhFQ"
+      },
+      {
+        "text": "Twitch",
+        "href": "https://www.twitch.tv/hukutu4949"
+      }
+    ]
+  }
 }

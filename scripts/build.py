@@ -34,6 +34,7 @@ MEMBER_UPDATES = json.loads((ROOT / 'content/member-updates.json').read_text())
 ARTICLES = [p for p in PAGES if p['type'] == 'article']
 MEMBERS = [BY_PATH[path] for path in dict.fromkeys(urlsplit(a['href']).path for a in BY_PATH['/member']['links'] if '/blog/' in a['href'])]
 MEMBER_PATHS = {p['path'] for p in MEMBERS}
+CURRENT_MEMBERS = [p for p in MEMBERS if MEMBER_UPDATES.get(p['path'], {}).get('membership_state') != 'departed']
 NEWS = sorted((p for p in ARTICLES if p['path'] not in MEMBER_PATHS), key=lambda p: p['published_at'], reverse=True)
 TITLE_FIXES = {'/blog/adc014909c5': '美月姫 脱退のお知らせ', '/blog/f2a43fc69c2': 'CoD部門 NevvtonX選手 脱退のお知らせ'}
 ROSTER_COPY = [
@@ -144,6 +145,8 @@ def talent_cards(current):
         # Use the original public portrait, not an inferred talent category.
         portrait = p['images'][0]['url']
         update = MEMBER_UPDATES.get(p['path'],{})
+        if update.get('membership_state') == 'departed':
+            continue
         description = update.get('summary',description)
         socials = ' '.join(anchor(a['href'], a['text'], current) for a in update.get('additional_links',[])+p['links'])
         badge = '<span class="member-status">'+e(update['status'])+'</span>' if update.get('status') else ''
@@ -182,7 +185,7 @@ def page_intro(kicker, heading, description):
 
 def home():
     c = '/'
-    return f'''<section class="hero" aria-labelledby="hero-title"><div class="container hero-grid"><div class="hero-copy"><p class="eyebrow">OSAKA / GAME / STREAMING</p><h1 id="hero-title">好きがつながる。<br>大阪から、<br><span>楽しいを共有する。</span></h1><p class="hero-lead">推しの配信も、会場での出会いも。<br>ゲームの先に広がる楽しさを、OsakaPNGと。</p><div class="actions">{anchor('/member','メンバー・配信を見る ↗',c,'button primary')}{anchor('/newsevents','ニュースを読む',c,'button light')}</div></div><div class="hero-art"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><img src="{asset('assets/hero-logo.png',c)}" alt="OsakaPNG タコヤキペンギン" width="600" height="600" fetchpriority="high"><p>PLAY. CONNECT. ENJOY.</p></div></div><div class="hero-bottom container"><span>FROM OSAKA, WITH FUN.</span><a href="#news">SCROLL TO EXPLORE ↓</a></div></section>
+    return f'''<section class="arena-hero" aria-labelledby="hero-title"><div class="arena-grid"><div class="arena-copy"><p class="arena-kicker"><span>OSAKA IS OUR HOME.</span><span>GAME IS OUR LANGUAGE.</span></p><h1 id="hero-title">大阪から、<br><span>遊びでつながる。</span></h1><p class="arena-lead">本気の一戦も、いつもの配信も。<br>おもろい瞬間を、いっしょに。</p><div class="actions">{anchor('/member','メンバー・配信を見る ↗',c,'button primary')}{anchor('/newsevents','ニュースを読む →',c,'button outline')}</div><p class="arena-signature">楽しいを共有する。<span>OsakaPNG</span></p></div><div class="arena-visual"><img class="arena-city" src="{asset('assets/osaka-game-hero.png',c)}" alt="大阪の街並みとたこ焼き、ゲームコントローラーを組み合わせたイラスト" width="1536" height="1024" fetchpriority="high"><span class="arena-stamp" aria-hidden="true">大阪発<br><b>PLAY TOGETHER.</b></span></div></div><div class="play-strip" aria-label="OsakaPNGの活動"><span>OSAKA PNG</span><span>GAME</span><span>STREAMING</span><span>COMMUNITY</span><a href="#news">LATEST NEWS ↘</a></div></section>
 <section id="news" class="section container">{section_head('NEWS & EVENTS','OsakaPNGの最新情報',c,'/newsevents','過去のニュースも読む')}<div class="news-grid">{''.join(news_card(p,c) for p in NEWS[:3])}</div></section>
 <section id="talents" class="section soft"><div class="container">{section_head('MEMBER','あなたの「好き」に出会おう。',c,'/member','メンバー一覧')}<p class="section-lead">ゲーム、雑談、コラボ。個性豊かなメンバーの配信へ。</p>{talent_cards(c)}</div></section>
 <section id="about" class="section container about-grid"><div><p class="eyebrow">ABOUT OSAKAPNG</p><h2>楽しいを、<br>もっと近くに。</h2><img class="about-mark" src="{asset('assets/brand-mark.png',c)}" alt="" width="100" height="100" loading="lazy"></div><div class="prose"><p>OsakaPNGは、大阪を拠点に活動するタレントチーム。eスポーツ、ゲーム、配信、音楽など、さまざまな「楽しい」を共有します。</p><p>2023年、PNG esportsからOsakaPNGへ。オンラインとリアルの両方で、地元のコミュニティとつながりながら活動しています。</p><p>たこ焼きとペンギンを組み合わせた「タコヤキペンギン」が目印です。</p>{anchor('/about','OsakaPNGの歩みを見る →',c,'text-link')}</div></section>
@@ -200,7 +203,9 @@ def news_index(c):
 
 def article_page(p):
     c = p['path']; is_member = c in MEMBER_PATHS
-    category = 'MEMBER' if is_member else 'NEWS & EVENTS'
+    update = MEMBER_UPDATES.get(c,{})
+    departed = update.get('membership_state') == 'departed'
+    category = 'FORMER MEMBER' if departed else ('MEMBER' if is_member else 'NEWS & EVENTS')
     back = '/member' if is_member else '/newsevents'
     copy = clean_body(p)
     prefix = f'<nav class="breadcrumb container" aria-label="パンくず">{anchor("/","HOME",c)}<span>/</span>{anchor(back,category,c)}</nav>'
@@ -209,7 +214,9 @@ def article_page(p):
     update = MEMBER_UPDATES.get(c,{})
     if update:
         extra_links = ' '.join(anchor(a['href'],a['text'],c) for a in update.get('additional_links',[]))
-        note = '<aside class="profile-update"><p>'+e(update['notice'])+'</p><div class="social-links">'+extra_links+'</div>'+anchor(update['source_urls'][0],'本人の公開プロフィール ↗',c,'text-link')+'</aside>'
+        source_link = anchor(update['source_urls'][0],'本人の公開プロフィール ↗',c,'text-link') if update.get('source_urls') and not departed else ''
+        status = '<strong class="member-status">'+e(update['status'])+'</strong>' if update.get('status') else ''
+        note = '<aside class="profile-update">'+status+'<p>'+e(update['notice'])+'</p><div class="social-links">'+extra_links+'</div>'+source_link+'</aside>'
     neighbors = ''
     if not is_member:
         i = NEWS.index(p)
@@ -218,7 +225,7 @@ def article_page(p):
 
 
 def about(c):
-    return page_intro('ABOUT','楽しいを共有する。','大阪から、ゲーム・eスポーツ・配信・音楽を通じて、人と人がつながる場所へ。') + f'<section class="section container about-grid"><img class="history-logo" src="{asset("assets/hero-logo.png",c)}" alt="OsakaPNG" width="500" height="500"><div class="prose"><h2>OsakaPNGについて</h2><p>株式会社PACkageが運営する、大阪を拠点としたタレントチームです。eスポーツの競技活動から広がり、VTuberやYouTuberなど、さまざまなタレントの活動を届けています。</p><p>オンラインでの配信と、リアル会場でのイベント。両方を通じて、地元のコミュニティと一緒に楽しさを育てていきます。</p><p>マスコットの「タコヤキペンギン」は、大阪のたこ焼きと、PNGの由来であるペンギンを組み合わせたデザインです。</p>{anchor("/blog/e-pngesports-osakapng","2023年のリブランディング発表を読む →",c,"text-link")}</div></section><section class="section soft"><div class="container">{section_head("OUR STORY","これまでと、これから。",c)}<ol class="timeline"><li><strong>2018</strong><div><h3>PNG esportsとしての活動</h3><p>PACkageの設立とともに、大阪を拠点に活動を展開。</p>{anchor("/newsevents?year=2018","2018年の記事を見る →",c)}</div></li><li><strong>2023</strong><div><h3>OsakaPNGへリブランディング</h3><p>地元大阪を名前に冠し、ゲームや音楽など、幅広い「楽しい」を共有するチームへ。</p></div></li><li><strong>NOW</strong><div><h3>配信から、リアルのイベントへ</h3><p>個性豊かなメンバーと一緒に、新しい出会いや楽しさを届けます。</p>{anchor("/member","現在のメンバーを見る →",c)}</div></li></ol></div></section><section class="section container">{section_head("RELATED STORIES","もっと知るOsakaPNG",c,"/stories","活動情報をすべて見る")}{related(c)}</section><section class="section container operator"><img src="{asset("assets/package-logo.png",c)}" alt="PACkage" width="220" height="90"><div><h2>運営会社</h2><p>株式会社PACkage</p>{anchor("https://www.package-inc.com/","会社の公式サイト ↗",c)}</div></section>'
+    return page_intro('ABOUT','楽しいを共有する。','大阪から、ゲーム・eスポーツ・配信・音楽を通じて、人と人がつながる場所へ。') + f'<section class="section container about-grid"><img class="history-logo" src="{asset("assets/hero-logo.png",c)}" alt="OsakaPNG" width="500" height="500"><div class="prose"><h2>OsakaPNGについて</h2><p>株式会社PACkageが運営する、大阪を拠点としたタレントチームです。eスポーツの競技活動から広がり、VTuberやYouTuberなど、さまざまなタレントの活動を届けています。</p><p>オンラインでの配信と、リアル会場でのイベント。両方を通じて、地元のコミュニティと一緒に楽しさを育てていきます。</p><p>マスコットの「タコヤキペンギン」は、大阪のたこ焼きと、PNGの由来であるペンギンを組み合わせたデザインです。</p>{anchor("/blog/e-pngesports-osakapng","2023年のリブランディング発表を読む →",c,"text-link")}</div></section><section class="section soft"><div class="container">{section_head("OUR STORY","これまでと、これから。",c)}<ol class="timeline"><li><strong>2018</strong><div><h3>PNG esportsとしての活動</h3><p>PACkageの設立とともに、大阪を拠点に活動を展開。</p>{anchor("/newsevents?year=2018","2018年の記事を見る →",c)}</div></li><li><strong>2023</strong><div><h3>OsakaPNGへリブランディング</h3><p>地元大阪を名前に冠し、ゲームや音楽など、幅広い「楽しい」を共有するチームへ。</p></div></li><li><strong>NOW</strong><div><h3>配信から、リアルのイベントへ</h3><p>個性豊かなメンバーと一緒に、新しい出会いや楽しさを届けます。</p>{anchor("/member","現在のメンバーを見る →",c)}</div></li></ol></div></section><section class="section container">{section_head("RELATED STORIES","もっと知るOsakaPNG",c,"/stories","活動情報をすべて見る")}{related(c)}</section><section id="operator" class="section container operator"><div class="operator-brand"><img src="{asset("assets/package-logo.png",c)}" alt="PACkage — Players Audience Creators" width="500" height="132" loading="lazy"></div><div><p class="eyebrow">OPERATED BY</p><h2>運営会社</h2><p>株式会社PACkage</p>{anchor("https://www.package-inc.com/","会社の公式サイト ↗",c)}</div></section>'
 
 
 def contact(c):
@@ -243,6 +250,8 @@ def render(path, heading, body, description='', cover='', production=False):
     robots = 'index,follow' if production else 'noindex,nofollow'
     template = (ROOT / 'index.html').read_text()
     values = {'TITLE':e(heading + ' | OsakaPNG'), 'DESCRIPTION':e(description or '大阪から「楽しいを共有する」。OsakaPNGのメンバー、配信、ニュース、イベント、グッズ情報。',quote=True),'CANONICAL':e(canonical),'OG_IMAGE':e(og),'ROBOTS':robots,'CSS':css,'JS':js,'HOME':link('/',path),'BRAND':asset('assets/brand-mark.png',path),'NAV':nav,'BODY':body,'FOOTER':footer,'CONTACT':link('/contact',path),'POLICY':link('/pages/cookie-policy',path),'STRUCTURED':json.dumps(structured,ensure_ascii=False).replace('<','\\u003c')}
+    values['DESIGN_CSS'] = asset('osaka-theme.css', path)
+    values['PAGE_CLASS'] = 'home-page' if path == '/' else 'inner-page'
     for key,value in values.items():
         template = template.replace('{{'+key+'}}',value)
     location = OUT / path.lstrip('/') / 'index.html'
@@ -255,7 +264,7 @@ def main():
     args = argparse.ArgumentParser(); args.add_argument('--production',action='store_true'); opt=args.parse_args()
     OUT.mkdir(exist_ok=True)
     shutil.copytree(ROOT/'assets',OUT/'assets',dirs_exist_ok=True)
-    for file in ('styles.css','script.js'):
+    for file in ('styles.css','osaka-theme.css','script.js'):
         shutil.copyfile(ROOT/file,OUT/file)
     def write(path,heading,body,**kw): render(path,heading,body,production=opt.production,**kw)
     write('/','大阪から、楽しいを共有する。',home())
@@ -264,7 +273,8 @@ def main():
     for path in ['/newsevents','/_blog','/blog/categories/news-1175894','/blog/categories']:
         write(path,'ニュース・イベント',news_index(path))
     for p in ARTICLES:
-        write(p['path'],title(p),article_page(p),description=p['description'],cover=p['cover'])
+        description = MEMBER_UPDATES.get(p['path'],{}).get('summary',p['description'])
+        write(p['path'],title(p),article_page(p),description=description,cover=p['cover'])
     write('/about','OsakaPNGについて',about('/about'))
     write('/contact','お問い合わせ',contact('/contact'))
     write('/stories','PACkage公式の活動情報',page_intro('MORE STORIES','OsakaPNGにまつわる活動情報','運営会社PACkageの公式サイトから。記事の出演者・所属・開催概要は、それぞれの掲載当時の情報です。')+'<section class="container section">'+related('/stories',True)+'</section>')
@@ -282,8 +292,8 @@ def main():
     (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+urls+'</urlset>')
     (OUT/'robots.txt').write_text('User-agent: *\n'+('Allow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n' if opt.production else 'Disallow: /\n'))
     (ROOT/'content/route-manifest.json').write_text(json.dumps(ROUTES,ensure_ascii=False,indent=2)+'\n')
-    (ROOT/'content/editorial-decisions.json').write_text(json.dumps({'title_corrections':TITLE_FIXES,'body_policy':'All 101 original article/profile bodies retained. Use publication dates and separate page notes for temporal context. Thumbnail wording reads as an announcement at the original publication date; no retrospective labels inside images.','profile_copy':'Homepage summaries based only on captured current MEMBER pages; current spelling 紫乃花 りお; VALORANT corrected in summary only.','cookie_policy':'Platform-specific Strikingly policy replaced with implementation-specific text; original retained in source-pages.json.','contact':'Static mail composer and copy fallback; never show an unverified delivery-success message.','related_news':'Eight official company articles linked with original publication dates, selected from eleven reviewed articles. No unrelated neighboring posts imported.','not_proven':'All disappeared content from pre-existing esportspng.com and unpublished/internal/SNS-only information remains unverified.'},ensure_ascii=False,indent=2)+'\n')
-    print(json.dumps({'routes':len(ROUTES),'articles':len(ARTICLES),'news':len(NEWS),'members':len(MEMBERS),'production':opt.production}))
+    (ROOT/'content/editorial-decisions.json').write_text(json.dumps({'title_corrections':TITLE_FIXES,'body_policy':'All 101 original article/profile bodies retained. Use publication dates and separate page notes for temporal context. Thumbnail wording reads as an announcement at the original publication date; no retrospective labels inside images.','profile_copy':'Current roster excludes departed members. Owner confirmed 隣ノあおこ departure on 2026-09-13; original profile body retained with a departure notice. Other summaries use captured public profiles.','cookie_policy':'Platform-specific Strikingly policy replaced with implementation-specific text; original retained in source-pages.json.','contact':'Static mail composer and copy fallback; never show an unverified delivery-success message.','related_news':'Eight official company articles linked with original publication dates, selected from eleven reviewed articles. No unrelated neighboring posts imported.','not_proven':'All disappeared content from pre-existing esportspng.com and unpublished/internal/SNS-only information remains unverified.'},ensure_ascii=False,indent=2)+'\n')
+    print(json.dumps({'routes':len(ROUTES),'articles':len(ARTICLES),'news':len(NEWS),'current_members':len(CURRENT_MEMBERS),'preserved_profiles':len(MEMBERS),'production':opt.production}))
 
 
 if __name__ == '__main__':

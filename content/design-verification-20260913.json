@@ -1,0 +1,98 @@
+{
+  "verified_at": "2026-09-13",
+  "scope": "Local design and departure update. Production migration not performed.",
+  "browser": "Google Chrome via CUA",
+  "visual_checks": [
+    {
+      "page": "/",
+      "width": 1440,
+      "result": "PASS",
+      "observed": "Two-column Osaka/game hero; seven member cards; hero image loaded at natural width 1536."
+    },
+    {
+      "page": "/",
+      "width": 1278,
+      "result": "PASS",
+      "observed": "Final ordinary Chrome viewport after temporary viewport reset; updated hero and seven cards."
+    },
+    {
+      "page": "/",
+      "width": 768,
+      "result": "PASS",
+      "observed": "Stacked hero; navigation and illustration fit; document width 753 <= viewport 768."
+    },
+    {
+      "page": "/",
+      "width": 390,
+      "result": "PASS",
+      "observed": "Updated mobile hero and menu; document width 375 <= viewport 390."
+    },
+    {
+      "page": "/",
+      "width": 320,
+      "result": "PASS",
+      "observed": "CTA buttons wrap vertically; heading and hero fit; document width 305 <= viewport 320."
+    },
+    {
+      "page": "/about/#operator",
+      "width": 1278,
+      "result": "PASS",
+      "observed": "White PACkage logo visible on dark panel beside operator copy; image natural width 500."
+    },
+    {
+      "page": "/about/#operator",
+      "width": 390,
+      "result": "PASS",
+      "observed": "Logo panel and copy stack; image loaded; no horizontal overflow."
+    }
+  ],
+  "functional_checks": [
+    {
+      "name": "mobile_menu_open",
+      "result": "PASS",
+      "observed": "Collapsed button changes to expanded; all five navigation links visible."
+    },
+    {
+      "name": "mobile_member_navigation",
+      "result": "PASS",
+      "observed": "MEMBER navigation opens /member/; after stale preview cache refresh exactly seven talent cards and no departed card."
+    },
+    {
+      "name": "news_search_and_reset",
+      "result": "PASS",
+      "observed": "TwitchBonenkai2024 yields one article; reset returns 93 articles."
+    },
+    {
+      "name": "departed_profile",
+      "result": "PASS",
+      "observed": "/blog/3328bc126c9/ retains source body with FORMER MEMBER and visible 脱退済み notice."
+    },
+    {
+      "name": "preview_cache_fix",
+      "result": "PASS",
+      "observed": "Replaced loopback preview server with scripts/preview.py serving Cache-Control: no-store. Temporary tab cache disable was reset."
+    },
+    {
+      "name": "static_content_regressions",
+      "result": "PASS",
+      "observed": "scripts/verify.py: 6896 checks, zero failures; 101 original bodies, links and 105 image placements retained."
+    },
+    {
+      "name": "local_http_readback",
+      "result": "PASS",
+      "observed": "113 routes: HTTP 200, byte-for-byte matches to dist, Cache-Control no-store."
+    },
+    {
+      "name": "javascript_syntax_and_diff_whitespace",
+      "result": "PASS",
+      "observed": "node --check script.js and git diff --check."
+    }
+  ],
+  "limitations": [
+    "This is a focused current design verification. content/browser-verification.json remains the historical 2026-09-10 record.",
+    "Contact delivery, hosting, DNS, HTTPS and production cutover remain unverified in this change.",
+    "Uncaptured, private or disappeared legacy content remains outside the 101 preserved source records.",
+    "Other member and sponsor current-status master reconciliation remains pending."
+  ],
+  "result": "PASS"
+}

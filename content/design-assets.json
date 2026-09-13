@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-09-13",
+  "reference": "https://www.solary.fr/",
+  "reference_usage": "Visual hierarchy and team-site layout only; no reference artwork, logos or source code copied.",
+  "assets": [
+    {
+      "path": "assets/osaka-game-hero.png",
+      "review_path": "/Users/yamaguchiyu/Downloads/OsakaPNG_デザイン確認_20260913/osaka-game-hero.png",
+      "tool": "built-in image_gen.imagegen",
+      "prompt": "Create one polished original website hero illustration for OsakaPNG, a Japanese gaming and streaming entertainment team based in Osaka. Landscape composition 1536x1024, no text, no typography, no logo, no UI mockup. Art direction: contemporary Japanese urban esports editorial poster, crisp screenprinted cut-paper collage with subtle halftone grain, tactile ink, big confident geometric shapes, not childish clipart. Osaka's Tsutenkaku-like observation tower, Osaka Castle roofs, lively Dotonbori canal facades and bridge, takoyaki in a little paper boat, and a large generic modern video game controller with buttons and a directional pad. Create a visually coherent dynamic city playground, tower near upper center, controller lower right and playful diagonal graphic motion, hero subjects large and legible with generous breathing room. Brand palette: warm pale yellow #fff09c and saffron #ffd43b background, rich deep violet #572398, near-black #17151b, vivid takoyaki orange #f97336, warm off-white accents. Mostly light warm yellow background, dark outlines, premium restrained use of purple and orange. The subject is Osaka + gaming, like a collectible contemporary esports team poster. No space, planets, orbital rings, stars, galaxies, floating spheres, neon cyberpunk, gradients, photorealism, third party mascots, recognizable game IP, sponsor logos, fake Japanese signage, random letters, watermarks. No large blank left-half needed; this image will occupy the RIGHT side of a split website banner with real HTML headline outside the image. Crop-friendly edges, essential objects inside central 80 percent.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "role": "Original Osaka and gaming hero illustration; not a documentary photograph.",
+      "postprocessing": "None. Cropping and overlay typography are CSS only.",
+      "sha256": "84d97071778f4655235eea4dc880d50c25130adabce1a84feda11bcbdaa489ed"
+    }
+  ]
+}
