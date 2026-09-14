@@ -15,18 +15,25 @@
   "other_subdomains_dns": "unchanged; 15 record checks passed",
   "onepassword_policy": "already present in ~/.codex/AGENTS.md at task start; no edits needed; autofill runtime not exercised because existing login was active",
   "checked_at": "2026-09-14T05:06:36.437610+00:00",
-  "status": "custom_domain_https_verified_browser_cache_pending",
+  "status": "complete_custom_domain_https_verified",
   "published_commit": "596105906cd222274cf2fb81b0df7c57128fd321",
   "tls_verification_report": "domain-transport-verification.json",
-  "browser_status": "Chrome normal reload still returns legacy Strikingly content; DNS cache clear page blocked by browser URL policy, no workaround used",
-  "remaining": [
-    "Confirm normal Chrome official URL displays the new site after local DNS cache expires"
-  ],
+  "browser_status": "Chrome normal reload displays the new OsakaPNG site; desktop screenshot verified",
+  "remaining": [],
   "updated_at": "2026-09-14T05:53:58.522219+00:00",
   "transport_checks": 13,
   "transport_failures": 0,
   "live_delivery_checks": 398,
   "live_delivery_failures": 0,
   "dns_resolution": "public DNS answers from Google and Cloudflare; process-local resolver override; normal TLS validation retained",
-  "recovery_record": "certificate-recovery-20260914.json"
+  "recovery_record": "certificate-recovery-20260914.json",
+  "browser_checks": {
+    "url": "https://www.pngesports.com/",
+    "clientWidth": 1441,
+    "scrollWidth": 1441,
+    "heroNaturalWidth": 1536,
+    "visible_images_loaded": true
+  },
+  "browser_cache_resolution": "Normal reload later displayed the new site. DNS cache clear page was blocked by browser URL policy; no workaround or system setting changes.",
+  "verified_at": "2026-09-14T05:58:22.910720+00:00"
 }

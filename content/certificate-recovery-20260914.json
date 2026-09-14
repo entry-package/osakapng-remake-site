@@ -8,7 +8,7 @@
     "Clicked Check again after GitHub returned InvalidCNAMEError"
   ],
   "after": "Certificate Requested 1/3 → Certificate Active 3/3; Enforce HTTPS enabled",
-  "status": "https_and_content_delivery_verified",
+  "status": "verified_complete",
   "root_cause": "GitHub-side DNS/check state discrepancy; internal cause unconfirmed. Re-registration and Check again preceded successful issuance.",
   "transport_passed": 13,
   "delivery_passed": 398,
@@ -16,5 +16,13 @@
   "github_deployment_commit": "596105906cd222274cf2fb81b0df7c57128fd321",
   "prior_case_source": "BoK RELEASE.md and prior-session evidence",
   "csb_recall": "Published knowledge search found no relevant website certificate record; read local BoK primary release evidence and memory pointers",
-  "csb_capture_decision": "skip; same-domain re-registration procedure duplicates existing BoK lesson; internal cause unconfirmed"
+  "csb_capture_decision": "skip; same-domain re-registration procedure duplicates existing BoK lesson; internal cause unconfirmed",
+  "chrome_verification": {
+    "url": "https://www.pngesports.com/",
+    "clientWidth": 1441,
+    "scrollWidth": 1441,
+    "heroNaturalWidth": 1536,
+    "visible_images_loaded": true
+  },
+  "cache_resolution": "Normal reload later displayed the new site. DNS cache clear page was blocked by browser URL policy; no workaround or system setting changes."
 }
