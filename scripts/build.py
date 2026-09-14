@@ -262,7 +262,7 @@ def render(path, heading, body, description='', cover='', production=False):
     structured = breadcrumb
     if p and p['type'] == 'article' and path not in MEMBER_PATHS:
         structured = {'@context':'https://schema.org','@type':'NewsArticle','headline':heading,'datePublished':p['published_at'],'image':og,'mainEntityOfPage':canonical,'publisher':breadcrumb}
-    robots = 'index,follow' if production else 'noindex,nofollow'
+    robots = 'index,follow' if production and path != '/404' else 'noindex,nofollow'
     template = (ROOT / 'index.html').read_text()
     values = {'TITLE':e(heading + ' | OsakaPNG'), 'DESCRIPTION':e(description or '大阪から「楽しいを共有する」。OsakaPNGのメンバー、配信、ニュース、イベント、グッズ情報。',quote=True),'CANONICAL':e(canonical),'OG_IMAGE':e(og),'ROBOTS':robots,'CSS':css,'JS':js,'HOME':link('/',path),'BRAND':asset('assets/brand-mark.png',path),'NAV':nav,'BODY':body,'FOOTER':footer,'CONTACT':link('/contact',path),'POLICY':link('/pages/cookie-policy',path),'STRUCTURED':json.dumps(structured,ensure_ascii=False).replace('<','\\u003c')}
     values['DESIGN_CSS'] = asset('osaka-theme.css', path)
@@ -276,8 +276,18 @@ def render(path, heading, body, description='', cover='', production=False):
 
 
 def main():
-    args = argparse.ArgumentParser(); args.add_argument('--production',action='store_true'); opt=args.parse_args()
-    OUT.mkdir(exist_ok=True)
+    global OUT
+    args = argparse.ArgumentParser()
+    args.add_argument('--production', action='store_true')
+    args.add_argument('--output', type=Path, default=OUT)
+    args.add_argument('--base-path', default='', help='Hosting subdirectory, used by the fallback 404 page')
+    opt = args.parse_args()
+    OUT = opt.output.resolve()
+    base_path = '/' + opt.base_path.strip('/') if opt.base_path.strip('/') else ''
+    if base_path and not re.fullmatch(r'/[A-Za-z0-9_-]+(?:/[A-Za-z0-9_-]+)*', base_path):
+        args.error('--base-path must be a URL directory path')
+    OUT.mkdir(parents=True, exist_ok=True)
+    (OUT / '.nojekyll').write_text('')
     shutil.copytree(ROOT/'assets',OUT/'assets',dirs_exist_ok=True)
     for file in ('styles.css','osaka-theme.css','script.js'):
         shutil.copyfile(ROOT/file,OUT/file)
@@ -301,7 +311,7 @@ def main():
         value=tag[attr]
         if not urlsplit(value).scheme and not urlsplit(value).netloc:
             u=urlsplit(urljoin(ORIGIN+'/404/',value))
-            tag[attr]=urlunsplit(('', '', u.path, u.query, u.fragment))
+            tag[attr]=urlunsplit(('', '', base_path + u.path, u.query, u.fragment))
     (OUT/'404.html').write_text(str(notfound))
     urls = ''.join('<url><loc>'+e(ORIGIN+path)+'</loc></url>' for path in ROUTES if path!='/404')
     (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+urls+'</urlset>')

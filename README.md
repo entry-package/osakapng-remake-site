@@ -83,3 +83,16 @@ python3 scripts/verify.py
 - 旧Strikingly問い合わせは `/contact/` へ置換済み。監査で404だった46 URLは記事の文言を残してクリック先を外し、該当記事に注記を付けた。これはアカウント削除の断定ではない。ネットワーク・アクセス制限による未検証URLはリンク解除の対象外。外部リンク監査は既存の確認結果を再利用するため、全件の最新疎通を証明するものではない。
 
 `--production` は noindex を外すローカル生成オプションです。公開承認・デプロイを意味しません。確認版ZIPをそのまま本番配置すると noindex のままなので、最終GO後のリリース作業で再生成し、公開先で確認する必要があります。`404.html` はホストの404応答ページに使用できます。通常ルートはディレクトリーのindex.htmlで元のパスを維持します。
+
+## 2026-09-14 公開ビルド
+
+GitHub Pagesは既存の `main` ブランチ直下を公開します。開発ソースのテンプレートをそのまま `main` にマージせず、検証済み生成物だけを別の公開ブランチへコピーし、PRから反映します。
+
+```sh
+python3 scripts/build.py --production --output /path/to/release/site --base-path /osakapng-remake-site
+python3 scripts/verify.py --production --output /path/to/release/site --base-path /osakapng-remake-site --report /path/to/release/verification.json
+```
+
+独自ドメインのルート直下に切り替える際は `--base-path` を省略して再生成します。通常ページの内部リンクは相対パスで、`--base-path` は未知のURLに表示する `404.html` の参照先に適用します。`.nojekyll` で旧 `/_blog/` も配信対象にします。通常ページは `index,follow`、404は `noindex,nofollow` とし、robots.txt・sitemap.xml・canonicalも検証します。監査ファイルや取得原文、ローカル環境は配布物に含めません。
+
+2026-09-14のChrome確認で、柔らかなタコペンのトップをPCとモバイルで目視確認しました。モバイルDOMの幅とscrollWidthはともに375pxで横はみ出しなし、画像のnaturalWidthは1536pxです。公開先の読戻しと独自ドメインの切替状態はリリース記録を別途参照してください。

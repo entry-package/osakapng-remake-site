@@ -1,7 +1,9 @@
 """Independent content-conservation and static-release checks."""
+import argparse
 import hashlib
 import json
 import re
+import xml.etree.ElementTree as ET
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit, unquote
@@ -9,6 +11,13 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'dist'
+parser = argparse.ArgumentParser()
+parser.add_argument('--production', action='store_true')
+parser.add_argument('--output', type=Path, default=OUT)
+parser.add_argument('--report', type=Path, default=ROOT / 'content/verification.json')
+parser.add_argument('--base-path', default='')
+args = parser.parse_args()
+OUT = args.output.resolve()
 pages = json.loads((ROOT/'content/source-pages.json').read_text())
 article_lookup = {p['path']:p for p in pages}
 for file in (ROOT/'content/posts').glob('*.json'):
@@ -100,7 +109,9 @@ for path,entry in routes.items():
     file = OUT/entry['file']; html = file.read_text(); soup=BeautifulSoup(html,'html.parser')
     check(len(soup.find_all('h1'))==1, 'single_h1',path)
     check(soup.title and len(soup.title.get_text())>5,'page_title',path)
-    check(soup.find('meta',attrs={'name':'robots'}).get('content')=='noindex,nofollow','preview_not_indexed',path)
+    expected_robots = 'index,follow' if args.production and path != '/404' else 'noindex,nofollow'
+    check(soup.find('meta',attrs={'name':'robots'}).get('content') == expected_robots, 'indexing_policy', path)
+    check(soup.select_one('link[rel="canonical"]')['href'] == 'https://www.pngesports.com' + path, 'canonical_url', path)
     check(not re.search(r'\{\{[A-Z_]+\}\}',html),'no_template_tokens',path)
     check(not soup.select('script[src^="http"],iframe'),'no_platform_script_or_embed',path)
     ids = [x['id'] for x in soup.select('[id]')]
@@ -149,7 +160,24 @@ for path in departed:
     check('脱退済み' in soup.select_one('.profile-update').get_text(), 'departure_notice_above_archived_profile', path)
     check('脱退済み' in soup.find('meta',attrs={'name':'description'})['content'], 'departure_in_profile_description', path)
 
-summary={'source_pages':len(pages),'articles_verified':sum(p['type']=='article' for p in pages),'source_image_references':sum(len(p['images']) for p in pages if p['type']=='article'),'routes':len(routes),'editorial_thumbnails':len(thumbnail_overrides),'thumbnail_designs':len(thumbnail_assets),'checks':len(checks),'failures':failures,'result':'PASS' if not failures else 'FAIL'}
-(ROOT/'content/verification.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
+expected_robots_file = 'User-agent: *\n' + ('Allow: /\nSitemap: https://www.pngesports.com/sitemap.xml\n' if args.production else 'Disallow: /\n')
+check((OUT/'robots.txt').read_text() == expected_robots_file, 'robots_file_policy', args.production)
+check((OUT/'.nojekyll').is_file(), 'jekyll_disabled', '.nojekyll')
+sitemap_urls = {element.text for element in ET.parse(OUT/'sitemap.xml').iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
+check(sitemap_urls == {'https://www.pngesports.com' + path for path in routes if path != '/404'}, 'sitemap_routes', len(sitemap_urls))
+fallback = BeautifulSoup((OUT/'404.html').read_text(), 'html.parser')
+check(fallback.select_one('meta[name="robots"]')['content'] == 'noindex,nofollow', 'fallback_not_indexed', '404.html')
+base_path = '/' + args.base_path.strip('/') if args.base_path.strip('/') else ''
+for tag in fallback.select('a[href],link[href],script[src],img[src]'):
+    value = tag.get('href') or tag.get('src')
+    parsed = urlsplit(value)
+    if parsed.scheme or parsed.netloc: continue
+    check(parsed.path.startswith(base_path + '/'), 'fallback_hosting_path', value)
+    target = OUT / parsed.path[len(base_path):].lstrip('/')
+    if target.is_dir(): target /= 'index.html'
+    check(target.is_file(), 'fallback_local_target', value)
+summary={'source_pages':len(pages),'articles_verified':sum(p['type']=='article' for p in pages),'source_image_references':sum(len(p['images']) for p in pages if p['type']=='article'),'routes':len(routes),'editorial_thumbnails':len(thumbnail_overrides),'thumbnail_designs':len(thumbnail_assets),'production':args.production,'checks':len(checks),'failures':failures,'result':'PASS' if not failures else 'FAIL'}
+args.report.parent.mkdir(parents=True, exist_ok=True)
+args.report.write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(summary,ensure_ascii=False,indent=2))
 raise SystemExit(bool(failures))
