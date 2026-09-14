@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-14",
+  "scope": "Fundamental hero art-direction revision and matching hero presentation",
+  "generated_artwork_inspected": true,
+  "observed_artwork": "Soft plush Takopen, short rounded body, tiny orange feet, blush cheeks, sauce and pick identity, small map and satchel, pastel miniature Osaka and game storefront icon.",
+  "static_checks": 6896,
+  "static_failures": 0,
+  "http_readback": {
+    "paths": [
+      "/",
+      "/assets/takopen-osaka-soft-hero.png",
+      "/osaka-theme.css"
+    ],
+    "matches_dist": true,
+    "status": 200
+  },
+  "overlay_removed_from_generated_home": true,
+  "browser_rendering": "UNVERIFIED: CUA surfaces unavailable",
+  "production_published": false
+}
