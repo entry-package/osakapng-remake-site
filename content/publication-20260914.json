@@ -1,0 +1,28 @@
+{
+  "published_url": "https://entry-package.github.io/osakapng-remake-site/",
+  "pull_request": "https://github.com/entry-package/osakapng-remake-site/pull/1",
+  "merge_commit": "401282bd32c6fbc8def0f12e55983fa3d7e02bed",
+  "workflow_url": "https://github.com/entry-package/osakapng-remake-site/actions/runs/34805705868",
+  "workflow_conclusion": "success",
+  "published_at": "2026-09-14T04:21:21Z",
+  "source_commit": "ccfa545e9bc1d40cc0e4f419d1495aeb8d1bd9e9",
+  "release_head": "9ff3fc90f3155cf2e033beec747e476ff8b21d4c",
+  "static_checks": 7720,
+  "live_delivery_checks": 398,
+  "live_delivery_failures": 0,
+  "routes": 113,
+  "public_browser_top": "Chrome screenshot verified after deployment",
+  "local_browser_widths": {
+    "desktop_screenshot": true,
+    "mobile_dom_client_width": 375,
+    "mobile_dom_scroll_width": 375
+  },
+  "custom_domain_status": "needs_owner_login; DNS still points to Strikingly; GitHub custom domain not configured",
+  "mail_delivery": "not tested; existing static mail composer and copy fallback",
+  "rollback_commit": "d6ce37fe3bd615d907423b7045307fa7e5def4b1",
+  "limits": [
+    "Canonical, sitemap and OGP URLs target the official domain; cutover remains pending.",
+    "Existing X and other external link audit includes cached results, not a full fresh external audit.",
+    "Strikingly subscription is retained."
+  ]
+}
