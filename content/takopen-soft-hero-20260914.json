@@ -18,5 +18,19 @@
   "postprocessing": "None",
   "previous_asset_preserved": "assets/takopen-osaka-hero.png",
   "scope": "Homepage hero illustration and alternative text, removal of large overlay label, softer headline and buttons, full image aspect ratio on mobile.",
-  "sha256": "bc7d6585bedd9a1001dacb860ba21b304015abfd94ac97707d73752a910466fa"
+  "sha256": "bc7d6585bedd9a1001dacb860ba21b304015abfd94ac97707d73752a910466fa",
+  "webp_delivery": {
+    "asset": "assets/takopen-osaka-soft-hero.webp",
+    "sha256": "0794384dd88a9bf744851d8486b52732a54daabdadaa6cac0866a716de0a7bd2",
+    "bytes": 148740,
+    "source_png_bytes": 1936648,
+    "encoder": "Pillow WEBP quality=90 method=6",
+    "pixel_size": [
+      1536,
+      1024
+    ],
+    "added": "2026-09-14",
+    "markup": "<picture><source type=image/webp> with PNG <img> fallback",
+    "reason": "Hero PNG (1.9MB) was the largest transfer on the home page; owner requested WebP."
+  }
 }
