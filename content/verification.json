@@ -5,7 +5,8 @@
   "routes": 113,
   "editorial_thumbnails": 22,
   "thumbnail_designs": 10,
-  "checks": 7567,
+  "production": false,
+  "checks": 7720,
   "failures": [],
   "result": "PASS"
 }
