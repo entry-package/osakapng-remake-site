@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-14T05:12:48.348514+00:00",
+  "checked_at": "2026-09-14T05:51:20.665065+00:00",
   "resolver": "1.1.1.1; process-local only",
   "resolved": {
     "www.pngesports.com": [
@@ -19,85 +19,169 @@
     {
       "host": "www.pngesports.com",
       "ip": "185.199.108.153",
-      "pass": false,
-      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.pngesports.com'. (_ssl.c:1082)"
+      "pass": true,
+      "subjectAltName": [
+        [
+          "DNS",
+          "pngesports.com"
+        ],
+        [
+          "DNS",
+          "www.pngesports.com"
+        ]
+      ],
+      "notAfter": "Dec 13 04:51:34 2026 GMT"
     },
     {
       "host": "www.pngesports.com",
       "ip": "185.199.109.153",
-      "pass": false,
-      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.pngesports.com'. (_ssl.c:1082)"
+      "pass": true,
+      "subjectAltName": [
+        [
+          "DNS",
+          "pngesports.com"
+        ],
+        [
+          "DNS",
+          "www.pngesports.com"
+        ]
+      ],
+      "notAfter": "Dec 13 04:51:34 2026 GMT"
     },
     {
       "host": "www.pngesports.com",
       "ip": "185.199.110.153",
-      "pass": false,
-      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.pngesports.com'. (_ssl.c:1082)"
+      "pass": true,
+      "subjectAltName": [
+        [
+          "DNS",
+          "pngesports.com"
+        ],
+        [
+          "DNS",
+          "www.pngesports.com"
+        ]
+      ],
+      "notAfter": "Dec 13 04:51:34 2026 GMT"
     },
     {
       "host": "www.pngesports.com",
       "ip": "185.199.111.153",
-      "pass": false,
-      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.pngesports.com'. (_ssl.c:1082)"
+      "pass": true,
+      "subjectAltName": [
+        [
+          "DNS",
+          "pngesports.com"
+        ],
+        [
+          "DNS",
+          "www.pngesports.com"
+        ]
+      ],
+      "notAfter": "Dec 13 04:51:34 2026 GMT"
     },
     {
       "host": "pngesports.com",
       "ip": "185.199.108.153",
-      "pass": false,
-      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pngesports.com'. (_ssl.c:1082)"
+      "pass": true,
+      "subjectAltName": [
+        [
+          "DNS",
+          "pngesports.com"
+        ],
+        [
+          "DNS",
+          "www.pngesports.com"
+        ]
+      ],
+      "notAfter": "Dec 13 04:51:34 2026 GMT"
     },
     {
       "host": "pngesports.com",
       "ip": "185.199.109.153",
-      "pass": false,
-      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pngesports.com'. (_ssl.c:1082)"
+      "pass": true,
+      "subjectAltName": [
+        [
+          "DNS",
+          "pngesports.com"
+        ],
+        [
+          "DNS",
+          "www.pngesports.com"
+        ]
+      ],
+      "notAfter": "Dec 13 04:51:34 2026 GMT"
     },
     {
       "host": "pngesports.com",
       "ip": "185.199.110.153",
-      "pass": false,
-      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pngesports.com'. (_ssl.c:1082)"
+      "pass": true,
+      "subjectAltName": [
+        [
+          "DNS",
+          "pngesports.com"
+        ],
+        [
+          "DNS",
+          "www.pngesports.com"
+        ]
+      ],
+      "notAfter": "Dec 13 04:51:34 2026 GMT"
     },
     {
       "host": "pngesports.com",
       "ip": "185.199.111.153",
-      "pass": false,
-      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pngesports.com'. (_ssl.c:1082)"
+      "pass": true,
+      "subjectAltName": [
+        [
+          "DNS",
+          "pngesports.com"
+        ],
+        [
+          "DNS",
+          "www.pngesports.com"
+        ]
+      ],
+      "notAfter": "Dec 13 04:51:34 2026 GMT"
     }
   ],
   "redirects": [
     {
       "url": "http://www.pngesports.com/",
-      "final_url": "http://www.pngesports.com/",
+      "final_url": "https://www.pngesports.com/",
       "status": 200,
       "sha256": "0aa757d9dcecf7f80d6973dcbeecc2aac0c816d607448b48b23c886fe7502528",
-      "pass": false
+      "pass": true
     },
     {
       "url": "http://pngesports.com/",
-      "final_url": "http://www.pngesports.com/",
+      "final_url": "https://www.pngesports.com/",
       "status": 200,
       "sha256": "0aa757d9dcecf7f80d6973dcbeecc2aac0c816d607448b48b23c886fe7502528",
-      "pass": false
+      "pass": true
     },
     {
       "url": "https://pngesports.com/",
-      "pass": false,
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pngesports.com'. (_ssl.c:1082)>"
+      "final_url": "https://www.pngesports.com/",
+      "status": 200,
+      "sha256": "0aa757d9dcecf7f80d6973dcbeecc2aac0c816d607448b48b23c886fe7502528",
+      "pass": true
     },
     {
       "url": "https://www.pngesports.com/",
-      "pass": false,
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.pngesports.com'. (_ssl.c:1082)>"
+      "final_url": "https://www.pngesports.com/",
+      "status": 200,
+      "sha256": "0aa757d9dcecf7f80d6973dcbeecc2aac0c816d607448b48b23c886fe7502528",
+      "pass": true
     },
     {
       "url": "https://entry-package.github.io/osakapng-remake-site/",
-      "final_url": "http://www.pngesports.com/",
+      "final_url": "https://www.pngesports.com/",
       "status": 200,
       "sha256": "0aa757d9dcecf7f80d6973dcbeecc2aac0c816d607448b48b23c886fe7502528",
-      "pass": false
+      "pass": true
     }
   ],
-  "passed": 0,
+  "passed": 13,
   "checks": 13
 }

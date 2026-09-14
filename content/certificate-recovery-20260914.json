@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-09-14T05:50:15.484649+00:00",
+  "prior_case": "BoK: same-domain re-registration resolved stalled HTTPS on 2026-09-11; internal cause was not identified",
+  "before": "GitHub InvalidCNAMEError despite correct authoritative, Google and Cloudflare CNAME answers",
+  "dns_diagnostics": "apex A correct; no conflicting apex AAAA/CAA; CNAME chain permits letsencrypt.org; .com NS delegation and both authoritative TCP responses confirmed",
+  "actions": [
+    "Removed and re-added www.pngesports.com after current DNS verification",
+    "Clicked Check again after GitHub returned InvalidCNAMEError"
+  ],
+  "after": "Certificate Requested 1/3 → Certificate Active 3/3; Enforce HTTPS enabled",
+  "status": "https_and_content_delivery_verified",
+  "root_cause": "GitHub-side DNS/check state discrepancy; internal cause unconfirmed. Re-registration and Check again preceded successful issuance.",
+  "transport_passed": 13,
+  "delivery_passed": 398,
+  "dns_changed_during_recovery": false,
+  "github_deployment_commit": "596105906cd222274cf2fb81b0df7c57128fd321",
+  "prior_case_source": "BoK RELEASE.md and prior-session evidence",
+  "csb_recall": "Published knowledge search found no relevant website certificate record; read local BoK primary release evidence and memory pointers",
+  "csb_capture_decision": "skip; same-domain re-registration procedure duplicates existing BoK lesson; internal cause unconfirmed"
+}

@@ -1,6 +1,6 @@
 # OsakaPNG 自社管理サイト
 
-Strikinglyの公開ページ109件から、記事・プロフィール101件を元のURLで再構築した静的サイトです。本文・画像を保全し、記事内リンクの修正は別表で管理しています。現在の公開プロフィールから不足情報を補っています。2026-09-14に確認済み修正版を既存のGitHub Pagesへ公開しました。独自ドメインのDNS切替を適用済みで、GitHubのHTTPS証明書発行待ちです。Strikingly解約は未実施です。初回公開記録は `content/publication-20260914.json`、現在の切替状態は `content/custom-domain-publication-20260914.json` を参照。
+Strikinglyの公開ページ109件から、記事・プロフィール101件を元のURLで再構築した静的サイトです。本文・画像を保全し、記事内リンクの修正は別表で管理しています。現在の公開プロフィールから不足情報を補っています。2026-09-14に確認済み修正版を既存のGitHub Pagesへ公開しました。独自ドメインのDNS切替とHTTPSを検証済みです。このMacの旧DNSキャッシュによるChrome表示確認が残っています。Strikingly解約は未実施です。初回公開記録は `content/publication-20260914.json`、現在の切替状態は `content/custom-domain-publication-20260914.json` を参照。
 
 ## 構成
 
@@ -75,7 +75,7 @@ python3 scripts/verify.py
 
 ## 切替の保留事項
 
-- GitHub Pagesの初回URLでは公開・HTTPS・全113ルートの読戻しが完了。独自ドメインのDNS変更とメール・既存サブドメインの維持は43項目PASS。GitHub側の証明書発行、Enforce HTTPS、正式URLの実配信・Chrome確認が残る。
+- GitHub Pagesの初回URLでは公開・HTTPS・全113ルートの読戻しが完了。独自ドメインのDNS変更とメール・既存サブドメインの維持は43項目PASS。GitHub側の証明書発行とEnforce HTTPSを確認済みで、正式HTTPSから398件の内容一致と13件の証明書・転送検証がPASS。このMacの旧DNSキャッシュ解消後のChrome表示確認が残る。
 - Strikinglyの下書き・非公開記事と、取得できなかった旧 `esportspng.com` の消失内容。今回の「欠落ゼロ」は取得済み101本文に限る。
 - 現行サイト掲載者の現在の所属・掲載区分。公開情報で確定できない変更は推測で反映しない。
 - 隣ノあおこの脱退は2026-09-13の運営者の直接訂正で反映済み。他の所属・スポンサー情報は別途正本との確認が必要。
