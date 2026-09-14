@@ -1,0 +1,29 @@
+{
+  "official_url": "https://www.pngesports.com/",
+  "dns_status": "applied and verified against both authoritative servers, Cloudflare and Google",
+  "dns_checks": 43,
+  "dns_failures": 0,
+  "github_custom_domain": "www.pngesports.com",
+  "tls_status": "certificate issuance pending; provisioning restarted once using official GitHub instructions",
+  "https_enforced": false,
+  "merge_commit": "319bbd4cdf7f649cd2b9c32c4b272e99d2f7ae50",
+  "pull_request": "https://github.com/entry-package/osakapng-remake-site/pull/2",
+  "workflow_id": 34808394719,
+  "workflow_conclusion": "success",
+  "http_release_match": true,
+  "mail_dns": "unchanged; 50 mx01.lolipop.jp.",
+  "other_subdomains_dns": "unchanged; 15 record checks passed",
+  "onepassword_policy": "already present in ~/.codex/AGENTS.md at task start; no edits needed; autofill runtime not exercised because existing login was active",
+  "checked_at": "2026-09-14T05:06:36.437610+00:00",
+  "status": "dns_cutover_applied_tls_pending",
+  "published_commit": "53590304ccabdc3a73d014d7466f7d64101752da",
+  "tls_verification_report": "domain-transport-verification.json",
+  "browser_status": "Chrome official URL still displays Strikingly through existing DNS cache",
+  "remaining": [
+    "GitHub must issue certificate for www.pngesports.com and pngesports.com",
+    "Enable Enforce HTTPS when available",
+    "Run full 398 HTTPS delivery checks and 13 transport checks",
+    "Reload official domain in Chrome after DNS propagation"
+  ],
+  "updated_at": "2026-09-14T05:13:49.622778+00:00"
+}

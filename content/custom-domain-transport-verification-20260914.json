@@ -1,0 +1,103 @@
+{
+  "checked_at": "2026-09-14T05:12:48.348514+00:00",
+  "resolver": "1.1.1.1; process-local only",
+  "resolved": {
+    "www.pngesports.com": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "pngesports.com": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ]
+  },
+  "certificates": [
+    {
+      "host": "www.pngesports.com",
+      "ip": "185.199.108.153",
+      "pass": false,
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.pngesports.com'. (_ssl.c:1082)"
+    },
+    {
+      "host": "www.pngesports.com",
+      "ip": "185.199.109.153",
+      "pass": false,
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.pngesports.com'. (_ssl.c:1082)"
+    },
+    {
+      "host": "www.pngesports.com",
+      "ip": "185.199.110.153",
+      "pass": false,
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.pngesports.com'. (_ssl.c:1082)"
+    },
+    {
+      "host": "www.pngesports.com",
+      "ip": "185.199.111.153",
+      "pass": false,
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.pngesports.com'. (_ssl.c:1082)"
+    },
+    {
+      "host": "pngesports.com",
+      "ip": "185.199.108.153",
+      "pass": false,
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pngesports.com'. (_ssl.c:1082)"
+    },
+    {
+      "host": "pngesports.com",
+      "ip": "185.199.109.153",
+      "pass": false,
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pngesports.com'. (_ssl.c:1082)"
+    },
+    {
+      "host": "pngesports.com",
+      "ip": "185.199.110.153",
+      "pass": false,
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pngesports.com'. (_ssl.c:1082)"
+    },
+    {
+      "host": "pngesports.com",
+      "ip": "185.199.111.153",
+      "pass": false,
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pngesports.com'. (_ssl.c:1082)"
+    }
+  ],
+  "redirects": [
+    {
+      "url": "http://www.pngesports.com/",
+      "final_url": "http://www.pngesports.com/",
+      "status": 200,
+      "sha256": "0aa757d9dcecf7f80d6973dcbeecc2aac0c816d607448b48b23c886fe7502528",
+      "pass": false
+    },
+    {
+      "url": "http://pngesports.com/",
+      "final_url": "http://www.pngesports.com/",
+      "status": 200,
+      "sha256": "0aa757d9dcecf7f80d6973dcbeecc2aac0c816d607448b48b23c886fe7502528",
+      "pass": false
+    },
+    {
+      "url": "https://pngesports.com/",
+      "pass": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pngesports.com'. (_ssl.c:1082)>"
+    },
+    {
+      "url": "https://www.pngesports.com/",
+      "pass": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.pngesports.com'. (_ssl.c:1082)>"
+    },
+    {
+      "url": "https://entry-package.github.io/osakapng-remake-site/",
+      "final_url": "http://www.pngesports.com/",
+      "status": 200,
+      "sha256": "0aa757d9dcecf7f80d6973dcbeecc2aac0c816d607448b48b23c886fe7502528",
+      "pass": false
+    }
+  ],
+  "passed": 0,
+  "checks": 13
+}

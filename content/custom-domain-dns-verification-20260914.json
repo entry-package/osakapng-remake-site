@@ -1,0 +1,335 @@
+{
+  "checked_at": "2026-09-14T05:04:03.424437+00:00",
+  "records": {
+    "dns01.muumuu-domain.com": {
+      "pngesports.com NS": [
+        "dns01.muumuu-domain.com.",
+        "dns02.muumuu-domain.com."
+      ],
+      "pngesports.com A": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153"
+      ],
+      "pngesports.com AAAA": [],
+      "pngesports.com MX": [
+        "50 mx01.lolipop.jp."
+      ],
+      "pngesports.com TXT": [],
+      "pngesports.com CAA": [],
+      "www.pngesports.com CNAME": [
+        "entry-package.github.io."
+      ]
+    },
+    "dns02.muumuu-domain.com": {
+      "pngesports.com NS": [
+        "dns01.muumuu-domain.com.",
+        "dns02.muumuu-domain.com."
+      ],
+      "pngesports.com A": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153"
+      ],
+      "pngesports.com AAAA": [],
+      "pngesports.com MX": [
+        "50 mx01.lolipop.jp."
+      ],
+      "pngesports.com TXT": [],
+      "pngesports.com CAA": [],
+      "www.pngesports.com CNAME": [
+        "entry-package.github.io."
+      ]
+    },
+    "1.1.1.1": {
+      "pngesports.com NS": [
+        "dns01.muumuu-domain.com.",
+        "dns02.muumuu-domain.com."
+      ],
+      "pngesports.com A": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153"
+      ],
+      "pngesports.com AAAA": [],
+      "pngesports.com MX": [
+        "50 mx01.lolipop.jp."
+      ],
+      "pngesports.com TXT": [],
+      "pngesports.com CAA": [],
+      "www.pngesports.com CNAME": [
+        "entry-package.github.io."
+      ]
+    },
+    "8.8.8.8": {
+      "pngesports.com NS": [
+        "dns01.muumuu-domain.com.",
+        "dns02.muumuu-domain.com."
+      ],
+      "pngesports.com A": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153"
+      ],
+      "pngesports.com AAAA": [],
+      "pngesports.com MX": [
+        "50 mx01.lolipop.jp."
+      ],
+      "pngesports.com TXT": [],
+      "pngesports.com CAA": [],
+      "www.pngesports.com CNAME": [
+        "entry-package.github.io."
+      ]
+    }
+  },
+  "subdomains": {
+    "blog.pngesports.com A": [
+      "157.7.107.39"
+    ],
+    "blog.pngesports.com MX": [],
+    "blog.pngesports.com TXT": [],
+    "gaming-pc.pngesports.com A": [
+      "157.7.107.39"
+    ],
+    "gaming-pc.pngesports.com MX": [],
+    "gaming-pc.pngesports.com TXT": [],
+    "overlay.pngesports.com A": [
+      "157.7.107.39"
+    ],
+    "overlay.pngesports.com MX": [],
+    "overlay.pngesports.com TXT": [],
+    "ml.pngesports.com A": [],
+    "ml.pngesports.com MX": [
+      "50 ml01.lolipop.jp."
+    ],
+    "ml.pngesports.com TXT": [],
+    "mm.pngesports.com A": [],
+    "mm.pngesports.com MX": [
+      "50 mm01.lolipop.jp."
+    ],
+    "mm.pngesports.com TXT": []
+  },
+  "checks": [
+    {
+      "server": "dns01.muumuu-domain.com",
+      "record": "pngesports.com A",
+      "pass": true
+    },
+    {
+      "server": "dns01.muumuu-domain.com",
+      "record": "pngesports.com NS",
+      "pass": true
+    },
+    {
+      "server": "dns01.muumuu-domain.com",
+      "record": "pngesports.com MX",
+      "pass": true
+    },
+    {
+      "server": "dns01.muumuu-domain.com",
+      "record": "pngesports.com AAAA",
+      "pass": true
+    },
+    {
+      "server": "dns01.muumuu-domain.com",
+      "record": "pngesports.com TXT",
+      "pass": true
+    },
+    {
+      "server": "dns01.muumuu-domain.com",
+      "record": "pngesports.com CAA",
+      "pass": true
+    },
+    {
+      "server": "dns01.muumuu-domain.com",
+      "record": "www.pngesports.com CNAME",
+      "pass": true
+    },
+    {
+      "server": "dns02.muumuu-domain.com",
+      "record": "pngesports.com A",
+      "pass": true
+    },
+    {
+      "server": "dns02.muumuu-domain.com",
+      "record": "pngesports.com NS",
+      "pass": true
+    },
+    {
+      "server": "dns02.muumuu-domain.com",
+      "record": "pngesports.com MX",
+      "pass": true
+    },
+    {
+      "server": "dns02.muumuu-domain.com",
+      "record": "pngesports.com AAAA",
+      "pass": true
+    },
+    {
+      "server": "dns02.muumuu-domain.com",
+      "record": "pngesports.com TXT",
+      "pass": true
+    },
+    {
+      "server": "dns02.muumuu-domain.com",
+      "record": "pngesports.com CAA",
+      "pass": true
+    },
+    {
+      "server": "dns02.muumuu-domain.com",
+      "record": "www.pngesports.com CNAME",
+      "pass": true
+    },
+    {
+      "server": "1.1.1.1",
+      "record": "pngesports.com A",
+      "pass": true
+    },
+    {
+      "server": "1.1.1.1",
+      "record": "pngesports.com NS",
+      "pass": true
+    },
+    {
+      "server": "1.1.1.1",
+      "record": "pngesports.com MX",
+      "pass": true
+    },
+    {
+      "server": "1.1.1.1",
+      "record": "pngesports.com AAAA",
+      "pass": true
+    },
+    {
+      "server": "1.1.1.1",
+      "record": "pngesports.com TXT",
+      "pass": true
+    },
+    {
+      "server": "1.1.1.1",
+      "record": "pngesports.com CAA",
+      "pass": true
+    },
+    {
+      "server": "1.1.1.1",
+      "record": "www.pngesports.com CNAME",
+      "pass": true
+    },
+    {
+      "server": "8.8.8.8",
+      "record": "pngesports.com A",
+      "pass": true
+    },
+    {
+      "server": "8.8.8.8",
+      "record": "pngesports.com NS",
+      "pass": true
+    },
+    {
+      "server": "8.8.8.8",
+      "record": "pngesports.com MX",
+      "pass": true
+    },
+    {
+      "server": "8.8.8.8",
+      "record": "pngesports.com AAAA",
+      "pass": true
+    },
+    {
+      "server": "8.8.8.8",
+      "record": "pngesports.com TXT",
+      "pass": true
+    },
+    {
+      "server": "8.8.8.8",
+      "record": "pngesports.com CAA",
+      "pass": true
+    },
+    {
+      "server": "8.8.8.8",
+      "record": "www.pngesports.com CNAME",
+      "pass": true
+    },
+    {
+      "record": "blog.pngesports.com A",
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "record": "blog.pngesports.com MX",
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "record": "blog.pngesports.com TXT",
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "record": "gaming-pc.pngesports.com A",
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "record": "gaming-pc.pngesports.com MX",
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "record": "gaming-pc.pngesports.com TXT",
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "record": "overlay.pngesports.com A",
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "record": "overlay.pngesports.com MX",
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "record": "overlay.pngesports.com TXT",
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "record": "ml.pngesports.com A",
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "record": "ml.pngesports.com MX",
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "record": "ml.pngesports.com TXT",
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "record": "mm.pngesports.com A",
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "record": "mm.pngesports.com MX",
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "record": "mm.pngesports.com TXT",
+      "preserved": true,
+      "pass": true
+    }
+  ],
+  "passed": 43,
+  "total": 43
+}
