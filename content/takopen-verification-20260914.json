@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-14",
+  "scope": "Homepage hero replacement only",
+  "image_inspection": "Generated image visually inspected: reference mascot identity, map and camera, Osaka landmarks, full character including pick and feet.",
+  "static_verification": {
+    "checks": 6896,
+    "failures": 0,
+    "result": "PASS"
+  },
+  "http_readback": {
+    "paths": [
+      "/",
+      "/assets/takopen-osaka-hero.png"
+    ],
+    "status": 200,
+    "matches_dist": true
+  },
+  "browser_visual_verification": {
+    "result": "UNVERIFIED",
+    "reason": "CUA browser/native surfaces unavailable. Browser inventory empty; direct Chrome tab unavailable; native app reconnect returned CUA_REPL_ENABLED_SURFACES is required."
+  },
+  "production_deployed": false
+}

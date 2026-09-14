@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-09-14",
+  "asset": "assets/takopen-osaka-hero.png",
+  "review_path": "/Users/yamaguchiyu/Downloads/OsakaPNG_タコペン確認_20260914/takopen-osaka-hero.png",
+  "tool": "built-in image_gen.imagegen",
+  "prompt": "Use case: identity-preserve\nAsset type: replacement homepage hero illustration, landscape 1536x1024.\nPrimary request: Make Takopen, the OsakaPNG takoyaki-penguin mascot, the unmistakable star of a cheerful sightseeing trip around Osaka.\nInput images: Image 1 is the authoritative character identity reference: use the mascot above the OsakaPNG wordmark only. Image 2 is the previous website hero, a supporting color and city-setting reference, not a composition to preserve.\nCharacter invariants: faithfully preserve the single round pale-cream/yellow penguin body, thick deep-purple outlines, two tiny round purple dot eyes, broad orange oval beak outlined purple, short flipper arms, two orange webbed feet, brown takoyaki sauce cap with a wavy edge and green aonori flecks, and the diagonal takoyaki pick sticking up to the mascot's upper right. These are the recognizable identity. Do not make a normal black-and-white penguin, do not add ears, hair, clothes covering the sauce, human fingers, or a different face.\nScene: One large Takopen in the foreground walking happily along an Osaka canal promenade, sightseeing with a small folded map in one flipper and the other flipper raised in a friendly greeting. A small travel camera hanging in front may be used, keeping the face and round body clear. Behind Takopen, a lively but simplified Osaka collage: Dotonbori-style canal and bridge, Osaka Castle and a Tsutenkaku-style observation tower. Clear sense of a fun Osaka day out, welcoming and character-led.\nComposition: Takopen is the main subject, large, about 65-70 percent of the image height, centered at approximately x=50%, full body including the top pick and both feet comfortably inside the central 65 percent width. Strong unmistakable silhouette with clean contrast from the scenery. Landmarks smaller and secondary in the upper background. All essential character details stay inside the central crop safe area; the website crops the landscape image to an approximately 1.2:1 panel on desktop. Keep the lower-right corner for a small HTML label outside the illustration. Do not leave an empty text half; real headline lives outside the image.\nStyle: polished contemporary Japanese mascot travel-poster illustration with crisp confident purple contours, warm flat colors, simplified city shapes and subtle screenprinted paper texture in the background. Match the site's warm yellow, rich purple, ink and orange palette. The character should stay very faithful to the clean original mascot, while background texture relates to the previous illustration.\nAvoid: no large controller, no realistic food in the foreground, no photorealism, no space imagery, no wordmark, no text or lettering, no fake Japanese signs, no watermarks, no other mascot copies, no third-party mascots. Do not copy the OsakaPNG wordmark from image 1. One Takopen, unmistakably the mascot from image 1, enjoying Osaka sightseeing.",
+  "references": [
+    {
+      "path": "assets/hero-logo.png",
+      "role": "Authoritative Takopen character identity; wordmark excluded"
+    },
+    {
+      "path": "assets/osaka-game-hero.png",
+      "role": "Previous approved palette and Osaka setting"
+    }
+  ],
+  "dimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "postprocessing": "None. Existing CSS crop and HTML label retained.",
+  "prior_asset_preserved": "assets/osaka-game-hero.png",
+  "scope": "Homepage hero image and alternative text only; approved overall design retained.",
+  "sha256": "238954b9df01b62f8e4531d921fa6c8564523c770f1a980c2cdf73cfd29f0b2b"
+}
