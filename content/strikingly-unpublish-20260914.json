@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-09-14T06:19:36.403696+00:00",
+  "site": "OsakaPNG",
+  "strikingly_site_id": "31907406",
+  "action": "unpublish",
+  "before": "公開中",
+  "after": "非公開",
+  "confirmed_unpublish_button": "非公開を確定",
+  "saved_state_reloaded": true,
+  "saved_state_heading": "OsakaPNG 非公開",
+  "content_deleted": false,
+  "subscription_changed_by_this_task": false,
+  "dns_changed_by_this_task": false,
+  "new_site_chrome_reload": "大阪から、楽しいを共有する。 | OsakaPNG; soft Takopen Osaka illustration present",
+  "public_https_checks": [
+    {
+      "url": "https://www.pngesports.com/",
+      "status": 200,
+      "final_url": "https://www.pngesports.com/",
+      "bytes": 21885,
+      "sha256": "0aa757d9dcecf7f80d6973dcbeecc2aac0c816d607448b48b23c886fe7502528",
+      "matches_published_artifact": true,
+      "pass": true
+    },
+    {
+      "url": "https://www.pngesports.com/about/",
+      "status": 200,
+      "final_url": "https://www.pngesports.com/about/",
+      "bytes": 6889,
+      "sha256": "b6f209bfd140ceaeaf1fe034caab964c01b4f50386f6958d2e651f77e7544d25",
+      "matches_published_artifact": true,
+      "pass": true
+    },
+    {
+      "url": "https://www.pngesports.com/contact/",
+      "status": 200,
+      "final_url": "https://www.pngesports.com/contact/",
+      "bytes": 5262,
+      "sha256": "153ef7cd37826a57f51d8ac40ca43e0e82a6eb28f7c29b06ded22bf93afa40e7",
+      "matches_published_artifact": true,
+      "pass": true
+    },
+    {
+      "url": "https://www.pngesports.com/assets/takopen-osaka-soft-hero.png",
+      "status": 200,
+      "final_url": "https://www.pngesports.com/assets/takopen-osaka-soft-hero.png",
+      "bytes": 1936648,
+      "sha256": "bc7d6585bedd9a1001dacb860ba21b304015abfd94ac97707d73752a910466fa",
+      "matches_published_artifact": true,
+      "pass": true
+    }
+  ],
+  "status": "complete",
+  "rollback": "旧サイトの内容はStrikinglyに保持。再公開はエディタの公開操作。独自ドメインを旧サイトへ戻す場合は別途、保存済みDNS復帰値が必要。"
+}
