@@ -29,6 +29,6 @@ def inspect(url):
         return url,{'status':None,'result':'unverified_network','error_type':type(error).__name__,'pages':sorted(urls[url])}
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
     result=dict(pool.map(inspect,sorted(urls)))
-counts={label:sum(v['result']==label for v in result.values()) for label in {v['result'] for v in result.values()}}
-(ROOT/'content/external-link-verification.json').write_text(json.dumps({'policy':'Public unauthenticated GET only. No login, challenge bypass, retries or external sends. 403/429 are unverified, not evidence of deletion. Historical links retained.','count':len(result),'counts':counts,'links':result},ensure_ascii=False,indent=2)+'\n')
+counts={label:sum(v['result']==label for v in result.values()) for label in ('responded','missing','unverified_response','unverified_network')}
+(ROOT/'content/external-link-verification.json').write_text(json.dumps({'policy':'Active links only; previous availability results are reused when present. Public unauthenticated GET only for new URLs. No login, challenge bypass, retries or external sends. 403/429 are unverified, not evidence of deletion. Reviewed historical-link corrections are recorded in content/link-corrections.json.','count':len(result),'counts':counts,'reused_result_count':sum(url in previous for url in result),'requested_now_count':sum(url not in previous for url in result),'links':result},ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'count':len(result),'counts':counts},ensure_ascii=False))

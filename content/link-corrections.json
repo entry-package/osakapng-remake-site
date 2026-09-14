@@ -1,0 +1,403 @@
+{
+  "version": 1,
+  "reviewed_at": "2026-09-14",
+  "source_audit": {
+    "path": "content/external-link-verification.json",
+    "git_commit": "afac035522ad9707e138fd2684c4041b79c607b7",
+    "sha256": "d684d3eeead8e261f8b2724ec478facbc3612fa96788e7608733f6680faebb34"
+  },
+  "scope": "Explicit user request to fix the one legacy Strikingly contact destination and 46 previously reported missing external URLs. Preserve all source body text and original captures. Exact URLs and article routes only; no guessed account replacement; no authentication or network-failure URLs treated as deleted.",
+  "links": {
+    "http://site-1321555-7690-9695.strikingly.com/contact": {
+      "action": "replace",
+      "target": "/contact",
+      "reason": "The former website contact route is replaced by the migrated site contact route.",
+      "recorded_status": 403,
+      "occurrences": {
+        "/blog/hp": 1
+      }
+    },
+    "https://forms.gle/H5sNrTz58MQNcK586": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/pubg-949a3d5b-b2c7-4a31-b018-212ed658431b": 1
+      }
+    },
+    "https://forms.gle/MKLkoNsdvyeLD5ty7": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/9cb110985ce": 6
+      }
+    },
+    "https://forms.gle/P8XFqZ9HMLhDCwze9": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/1744a94b35b": 1,
+        "/blog/97f12170518": 1
+      }
+    },
+    "https://twitter.com/Apple_iPhone_ds": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/hp": 1,
+        "/blog/pubg-pnf-pjs": 1
+      }
+    },
+    "https://twitter.com/CUREMERO126": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/streamer-1467d8df-d95f-4366-844f-321a1f1b2504": 1
+      }
+    },
+    "https://twitter.com/CUREMERO126/": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/streamer-1467d8df-d95f-4366-844f-321a1f1b2504": 1
+      }
+    },
+    "https://twitter.com/FN_Fyx": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/fortnite-ade02eba-a389-4923-ab3a-5149eddc3030": 1
+      }
+    },
+    "https://twitter.com/GAMERSLIFE_JP": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/hp": 1
+      }
+    },
+    "https://twitter.com/NetBenK_FN": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/0f5ba6c582a": 1
+      }
+    },
+    "https://twitter.com/NyanStarXD": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/hp": 1,
+        "/blog/r6s": 2
+      }
+    },
+    "https://twitter.com/P1xela": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/85ad38d52ae": 1
+      }
+    },
+    "https://twitter.com/PNG_GODzilla": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/pubg-pnf-pjs": 1
+      }
+    },
+    "https://twitter.com/PNS_Asuka": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/png-spark-c370431c-bd8a-47e7-a481-b7042f9e2596": 2
+      }
+    },
+    "https://twitter.com/Pinky_Ponky_PNG": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/fortnite-ade02eba-a389-4923-ab3a-5149eddc3030": 1
+      }
+    },
+    "https://twitter.com/RAluS09/status/1101470456022855685": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/csgo-howzer": 1
+      }
+    },
+    "https://twitter.com/SaltSugar_PUBG": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/pubg-mobile": 1
+      }
+    },
+    "https://twitter.com/Scorpion_WG": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020": 2
+      }
+    },
+    "https://twitter.com/Sx_asuka": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/pubg-mobile": 1
+      }
+    },
+    "https://twitter.com/ZettR6": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/r6s": 2
+      }
+    },
+    "https://twitter.com/Zett_SiG?lang=ja": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/hp": 1
+      }
+    },
+    "https://twitter.com/_dAzR": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/hp": 1,
+        "/blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa": 1,
+        "/blog/pubg-pnf-pjs": 1,
+        "/blog/pubg-pnf-pjs-season2-g2": 1
+      }
+    },
+    "https://twitter.com/aoaoaozilla": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/hp": 1
+      }
+    },
+    "https://twitter.com/aomochisan?s=20": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/31cd990152d": 1
+      }
+    },
+    "https://twitter.com/cs_miipoyo94": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/adc014909c5": 1,
+        "/blog/hp": 2
+      }
+    },
+    "https://twitter.com/dandy_PNG": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/cod-4abb9c80-6e09-42c2-8cbc-85127ef4426e": 1,
+        "/blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020": 2
+      }
+    },
+    "https://twitter.com/flavor_risa": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/hp": 1
+      }
+    },
+    "https://twitter.com/hasuyan_SiG": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/hp": 1
+      }
+    },
+    "https://twitter.com/hikaru_7m": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/r6s": 2
+      }
+    },
+    "https://twitter.com/mayuchi_n_": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/1880bfa494b": 1,
+        "/blog/c8323f90f40": 1
+      }
+    },
+    "https://twitter.com/minekun0325": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/0f5ba6c582a": 1
+      }
+    },
+    "https://twitter.com/miyu_love_89": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/0f5ba6c582a": 1
+      }
+    },
+    "https://twitter.com/mmr_gaming": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/hp": 1,
+        "/blog/mushamaru-finalmouse": 1,
+        "/blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa": 1,
+        "/blog/pubg-pna-pjs": 1
+      }
+    },
+    "https://twitter.com/onionikun_": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033": 1
+      }
+    },
+    "https://twitter.com/palucchini": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/hp": 1
+      }
+    },
+    "https://twitter.com/pata_SiG": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/hp": 1
+      }
+    },
+    "https://twitter.com/piiiii_iiiiitan": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033": 1
+      }
+    },
+    "https://twitter.com/pubg_clond": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033": 1
+      }
+    },
+    "https://twitter.com/vmarumaru__": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/c8323f90f40": 1,
+        "/blog/f26d31c59a6": 1
+      }
+    },
+    "https://twitter.com/vxNoelsh": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020": 2
+      }
+    },
+    "https://twitter.com/yukuno2552": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/1880bfa494b": 1
+      }
+    },
+    "https://www.fumo-shop.com/varmilo-zomo-airdropbox.html": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/pubg-png-fairy-pjs": 1
+      }
+    },
+    "https://www.openrec.tv/live/VP5A83u8DCh9pC4": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/pubg-pjs": 1
+      }
+    },
+    "https://www.openrec.tv/live/kuWLMK8QwVPjXrx": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/pubg-pjs": 1
+      }
+    },
+    "https://www.package-inc.com/online-store-top": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/1bb74edb5c7": 1,
+        "/blog/85ad38d52ae": 1
+      }
+    },
+    "https://x.com/MuZe_Gz": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/5933d5ed62d": 1
+      }
+    },
+    "https://x.com/aomochisan?s=20": {
+      "action": "unlink",
+      "reason": "Recorded HTTP 404 in the previous public link audit; replacement destination not established. This is not a claim that the account was deleted.",
+      "recorded_status": 404,
+      "occurrences": {
+        "/blog/3328bc126c9": 1
+      }
+    }
+  }
+}

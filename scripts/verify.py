@@ -18,6 +18,7 @@ thumbnail_assets = json.loads((ROOT/'content/thumbnail-assets.json').read_text()
 thumbnail_overrides = json.loads((ROOT/'content/thumbnail-overrides.json').read_text())
 routes = json.loads((ROOT/'content/route-manifest.json').read_text())
 member_updates = json.loads((ROOT/'content/member-updates.json').read_text())
+link_corrections = json.loads((ROOT/'content/link-corrections.json').read_text())['links']
 failures = []
 checks = []
 def check(ok, kind, detail):
@@ -38,9 +39,24 @@ for p in pages:
     soup = BeautifulSoup(file.read_text(), 'html.parser')
     body = soup.select_one('[data-source-body]')
     check(body and normalize(body.get_text(' ',strip=True)) == normalize(p['source_text']), 'article_text', p['path'])
-    oldlinks = Counter(normalized_href(x['href'],p['url']) for x in p['links'])
+    oldlinks = Counter()
+    expected_unlinked = Counter()
+    for source_link in p['links']:
+        original = urljoin(p['url'],source_link['href'])
+        correction = link_corrections.get(original)
+        if correction and p['path'] not in correction['occurrences']:
+            correction = None
+        if correction and correction['action'] == 'unlink':
+            expected_unlinked[original] += 1
+        else:
+            target = correction['target'] if correction else original
+            oldlinks[normalized_href(target,p['url'])] += 1
     newlinks = Counter(normalized_href(x['href'],'https://preview.invalid'+p['path']+'/') for x in body.select('a[href]'))
     check(oldlinks == newlinks, 'article_links', {'path':p['path'],'missing':list((oldlinks-newlinks).elements()),'extra':list((newlinks-oldlinks).elements())})
+    actual_unlinked = Counter(x['data-original-href'] for x in body.select('span.historical-link[data-original-href]'))
+    check(actual_unlinked == expected_unlinked, 'reviewed_unlinked_references_retained', p['path'])
+    check(all(not x.has_attr('href') and not x.select('a[href]') for x in body.select('.historical-link')), 'unlinked_references_not_clickable',p['path'])
+    check(bool(soup.select_one('[data-link-maintenance]')) == bool(expected_unlinked), 'link_maintenance_note',p['path'])
     oldimages = Counter(media[x['url']]['local'] for x in p['images'])
     newimages = Counter(unquote(urlsplit(urljoin('https://preview.invalid'+p['path']+'/',x['src'])).path).lstrip('/') for x in body.select('img[src]'))
     check(oldimages == newimages, 'article_images',p['path'])
@@ -89,6 +105,9 @@ for path,entry in routes.items():
     check(not soup.select('script[src^="http"],iframe'),'no_platform_script_or_embed',path)
     ids = [x['id'] for x in soup.select('[id]')]
     check(len(ids)==len(set(ids)), 'unique_ids',path)
+    active_links = [a['href'] for a in soup.select('a[href]')]
+    check(not any(url in link_corrections for url in active_links), 'no_reviewed_broken_destinations',path)
+    check(not any((urlsplit(url).hostname or '').endswith('strikingly.com') for url in active_links), 'no_retired_platform_destinations',path)
     for tag in soup.select('a[href],img[src],script[src],link[href]'):
         value=tag.get('href') or tag.get('src'); u=urlsplit(value)
         if u.scheme or u.netloc:continue
@@ -104,6 +123,19 @@ for path,entry in routes.items():
         try:json.loads(structured.string);valid=True
         except Exception:valid=False
         check(valid,'structured_data',path)
+
+for url,correction in link_corrections.items():
+    occurrences = {}
+    for p in pages:
+        if p['type'] != 'article': continue
+        count = sum(urljoin(p['url'],a['href']) == url for a in p['links'])
+        if count: occurrences[p['path']] = count
+    check(occurrences == correction['occurrences'], 'link_correction_source_scope',url)
+    check(correction['action'] in {'replace','unlink'}, 'link_correction_action',url)
+    if correction['action'] == 'replace':
+        check(correction['target'] in routes, 'replacement_route_exists',url)
+    else:
+        check(correction['recorded_status'] in {404,410}, 'unlink_has_missing_evidence',url)
 
 departed = {path for path, update in member_updates.items() if update.get('membership_state') == 'departed'}
 for route in ['/', '/member', '/blog/categories/member-1155238']:

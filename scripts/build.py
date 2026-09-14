@@ -31,6 +31,7 @@ MEDIA = json.loads((ROOT / 'content/media-manifest.json').read_text())
 THUMBNAIL_ASSETS = json.loads((ROOT / 'content/thumbnail-assets.json').read_text())
 THUMBNAIL_OVERRIDES = json.loads((ROOT / 'content/thumbnail-overrides.json').read_text())
 MEMBER_UPDATES = json.loads((ROOT / 'content/member-updates.json').read_text())
+LINK_CORRECTIONS = json.loads((ROOT / 'content/link-corrections.json').read_text())['links']
 ARTICLES = [p for p in PAGES if p['type'] == 'article']
 MEMBERS = [BY_PATH[path] for path in dict.fromkeys(urlsplit(a['href']).path for a in BY_PATH['/member']['links'] if '/blog/' in a['href'])]
 MEMBER_PATHS = {p['path'] for p in MEMBERS}
@@ -104,6 +105,11 @@ def anchor(url, text, current, cls=''):
     return f'<a class="{cls}" href="{e(link(url, current), quote=True)}">{e(text)}</a>'
 
 
+def reviewed_link_correction(url, path):
+    correction = LINK_CORRECTIONS.get(url)
+    return correction if correction and path in correction['occurrences'] else None
+
+
 def clean_body(p):
     soup = BeautifulSoup(p['body_html'], 'html.parser')
     for bad in soup.select('script,style,noscript,form,input,button'):
@@ -111,8 +117,15 @@ def clean_body(p):
     for tag in list(soup.find_all(True)):
         if tag.name == 'a':
             original = urljoin(p['url'], tag.get('href', ''))
-            tag.attrs = {'href': link(original, p['path'])}
-            if urlsplit(original).scheme in {'http', 'https'} and urlsplit(original).hostname not in {'www.pngesports.com','pngesports.com'}:
+            correction = reviewed_link_correction(original, p['path'])
+            if correction and correction['action'] == 'unlink':
+                tag.name = 'span'
+                tag.attrs = {'class': 'historical-link', 'data-original-href': original,
+                             'title': '掲載当時のリンク（現在の移転先未確認）'}
+                continue
+            target = correction['target'] if correction else original
+            tag.attrs = {'href': link(target, p['path'])}
+            if urlsplit(target).scheme in {'http', 'https'} and urlsplit(target).hostname not in {'www.pngesports.com','pngesports.com'}:
                 tag['rel'] = 'noopener noreferrer'
         elif tag.name == 'img':
             src = tag.get('data-src') or tag.get('src')
@@ -217,6 +230,8 @@ def article_page(p):
         source_link = anchor(update['source_urls'][0],'本人の公開プロフィール ↗',c,'text-link') if update.get('source_urls') and not departed else ''
         status = '<strong class="member-status">'+e(update['status'])+'</strong>' if update.get('status') else ''
         note = '<aside class="profile-update">'+status+'<p>'+e(update['notice'])+'</p><div class="social-links">'+extra_links+'</div>'+source_link+'</aside>'
+    if any(row['action'] == 'unlink' and c in row['occurrences'] for row in LINK_CORRECTIONS.values()):
+        note += '<p class="archive-note" data-link-maintenance>掲載当時の外部リンクのうち、現在の移転先を確認できないものは文字のみで掲載しています。</p>'
     neighbors = ''
     if not is_member:
         i = NEWS.index(p)
@@ -292,7 +307,7 @@ def main():
     (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+urls+'</urlset>')
     (OUT/'robots.txt').write_text('User-agent: *\n'+('Allow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n' if opt.production else 'Disallow: /\n'))
     (ROOT/'content/route-manifest.json').write_text(json.dumps(ROUTES,ensure_ascii=False,indent=2)+'\n')
-    (ROOT/'content/editorial-decisions.json').write_text(json.dumps({'title_corrections':TITLE_FIXES,'body_policy':'All 101 original article/profile bodies retained. Use publication dates and separate page notes for temporal context. Thumbnail wording reads as an announcement at the original publication date; no retrospective labels inside images.','profile_copy':'Current roster excludes departed members. Owner confirmed 隣ノあおこ departure on 2026-09-13; original profile body retained with a departure notice. Other summaries use captured public profiles.','cookie_policy':'Platform-specific Strikingly policy replaced with implementation-specific text; original retained in source-pages.json.','contact':'Static mail composer and copy fallback; never show an unverified delivery-success message.','related_news':'Eight official company articles linked with original publication dates, selected from eleven reviewed articles. No unrelated neighboring posts imported.','not_proven':'All disappeared content from pre-existing esportspng.com and unpublished/internal/SNS-only information remains unverified.'},ensure_ascii=False,indent=2)+'\n')
+    (ROOT/'content/editorial-decisions.json').write_text(json.dumps({'title_corrections':TITLE_FIXES,'body_policy':'All 101 original article/profile body texts and images retained. Reviewed link corrections are recorded in content/link-corrections.json; original destinations remain in source-pages.json. Use publication dates and separate page notes for temporal context. Thumbnail wording reads as an announcement at the original publication date; no retrospective labels inside images.','profile_copy':'Current roster excludes departed members. Owner confirmed 隣ノあおこ departure on 2026-09-13; original profile body retained with a departure notice. Other summaries use captured public profiles.','cookie_policy':'Platform-specific Strikingly policy replaced with implementation-specific text; original retained in source-pages.json.','contact':'Static mail composer and copy fallback; never show an unverified delivery-success message.','related_news':'Eight official company articles linked with original publication dates, selected from eleven reviewed articles. No unrelated neighboring posts imported.','not_proven':'All disappeared content from pre-existing esportspng.com and unpublished/internal/SNS-only information remains unverified.'},ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'routes':len(ROUTES),'articles':len(ARTICLES),'news':len(NEWS),'current_members':len(CURRENT_MEMBERS),'preserved_profiles':len(MEMBERS),'production':opt.production}))
 
 

@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-14",
+  "legacy_contact": {
+    "old_url": "http://site-1321555-7690-9695.strikingly.com/contact",
+    "new_route": "/contact/",
+    "article": "/blog/hp",
+    "occurrences": 1,
+    "original_label": "こちら",
+    "chrome_click_to_contact": "PASS"
+  },
+  "historical_external_links": {
+    "reviewed_urls": 46,
+    "unlinked_occurrences": 73,
+    "affected_articles": 31,
+    "source_text_preserved": true,
+    "original_destinations_preserved": true,
+    "active_reviewed_missing_destinations_remaining": 0,
+    "action": "Render original anchor contents as plain text; show one maintenance note per affected article."
+  },
+  "static_verification": {
+    "checks": 7567,
+    "failures": 0
+  },
+  "http_verification": {
+    "routes": 113,
+    "status": 200,
+    "matches_dist": true
+  },
+  "browser_verification": {
+    "article_note_and_plain_text": "PASS",
+    "legacy_contact_navigation": "PASS",
+    "new_soft_hero_responsive_review": "Still pending; browser connection timed out during follow-up."
+  },
+  "external_availability_scope": {
+    "active_urls": 169,
+    "counts": {
+      "responded": 162,
+      "missing": 0,
+      "unverified_response": 2,
+      "unverified_network": 5
+    },
+    "reused_results": 168,
+    "requested_now": 1,
+    "note": "Existing availability results reused. No claim that all current external targets were revalidated or that removed account URLs were deleted."
+  },
+  "production_published": false,
+  "result": "PASS for requested link corrections"
+}
