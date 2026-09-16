@@ -27,6 +27,7 @@ thumbnail_assets = json.loads((ROOT/'content/thumbnail-assets.json').read_text()
 thumbnail_overrides = json.loads((ROOT/'content/thumbnail-overrides.json').read_text())
 routes = json.loads((ROOT/'content/route-manifest.json').read_text())
 member_updates = json.loads((ROOT/'content/member-updates.json').read_text())
+roster_additions = json.loads((ROOT/'content/roster-additions.json').read_text())
 link_corrections = json.loads((ROOT/'content/link-corrections.json').read_text())['links']
 failures = []
 checks = []
@@ -154,7 +155,8 @@ for route in ['/', '/member', '/blog/categories/member-1155238']:
     listed = {urlsplit(urljoin('https://preview.invalid'+route+'/',a['href'])).path.rstrip('/') for a in soup.select('.talent-card h3 a')}
     check(not (listed & departed), 'departed_members_not_in_current_roster', route)
     source_members = {urlsplit(a['href']).path for a in next(p for p in pages if p['path']=='/member')['links'] if '/blog/' in a['href']}
-    check(listed == source_members - departed, 'current_roster_preserved', route)
+    check(listed == (source_members - departed) | {p['path'] for p in roster_additions}, 'current_roster_preserved', route)
+    check(len(soup.select('.talent-card')) == len(listed), 'no_duplicate_roster_cards', route)
 for path in departed:
     soup = BeautifulSoup((OUT/routes[path]['file']).read_text(),'html.parser')
     check('脱退済み' in soup.select_one('.profile-update').get_text(), 'departure_notice_above_archived_profile', path)

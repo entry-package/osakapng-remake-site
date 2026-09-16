@@ -31,6 +31,7 @@ MEDIA = json.loads((ROOT / 'content/media-manifest.json').read_text())
 THUMBNAIL_ASSETS = json.loads((ROOT / 'content/thumbnail-assets.json').read_text())
 THUMBNAIL_OVERRIDES = json.loads((ROOT / 'content/thumbnail-overrides.json').read_text())
 MEMBER_UPDATES = json.loads((ROOT / 'content/member-updates.json').read_text())
+ROSTER_ADDITIONS = json.loads((ROOT / 'content/roster-additions.json').read_text())
 LINK_CORRECTIONS = json.loads((ROOT / 'content/link-corrections.json').read_text())['links']
 ARTICLES = [p for p in PAGES if p['type'] == 'article']
 MEMBERS = [BY_PATH[path] for path in dict.fromkeys(urlsplit(a['href']).path for a in BY_PATH['/member']['links'] if '/blog/' in a['href'])]
@@ -164,7 +165,17 @@ def talent_cards(current):
         socials = ' '.join(anchor(a['href'], a['text'], current) for a in update.get('additional_links',[])+p['links'])
         badge = '<span class="member-status">'+e(update['status'])+'</span>' if update.get('status') else ''
         cards.append(f'<article class="talent-card"><a class="portrait" href="{e(link(p["path"], current))}"><img src="{e(media(portrait, current))}" alt="{e(title(p))}" width="600" height="650" loading="lazy"></a><div class="talent-info"><p class="tagline">{e(tag)}</p><h3>{anchor(p["path"], title(p), current)}</h3>{badge}<p>{e(description)}</p><div class="social-links" aria-label="{e(title(p))}の配信・SNS">{socials}</div>{anchor(p["path"], 'プロフィール →', current, 'text-link')}</div></article>')
+    for member in ROSTER_ADDITIONS:
+        socials = ' '.join(anchor(a['href'], a['text'], current) for a in member['links'])
+        cards.append(f'<article class="talent-card"><a class="portrait" href="{e(link(member["path"], current))}"><img src="{e(asset(member["image"], current))}" alt="{e(member["name"])}" width="{member["image_width"]}" height="{member["image_height"]}" loading="lazy"></a><div class="talent-info"><p class="tagline">{e(member["tagline"])}</p><h3>{anchor(member["path"], member["name"], current)}</h3><p>{e(member["summary"])}</p><div class="social-links" aria-label="{e(member["name"])}の関連リンク">{socials}</div>{anchor(member["path"], "プロフィール →", current, "text-link")}</div></article>')
     return '<div class="talent-grid">' + ''.join(cards) + '</div>'
+
+
+def added_member_page(member):
+    c = member['path']
+    paragraphs = ''.join('<p>' + e(text) + '</p>' for text in member['paragraphs'])
+    links = ' '.join(anchor(a['href'], a['text'], c, 'text-link') for a in member['links'])
+    return page_intro('MEMBER', e(member['name']), e(member['tagline'])) + f'<section class="section container about-grid"><img class="history-logo" src="{e(asset(member["image"], c))}" alt="{e(member["name"])}" width="{member["image_width"]}" height="{member["image_height"]}"><div class="prose"><h2>{e(member["name"])}について</h2>{paragraphs}<div class="social-links">{links}</div></div></section><section class="container section">{anchor("/member", "メンバー一覧へ", c, "button outline")}</section>'
 
 
 def news_card(p, current, featured=False):
@@ -295,6 +306,10 @@ def main():
     write('/','大阪から、楽しいを共有する。',home())
     for path in ['/member','/blog/categories/member-1155238']:
         write(path,'所属メンバー',page_intro('MEMBER','あなたの「好き」に出会おう。','ゲーム、雑談、コラボ。気になるメンバーのプロフィールから、配信やSNSへ。')+'<section class="container section">'+talent_cards(path)+'</section>')
+    for member in ROSTER_ADDITIONS:
+        if member['path'] in BY_PATH or member['path'] in ROUTES:
+            raise ValueError('Added member would overwrite an existing route: ' + member['path'])
+        write(member['path'], member['name'], added_member_page(member), description=member['summary'])
     for path in ['/newsevents','/_blog','/blog/categories/news-1175894','/blog/categories']:
         write(path,'ニュース・イベント',news_index(path))
     for p in ARTICLES:
@@ -318,7 +333,7 @@ def main():
     (OUT/'robots.txt').write_text('User-agent: *\n'+('Allow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n' if opt.production else 'Disallow: /\n'))
     (ROOT/'content/route-manifest.json').write_text(json.dumps(ROUTES,ensure_ascii=False,indent=2)+'\n')
     (ROOT/'content/editorial-decisions.json').write_text(json.dumps({'title_corrections':TITLE_FIXES,'body_policy':'All 101 original article/profile body texts and images retained. Reviewed link corrections are recorded in content/link-corrections.json; original destinations remain in source-pages.json. Use publication dates and separate page notes for temporal context. Thumbnail wording reads as an announcement at the original publication date; no retrospective labels inside images.','profile_copy':'Current roster excludes departed members. Owner confirmed 隣ノあおこ departure on 2026-09-13; original profile body retained with a departure notice. Other summaries use captured public profiles.','cookie_policy':'Platform-specific Strikingly policy replaced with implementation-specific text; original retained in source-pages.json.','contact':'Static mail composer and copy fallback; never show an unverified delivery-success message.','related_news':'Eight official company articles linked with original publication dates, selected from eleven reviewed articles. No unrelated neighboring posts imported.','not_proven':'All disappeared content from pre-existing esportspng.com and unpublished/internal/SNS-only information remains unverified.'},ensure_ascii=False,indent=2)+'\n')
-    print(json.dumps({'routes':len(ROUTES),'articles':len(ARTICLES),'news':len(NEWS),'current_members':len(CURRENT_MEMBERS),'preserved_profiles':len(MEMBERS),'production':opt.production}))
+    print(json.dumps({'routes':len(ROUTES),'articles':len(ARTICLES),'news':len(NEWS),'current_members':len(CURRENT_MEMBERS)+len(ROSTER_ADDITIONS),'preserved_profiles':len(MEMBERS),'production':opt.production}))
 
 
 if __name__ == '__main__':

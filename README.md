@@ -9,6 +9,7 @@ Strikinglyの公開ページ109件から、記事・プロフィール101件を�
 - `scripts/build.py`：静的ページの生成。出力は `dist/`。通常は全ページ noindex。
 - `content/source-pages.json`：2026-09-10時点の公開原文。加工前の本文・リンク・画像・ハッシュを保存。社内文書は含めない。
 - `content/member-updates.json`：公開プロフィールおよび運営者の直接訂正による現在情報の追補。原文を消さず、別枠で表示する。脱退済みの人物は現メンバーカードから除外する。
+- `content/roster-additions.json`：移行後に追加するメンバーの紹介。2026-09-16にタコペンをマスコットとして追加し、トップ・メンバー一覧・旧メンバーカテゴリーと専用プロフィールへ反映。画像と説明は既存の公式素材・記事を使用する。
 - `content/design-assets.json`：2026-09-13追加の大阪・ゲームイラストの生成条件とチェックサム。
 - `content/stories.json` / `related-sources.json`：PACkage公式の記事11件の調査と、PNGに直接関連する8件の掲載案内。
 - `content/posts/*.json`：新規ニュースの原稿。取得原文とは分けて管理する。

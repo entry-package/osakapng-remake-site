@@ -1,0 +1,24 @@
+[
+  {
+    "path": "/member/takopen",
+    "name": "タコペン",
+    "tagline": "OsakaPNG マスコット",
+    "summary": "大阪のたこ焼きとペンギンから生まれた、OsakaPNGのマスコット。",
+    "image": "assets/hero-logo.png",
+    "image_width": 1090,
+    "image_height": 630,
+    "paragraphs": [
+      "タコペンは、OsakaPNGのマスコット「タコヤキペンギン」です。",
+      "地元大阪の名産・たこ焼きと、PNGの由来であるペンギンを組み合わせたデザイン。「楽しいを共有する」OsakaPNGの仲間です。"
+    ],
+    "links": [
+      {"text": "OsakaPNG 公式X", "href": "https://x.com/PNGesports"},
+      {"text": "公式グッズ", "href": "https://suzuri.jp/Osaka_PNG"}
+    ],
+    "source_note": "2026-09-16 owner request: add タコペン to the talent roster. Description and image reuse existing public OsakaPNG material.",
+    "source_urls": [
+      "https://www.pngesports.com/blog/e-pngesports-osakapng/",
+      "https://www.pngesports.com/blog/osakapng-line/"
+    ]
+  }
+]

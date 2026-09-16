@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-16",
+  "status": "verified_locally_awaiting_publication",
+  "change": "Add タコペン as the OsakaPNG mascot to the three existing roster surfaces and add /member/takopen/.",
+  "roster_count": 8,
+  "existing_members_preserved": 7,
+  "image": "assets/hero-logo.png",
+  "static_verification": {
+    "review_checks": 7773,
+    "production_checks": 7773,
+    "failures": 0,
+    "routes": 114,
+    "original_article_bodies_verified": 101
+  },
+  "browser_verification": {
+    "browser": "Chrome",
+    "preview_origin": "http://127.0.0.1:8766",
+    "desktop_roster_and_homepage": "Eight cards, including タコペン; original seven cards retained.",
+    "profile_navigation": "Clicked the タコペン card heading, read profile heading and description, confirmed image loading, then clicked メンバー一覧へ.",
+    "mobile_viewport_width": 375,
+    "mobile_client_width": 360,
+    "mobile_scroll_width": 360,
+    "mobile_roster_and_profile": "No horizontal overflow; mascot card image loaded; mascot card and profile inspected visually.",
+    "viewport_restored": true,
+    "physical_mobile_device": "not tested"
+  },
+  "release": {
+    "baseline": "origin/main at 2041b0d",
+    "branch": "release/takopen-roster-20260916",
+    "worktree": "/Users/yamaguchiyu/Developer/work/osakapng-takopen-release-20260916",
+    "existing_domain": "www.pngesports.com",
+    "scope": ["index.html", "member/index.html", "blog/categories/member-1155238/index.html", "member/takopen/index.html", "sitemap.xml"],
+    "preservation_note": "Restored the existing empty Instagram URL fragment in the unrelated Miyu profile after regeneration; excluded that normalization from the release.",
+    "published": false,
+    "public_readback": "pending publication",
+    "rollback": "Create a reverting commit for this release; do not rewrite history."
+  },
+  "knowledge_recalled": [
+    "2026-09-14-static-site-cutover-postcheck-preview-text-leak-macbook-3388ca.md"
+  ]
+}
