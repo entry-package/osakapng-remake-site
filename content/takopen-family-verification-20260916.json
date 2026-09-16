@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-16",
+  "status": "verified_locally_awaiting_publication",
+  "supersedes": "content/takopen-roster-verification-20260916.json",
+  "changes": [
+    "Replace wordmark image in the Takopen roster entry with a group of three original character PNGs.",
+    "Describe Takopen as the collective name; introduce つま吉, Takopenko and Takopentako individually.",
+    "Use existing character setting v1.5 and original artwork; do not create new character lore."
+  ],
+  "source_assets": "content/takopen-character-assets-20260916.json",
+  "static_verification": {
+    "review_checks": 7795,
+    "production_checks": 7795,
+    "failures": 0,
+    "routes": 114,
+    "original_article_bodies_verified": 101
+  },
+  "chrome": {
+    "preview_origin": "http://127.0.0.1:8766",
+    "roster_count": 8,
+    "character_count": 3,
+    "profile_image_instances_loaded": 6,
+    "group_image_instances_loaded": 3,
+    "navigation": "Roster なかまを見る link opens /member/takopen/; メンバー一覧へ returns to /member/.",
+    "desktop": "Group artwork, headings and three individual character cards visually checked; clientWidth and scrollWidth both 1492.",
+    "mobile_viewport_width": 375,
+    "mobile_roster_client_and_scroll_width": [360, 360],
+    "mobile_profile_client_and_scroll_width": [360, 360],
+    "mobile_visual_check": "Individual character cards stack vertically and names remain within their cards.",
+    "viewport_restored": true,
+    "physical_mobile_device": "not tested"
+  },
+  "published": false,
+  "public_readback": "pending publication",
+  "release_scope_from_main": [
+    "index.html",
+    "member/index.html",
+    "blog/categories/member-1155238/index.html",
+    "member/takopen/index.html",
+    "sitemap.xml",
+    "osaka-theme.css",
+    "assets/takopen-tsumakichi.png",
+    "assets/takopen-takopenko.png",
+    "assets/takopen-takopentako.png"
+  ],
+  "rollback": "Revert the release changes with a new commit; do not rewrite history."
+}

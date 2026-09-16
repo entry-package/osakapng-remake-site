@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-16",
+  "purpose": "Show Takopen as a family of characters, with no wordmark in the roster artwork or character portraits.",
+  "owner_correction": "タコペン is the collective name, and つま吉 is one of the characters.",
+  "setting_document": "タコペン_キャラクター設定書_v1.5_2026-05-30.md",
+  "setting_document_url": "https://drive.google.com/file/d/1oUu26YBENd4vhodz3xCr_cKP8qg2A8Lh/view",
+  "source_directory": "共有ドライブ/Osaka PNG/01_素材/ロゴ/OsakaPNG/OsakaPNG正規ロゴ/OsakaPNGタコペン/",
+  "processing": "Original PNG bytes copied from the company Drive filesystem. No image generation, cropping, recoloring or redraw. Group layout is CSS only.",
+  "assets": [
+    {
+      "character": "つま吉",
+      "source_file": "Takopen2-100.png",
+      "asset": "assets/takopen-tsumakichi.png",
+      "width": 1000,
+      "height": 1120,
+      "sha256": "d8e766fad24f4bb42f8cc97d088e168d08be571536f1d398a55b34b831bfc29a"
+    },
+    {
+      "character": "Takopenko",
+      "source_file": "Takopenko2-100.png",
+      "asset": "assets/takopen-takopenko.png",
+      "width": 1000,
+      "height": 847,
+      "sha256": "4bb9312431a324191ea43b6357f8945150def631a873ed2664613e2b325b5844"
+    },
+    {
+      "character": "Takopentako",
+      "source_file": "Takopentako2-100.png",
+      "asset": "assets/takopen-takopentako.png",
+      "width": 1000,
+      "height": 947,
+      "sha256": "e9e8c49f252fa44c4de5cf34f6309d1b91dcd904bd93d4264a6b2fbe4eea5b00"
+    }
+  ],
+  "editorial_limits": "Keep existing Latin character names. Describe only documented and visually confirmed distinguishing features; do not invent personalities, birthdays, family relationships or backstories."
+}

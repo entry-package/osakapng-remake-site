@@ -2,23 +2,53 @@
   {
     "path": "/member/takopen",
     "name": "タコペン",
-    "tagline": "OsakaPNG マスコット",
-    "summary": "大阪のたこ焼きとペンギンから生まれた、OsakaPNGのマスコット。",
-    "image": "assets/hero-logo.png",
-    "image_width": 1090,
-    "image_height": 630,
+    "tagline": "OsakaPNG オリジナルキャラクター",
+    "summary": "つま吉をはじめ、個性のちがう仲間が集まるOsakaPNGのキャラクターたち。",
+    "page_heading": "タコペンのなかまたち",
+    "headline": "みんなちがって、\nみんなタコペン。",
+    "link_label": "なかまを見る →",
     "paragraphs": [
-      "タコペンは、OsakaPNGのマスコット「タコヤキペンギン」です。",
-      "地元大阪の名産・たこ焼きと、PNGの由来であるペンギンを組み合わせたデザイン。「楽しいを共有する」OsakaPNGの仲間です。"
+      "「タコペン」は、つま吉やその仲間たちをまとめた呼び名です。",
+      "頭のかざりも、見た目も、それぞれ。OsakaPNGと一緒に「楽しいを共有する」なかまたちを紹介します。"
+    ],
+    "characters": [
+      {
+        "id": "tsumakichi",
+        "name": "つま吉",
+        "reading": "つまきち",
+        "description": "頭のたこ焼きと、斜めにささったつまようじが目印。タコペンの初代からのメインキャラクターです。",
+        "image": "assets/takopen-tsumakichi.png",
+        "image_width": 1000,
+        "image_height": 1120
+      },
+      {
+        "id": "takopenko",
+        "name": "Takopenko",
+        "reading": "",
+        "description": "リボンのかざりが目印の、タコペンのなかま。",
+        "image": "assets/takopen-takopenko.png",
+        "image_width": 1000,
+        "image_height": 847
+      },
+      {
+        "id": "takopentako",
+        "name": "Takopentako",
+        "reading": "",
+        "description": "タコの足を思わせる頭のかざりが目印の、タコペンのなかま。",
+        "image": "assets/takopen-takopentako.png",
+        "image_width": 1000,
+        "image_height": 947
+      }
     ],
     "links": [
       {"text": "OsakaPNG 公式X", "href": "https://x.com/PNGesports"},
       {"text": "公式グッズ", "href": "https://suzuri.jp/Osaka_PNG"}
     ],
-    "source_note": "2026-09-16 owner request: add タコペン to the talent roster. Description and image reuse existing public OsakaPNG material.",
+    "source_note": "2026-09-16 owner correction: タコペン is the character family, including つま吉, and roster artwork must show characters without a wordmark. Names and distinguishing visual features use the existing character setting document v1.5 and original PNGs. No new personality or backstory is assigned.",
     "source_urls": [
       "https://www.pngesports.com/blog/e-pngesports-osakapng/",
-      "https://www.pngesports.com/blog/osakapng-line/"
+      "https://www.pngesports.com/blog/osakapng-line/",
+      "https://drive.google.com/file/d/1oUu26YBENd4vhodz3xCr_cKP8qg2A8Lh/view"
     ]
   }
 ]

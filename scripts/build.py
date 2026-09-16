@@ -167,15 +167,25 @@ def talent_cards(current):
         cards.append(f'<article class="talent-card"><a class="portrait" href="{e(link(p["path"], current))}"><img src="{e(media(portrait, current))}" alt="{e(title(p))}" width="600" height="650" loading="lazy"></a><div class="talent-info"><p class="tagline">{e(tag)}</p><h3>{anchor(p["path"], title(p), current)}</h3>{badge}<p>{e(description)}</p><div class="social-links" aria-label="{e(title(p))}の配信・SNS">{socials}</div>{anchor(p["path"], 'プロフィール →', current, 'text-link')}</div></article>')
     for member in ROSTER_ADDITIONS:
         socials = ' '.join(anchor(a['href'], a['text'], current) for a in member['links'])
-        cards.append(f'<article class="talent-card"><a class="portrait" href="{e(link(member["path"], current))}"><img src="{e(asset(member["image"], current))}" alt="{e(member["name"])}" width="{member["image_width"]}" height="{member["image_height"]}" loading="lazy"></a><div class="talent-info"><p class="tagline">{e(member["tagline"])}</p><h3>{anchor(member["path"], member["name"], current)}</h3><p>{e(member["summary"])}</p><div class="social-links" aria-label="{e(member["name"])}の関連リンク">{socials}</div>{anchor(member["path"], "プロフィール →", current, "text-link")}</div></article>')
+        cards.append(f'<article class="talent-card talent-card--family"><a class="portrait portrait--family" href="{e(link(member["path"], current))}" aria-label="{e(member["page_heading"])}">{character_group(member, current)}</a><div class="talent-info"><p class="tagline">{e(member["tagline"])}</p><h3>{anchor(member["path"], member["name"], current)}</h3><p>{e(member["summary"])}</p><div class="social-links" aria-label="{e(member["name"])}の関連リンク">{socials}</div>{anchor(member["path"], member["link_label"], current, "text-link")}</div></article>')
     return '<div class="talent-grid">' + ''.join(cards) + '</div>'
+
+
+def character_group(member, current):
+    images = ''.join(f'<img class="character-group__{e(character["id"])}" src="{e(asset(character["image"], current))}" alt="{e(character["name"])}" width="{character["image_width"]}" height="{character["image_height"]}" loading="lazy">' for character in member['characters'])
+    return '<span class="character-group">' + images + '</span>'
 
 
 def added_member_page(member):
     c = member['path']
     paragraphs = ''.join('<p>' + e(text) + '</p>' for text in member['paragraphs'])
     links = ' '.join(anchor(a['href'], a['text'], c, 'text-link') for a in member['links'])
-    return page_intro('MEMBER', e(member['name']), e(member['tagline'])) + f'<section class="section container about-grid"><img class="history-logo" src="{e(asset(member["image"], c))}" alt="{e(member["name"])}" width="{member["image_width"]}" height="{member["image_height"]}"><div class="prose"><h2>{e(member["name"])}について</h2>{paragraphs}<div class="social-links">{links}</div></div></section><section class="container section">{anchor("/member", "メンバー一覧へ", c, "button outline")}</section>'
+    headline = '<br>'.join(e(line) for line in member['headline'].splitlines())
+    characters = []
+    for character in member['characters']:
+        reading = '<p class="character-reading">' + e(character['reading']) + '</p>' if character['reading'] else ''
+        characters.append(f'<article class="character-card" id="{e(character["id"])}"><div class="character-card__art"><img src="{e(asset(character["image"], c))}" alt="{e(character["name"])}" width="{character["image_width"]}" height="{character["image_height"]}" loading="lazy"></div><div class="character-card__copy"><h3>{e(character["name"])}</h3>{reading}<p>{e(character["description"])}</p></div></article>')
+    return page_intro('CHARACTERS', e(member['page_heading']), 'つま吉と、個性豊かななかまたち。') + f'<section class="section container character-intro"><div class="character-intro__art">{character_group(member, c)}</div><div class="prose"><p class="eyebrow">WE ARE TAKOPEN</p><h2>{headline}</h2>{paragraphs}<div class="social-links">{links}</div></div></section><section class="section container" aria-labelledby="characters-heading"><div class="section-head"><h2 id="characters-heading">なかまたちを紹介</h2></div><div class="character-grid">{"".join(characters)}</div></section><section class="container section">{anchor("/member", "メンバー一覧へ", c, "button outline")}</section>'
 
 
 def news_card(p, current, featured=False):
@@ -309,7 +319,7 @@ def main():
     for member in ROSTER_ADDITIONS:
         if member['path'] in BY_PATH or member['path'] in ROUTES:
             raise ValueError('Added member would overwrite an existing route: ' + member['path'])
-        write(member['path'], member['name'], added_member_page(member), description=member['summary'])
+        write(member['path'], member['page_heading'], added_member_page(member), description=member['summary'])
     for path in ['/newsevents','/_blog','/blog/categories/news-1175894','/blog/categories']:
         write(path,'ニュース・イベント',news_index(path))
     for p in ARTICLES:
