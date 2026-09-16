@@ -23,7 +23,7 @@
       },
       {
         "id": "takopenko",
-        "name": "Takopenko",
+        "name": "タコペンコ",
         "reading": "",
         "description": "リボンのかざりが目印の、タコペンのなかま。",
         "image": "assets/takopen-takopenko.png",
@@ -32,7 +32,7 @@
       },
       {
         "id": "takopentako",
-        "name": "Takopentako",
+        "name": "タコペンタコ",
         "reading": "",
         "description": "タコの足を思わせる頭のかざりが目印の、タコペンのなかま。",
         "image": "assets/takopen-takopentako.png",
@@ -44,7 +44,7 @@
       {"text": "OsakaPNG 公式X", "href": "https://x.com/PNGesports"},
       {"text": "公式グッズ", "href": "https://suzuri.jp/Osaka_PNG"}
     ],
-    "source_note": "2026-09-16 owner correction: タコペン is the character family, including つま吉, and roster artwork must show characters without a wordmark. Names and distinguishing visual features use the existing character setting document v1.5 and original PNGs. No new personality or backstory is assigned.",
+    "source_note": "2026-09-16 owner correction: タコペン is the character family, including つま吉, and roster artwork must show characters without a wordmark. Japanese display names タコペンコ and タコペンタコ are directly specified by the owner. Distinguishing visual features use the existing character setting document v1.5 and original PNGs. No new personality or backstory is assigned.",
     "source_urls": [
       "https://www.pngesports.com/blog/e-pngesports-osakapng/",
       "https://www.pngesports.com/blog/osakapng-line/",
