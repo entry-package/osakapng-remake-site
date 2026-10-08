@@ -111,7 +111,7 @@ for path,entry in routes.items():
     check(soup.title and len(soup.title.get_text())>5,'page_title',path)
     expected_robots = 'index,follow' if args.production and path != '/404' else 'noindex,nofollow'
     check(soup.find('meta',attrs={'name':'robots'}).get('content') == expected_robots, 'indexing_policy', path)
-    check(soup.select_one('link[rel="canonical"]')['href'] == 'https://www.pngesports.com' + path, 'canonical_url', path)
+    check(soup.select_one('link[rel="canonical"]')['href'] == 'https://www.pngesports.com' + (path.rstrip('/') + '/' if path != '/' else '/'), 'canonical_url', path)
     check(not re.search(r'\{\{[A-Z_]+\}\}',html),'no_template_tokens',path)
     check(not soup.select('script[src^="http"],iframe'),'no_platform_script_or_embed',path)
     ids = [x['id'] for x in soup.select('[id]')]
@@ -164,7 +164,7 @@ expected_robots_file = 'User-agent: *\n' + ('Allow: /\nSitemap: https://www.pnge
 check((OUT/'robots.txt').read_text() == expected_robots_file, 'robots_file_policy', args.production)
 check((OUT/'.nojekyll').is_file(), 'jekyll_disabled', '.nojekyll')
 sitemap_urls = {element.text for element in ET.parse(OUT/'sitemap.xml').iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
-check(sitemap_urls == {'https://www.pngesports.com' + path for path in routes if path != '/404'}, 'sitemap_routes', len(sitemap_urls))
+check(sitemap_urls == {'https://www.pngesports.com' + path.rstrip('/') + '/' for path in routes if path != '/404'}, 'sitemap_routes', len(sitemap_urls))
 fallback = BeautifulSoup((OUT/'404.html').read_text(), 'html.parser')
 check(fallback.select_one('meta[name="robots"]')['content'] == 'noindex,nofollow', 'fallback_not_indexed', '404.html')
 base_path = '/' + args.base_path.strip('/') if args.base_path.strip('/') else ''

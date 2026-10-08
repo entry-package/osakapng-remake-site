@@ -252,7 +252,9 @@ def policy(c):
 
 
 def render(path, heading, body, description='', cover='', production=False):
-    canonical = ORIGIN + (path if path != '/' else '/')
+    # GitHub Pages serves every route as <path>/index.html and 301s the slashless form,
+    # so the canonical URL (and og:url, sitemap) must carry the trailing slash.
+    canonical = ORIGIN + (path.rstrip('/') + '/' if path != '/' else '/')
     css = asset('styles.css', path); js = asset('script.js', path)
     nav = ''.join(anchor(url,name,path) for url,name in [('/member','MEMBER'),('/newsevents','NEWS'),('/about','ABOUT'),('/#goods','GOODS'),('/contact','CONTACT')])
     footer = ''.join(anchor(url,name,path) for name,url in SOCIALS)
@@ -313,7 +315,7 @@ def main():
             u=urlsplit(urljoin(ORIGIN+'/404/',value))
             tag[attr]=urlunsplit(('', '', base_path + u.path, u.query, u.fragment))
     (OUT/'404.html').write_text(str(notfound))
-    urls = ''.join('<url><loc>'+e(ORIGIN+path)+'</loc></url>' for path in ROUTES if path!='/404')
+    urls = ''.join('<url><loc>'+e(ORIGIN+path.rstrip('/')+'/')+'</loc></url>' for path in ROUTES if path!='/404')
     (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+urls+'</urlset>')
     (OUT/'robots.txt').write_text('User-agent: *\n'+('Allow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n' if opt.production else 'Disallow: /\n'))
     (ROOT/'content/route-manifest.json').write_text(json.dumps(ROUTES,ensure_ascii=False,indent=2)+'\n')
