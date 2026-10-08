@@ -2,11 +2,11 @@
   "source_pages": 109,
   "articles_verified": 101,
   "source_image_references": 105,
-  "routes": 113,
+  "routes": 114,
   "editorial_thumbnails": 22,
   "thumbnail_designs": 10,
   "production": true,
-  "checks": 7720,
+  "checks": 7795,
   "failures": [],
   "result": "PASS"
 }

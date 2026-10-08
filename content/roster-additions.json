@@ -1,0 +1,54 @@
+[
+  {
+    "path": "/member/takopen",
+    "name": "タコペン",
+    "tagline": "OsakaPNG オリジナルキャラクター",
+    "summary": "つま吉をはじめ、個性のちがう仲間が集まるOsakaPNGのキャラクターたち。",
+    "page_heading": "タコペンのなかまたち",
+    "headline": "みんなちがって、\nみんなタコペン。",
+    "link_label": "なかまを見る →",
+    "paragraphs": [
+      "「タコペン」は、つま吉やその仲間たちをまとめた呼び名です。",
+      "頭のかざりも、見た目も、それぞれ。OsakaPNGと一緒に「楽しいを共有する」なかまたちを紹介します。"
+    ],
+    "characters": [
+      {
+        "id": "tsumakichi",
+        "name": "つま吉",
+        "reading": "つまきち",
+        "description": "頭のたこ焼きと、斜めにささったつまようじが目印。タコペンの初代からのメインキャラクターです。",
+        "image": "assets/takopen-tsumakichi.png",
+        "image_width": 1000,
+        "image_height": 1120
+      },
+      {
+        "id": "takopenko",
+        "name": "タコペンコ",
+        "reading": "",
+        "description": "リボンのかざりが目印の、タコペンのなかま。",
+        "image": "assets/takopen-takopenko.png",
+        "image_width": 1000,
+        "image_height": 847
+      },
+      {
+        "id": "takopentako",
+        "name": "タコペンタコ",
+        "reading": "",
+        "description": "タコの足を思わせる頭のかざりが目印の、タコペンのなかま。",
+        "image": "assets/takopen-takopentako.png",
+        "image_width": 1000,
+        "image_height": 947
+      }
+    ],
+    "links": [
+      {"text": "OsakaPNG 公式X", "href": "https://x.com/PNGesports"},
+      {"text": "公式グッズ", "href": "https://suzuri.jp/Osaka_PNG"}
+    ],
+    "source_note": "2026-09-16 owner correction: タコペン is the character family, including つま吉, and roster artwork must show characters without a wordmark. Japanese display names タコペンコ and タコペンタコ are directly specified by the owner. Distinguishing visual features use the existing character setting document v1.5 and original PNGs. No new personality or backstory is assigned.",
+    "source_urls": [
+      "https://www.pngesports.com/blog/e-pngesports-osakapng/",
+      "https://www.pngesports.com/blog/osakapng-line/",
+      "https://drive.google.com/file/d/1oUu26YBENd4vhodz3xCr_cKP8qg2A8Lh/view"
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "verified_at": "2026-09-16T14:49:29Z",
+  "status": "published_and_live_verified",
+  "public_urls": ["https://www.pngesports.com/member/", "https://www.pngesports.com/member/takopen/"],
+  "pull_request": "https://github.com/entry-package/osakapng-remake-site/pull/4",
+  "production_commit": "516b7803913d8a188c3e5eb1196037bff55f1e0f",
+  "previous_production_commit": "2041b0d015ede75ca5358a3701deea5d9986ed88",
+  "release_commit": "933a86aa6b3a4a8eda0c8411e1f3e0a76925c635",
+  "actions_run": "https://github.com/entry-package/osakapng-remake-site/actions/runs/35111005999",
+  "build": "success",
+  "deploy": "success",
+  "report_build_status": "queued_at_last_check",
+  "static_checks_passed": 7795,
+  "live_delivery_checks_passed": 406,
+  "live_delivery_failures": 0,
+  "character_display_names": ["つま吉", "タコペンコ", "タコペンタコ"],
+  "browser_text_readback": "verified_in_Chrome",
+  "physical_mobile_device": "not_verified",
+  "rollback": "Create a new PR reverting the merge commit; preserve Git history."
+}

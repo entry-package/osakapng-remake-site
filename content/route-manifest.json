@@ -14,6 +14,11 @@
     "title": "所属メンバー",
     "source": "https://www.pngesports.com/blog/categories/member-1155238"
   },
+  "/member/takopen": {
+    "file": "member/takopen/index.html",
+    "title": "タコペンのなかまたち",
+    "source": null
+  },
   "/newsevents": {
     "file": "newsevents/index.html",
     "title": "ニュース・イベント",
