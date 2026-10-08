@@ -265,7 +265,7 @@ def about(c):
 
 
 def contact(c):
-    return page_intro('CONTACT','お問い合わせ','出演・コラボ・イベント・取材・スポンサーなどのご相談を承ります。') + f'''<section class="container contact-layout"><div class="prose"><h2>OsakaPNG 運営窓口</h2><p>株式会社PACkage</p><p><a href="mailto:info@package-inc.com">info@package-inc.com</a></p><p>下の項目を入力すると、ご利用のメールアプリで宛先・件名・本文を準備できます。内容を確認して、メールアプリから送信してください。</p><p>メールアプリを使わない場合は、「本文をコピー」して、普段お使いのメールサービスから上記の宛先へお送りください。</p></div><form id="contact-form"><label>ご相談の種類<select name="topic" required><option value="">選択してください</option><option>出演・イベント</option><option>配信・動画コラボ</option><option>取材・メディア掲載</option><option>スポンサー・提携</option><option>その他</option></select></label><label>お名前<input name="name" autocomplete="name" required maxlength="100"></label><label>メールアドレス<input type="email" name="email" autocomplete="email" required maxlength="254"></label><label>お問い合わせ内容<textarea name="message" rows="8" required maxlength="5000"></textarea></label><div class="actions"><button class="button primary" type="submit">メールアプリで送信する</button><button class="button outline" id="copy-message" type="button">本文をコピー</button></div><p class="form-note" role="status" aria-live="polite">このページから直接メールは送信されません。入力内容はこのサイトには保存されません。</p><noscript><p>入力補助にはJavaScriptを使用します。直接 info@package-inc.com へお問い合わせください。</p></noscript></form></section>'''
+    return page_intro('CONTACT','お問い合わせ','出演・コラボ・イベント・取材・スポンサーなどのご相談を承ります。') + f'''<section class="container contact-layout"><div class="prose"><h2>OsakaPNG 運営窓口</h2><p>株式会社PACkage</p><p><a href="mailto:info@package-inc.com">info@package-inc.com</a></p><p>受付メールをご希望の方は、運営会社PACkageのお問い合わせフォームをご利用ください。お問い合わせ内容に「OsakaPNGについて」とご記入ください。</p><p><a class="button primary" href="https://www.package-inc.com/contact/">受付メール付きフォームで問い合わせる</a></p><p>メールで直接ご相談いただく場合は、下の項目で宛先・件名・本文を準備できます。内容を確認して、メールアプリから送信してください。</p><p>メールアプリを使わない場合は、「本文をコピー」して、普段お使いのメールサービスから上記の宛先へお送りください。</p></div><form id="contact-form"><label>ご相談の種類<select name="topic" required><option value="">選択してください</option><option>出演・イベント</option><option>配信・動画コラボ</option><option>取材・メディア掲載</option><option>スポンサー・提携</option><option>その他</option></select></label><label>お名前<input name="name" autocomplete="name" required maxlength="100"></label><label>メールアドレス<input type="email" name="email" autocomplete="email" required maxlength="254"></label><label>お問い合わせ内容<textarea name="message" rows="8" required maxlength="5000"></textarea></label><div class="actions"><button class="button primary" type="submit">メールアプリで送信する</button><button class="button outline" id="copy-message" type="button">本文をコピー</button></div><p class="form-note" role="status" aria-live="polite">このページから直接メールは送信されません。入力内容はこのサイトには保存されません。</p><noscript><p>入力補助にはJavaScriptを使用します。直接 info@package-inc.com へお問い合わせください。</p></noscript></form></section>'''
 
 
 def policy(c):
@@ -298,6 +298,40 @@ def render(path, heading, body, description='', cover='', production=False):
     ROUTES[path] = {'file':str(location.relative_to(OUT)),'title':heading,'source':p['url'] if p else None}
 
 
+
+# Legacy URLs that Google still crawls but that this site no longer serves.
+# GitHub Pages cannot issue a 301 for an arbitrary path, so each one gets a tiny
+# page that redirects to the article that now holds the same content. They are
+# deliberately kept out of ROUTES and sitemap.xml: they are redirects, not pages.
+LEGACY_REDIRECTS = {
+    # WordPress-era permalinks (verified against web.archive.org snapshots by
+    # publication date and body text; every article still exists on this site).
+    '/2020/05/27/atorieinterview': '/blog/png-esports-part3/',
+    '/2020/06/08/showheyinterview': '/blog/png-esports-part4/',
+    '/2022/04/22/\u3010\u30b9\u30de\u30d6\u30e9\u90e8\u9580\u3011\u65b0\u30e1\u30f3\u30d0\u30fc\u52a0\u5165\u306e\u304a\u77e5\u3089\u305b': '/blog/9c36e1d2630/',
+    '/2023/04/02/\u3010\u30bf\u30ec\u30f3\u30c8\u90e8\u9580\u3011\u65b0\u30e1\u30f3\u30d0\u30fc\u52a0\u5165\u306e\u304a\u77e5\u3089\u305b': '/blog/31cd990152d/',
+    # Parent path of every article URL: /blog -> /blog/ used to end in a 404.
+    '/blog': '/newsevents/',
+}
+
+
+def write_redirects():
+    for path, target in LEGACY_REDIRECTS.items():
+        url = ORIGIN + target
+        page = ('<!doctype html><html lang="ja"><head><meta charset="utf-8">'
+                '<meta name="viewport" content="width=device-width,initial-scale=1">'
+                '<meta http-equiv="refresh" content="0; url=' + e(target) + '">'
+                '<link rel="canonical" href="' + e(url) + '">'
+                '<title>\u79fb\u8ee2\u3057\u307e\u3057\u305f | OsakaPNG</title>'
+                '<style>body{margin:0;min-height:100vh;display:grid;place-items:center;'
+                'font-family:system-ui,-apple-system,"Hiragino Kaku Gothic ProN",sans-serif;'
+                'background:#140b24;color:#f4f1fb}a{color:#ffd166}</style></head>'
+                '<body><p>\u3053\u306e\u30da\u30fc\u30b8\u306f <a href="' + e(target) + '">'
+                + e(url) + '</a> \u3078\u79fb\u8ee2\u3057\u307e\u3057\u305f\u3002</p></body></html>')
+        location = OUT / path.lstrip('/') / 'index.html'
+        location.parent.mkdir(parents=True, exist_ok=True)
+        location.write_text(page)
+
 def main():
     global OUT
     args = argparse.ArgumentParser()
@@ -312,7 +346,7 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / '.nojekyll').write_text('')
     shutil.copytree(ROOT/'assets',OUT/'assets',dirs_exist_ok=True)
-    for file in ('styles.css','osaka-theme.css','script.js'):
+    for file in ('styles.css','osaka-theme.css','script.js','favicon.ico'):
         shutil.copyfile(ROOT/file,OUT/file)
     def write(path,heading,body,**kw): render(path,heading,body,production=opt.production,**kw)
     write('/','大阪から、楽しいを共有する。',home())
@@ -343,6 +377,7 @@ def main():
     urls = ''.join('<url><loc>'+e(ORIGIN+path.rstrip('/')+'/')+'</loc></url>' for path in ROUTES if path!='/404')
     (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+urls+'</urlset>')
     (OUT/'robots.txt').write_text('User-agent: *\n'+('Allow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n' if opt.production else 'Disallow: /\n'))
+    write_redirects()
     (ROOT/'content/route-manifest.json').write_text(json.dumps(ROUTES,ensure_ascii=False,indent=2)+'\n')
     (ROOT/'content/editorial-decisions.json').write_text(json.dumps({'title_corrections':TITLE_FIXES,'body_policy':'All 101 original article/profile body texts and images retained. Reviewed link corrections are recorded in content/link-corrections.json; original destinations remain in source-pages.json. Use publication dates and separate page notes for temporal context. Thumbnail wording reads as an announcement at the original publication date; no retrospective labels inside images.','profile_copy':'Current roster excludes departed members. Owner confirmed 隣ノあおこ departure on 2026-09-13; original profile body retained with a departure notice. Other summaries use captured public profiles.','cookie_policy':'Platform-specific Strikingly policy replaced with implementation-specific text; original retained in source-pages.json.','contact':'Static mail composer and copy fallback; never show an unverified delivery-success message.','related_news':'Eight official company articles linked with original publication dates, selected from eleven reviewed articles. No unrelated neighboring posts imported.','not_proven':'All disappeared content from pre-existing esportspng.com and unpublished/internal/SNS-only information remains unverified.'},ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'routes':len(ROUTES),'articles':len(ARTICLES),'news':len(NEWS),'current_members':len(CURRENT_MEMBERS)+len(ROSTER_ADDITIONS),'preserved_profiles':len(MEMBERS),'production':opt.production}))
