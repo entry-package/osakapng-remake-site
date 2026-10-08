@@ -81,6 +81,24 @@
 .home-page #talents .tagline { color:#ddbfef; }
 .home-page #talents .social-links a { border-bottom-color:#776880; }
 .talent-info h3 { font-weight:900; }
+.portrait--family { display:flex; align-items:center; background:#f6eabb; }
+.character-group { display:block; position:relative; width:100%; aspect-ratio:1.08; }
+.character-group img { position:absolute; object-fit:contain; height:54%; width:48%; }
+.character-group .character-group__tsumakichi { z-index:2; left:26%; top:0; }
+.character-group .character-group__takopenko { left:0; bottom:0; }
+.character-group .character-group__takopentako { right:0; bottom:0; }
+.character-intro { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:60px; align-items:center; }
+.character-intro__art { background:#f6eabb; border-radius:24px; padding:24px; }
+.character-intro .prose { min-width:0; }
+.character-intro h2 { font-size:clamp(1.7rem,3vw,2.5rem); line-height:1.55; }
+.character-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; margin-top:30px; }
+.character-card { min-width:0; border:1px solid var(--line); background:white; }
+.character-card__art { padding:24px; background:#f4efe3; aspect-ratio:1; }
+.character-card__art img { width:100%; height:100%; object-fit:contain; }
+.character-card__copy { padding:24px; }
+.character-card h3 { font-size:1.5rem; margin:0 0 8px; }
+.character-card p { color:var(--muted); font-size:.9rem; line-height:1.9; }
+.character-card .character-reading { font-size:.75rem; margin:0 0 16px; }
 .home-page #about { position:relative; }
 .home-page #about:before { content:"OSAKA"; position:absolute; top:35px; left:0; z-index:-1; font:900 7rem Arial,sans-serif; color:#eeeae1; letter-spacing:-.07em; }
 .about-mark { border-radius:2px; background:var(--purple); }
@@ -131,6 +149,9 @@
   .play-strip span:nth-child(2):before { display:none; }
 }
 @media(max-width:720px) {
+  .character-intro { grid-template-columns:1fr; gap:30px; }
+  .character-grid { grid-template-columns:1fr; }
+  .character-card__art { aspect-ratio:1.25; padding:24px 40px; }
   .header-inner { height:70px; }
   .brand img { width:168px; }
   .site-nav { background:#211a29; color:white; border-bottom:1px solid #53465e; }

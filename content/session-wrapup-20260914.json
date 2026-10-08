@@ -1,0 +1,33 @@
+{
+  "task_id": "osakapng-website-migration-20260910",
+  "closed_at": "2026-09-14",
+  "actor": "A2 山口Codex",
+  "requested_publication_and_unpublish": "complete",
+  "notion_status": "要確認",
+  "remaining_unverified": [
+    "実メール配送",
+    "1Password自動入力の実動作",
+    "別作業WebP版の本スレッドによる本番配信確認"
+  ],
+  "drive_folder_url": "https://drive.google.com/drive/folders/1ulq09WjKbqUXFzXwruvht7dfctYlbTqj",
+  "notion_url": "https://app.notion.com/p/3db0f7d0c7b1810cb071f892e2247533?pvs=204",
+  "saved_artifact_count": 6,
+  "verification": {
+    "files": 6,
+    "parent_and_shared_drive_match": true,
+    "sizes_match": true,
+    "markdown_body_readback_matches": 2,
+    "json_and_zip_cloud_hashes": "not_verified",
+    "local_zip_crc": "passed",
+    "status": "saved_and_verified_with_stated_limits"
+  },
+  "artifact_ids": {
+    "公開結果.md": "1awNhkts5igCgG6MXYaRQelRif3wHJ_m_",
+    "引き継ぎ.md": "16TlHj0vX8iThumsnbVV6qMwChWImC39b",
+    "旧サイト非公開.json": "15SJyoLdGORPEJxV6IC6sbY08RzbNiTOt",
+    "検証と切戻し.zip": "1eEqLDleFGGMlNJQ4s1k4ht9LAmyFG6IN",
+    "公開済みサイト.zip": "1Wuub5lULWZ3lq6z9fM1sI5d3VmhD4tcN",
+    "ファイル一覧.json": "1GNCSQhsqX6tN8iBl_RmQUPjqyAV4QkMv"
+  },
+  "review_directory": "/Users/yamaguchiyu/Downloads/OsakaPNG_終了_20260914_確認用"
+}
