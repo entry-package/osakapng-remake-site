@@ -310,6 +310,7 @@ LEGACY_REDIRECTS = {
     '/2020/06/08/showheyinterview': '/blog/png-esports-part4/',
     '/2022/04/22/\u3010\u30b9\u30de\u30d6\u30e9\u90e8\u9580\u3011\u65b0\u30e1\u30f3\u30d0\u30fc\u52a0\u5165\u306e\u304a\u77e5\u3089\u305b': '/blog/9c36e1d2630/',
     '/2023/04/02/\u3010\u30bf\u30ec\u30f3\u30c8\u90e8\u9580\u3011\u65b0\u30e1\u30f3\u30d0\u30fc\u52a0\u5165\u306e\u304a\u77e5\u3089\u305b': '/blog/31cd990152d/',
+    '/2023/04/02/\u3010\u30bf\u30ec\u30f3\u30c8\u90e8\u9580\u3011\u65b0\u30e1\u30f3\u30d0\u30fc\u52a0\u5165\u306e\u304a\u77e5\u3089\u305b/feed': '/blog/31cd990152d/',
     # Parent path of every article URL: /blog -> /blog/ used to end in a 404.
     '/blog': '/newsevents/',
 }
