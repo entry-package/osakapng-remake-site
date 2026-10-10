@@ -1,0 +1,43 @@
+{
+  "task": "A2-20261011-three-site-i18n",
+  "status": "local-review-ready-public-preview-awaiting-approval",
+  "cloud": [
+    {
+      "site": "package",
+      "file_id": "1IOeLp3HcqfPtCLK9QaqFZN4Noq0_5M5D",
+      "parent_ids": [
+        "1cp3hhv205jmcY0X9NRW9LFYuM1r6RR-c"
+      ],
+      "drive_id": "0AMSrUHhl13qcUk9PVA",
+      "size": 12237701,
+      "sha256": "c38e3ce55ef6988d235d9be578477606bd84ec044289a2ff6cf9c0e1c37446bc",
+      "verified": true
+    },
+    {
+      "site": "png",
+      "file_id": "1ZJFaDig77XlUIoQ6IOlPRl16Gbkdcn1Z",
+      "parent_ids": [
+        "1ibU4gMtNIpkqTp5hU0JG3ZONHtkRCf4w"
+      ],
+      "drive_id": "0AMSrUHhl13qcUk9PVA",
+      "size": 1947144,
+      "sha256": "692502142163ebfea948e472f17534ff3f4873ab5dfdabaf18c6d3d7f2de3b33",
+      "verified": true
+    },
+    {
+      "site": "yu",
+      "file_id": "1keVovkRelJYjuhWhRNtfEpCyY03ckbOw",
+      "parent_ids": [
+        "1mphcz002_BRc-IjY00e3965zv-mxrI6T"
+      ],
+      "drive_id": "0AMSrUHhl13qcUk9PVA",
+      "size": 871792,
+      "sha256": "0302f6f1593d34c5e9efbd266a4f998b184cfa9ff8f49d6b83461b73f794aae8",
+      "verified": true
+    }
+  ],
+  "local_release": "retained-for-preview-deployment",
+  "review_copy": "retained-with-keep-local",
+  "public_changes": false,
+  "verified_tabs_created": 0
+}
