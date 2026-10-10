@@ -1,0 +1,92 @@
+{
+  "task_id": "A2-20261011-three-site-i18n",
+  "revision": 2,
+  "state": "replacement-tool-integration-prepared-not-activated",
+  "previous_candidate": "superseded-do-not-publish",
+  "requirement": "Keep each existing website design, photos, animation, navigation and complete page structure; translate full HTML pages, including archives, through a website translation tool.",
+  "recommendation": {
+    "provider": "GTranslate",
+    "plan": "Startup",
+    "integration": "paid translation proxy on language subdomains; no hosting-platform migration",
+    "languages": [
+      "en",
+      "zh-CN",
+      "zh-TW",
+      "ko"
+    ],
+    "source_language": "ja",
+    "listed_monthly_usd": 25,
+    "budget_assumption": "Three separate subscriptions: USD 75/month before checkout taxes, exchange and card fees. Exact licensing/bill not verified in checkout.",
+    "word_and_pageview_limits": "Unlimited per official pricing",
+    "signup": false,
+    "trial_started": false,
+    "payment": false,
+    "dns_changes": false,
+    "deployment": false,
+    "provider_translation_verified": false
+  },
+  "sites": [
+    {
+      "name": "PACkage",
+      "origin": "https://www.package-inc.com",
+      "local_html_pages": 985,
+      "unique_visible_text_characters": 681137,
+      "source_base": "ccc02e1e7294d89af9cd444d36e954887faba079",
+      "hosting": "Cloudflare Pages"
+    },
+    {
+      "name": "OsakaPNG",
+      "origin": "https://www.pngesports.com",
+      "local_html_pages": 115,
+      "unique_visible_text_characters": 78417,
+      "source_base": "02d7481",
+      "hosting": "GitHub Pages"
+    },
+    {
+      "name": "Yu Yamaguchi / yukuno",
+      "origin": "https://yu-yamaguchi-yukuno.package-inc.com",
+      "local_html_pages": 2,
+      "unique_visible_text_characters": 14843,
+      "source_base": "778d3b410d0ae6f5eee00630a8727e182b7a9524",
+      "hosting": "Cloudflare Pages"
+    }
+  ],
+  "inventory_scope": "Read-only count from prior local source-aligned release trees. Excludes generated translated overview pages and redirect pages. Character count is not provider billable word count and is not a fresh live crawl.",
+  "implementation": [
+    "Retain the original Japanese source and original CSS, images and JavaScript. Do not deploy the superseded overview pages.",
+    "Connect each approved source website to the paid translation proxy with per-language subdomains. Use actual Setup Wizard DNS targets only; never guess CNAME values.",
+    "Add a compact accessible language selector that preserves the current page path; reuse existing colors and typography. Do not route every selection to a reduced homepage.",
+    "Prevent translation of PACkage, OsakaPNG, yukuno, talent handles and product/game proper names. Use provider exclusions and human review for critical wording.",
+    "Check expansion/wrapping at 320,390,768,1440px; menu, animation, image loading, inner-page navigation, canonical/hreflang and 404 behavior.",
+    "Verify contact forms and security controls on translated hosts before activation. Do not send real submissions during unapproved tests. Image-embedded text and external documents require separate handling.",
+    "Show the actual provider-translated preview to the owner, then publish only after preview confirmation. No guarantee of pixel-perfect layout or translation quality before this test."
+  ],
+  "rollback": "Remove or disable the new selector and translated-host routing via a reversible release. Original Japanese production and previous source commits remain available. No source history rewrite or deletion.",
+  "alternative": {
+    "provider": "Weglot",
+    "pro_monthly_eur": 79,
+    "pro_websites": 3,
+    "pro_language_limit": 5,
+    "pro_total_translated_word_limit": 200000,
+    "assessment": "Cap applies across destination languages. Exact billed Japanese word count not measured. Full archives across four languages risk exceeding the cap; not selected merely on its starting price."
+  },
+  "not_selected": [
+    "Google Website Translator legacy widget: official notice says support ended 2026-10-01.",
+    "GTranslate free tier: official current page excludes commercial use."
+  ],
+  "approval_boundaries": [
+    "New subscription/automatic renewal and account terms require owner approval. No service trial or account has been created.",
+    "New public translated hosts and public preview require owner approval; production follows actual preview review."
+  ],
+  "sources": [
+    "https://gtranslate.io/",
+    "https://gtranslate.support/en/articles/1345138-how-to-choose-a-paid-plan",
+    "https://gtranslate.support/en/articles/1348901-how-to-add-cname-records-in-dns-manager",
+    "https://gtranslate.support/en/articles/1349930-how-to-skip-translations",
+    "https://www.weglot.com/pricing",
+    "https://www.weglot.com/technical-presentation",
+    "https://developers.google.com/search/blog/2020/05/google-translates-website-translator?hl=en"
+  ],
+  "local_retention": "Git trees and review copies retained pending revised tool integration and owner review; .keep-local present. No new full-site copy.",
+  "csb_capture": "deferred; ongoing task, no verified tool integration outcome yet"
+}
