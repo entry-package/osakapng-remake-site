@@ -97,3 +97,7 @@ python3 scripts/verify.py --production --output /path/to/release/site --base-pat
 独自ドメインのルート直下に切り替える際は `--base-path` を省略して再生成します。通常ページの内部リンクは相対パスで、`--base-path` は未知のURLに表示する `404.html` の参照先に適用します。`.nojekyll` で旧 `/_blog/` も配信対象にします。通常ページは `index,follow`、404は `noindex,nofollow` とし、robots.txt・sitemap.xml・canonicalも検証します。監査ファイルや取得原文、ローカル環境は配布物に含めません。
 
 2026-09-14のChrome確認で、柔らかなタコペンのトップをPCとモバイルで目視確認しました。モバイルDOMの幅とscrollWidthはともに375pxで横はみ出しなし、画像のnaturalWidthは1536pxです。公開先の読戻しと独自ドメインの切替状態はリリース記録を別途参照してください。
+
+## 2026-10-11 多言語版（未公開）
+
+`content/i18n/overviews.json` と `scripts/build-i18n.py` で英語・簡体字・繁体字・韓国語の案内を生成。通常ビルドの最後に実行します。日本語の記事全文は保持します。本変更の公開候補は最新mainを基準にした別作業ツリー `png-multilingual-20261011` に保存しています。この古い制作ブランチの全出力をそのまま本番へ置くとmain側の問い合わせ・リダイレクト修正が失われるため、配信差分は最新mainへ統合してください。
