@@ -1,0 +1,387 @@
+{
+  "name": "OsakaPNG",
+  "origin": "https://www.pngesports.com",
+  "theme": "png",
+  "hero": "/assets/takopen-osaka-soft-hero.png",
+  "icon": "/favicon.ico",
+  "email": "info@package-inc.com",
+  "eyebrow": "OSAKA IS OUR HOME. GAME IS OUR LANGUAGE.",
+  "title": [
+    "OsakaPNG | Games, streams & community from Osaka",
+    "OsakaPNG｜从大阪分享游戏、直播与快乐",
+    "OsakaPNG｜從大阪分享遊戲、直播與快樂",
+    "OsakaPNG | 오사카에서 나누는 게임·방송·즐거움"
+  ],
+  "description": [
+    "Meet OsakaPNG, an Osaka-based talent team operated by PACkage. Discover members, streams, music, original characters and collaboration opportunities.",
+    "认识由PACkage运营的大阪艺人团队OsakaPNG，了解成员、直播、音乐、原创角色与合作机会。",
+    "認識由PACkage營運的大阪藝人團隊OsakaPNG，了解成員、直播、音樂、原創角色與合作機會。",
+    "PACkage가 운영하는 오사카 기반 탤런트 팀 OsakaPNG. 멤버, 방송, 음악, 오리지널 캐릭터와 협업을 소개합니다."
+  ],
+  "brandline": [
+    "Sharing the fun.",
+    "分享快乐。",
+    "分享快樂。",
+    "즐거움을 나눕니다."
+  ],
+  "headline": [
+    "From Osaka. Connected by play.",
+    "从大阪出发，因游戏而相聚。",
+    "從大阪出發，因遊戲而相聚。",
+    "오사카에서, 게임으로 연결되다."
+  ],
+  "lead": [
+    "The big matches. The everyday streams. The moments that make you smile. Enjoy them together with OsakaPNG.",
+    "无论全力以赴的比赛，还是日常直播，都和OsakaPNG一起分享令人开心的瞬间。",
+    "無論全力以赴的比賽，或是日常直播，都和OsakaPNG一起分享令人開心的瞬間。",
+    "진지한 한판 승부도, 평소의 방송도. 웃음 나는 순간을 OsakaPNG와 함께 즐겨요."
+  ],
+  "hero_alt": [
+    "A soft toy-style Takopen character exploring Osaka with a small map",
+    "毛绒玩偶风格的Takopen拿着小地图漫步大阪",
+    "絨毛玩偶風格的Takopen拿著小地圖漫步大阪",
+    "작은 지도를 들고 오사카를 산책하는 봉제인형 스타일의 타코펜"
+  ],
+  "cta": [
+    "Collaborate with OsakaPNG",
+    "与OsakaPNG合作",
+    "與OsakaPNG合作",
+    "OsakaPNG와 협업하기"
+  ],
+  "nav_explore": [
+    "Members",
+    "成员",
+    "成員",
+    "멤버"
+  ],
+  "sections": [
+    {
+      "id": "about",
+      "eyebrow": "ABOUT OSAKAPNG",
+      "title": [
+        "Bringing the fun closer.",
+        "让快乐更近一点。",
+        "讓快樂更近一點。",
+        "즐거움을 더 가까이."
+      ],
+      "paragraphs": [
+        [
+          "OsakaPNG is an Osaka-based talent team operated by PACkage Inc. Growing from esports competition, the team shares games, streaming, music and other forms of entertainment, including the work of VTubers and YouTubers.",
+          "OsakaPNG是由株式会社PACkage运营、以大阪为据点的艺人团队。从电竞竞技出发，团队如今通过VTuber、YouTuber等成员的活动，分享游戏、直播、音乐及各种娱乐体验。",
+          "OsakaPNG是由株式會社PACkage營運、以大阪為據點的藝人團隊。從電競競技出發，團隊如今透過VTuber、YouTuber等成員的活動，分享遊戲、直播、音樂及各種娛樂體驗。",
+          "OsakaPNG는 주식회사 PACkage가 운영하는 오사카 기반 탤런트 팀입니다. e스포츠 경쟁 활동에서 출발해 VTuber, YouTuber 등 다양한 멤버와 함께 게임, 방송, 음악의 즐거움을 전합니다."
+        ],
+        [
+          "The team began as PNG esports in 2018 and became OsakaPNG in 2023. Through online streams and in-person events, it connects with local communities. Its Takoyaki Penguin mascot combines Osaka's takoyaki with the penguin behind the PNG name.",
+          "团队于2018年以PNG esports的名称开始活动，并于2023年更名为OsakaPNG。通过线上直播和线下活动，与当地社群建立联系。吉祥物“章鱼烧企鹅”将大阪的章鱼烧与PNG名字来源的企鹅相结合。",
+          "團隊於2018年以PNG esports的名稱開始活動，並於2023年更名為OsakaPNG。透過線上直播和實體活動，與在地社群建立連結。吉祥物「章魚燒企鵝」結合大阪的章魚燒與PNG名字來源的企鵝。",
+          "2018년 PNG esports로 활동을 시작해 2023년 OsakaPNG로 이름을 바꿨습니다. 온라인 방송과 오프라인 행사로 지역 커뮤니티와 연결됩니다. 마스코트 ‘타코야키 펭귄’은 오사카의 타코야키와 PNG의 유래인 펭귄을 결합했습니다."
+        ]
+      ]
+    },
+    {
+      "id": "members",
+      "eyebrow": "MEMBER",
+      "title": [
+        "Find your next favorite stream.",
+        "找到你喜欢的直播。",
+        "找到你喜歡的直播。",
+        "새롭게 좋아할 방송을 만나 보세요."
+      ],
+      "note": [
+        "Member names retain their official Japanese spelling. Full profiles and channel links are available on the Japanese profile pages.",
+        "成员姓名保留官方日语写法。完整介绍和频道链接可在日语个人页面查看。",
+        "成員姓名保留官方日文寫法。完整介紹和頻道連結可在日文個人頁面查看。",
+        "멤버 이름은 공식 일본어 표기를 유지합니다. 전체 프로필과 채널 링크는 일본어 프로필 페이지에서 확인할 수 있습니다."
+      ],
+      "cards": [
+        {
+          "title": "桜木みゆ",
+          "text": [
+            "FPS streams, mainly on YouTube and Twitch, including Call of Duty and Battlefield.",
+            "主要在YouTube和Twitch直播FPS游戏，包括Call of Duty与Battlefield。",
+            "主要在YouTube和Twitch直播FPS遊戲，包括Call of Duty與Battlefield。",
+            "YouTube와 Twitch를 중심으로 Call of Duty, Battlefield 등 FPS 게임을 방송합니다."
+          ],
+          "href": "/blog/miyu-e0012ca6-a41e-4f95-83e1-6d2ec305bcb9/",
+          "image": "/assets/archive/a263e1d346ba958fd429f8a5.png"
+        },
+        {
+          "title": "らりほん",
+          "text": [
+            "Game videos on YouTube, including Mario Kart and YouTube Shorts.",
+            "在YouTube发布游戏视频，也活跃于Mario Kart和YouTube Shorts。",
+            "在YouTube發布遊戲影片，也活躍於Mario Kart和YouTube Shorts。",
+            "YouTube에서 게임 영상을 선보이며 Mario Kart와 YouTube Shorts에서도 활동합니다."
+          ],
+          "href": "/blog/61232bba2a3/",
+          "image": "/assets/archive/89028632c961e24fbca3544c.png"
+        },
+        {
+          "title": "紫乃花 りお",
+          "text": [
+            "Twitch streams, including VALORANT, with a focus on spending time and connecting with viewers.",
+            "在Twitch直播VALORANT等游戏，重视与观众的交流，长时间直播也深受喜爱。",
+            "在Twitch直播VALORANT等遊戲，重視與觀眾的交流，長時間直播也受到喜愛。",
+            "Twitch에서 VALORANT 등을 방송하며 시청자와의 소통을 소중히 여깁니다. 긴 시간 함께하는 방송도 인기입니다."
+          ],
+          "href": "/blog/7e2b75b2ff9/",
+          "image": "/assets/archive/23736603f85d9d6fa21ab5de.png"
+        },
+        {
+          "title": "kira",
+          "text": [
+            "An FPS streamer with experience winning Rainbow Six Siege competitions and organizing APEX events.",
+            "有Rainbow Six Siege赛事夺冠经验，也曾组织APEX赛事的FPS主播。",
+            "有Rainbow Six Siege賽事奪冠經驗，也曾組織APEX賽事的FPS實況主。",
+            "Rainbow Six Siege 대회 우승 경험이 있으며 APEX 대회도 주최한 FPS 스트리머입니다."
+          ],
+          "href": "/blog/kira/",
+          "image": "/assets/archive/cc9edf50ad1e5c9eff693d5a.png"
+        },
+        {
+          "title": "不屈",
+          "text": [
+            "Game streaming and commentary videos, with a focus on Battlefield 6.",
+            "以Battlefield 6解说视频为中心，分享游戏直播内容。",
+            "以Battlefield 6解說影片為中心，分享遊戲直播內容。",
+            "Battlefield 6 플레이 해설 영상을 중심으로 게임 방송을 전합니다."
+          ],
+          "href": "/blog/d8211521a58/",
+          "image": "/assets/archive/9ba58bf81c7df60cce993ab5.png"
+        },
+        {
+          "title": "神楽 紫苑",
+          "text": [
+            "From watching streams to creating entertainment for others, sharing the fun through streaming.",
+            "从直播观众变成传递快乐的一员，通过直播分享娱乐体验。",
+            "從直播觀眾變成傳遞快樂的一員，透過直播分享娛樂體驗。",
+            "방송을 즐겨 보던 입장에서 직접 즐거움을 전하는 크리에이터로 활동합니다."
+          ],
+          "href": "/blog/404f03b8bdf/",
+          "image": "/assets/archive/6a4db8634aee798e9f1c2115.png"
+        },
+        {
+          "title": "とわとせつな",
+          "text": [
+            "Bringing experience supporting events into the world of entertaining streams.",
+            "把支持活动运营的经验融入直播的乐趣。",
+            "將支援活動營運的經驗融入直播的樂趣。",
+            "이벤트를 지원해 온 경험을 방송의 즐거움으로 이어 갑니다."
+          ],
+          "href": "/blog/1bbf655d0a6/",
+          "image": "/assets/archive/12a79a5d31bd4278b3ec81ac.png"
+        }
+      ]
+    },
+    {
+      "id": "characters",
+      "eyebrow": "TAKOPEN FAMILY",
+      "title": [
+        "Different characters. One Takopen family.",
+        "各有特色，同属Takopen家族。",
+        "各有特色，同屬Takopen家族。",
+        "서로 다른 매력, 하나의 타코펜 가족."
+      ],
+      "paragraphs": [
+        [
+          "Takopen is the collective name for Tsumakichi and friends, OsakaPNG's original characters. Meet the family through their distinctive designs.",
+          "Takopen是つま吉与伙伴们的统称，也是OsakaPNG的原创角色家族。通过各具特色的外形来认识他们。",
+          "Takopen是つま吉與夥伴們的統稱，也是OsakaPNG的原創角色家族。透過各具特色的外型來認識他們。",
+          "타코펜은 츠마키치와 친구들을 함께 부르는 이름이자 OsakaPNG의 오리지널 캐릭터 가족입니다. 각기 다른 외형의 특징으로 만나 보세요."
+        ]
+      ],
+      "cards": [
+        {
+          "title": "つま吉 / Tsumakichi",
+          "text": [
+            "The original main Takopen character, recognized by the takoyaki and angled toothpick on its head.",
+            "头上的章鱼烧和斜插的牙签是标志，自Takopen初代起的主角。",
+            "頭上的章魚燒和斜插的牙籤是標誌，自Takopen初代起的主角。",
+            "머리 위 타코야키와 비스듬한 이쑤시개가 특징인, 초기부터 함께한 타코펜의 메인 캐릭터입니다."
+          ],
+          "image": "/assets/takopen-tsumakichi.png",
+          "href": "/member/takopen/"
+        },
+        {
+          "title": "タコペンコ / Takopenko",
+          "text": [
+            "A member of the Takopen family, recognized by the ribbon decoration.",
+            "以蝴蝶结装饰为标志的Takopen伙伴。",
+            "以蝴蝶結裝飾為標誌的Takopen夥伴。",
+            "리본 장식이 특징인 타코펜 친구입니다."
+          ],
+          "image": "/assets/takopen-takopenko.png",
+          "href": "/member/takopen/"
+        },
+        {
+          "title": "タコペンタコ / Takopentako",
+          "text": [
+            "A Takopen friend with a head decoration reminiscent of octopus arms.",
+            "头上的装饰让人联想到章鱼触手的Takopen伙伴。",
+            "頭上的裝飾讓人聯想到章魚觸手的Takopen夥伴。",
+            "문어 다리를 연상시키는 머리 장식이 특징인 타코펜 친구입니다."
+          ],
+          "image": "/assets/takopen-takopentako.png",
+          "href": "/member/takopen/"
+        }
+      ]
+    },
+    {
+      "id": "goods",
+      "eyebrow": "GOODS & FOLLOW",
+      "title": [
+        "Stay connected beyond the stream.",
+        "直播之外，也一起分享快乐。",
+        "直播之外，也一起分享快樂。",
+        "방송 밖에서도 함께."
+      ],
+      "cards": [
+        {
+          "title": [
+            "Original merchandise",
+            "原创周边",
+            "原創周邊商品",
+            "오리지널 굿즈"
+          ],
+          "text": [
+            "Browse OsakaPNG merchandise on SUZURI. The shop is an external Japanese-language service.",
+            "在SUZURI浏览OsakaPNG周边商品。商店为外部日语服务。",
+            "在SUZURI瀏覽OsakaPNG周邊商品。商店為外部日文服務。",
+            "SUZURI에서 OsakaPNG 굿즈를 만나 보세요. 외부 일본어 쇼핑 서비스로 이동합니다."
+          ],
+          "href": "https://suzuri.jp/Osaka_PNG",
+          "link": [
+            "Visit SUZURI · Japanese",
+            "前往SUZURI（日语）",
+            "前往SUZURI（日文）",
+            "SUZURI 보기 · 일본어"
+          ]
+        },
+        {
+          "title": [
+            "Official channels",
+            "官方频道",
+            "官方頻道",
+            "공식 채널"
+          ],
+          "text": [
+            "Follow streams and event updates on OsakaPNG's official X and YouTube channels. Posts and videos are primarily in Japanese.",
+            "通过OsakaPNG官方X和YouTube频道了解直播与活动资讯。帖子和视频主要使用日语。",
+            "透過OsakaPNG官方X和YouTube頻道了解直播與活動資訊。貼文和影片主要使用日文。",
+            "OsakaPNG 공식 X와 YouTube에서 방송과 행사 소식을 확인하세요. 게시물과 영상은 주로 일본어입니다."
+          ],
+          "href": "https://www.youtube.com/@osakapng",
+          "link": [
+            "YouTube · Japanese",
+            "YouTube（日语）",
+            "YouTube（日文）",
+            "YouTube · 일본어"
+          ]
+        }
+      ]
+    }
+  ],
+  "archive_title": [
+    "News & more from OsakaPNG",
+    "OsakaPNG新闻与更多资讯",
+    "OsakaPNG新聞與更多資訊",
+    "OsakaPNG 소식 더 보기"
+  ],
+  "originals": [
+    {
+      "title": [
+        "News · Japanese",
+        "新闻（日语）",
+        "新聞（日文）",
+        "뉴스 · 일본어"
+      ],
+      "href": "/newsevents/"
+    },
+    {
+      "title": [
+        "All members · Japanese",
+        "全部成员（日语）",
+        "全部成員（日文）",
+        "모든 멤버 · 일본어"
+      ],
+      "href": "/member/"
+    },
+    {
+      "title": [
+        "Our story · Japanese",
+        "团队历程（日语）",
+        "團隊歷程（日文）",
+        "팀의 이야기 · 일본어"
+      ],
+      "href": "/about/"
+    },
+    {
+      "title": [
+        "Official X · Japanese",
+        "官方X（日语）",
+        "官方X（日文）",
+        "공식 X · 일본어"
+      ],
+      "href": "https://x.com/PNGesports"
+    },
+    {
+      "title": [
+        "Cookies · Japanese",
+        "Cookie说明（日语）",
+        "Cookie說明（日文）",
+        "쿠키 안내 · 일본어"
+      ],
+      "href": "/pages/cookie-policy/"
+    }
+  ],
+  "contact_title": [
+    "Let's create something fun together.",
+    "一起创造快乐。",
+    "一起創造快樂。",
+    "함께 즐거운 일을 만들어요."
+  ],
+  "contact_text": [
+    "For appearances, collaborations, events, press or sponsorships, contact the OsakaPNG operations team at PACkage Inc.",
+    "如需出演、合作、活动、采访或赞助，请联系株式会社PACkage的OsakaPNG运营团队。",
+    "如需演出、合作、活動、採訪或贊助，請聯絡株式會社PACkage的OsakaPNG營運團隊。",
+    "출연, 협업, 이벤트, 취재와 후원 관련 문의는 주식회사 PACkage의 OsakaPNG 운영팀으로 보내 주세요."
+  ],
+  "contact_note": [
+    "Mention OsakaPNG in your inquiry. For a receipt email, use PACkage's Japanese web form.",
+    "咨询时请注明OsakaPNG。如需接收受理邮件，请使用PACkage的日语网页表单。",
+    "洽詢時請註明OsakaPNG。如需收取受理通知信，請使用PACkage的日文網頁表單。",
+    "문의에 OsakaPNG를 명시해 주세요. 접수 안내 메일을 원하시면 PACkage의 일본어 웹 양식을 이용하세요."
+  ],
+  "subject": [
+    "OsakaPNG — collaboration inquiry",
+    "OsakaPNG — 合作咨询",
+    "OsakaPNG — 合作洽詢",
+    "OsakaPNG — 협업 문의"
+  ],
+  "japanese_contact": "https://www.package-inc.com/contact/",
+  "related": [
+    {
+      "name": "PACkage",
+      "origin": "https://www.package-inc.com"
+    },
+    {
+      "name": "Yu Yamaguchi / yukuno",
+      "origin": "https://yu-yamaguchi-yukuno.package-inc.com"
+    }
+  ],
+  "source_revision": "02d7481",
+  "source_files": [
+    "index.html",
+    "about/index.html",
+    "contact/index.html",
+    "member/takopen/index.html"
+  ],
+  "scope": "Translated international overview with member summaries. Historical news and detailed profiles retain their Japanese originals.",
+  "source_hashes": {
+    "index.html": "096f88adbbe2cb0adfd29cfba463fa84cf2ca3ca87e532f6413b6d666a849034",
+    "about/index.html": "354bc45e9bbec655c5f7719948e4b586ed864eefe8883c1e316f45ba89f5cc07",
+    "contact/index.html": "df49d86448a3cdc7a6c3ddc3d0d25bc41993797835b6af84f43defd13c2f24a3",
+    "member/takopen/index.html": "8fdc219d923ce60787cf93e50a9db8c077409d7310a8771d101238c2a4b0a0fd"
+  }
+}

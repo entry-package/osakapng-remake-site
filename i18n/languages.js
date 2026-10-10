@@ -1,0 +1,1 @@
+(() => {const bar=document.querySelector('body.home-page > .site-languages');if(!bar)return;const update=()=>document.body.style.setProperty('--language-bar-height',bar.getBoundingClientRect().height+'px');update();if('ResizeObserver' in window)new ResizeObserver(update).observe(bar);})();
