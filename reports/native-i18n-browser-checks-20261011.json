@@ -1,0 +1,157 @@
+{
+  "passed": true,
+  "checks": 150,
+  "cases": [
+    {
+      "site": "package",
+      "lang": "ja",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "site": "package",
+      "lang": "ja",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "site": "package",
+      "lang": "ja",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "site": "package",
+      "lang": "ja",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "site": "package",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "site": "package",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "site": "package",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "site": "package",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "site": "png",
+      "lang": "ja",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "site": "png",
+      "lang": "ja",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "site": "png",
+      "lang": "ja",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "site": "png",
+      "lang": "ja",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "site": "png",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "site": "png",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "site": "png",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "site": "png",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "site": "yu",
+      "lang": "ja",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "site": "yu",
+      "lang": "ja",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "site": "yu",
+      "lang": "ja",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "site": "yu",
+      "lang": "ja",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "site": "yu",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "site": "yu",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "site": "yu",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "site": "yu",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440
+    }
+  ],
+  "errors": [],
+  "networkHosts": [
+    "127.0.0.1",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com"
+  ],
+  "externalTranslationCalls": 0
+}

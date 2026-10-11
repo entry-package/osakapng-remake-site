@@ -1,0 +1,68 @@
+{
+  "task_id": "A2-20261011-three-site-i18n",
+  "revision": 3,
+  "state": "local-full-homepage-english-trial-verified-not-published",
+  "site": "png",
+  "supersedes": [
+    "simplified translated overview trial",
+    "paid translation proxy proposal"
+  ],
+  "method": "Local reviewed translation catalog applied to the original rendered homepage. Original page hierarchy, photographs, styles and scripts retained. English wrapping adjustments and compact language selector only.",
+  "cost": {
+    "new_subscription": false,
+    "new_account": false,
+    "external_translation_api_calls": 0,
+    "additional_translation_service_monthly_fee": 0,
+    "note": "Existing hosting and editing environment unchanged. Future content changes need a translation-catalog update."
+  },
+  "scope": {
+    "languages": [
+      "ja",
+      "en"
+    ],
+    "pages": "Entire homepage, including its original sections, visible text and relevant accessibility metadata. Japanese proper names and text embedded in images are preserved. Secondary pages remain Japanese.",
+    "not_done": [
+      "Entire article archives",
+      "Chinese and Korean versions",
+      "Translated image text",
+      "Public preview and production deployment",
+      "Fresh independent verification of source factual claims"
+    ]
+  },
+  "preview_url": "http://127.0.0.1:8852/en/",
+  "validation": {
+    "browser_checks": 150,
+    "passed": true,
+    "cases": 24,
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "checks_file": "native-i18n-browser-checks-20261011.json",
+    "coverage": {
+      "site": "png",
+      "translated_strings": 99,
+      "main_dom_preserved": true,
+      "source_sha256": "a79b0ce975d6e1cb2b89f215878f28aa1581055ee7956cf6761c583d8065c446",
+      "external_translation_calls": 0,
+      "subscription_added": false,
+      "scope": "Complete homepage text and metadata, English only; secondary pages remain Japanese",
+      "output": "/Users/yamaguchiyu/Developer/work/png-multilingual-20261011/.review/native-i18n/site"
+    }
+  },
+  "commands": {
+    "build": "node scripts/native-i18n.mjs build",
+    "preview": "node scripts/native-i18n.mjs serve",
+    "all_site_browser_checks": "From the PACkage worktree, with all three preview servers running: node scripts/browser-native-i18n.mjs"
+  },
+  "publication": {
+    "public_url_created": false,
+    "deployed": false,
+    "production_changed": false
+  },
+  "rollback": "The trial is isolated in experiments/native-i18n and .review/native-i18n. Existing production build paths were not edited in this revision. Earlier simplified language pages are superseded and must not be deployed.",
+  "file_lifecycle": "Source code is retained in active Git worktrees. Review copies are retained with .keep-local for owner review. Cloud bundles must be read back and hash-verified before reporting saved.",
+  "csb_capture": "No new candidate submitted; this is a task-specific local trial, not an approved ongoing production workflow."
+}

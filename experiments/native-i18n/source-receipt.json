@@ -1,0 +1,9 @@
+{
+  "site": "png",
+  "source": "/Users/yamaguchiyu/Developer/work/png-multilingual-20261011/.review/releases/270f654bfef4cff4/site/index.html",
+  "source_sha256": "a79b0ce975d6e1cb2b89f215878f28aa1581055ee7956cf6761c583d8065c446",
+  "clean_source_sha256": "bca6ee4ab49a70011c59341023295e0ba8818e83e3178c70627408548174ae2b",
+  "branch_commit": "d24429e10ddece57502eec8657978bbdd99331b4",
+  "scope": "Full homepage visible text and accessibility metadata; original images, DOM structure, CSS, JavaScript and secondary pages retained. Existing source claims translated without adding factual claims.",
+  "strings": 99
+}

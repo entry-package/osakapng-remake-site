@@ -88,5 +88,7 @@
     "https://developers.google.com/search/blog/2020/05/google-translates-website-translator?hl=en"
   ],
   "local_retention": "Git trees and review copies retained pending revised tool integration and owner review; .keep-local present. No new full-site copy.",
-  "csb_capture": "deferred; ongoing task, no verified tool integration outcome yet"
+  "csb_capture": "deferred; ongoing task, no verified tool integration outcome yet",
+  "superseded_by": "native-i18n-trial-20261011.json",
+  "current_recommendation": false
 }
