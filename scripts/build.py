@@ -266,7 +266,7 @@ def article_page(p):
     cover_row=COVER_ROWS.get(c.rstrip('/'))
     hero=''
     if cover_row:
-        hero=f'<figure class="article-cover"><img data-article-cover src="{e(asset(cover_row["image"].lstrip("/"),c))}" alt="{e(cover_row["alt"],quote=True)}" width="{cover_row["width"]}" height="{cover_row["height"]}" fetchpriority="high"></figure>'
+        hero=f'<figure class="article-cover" style="margin:24px 0;"><img data-article-cover src="{e(asset(cover_row["image"].lstrip("/"),c))}" alt="{e(cover_row["alt"],quote=True)}" width="{cover_row["width"]}" height="{cover_row["height"]}" fetchpriority="high"></figure>'
     return prefix + f'<article class="article-shell {"profile" if is_member else ""}"><header><p class="eyebrow">{category} {date}</p><h1>{e(title(p))}</h1>{note}</header>{hero}<div class="article-body" data-source-body>{copy}</div>{neighbors}<div class="article-return">{anchor(back,"メンバー一覧へ" if is_member else "ニュース一覧へ",c,"button outline")}</div></article>'
 
 
