@@ -9,6 +9,9 @@ import json
 import os
 import re
 import shutil
+import subprocess
+import sys
+import tempfile
 from datetime import datetime
 from html import escape as e
 from pathlib import Path
@@ -17,6 +20,9 @@ from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+IMAGE_PYTHON=Path.home()/'.local/share/site-image-gate/venv/bin/python'
+IMAGE_PYTHON=str(IMAGE_PYTHON) if IMAGE_PYTHON.is_file() else sys.executable
+COVER_ROWS = {row['path'].rstrip('/'):row for row in json.loads((ROOT/'content/article-images.json').read_text())['articles']}
 OUT = ROOT / 'dist'
 ORIGIN = 'https://www.pngesports.com'
 PAGES = json.loads((ROOT / 'content/source-pages.json').read_text())
@@ -92,6 +98,8 @@ def media(url, current):
 
 def cover_asset(path, source_cover):
     """Editorial images replace only reviewed missing covers, never source bodies."""
+    if path.rstrip('/') in COVER_ROWS:
+        return COVER_ROWS[path.rstrip('/')]['image'].lstrip('/')
     override = THUMBNAIL_OVERRIDES.get(path)
     if override:
         if source_cover != override['source_cover']:
@@ -257,7 +265,11 @@ def article_page(p):
     if not is_member:
         i = NEWS.index(p)
         neighbors = '<nav class="article-neighbors" aria-label="前後の記事">' + (anchor(NEWS[i+1]['path'], '← ' + title(NEWS[i+1]),c) if i+1 < len(NEWS) else '<span></span>') + (anchor(NEWS[i-1]['path'],title(NEWS[i-1])+' →',c) if i else '') + '</nav>'
-    return prefix + f'<article class="article-shell {"profile" if is_member else ""}"><header><p class="eyebrow">{category} {date}</p><h1>{e(title(p))}</h1>{note}</header><div class="article-body" data-source-body>{copy}</div>{neighbors}<div class="article-return">{anchor(back,"メンバー一覧へ" if is_member else "ニュース一覧へ",c,"button outline")}</div></article>'
+    cover_row=COVER_ROWS.get(c.rstrip('/'))
+    hero=''
+    if cover_row:
+        hero=f'<figure class="article-cover" style="margin:24px 0;"><img data-article-cover src="{e(asset(cover_row["image"].lstrip("/"),c))}" alt="{e(cover_row["alt"],quote=True)}" width="{cover_row["width"]}" height="{cover_row["height"]}" fetchpriority="high"></figure>'
+    return prefix + f'<article class="article-shell {"profile" if is_member else ""}"><header><p class="eyebrow">{category} {date}</p><h1>{e(title(p))}</h1>{note}</header>{hero}<div class="article-body" data-source-body>{copy}</div>{neighbors}<div class="article-return">{anchor(back,"メンバー一覧へ" if is_member else "ニュース一覧へ",c,"button outline")}</div></article>'
 
 
 def about(c):
@@ -292,6 +304,12 @@ def render(path, heading, body, description='', cover='', production=False):
     values['PAGE_CLASS'] = 'home-page' if path == '/' else 'inner-page'
     for key,value in values.items():
         template = template.replace('{{'+key+'}}',value)
+    cover_row=COVER_ROWS.get(path.rstrip('/'))
+    if cover_row:
+        extra=''.join('<meta '+key+'="'+e(name,quote=True)+'" content="'+e(str(value),quote=True)+'">' for key,name,value in [
+            ('property','og:image:alt',cover_row['alt']),('property','og:image:width',cover_row['width']),
+            ('property','og:image:height',cover_row['height']),('name','twitter:image:alt',cover_row['alt'])])
+        template=template.replace('</head>',extra+'</head>')
     location = OUT / path.lstrip('/') / 'index.html'
     location.parent.mkdir(parents=True,exist_ok=True)
     location.write_text(template)
@@ -340,7 +358,11 @@ def main():
     args.add_argument('--output', type=Path, default=OUT)
     args.add_argument('--base-path', default='', help='Hosting subdirectory, used by the fallback 404 page')
     opt = args.parse_args()
-    OUT = opt.output.resolve()
+    requested_output = opt.output.resolve()
+    if requested_output==ROOT or requested_output in ROOT.parents or requested_output.is_symlink():
+        raise ValueError("output cannot replace the source tree or a symlink")
+    requested_output.parent.mkdir(parents=True,exist_ok=True)
+    OUT = Path(tempfile.mkdtemp(prefix=".png-build-",dir=requested_output.parent))
     base_path = '/' + opt.base_path.strip('/') if opt.base_path.strip('/') else ''
     if base_path and not re.fullmatch(r'/[A-Za-z0-9_-]+(?:/[A-Za-z0-9_-]+)*', base_path):
         args.error('--base-path must be a URL directory path')
@@ -379,8 +401,14 @@ def main():
     (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+urls+'</urlset>')
     (OUT/'robots.txt').write_text('User-agent: *\n'+('Allow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n' if opt.production else 'Disallow: /\n'))
     write_redirects()
+    subprocess.run([sys.executable,str(ROOT/'.article-images/seal.py'),str(ROOT/'content/article-images.json'),str(OUT/'article-images.json')],check=True)
+    subprocess.run([IMAGE_PYTHON,str(ROOT/'.article-images/gate.py'),'--root',str(OUT)],check=True)
     (ROOT/'content/route-manifest.json').write_text(json.dumps(ROUTES,ensure_ascii=False,indent=2)+'\n')
     (ROOT/'content/editorial-decisions.json').write_text(json.dumps({'title_corrections':TITLE_FIXES,'body_policy':'All 101 original article/profile body texts and images retained. Reviewed link corrections are recorded in content/link-corrections.json; original destinations remain in source-pages.json. Use publication dates and separate page notes for temporal context. Thumbnail wording reads as an announcement at the original publication date; no retrospective labels inside images.','profile_copy':'Current roster excludes departed members. Owner confirmed 隣ノあおこ departure on 2026-09-13; original profile body retained with a departure notice. Other summaries use captured public profiles.','cookie_policy':'Platform-specific Strikingly policy replaced with implementation-specific text; original retained in source-pages.json.','contact':'Static mail composer and copy fallback; never show an unverified delivery-success message.','related_news':'Eight official company articles linked with original publication dates, selected from eleven reviewed articles. No unrelated neighboring posts imported.','not_proven':'All disappeared content from pre-existing esportspng.com and unpublished/internal/SNS-only information remains unverified.'},ensure_ascii=False,indent=2)+'\n')
+    if requested_output.exists():
+        previous=requested_output.with_name(requested_output.name+'.previous-'+datetime.now().strftime('%Y%m%dT%H%M%S%f'))
+        requested_output.rename(previous)
+    OUT.rename(requested_output)
     print(json.dumps({'routes':len(ROUTES),'articles':len(ARTICLES),'news':len(NEWS),'current_members':len(CURRENT_MEMBERS)+len(ROSTER_ADDITIONS),'preserved_profiles':len(MEMBERS),'production':opt.production}))
 
 
