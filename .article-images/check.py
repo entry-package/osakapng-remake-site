@@ -15,6 +15,7 @@ class Page(HTMLParser):
         self.images = []
         self.links = []
         self.stack = []
+        self.cards = []
         self.feed(text)
 
     def handle_starttag(self, tag, attrs):
@@ -22,13 +23,22 @@ class Page(HTMLParser):
         if tag == 'meta':
             key = a.get('property', a.get('name', ''))
             self.meta.setdefault(key, []).append(a.get('content', ''))
+        card_classes={'news-card','story-card','article-card','news-item','related-card'}
+        if set(a.get('class','').split()) & card_classes:
+            card={'links':[],'images':[]}
+            self.cards.append(card)
+            a['_card']=card
         if tag == 'a':
             self.links.append(a.get('href', ''))
-            self.stack.append(('a', a))
-        elif tag in ('main', 'article'):
-            self.stack.append((tag, a))
+            for _,parent in self.stack:
+                if '_card' in parent:parent['_card']['links'].append(a.get('href',''))
+            if '_card' in a:a['_card']['links'].append(a.get('href',''))
+        if tag in ('a','main','article','div','li'):
+            self.stack.append((tag,a))
         if tag == 'img':
             self.images.append((a, list(self.stack)))
+            for _,parent in self.stack:
+                if '_card' in parent:parent['_card']['images'].append(a)
 
     def handle_endtag(self, tag):
         for i in range(len(self.stack) - 1, -1, -1):
@@ -96,7 +106,7 @@ def dimensions(raw):
     try:
         from PIL import Image
         with Image.open(BytesIO(raw)) as image:
-            if image.format not in ('PNG', 'JPEG', 'WEBP'):
+            if image.format not in ('PNG', 'JPEG', 'WEBP', 'MPO'):
                 raise ValueError('cover must be PNG/JPEG/WebP')
             size = image.size
             image.verify()
@@ -184,6 +194,9 @@ def check(root, manifest):
                            if urljoin(listurl, a.get('src', '')) == imageurl
                            and any(tag == 'a' and urljoin(listurl, attrs.get('href', '')) == pageurl
                                    for tag, attrs in stack)]
+                for card in index.cards:
+                    if any(urljoin(listurl,href)==pageurl for href in card['links']):
+                        matches.extend(a for a in card['images'] if urljoin(listurl,a.get('src',''))==imageurl)
                 if not matches:
                     fail('article card image missing in ' + listing)
             verified.append({'path': row['path'], 'image': row['image'], 'bytes': len(raw), 'dimensions': size})

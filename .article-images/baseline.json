@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "config_sha256": "9b7a199ccd3ecdfd81e993f769e8b2220b26a4ffa09d8c4c080202da0ea48c02",
+  "config_sha256": "d88c75745d75e7e264548439f1c2910e7e07bcb99b97d727c2b818bda14f7d15",
   "articles": {
     "/blog/05cdd2c5100/": {
       "content": "a0f731d1c60b9a3eaabb180be3cffd3cbfc9b0de77a792533a6cba3b2ca8d294",
@@ -275,29 +275,6 @@
         ]
       }
     },
-    "/blog/1bbf655d0a6/": {
-      "content": "0e110cf2f96c0a8c48d98ea8c132729eef41c6cff167f69b6c8a8d9fe9428ab4",
-      "cards": {
-        "/blog/categories/member-1155238/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/12a79a5d31bd4278b3ec81ac.png",
-            "sha256": "12a79a5d31bd4278b3ec81ac0de49fd5e3116fd34b0d08aeb3f29e84d2c7b269"
-          }
-        ],
-        "/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/12a79a5d31bd4278b3ec81ac.png",
-            "sha256": "12a79a5d31bd4278b3ec81ac0de49fd5e3116fd34b0d08aeb3f29e84d2c7b269"
-          }
-        ],
-        "/member/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/12a79a5d31bd4278b3ec81ac.png",
-            "sha256": "12a79a5d31bd4278b3ec81ac0de49fd5e3116fd34b0d08aeb3f29e84d2c7b269"
-          }
-        ]
-      }
-    },
     "/blog/2b3fcc5775e/": {
       "content": "309cb564911e327361edf493ea52f7a8a0e0c89e0c95f96648c9445f512ef7a7",
       "cards": {
@@ -356,10 +333,6 @@
         ]
       }
     },
-    "/blog/3328bc126c9/": {
-      "content": "1060b28583048d2682858b251d5dfd83bd3250d490842d7607ec87df8274243f",
-      "cards": {}
-    },
     "/blog/3850086cf44/": {
       "content": "c5d8b737fa99f8b8e587746037b4906e39d2356a379b0c89ab0df4c2d75f88a2",
       "cards": {
@@ -385,29 +358,6 @@
           {
             "src": "https://www.pngesports.com/assets/archive/e4780ab9e3ea2e1d6b85c29a.png",
             "sha256": "e4780ab9e3ea2e1d6b85c29a0512ce89f7cf372c8e0388873fc647ac84ac77bd"
-          }
-        ]
-      }
-    },
-    "/blog/404f03b8bdf/": {
-      "content": "a439e5364f759177e0372124e558cfda6f0c906c71d358493d0f34a563e6da73",
-      "cards": {
-        "/blog/categories/member-1155238/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/6a4db8634aee798e9f1c2115.png",
-            "sha256": "6a4db8634aee798e9f1c211575b3ce1cc8d93934ae0ef8c73854ac971146fecc"
-          }
-        ],
-        "/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/6a4db8634aee798e9f1c2115.png",
-            "sha256": "6a4db8634aee798e9f1c211575b3ce1cc8d93934ae0ef8c73854ac971146fecc"
-          }
-        ],
-        "/member/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/6a4db8634aee798e9f1c2115.png",
-            "sha256": "6a4db8634aee798e9f1c211575b3ce1cc8d93934ae0ef8c73854ac971146fecc"
           }
         ]
       }
@@ -499,29 +449,6 @@
         ]
       }
     },
-    "/blog/61232bba2a3/": {
-      "content": "ed91cb38f7c6e637458dc22828428c8cb2acab077bc058ff7e0cd55affa6e8bc",
-      "cards": {
-        "/blog/categories/member-1155238/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/89028632c961e24fbca3544c.png",
-            "sha256": "89028632c961e24fbca3544cdb205b098d08049383d217d9888f912b8ed02fd7"
-          }
-        ],
-        "/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/89028632c961e24fbca3544c.png",
-            "sha256": "89028632c961e24fbca3544cdb205b098d08049383d217d9888f912b8ed02fd7"
-          }
-        ],
-        "/member/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/89028632c961e24fbca3544c.png",
-            "sha256": "89028632c961e24fbca3544cdb205b098d08049383d217d9888f912b8ed02fd7"
-          }
-        ]
-      }
-    },
     "/blog/74d57563b63/": {
       "content": "b66a001edcebc311192477028f2e077edfd09ce2e8644843ebd7f445c8b8b178",
       "cards": {
@@ -547,29 +474,6 @@
           {
             "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
             "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
-          }
-        ]
-      }
-    },
-    "/blog/7e2b75b2ff9/": {
-      "content": "d273316fc10e80285d72cee393b708447b9986963901dfbd5ed556d3dd441636",
-      "cards": {
-        "/blog/categories/member-1155238/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/23736603f85d9d6fa21ab5de.png",
-            "sha256": "23736603f85d9d6fa21ab5de2d98bc362cbf75e044962c658cca03914913e26b"
-          }
-        ],
-        "/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/23736603f85d9d6fa21ab5de.png",
-            "sha256": "23736603f85d9d6fa21ab5de2d98bc362cbf75e044962c658cca03914913e26b"
-          }
-        ],
-        "/member/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/23736603f85d9d6fa21ab5de.png",
-            "sha256": "23736603f85d9d6fa21ab5de2d98bc362cbf75e044962c658cca03914913e26b"
           }
         ]
       }
@@ -1183,29 +1087,6 @@
         ]
       }
     },
-    "/blog/d8211521a58/": {
-      "content": "57feb3982326383923efa175e664a6509095d828249b38501792c8cf9857f61f",
-      "cards": {
-        "/blog/categories/member-1155238/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/9ba58bf81c7df60cce993ab5.png",
-            "sha256": "9ba58bf81c7df60cce993ab5bb4b1b49f2f1bc5becb78c913ab987a88a2c9ec1"
-          }
-        ],
-        "/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/9ba58bf81c7df60cce993ab5.png",
-            "sha256": "9ba58bf81c7df60cce993ab5bb4b1b49f2f1bc5becb78c913ab987a88a2c9ec1"
-          }
-        ],
-        "/member/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/9ba58bf81c7df60cce993ab5.png",
-            "sha256": "9ba58bf81c7df60cce993ab5bb4b1b49f2f1bc5becb78c913ab987a88a2c9ec1"
-          }
-        ]
-      }
-    },
     "/blog/e-pngesports-osakapng/": {
       "content": "7177888010bd7097b89a134949fa46857125eb3f05b5cd9fc09998f3d76f9535",
       "cards": {
@@ -1753,52 +1634,6 @@
           {
             "src": "https://www.pngesports.com/assets/archive/241514c0eefe3b4eadcd1552.png",
             "sha256": "241514c0eefe3b4eadcd15523198a3977b5c924219c3f12dd63b4d15ac022980"
-          }
-        ]
-      }
-    },
-    "/blog/kira/": {
-      "content": "e7b88b92a66f32ba70eca2c08359806e18791f0af5838e0d0dd3a4af559cc9bd",
-      "cards": {
-        "/blog/categories/member-1155238/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/cc9edf50ad1e5c9eff693d5a.png",
-            "sha256": "cc9edf50ad1e5c9eff693d5aef684b5503821f42d59148502aeb96e5583fe722"
-          }
-        ],
-        "/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/cc9edf50ad1e5c9eff693d5a.png",
-            "sha256": "cc9edf50ad1e5c9eff693d5aef684b5503821f42d59148502aeb96e5583fe722"
-          }
-        ],
-        "/member/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/cc9edf50ad1e5c9eff693d5a.png",
-            "sha256": "cc9edf50ad1e5c9eff693d5aef684b5503821f42d59148502aeb96e5583fe722"
-          }
-        ]
-      }
-    },
-    "/blog/miyu-e0012ca6-a41e-4f95-83e1-6d2ec305bcb9/": {
-      "content": "aaefc02ec5c7e8d212320957a11681fc9c23fdf1ea4a64cc7ae903fb73ca0ef6",
-      "cards": {
-        "/blog/categories/member-1155238/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/a263e1d346ba958fd429f8a5.png",
-            "sha256": "a263e1d346ba958fd429f8a54d726a6af02d56e9060978aeef5ae1c1abd50c7d"
-          }
-        ],
-        "/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/a263e1d346ba958fd429f8a5.png",
-            "sha256": "a263e1d346ba958fd429f8a54d726a6af02d56e9060978aeef5ae1c1abd50c7d"
-          }
-        ],
-        "/member/": [
-          {
-            "src": "https://www.pngesports.com/assets/archive/a263e1d346ba958fd429f8a5.png",
-            "sha256": "a263e1d346ba958fd429f8a54d726a6af02d56e9060978aeef5ae1c1abd50c7d"
           }
         ]
       }

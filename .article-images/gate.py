@@ -102,8 +102,10 @@ def scan(root, config):
         redirect = any(n.attrs.get('http-equiv', '').lower() == 'refresh' for n in page.root.nodes('meta'))
         if redirect:
             continue
+        if any(set(n.attrs.get('class','').split()) & set(config.get('exclude_article_classes',[])) for n in page.root.nodes()):
+            continue
         shells = [n for n in page.root.nodes() if set(n.attrs.get('class','').split()) & SHELLS]
-        is_article = route in explicit or any(route.startswith(p) for p in prefixes) or page.meta.get('og:type') == ['article'] or bool(shells)
+        is_article = route in explicit or any(route.startswith(p) for p in prefixes) or page.meta.get('og:type') == ['article'] or (bool(shells) and config.get('shells_are_articles',True))
         if not is_article:
             continue
         sections = shells or list(page.root.nodes('main'))
@@ -168,6 +170,25 @@ def scan(root, config):
                     sha = 'external'
                 cards.append({'src':src, 'sha256':sha})
             articles[target]['cards'].setdefault(listing, []).extend(cards)
+    # Support cards whose image sits beside a linked heading rather than inside the link.
+    card_classes={'news-card','story-card','article-card','news-item','related-card'}
+    for listing,page in docs.items():
+        for card in page.root.nodes():
+            if not set(card.attrs.get('class','').split()) & card_classes:continue
+            targets={canonical(a.attrs.get('href',''),origin+listing,origin) for a in card.nodes('a')}
+            for target in targets & set(articles):
+                if target==listing:continue
+                for img in card.nodes('img'):
+                    src=urljoin(origin+listing,img.attrs.get('src',''))
+                    try:
+                        image,full=cover_check.asset(root,src,origin)
+                        sha=hashlib.sha256(image.read_bytes()).hexdigest() if image.is_file() else 'missing'
+                    except ValueError:sha='external'
+                    row={'src':src,'sha256':sha}
+                    entries=articles[target]['cards'].setdefault(listing,[])
+                    if row not in entries:entries.append(row)
+    for article in articles.values():
+        article['cards']={listing:sorted({digest(card):card for card in cards}.values(),key=digest) for listing,cards in article['cards'].items()}
     return docs, articles
 
 def freeze(root, config):

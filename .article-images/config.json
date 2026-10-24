@@ -24,14 +24,25 @@
     "/_blog/",
     "/about/",
     "/blog/",
+    "/blog/1bbf655d0a6/",
+    "/blog/3328bc126c9/",
+    "/blog/404f03b8bdf/",
+    "/blog/61232bba2a3/",
+    "/blog/7e2b75b2ff9/",
     "/blog/categories/",
     "/blog/categories/member-1155238/",
     "/blog/categories/news-1175894/",
+    "/blog/d8211521a58/",
+    "/blog/kira/",
+    "/blog/miyu-e0012ca6-a41e-4f95-83e1-6d2ec305bcb9/",
     "/contact/",
     "/member/",
     "/member/takopen/",
     "/newsevents/",
     "/pages/cookie-policy/",
     "/stories/"
+  ],
+  "exclude_article_classes": [
+    "profile"
   ]
 }
