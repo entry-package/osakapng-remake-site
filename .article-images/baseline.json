@@ -1,0 +1,2886 @@
+{
+  "schema_version": 1,
+  "config_sha256": "9b7a199ccd3ecdfd81e993f769e8b2220b26a4ffa09d8c4c080202da0ea48c02",
+  "articles": {
+    "/blog/05cdd2c5100/": {
+      "content": "a0f731d1c60b9a3eaabb180be3cffd3cbfc9b0de77a792533a6cba3b2ca8d294",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7af4b766d5fa47915eceb911.png",
+            "sha256": "7af4b766d5fa47915eceb911b8d6e8b5abf364508268c8536cbe180c2d65b3fa"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7af4b766d5fa47915eceb911.png",
+            "sha256": "7af4b766d5fa47915eceb911b8d6e8b5abf364508268c8536cbe180c2d65b3fa"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7af4b766d5fa47915eceb911.png",
+            "sha256": "7af4b766d5fa47915eceb911b8d6e8b5abf364508268c8536cbe180c2d65b3fa"
+          }
+        ],
+        "/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7af4b766d5fa47915eceb911.png",
+            "sha256": "7af4b766d5fa47915eceb911b8d6e8b5abf364508268c8536cbe180c2d65b3fa"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7af4b766d5fa47915eceb911.png",
+            "sha256": "7af4b766d5fa47915eceb911b8d6e8b5abf364508268c8536cbe180c2d65b3fa"
+          }
+        ]
+      }
+    },
+    "/blog/0bcdf69cfa5/": {
+      "content": "b4b70037a7d449ca886d38ac0f1db3fce84caa3a089f951d3e997137d13f26ed",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-join-v2.webp",
+            "sha256": "7e3e51721ce12c92dc045c13234b3525b9b5c61670915bbdc880f8c7db0c4ddf"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-join-v2.webp",
+            "sha256": "7e3e51721ce12c92dc045c13234b3525b9b5c61670915bbdc880f8c7db0c4ddf"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-join-v2.webp",
+            "sha256": "7e3e51721ce12c92dc045c13234b3525b9b5c61670915bbdc880f8c7db0c4ddf"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-join-v2.webp",
+            "sha256": "7e3e51721ce12c92dc045c13234b3525b9b5c61670915bbdc880f8c7db0c4ddf"
+          }
+        ]
+      }
+    },
+    "/blog/0dd55196123/": {
+      "content": "ba39b2f2cafc97bd77078bef0dbb1d3d00892a665d4d6c4b1bc0d098cd63b7b4",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2bf43b30d3b34f9374dbdae1.png",
+            "sha256": "2bf43b30d3b34f9374dbdae1b7b9dc6f1393954edebe3e04709d6c81ce8ecaa2"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2bf43b30d3b34f9374dbdae1.png",
+            "sha256": "2bf43b30d3b34f9374dbdae1b7b9dc6f1393954edebe3e04709d6c81ce8ecaa2"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2bf43b30d3b34f9374dbdae1.png",
+            "sha256": "2bf43b30d3b34f9374dbdae1b7b9dc6f1393954edebe3e04709d6c81ce8ecaa2"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2bf43b30d3b34f9374dbdae1.png",
+            "sha256": "2bf43b30d3b34f9374dbdae1b7b9dc6f1393954edebe3e04709d6c81ce8ecaa2"
+          }
+        ]
+      }
+    },
+    "/blog/0e65bf58f92/": {
+      "content": "525ab377b6ab1f0fc0c7054bfddd0a5a5b640090f3e7585a771884e0c07afe63",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/b7a69f6a0f8120509a262c64.png",
+            "sha256": "b7a69f6a0f8120509a262c645b4d6e5e1337c6efc4afe20b4d85ab52c9b708b0"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/b7a69f6a0f8120509a262c64.png",
+            "sha256": "b7a69f6a0f8120509a262c645b4d6e5e1337c6efc4afe20b4d85ab52c9b708b0"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/b7a69f6a0f8120509a262c64.png",
+            "sha256": "b7a69f6a0f8120509a262c645b4d6e5e1337c6efc4afe20b4d85ab52c9b708b0"
+          }
+        ],
+        "/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/b7a69f6a0f8120509a262c64.png",
+            "sha256": "b7a69f6a0f8120509a262c645b4d6e5e1337c6efc4afe20b4d85ab52c9b708b0"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/b7a69f6a0f8120509a262c64.png",
+            "sha256": "b7a69f6a0f8120509a262c645b4d6e5e1337c6efc4afe20b4d85ab52c9b708b0"
+          }
+        ]
+      }
+    },
+    "/blog/0f5ba6c582a/": {
+      "content": "015a35c637162d85d2c409e8cd53de7b3d86551bad224c3c98d0cb49d20e5d94",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/226c9b975aebbaeeb4200aed.png",
+            "sha256": "226c9b975aebbaeeb4200aed6f3444b03cbe94d88d31c8ff52e40a95c57fecc9"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/226c9b975aebbaeeb4200aed.png",
+            "sha256": "226c9b975aebbaeeb4200aed6f3444b03cbe94d88d31c8ff52e40a95c57fecc9"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/226c9b975aebbaeeb4200aed.png",
+            "sha256": "226c9b975aebbaeeb4200aed6f3444b03cbe94d88d31c8ff52e40a95c57fecc9"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/226c9b975aebbaeeb4200aed.png",
+            "sha256": "226c9b975aebbaeeb4200aed6f3444b03cbe94d88d31c8ff52e40a95c57fecc9"
+          }
+        ]
+      }
+    },
+    "/blog/108738c4976/": {
+      "content": "749bee540abb74f52fe797570cebc7e996f0c21687385ad4894185518f279092",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-join-v2.webp",
+            "sha256": "7e3e51721ce12c92dc045c13234b3525b9b5c61670915bbdc880f8c7db0c4ddf"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-join-v2.webp",
+            "sha256": "7e3e51721ce12c92dc045c13234b3525b9b5c61670915bbdc880f8c7db0c4ddf"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-join-v2.webp",
+            "sha256": "7e3e51721ce12c92dc045c13234b3525b9b5c61670915bbdc880f8c7db0c4ddf"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-join-v2.webp",
+            "sha256": "7e3e51721ce12c92dc045c13234b3525b9b5c61670915bbdc880f8c7db0c4ddf"
+          }
+        ]
+      }
+    },
+    "/blog/1744a94b35b/": {
+      "content": "f411c86f5973d56383a62e06438da36fe7e634c8b244c49f92ee5911ea5d9418",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/bb5c77e8264edb80baf6c552.png",
+            "sha256": "bb5c77e8264edb80baf6c5526fc4bf0cdf1662f1bf7e4ebbabe0cb4cba4f3aca"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/bb5c77e8264edb80baf6c552.png",
+            "sha256": "bb5c77e8264edb80baf6c5526fc4bf0cdf1662f1bf7e4ebbabe0cb4cba4f3aca"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/bb5c77e8264edb80baf6c552.png",
+            "sha256": "bb5c77e8264edb80baf6c5526fc4bf0cdf1662f1bf7e4ebbabe0cb4cba4f3aca"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/bb5c77e8264edb80baf6c552.png",
+            "sha256": "bb5c77e8264edb80baf6c5526fc4bf0cdf1662f1bf7e4ebbabe0cb4cba4f3aca"
+          }
+        ]
+      }
+    },
+    "/blog/1880bfa494b/": {
+      "content": "2a41b29e29d81a261ddc274cf8135cb8b854fd881187b482b78cbf1d919d3471",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/official-notice-v2.webp",
+            "sha256": "ae3273bc241fe7e6715e6c0d192b1f5b9b2e06139ee5f5277918118175039b3e"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/official-notice-v2.webp",
+            "sha256": "ae3273bc241fe7e6715e6c0d192b1f5b9b2e06139ee5f5277918118175039b3e"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/official-notice-v2.webp",
+            "sha256": "ae3273bc241fe7e6715e6c0d192b1f5b9b2e06139ee5f5277918118175039b3e"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/official-notice-v2.webp",
+            "sha256": "ae3273bc241fe7e6715e6c0d192b1f5b9b2e06139ee5f5277918118175039b3e"
+          }
+        ]
+      }
+    },
+    "/blog/1bb74edb5c7/": {
+      "content": "044f42733a4e40895cb0bd3055df1cb85e105d3db2136b5abd446e8415355565",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/d9764c7aac25e03502b284aa.png",
+            "sha256": "d9764c7aac25e03502b284aabef8042f84abc985e02a30aa2acd580599149be9"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/d9764c7aac25e03502b284aa.png",
+            "sha256": "d9764c7aac25e03502b284aabef8042f84abc985e02a30aa2acd580599149be9"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/d9764c7aac25e03502b284aa.png",
+            "sha256": "d9764c7aac25e03502b284aabef8042f84abc985e02a30aa2acd580599149be9"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/d9764c7aac25e03502b284aa.png",
+            "sha256": "d9764c7aac25e03502b284aabef8042f84abc985e02a30aa2acd580599149be9"
+          }
+        ]
+      }
+    },
+    "/blog/1bbf655d0a6/": {
+      "content": "0e110cf2f96c0a8c48d98ea8c132729eef41c6cff167f69b6c8a8d9fe9428ab4",
+      "cards": {
+        "/blog/categories/member-1155238/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/12a79a5d31bd4278b3ec81ac.png",
+            "sha256": "12a79a5d31bd4278b3ec81ac0de49fd5e3116fd34b0d08aeb3f29e84d2c7b269"
+          }
+        ],
+        "/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/12a79a5d31bd4278b3ec81ac.png",
+            "sha256": "12a79a5d31bd4278b3ec81ac0de49fd5e3116fd34b0d08aeb3f29e84d2c7b269"
+          }
+        ],
+        "/member/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/12a79a5d31bd4278b3ec81ac.png",
+            "sha256": "12a79a5d31bd4278b3ec81ac0de49fd5e3116fd34b0d08aeb3f29e84d2c7b269"
+          }
+        ]
+      }
+    },
+    "/blog/2b3fcc5775e/": {
+      "content": "309cb564911e327361edf493ea52f7a8a0e0c89e0c95f96648c9445f512ef7a7",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ]
+      }
+    },
+    "/blog/31cd990152d/": {
+      "content": "5b2a5795fa69d005f46a46118487e2412574f1d454ab12c77da8ded7e065f80f",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ]
+      }
+    },
+    "/blog/3328bc126c9/": {
+      "content": "1060b28583048d2682858b251d5dfd83bd3250d490842d7607ec87df8274243f",
+      "cards": {}
+    },
+    "/blog/3850086cf44/": {
+      "content": "c5d8b737fa99f8b8e587746037b4906e39d2356a379b0c89ab0df4c2d75f88a2",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/e4780ab9e3ea2e1d6b85c29a.png",
+            "sha256": "e4780ab9e3ea2e1d6b85c29a0512ce89f7cf372c8e0388873fc647ac84ac77bd"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/e4780ab9e3ea2e1d6b85c29a.png",
+            "sha256": "e4780ab9e3ea2e1d6b85c29a0512ce89f7cf372c8e0388873fc647ac84ac77bd"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/e4780ab9e3ea2e1d6b85c29a.png",
+            "sha256": "e4780ab9e3ea2e1d6b85c29a0512ce89f7cf372c8e0388873fc647ac84ac77bd"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/e4780ab9e3ea2e1d6b85c29a.png",
+            "sha256": "e4780ab9e3ea2e1d6b85c29a0512ce89f7cf372c8e0388873fc647ac84ac77bd"
+          }
+        ]
+      }
+    },
+    "/blog/404f03b8bdf/": {
+      "content": "a439e5364f759177e0372124e558cfda6f0c906c71d358493d0f34a563e6da73",
+      "cards": {
+        "/blog/categories/member-1155238/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6a4db8634aee798e9f1c2115.png",
+            "sha256": "6a4db8634aee798e9f1c211575b3ce1cc8d93934ae0ef8c73854ac971146fecc"
+          }
+        ],
+        "/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6a4db8634aee798e9f1c2115.png",
+            "sha256": "6a4db8634aee798e9f1c211575b3ce1cc8d93934ae0ef8c73854ac971146fecc"
+          }
+        ],
+        "/member/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6a4db8634aee798e9f1c2115.png",
+            "sha256": "6a4db8634aee798e9f1c211575b3ce1cc8d93934ae0ef8c73854ac971146fecc"
+          }
+        ]
+      }
+    },
+    "/blog/4d015cf64dc/": {
+      "content": "24367a104892a3958dff6d073b3d7dc3dfb8dccf2cba1bf20028be6388cb6f5c",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/0899e9719ff7635a5245ed19.png",
+            "sha256": "0899e9719ff7635a5245ed19c5af9e644e1c7403bc223a972cdb2856b09a594f"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/0899e9719ff7635a5245ed19.png",
+            "sha256": "0899e9719ff7635a5245ed19c5af9e644e1c7403bc223a972cdb2856b09a594f"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/0899e9719ff7635a5245ed19.png",
+            "sha256": "0899e9719ff7635a5245ed19c5af9e644e1c7403bc223a972cdb2856b09a594f"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/0899e9719ff7635a5245ed19.png",
+            "sha256": "0899e9719ff7635a5245ed19c5af9e644e1c7403bc223a972cdb2856b09a594f"
+          }
+        ]
+      }
+    },
+    "/blog/5933d5ed62d/": {
+      "content": "db1ddc73975e63a897e3124893b2ca60afc2d8d7342a1618f43a0e65571a5872",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2ea6b45fa6e32a1100082da0.png",
+            "sha256": "2ea6b45fa6e32a1100082da05ca45771f1415c0c52b67dbd44630e40a8b35be5"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2ea6b45fa6e32a1100082da0.png",
+            "sha256": "2ea6b45fa6e32a1100082da05ca45771f1415c0c52b67dbd44630e40a8b35be5"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2ea6b45fa6e32a1100082da0.png",
+            "sha256": "2ea6b45fa6e32a1100082da05ca45771f1415c0c52b67dbd44630e40a8b35be5"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2ea6b45fa6e32a1100082da0.png",
+            "sha256": "2ea6b45fa6e32a1100082da05ca45771f1415c0c52b67dbd44630e40a8b35be5"
+          }
+        ]
+      }
+    },
+    "/blog/595d767bb6b/": {
+      "content": "c2a324ea3e0cb9722e61245aaf0be329314abed2e3f55e4bd29d7fdfe67dde8b",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/events-v2.webp",
+            "sha256": "29deeab9ff6410af5b00644f2e7c84bca4bbb6276d3dbca5beaf5018ef66221b"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/events-v2.webp",
+            "sha256": "29deeab9ff6410af5b00644f2e7c84bca4bbb6276d3dbca5beaf5018ef66221b"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/events-v2.webp",
+            "sha256": "29deeab9ff6410af5b00644f2e7c84bca4bbb6276d3dbca5beaf5018ef66221b"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/events-v2.webp",
+            "sha256": "29deeab9ff6410af5b00644f2e7c84bca4bbb6276d3dbca5beaf5018ef66221b"
+          }
+        ]
+      }
+    },
+    "/blog/61232bba2a3/": {
+      "content": "ed91cb38f7c6e637458dc22828428c8cb2acab077bc058ff7e0cd55affa6e8bc",
+      "cards": {
+        "/blog/categories/member-1155238/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/89028632c961e24fbca3544c.png",
+            "sha256": "89028632c961e24fbca3544cdb205b098d08049383d217d9888f912b8ed02fd7"
+          }
+        ],
+        "/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/89028632c961e24fbca3544c.png",
+            "sha256": "89028632c961e24fbca3544cdb205b098d08049383d217d9888f912b8ed02fd7"
+          }
+        ],
+        "/member/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/89028632c961e24fbca3544c.png",
+            "sha256": "89028632c961e24fbca3544cdb205b098d08049383d217d9888f912b8ed02fd7"
+          }
+        ]
+      }
+    },
+    "/blog/74d57563b63/": {
+      "content": "b66a001edcebc311192477028f2e077edfd09ce2e8644843ebd7f445c8b8b178",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ]
+      }
+    },
+    "/blog/7e2b75b2ff9/": {
+      "content": "d273316fc10e80285d72cee393b708447b9986963901dfbd5ed556d3dd441636",
+      "cards": {
+        "/blog/categories/member-1155238/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/23736603f85d9d6fa21ab5de.png",
+            "sha256": "23736603f85d9d6fa21ab5de2d98bc362cbf75e044962c658cca03914913e26b"
+          }
+        ],
+        "/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/23736603f85d9d6fa21ab5de.png",
+            "sha256": "23736603f85d9d6fa21ab5de2d98bc362cbf75e044962c658cca03914913e26b"
+          }
+        ],
+        "/member/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/23736603f85d9d6fa21ab5de.png",
+            "sha256": "23736603f85d9d6fa21ab5de2d98bc362cbf75e044962c658cca03914913e26b"
+          }
+        ]
+      }
+    },
+    "/blog/85ad38d52ae/": {
+      "content": "b9560c374efebfbc532c14f898aa829ce853f96c557baccd6d466f1f694af2f4",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/d64a778e6ede6dc9fc75e768.png",
+            "sha256": "d64a778e6ede6dc9fc75e7685b7236811948e73b2c710f835a8e908fd16d70ea"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/d64a778e6ede6dc9fc75e768.png",
+            "sha256": "d64a778e6ede6dc9fc75e7685b7236811948e73b2c710f835a8e908fd16d70ea"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/d64a778e6ede6dc9fc75e768.png",
+            "sha256": "d64a778e6ede6dc9fc75e7685b7236811948e73b2c710f835a8e908fd16d70ea"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/d64a778e6ede6dc9fc75e768.png",
+            "sha256": "d64a778e6ede6dc9fc75e7685b7236811948e73b2c710f835a8e908fd16d70ea"
+          }
+        ]
+      }
+    },
+    "/blog/9315b40d324/": {
+      "content": "bd3c6f3f167bdd3bc41d5d6b4de4770a203010122a870b5ee2bf2b4c97fa34b8",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2f3bc5e8c9461606535d2c6a.png",
+            "sha256": "2f3bc5e8c9461606535d2c6abe06618bdee3d4029e437f4b4e2a597b12077af4"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2f3bc5e8c9461606535d2c6a.png",
+            "sha256": "2f3bc5e8c9461606535d2c6abe06618bdee3d4029e437f4b4e2a597b12077af4"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2f3bc5e8c9461606535d2c6a.png",
+            "sha256": "2f3bc5e8c9461606535d2c6abe06618bdee3d4029e437f4b4e2a597b12077af4"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2f3bc5e8c9461606535d2c6a.png",
+            "sha256": "2f3bc5e8c9461606535d2c6abe06618bdee3d4029e437f4b4e2a597b12077af4"
+          }
+        ]
+      }
+    },
+    "/blog/97350b4ba14/": {
+      "content": "e17b29d6f798d0a304cc3f7185e4756eec1e7f8a8dd4e7efe8a69d331d9fd62b",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/ce2c6bfe30a609affe48a2c7.png",
+            "sha256": "ce2c6bfe30a609affe48a2c7750af0fd388fd1efaf1317677baf78d3a472914f"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/ce2c6bfe30a609affe48a2c7.png",
+            "sha256": "ce2c6bfe30a609affe48a2c7750af0fd388fd1efaf1317677baf78d3a472914f"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/ce2c6bfe30a609affe48a2c7.png",
+            "sha256": "ce2c6bfe30a609affe48a2c7750af0fd388fd1efaf1317677baf78d3a472914f"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/ce2c6bfe30a609affe48a2c7.png",
+            "sha256": "ce2c6bfe30a609affe48a2c7750af0fd388fd1efaf1317677baf78d3a472914f"
+          }
+        ]
+      }
+    },
+    "/blog/97f12170518/": {
+      "content": "2e7c52cebd198df5c23e12eb20a16108541fe37315cfd1a1dce4caf792b54780",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/66a05d94e0a5c911a551b6d8.png",
+            "sha256": "66a05d94e0a5c911a551b6d8929506102332112ca3fa03365d37348937e7140a"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/66a05d94e0a5c911a551b6d8.png",
+            "sha256": "66a05d94e0a5c911a551b6d8929506102332112ca3fa03365d37348937e7140a"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/66a05d94e0a5c911a551b6d8.png",
+            "sha256": "66a05d94e0a5c911a551b6d8929506102332112ca3fa03365d37348937e7140a"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/66a05d94e0a5c911a551b6d8.png",
+            "sha256": "66a05d94e0a5c911a551b6d8929506102332112ca3fa03365d37348937e7140a"
+          }
+        ]
+      }
+    },
+    "/blog/9c36e1d2630/": {
+      "content": "9e4b8a73816432ae1738569afc3e1abdc9b688d2caf7b24ac7b3a58a8dbbfc24",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ]
+      }
+    },
+    "/blog/9c4a55ab739/": {
+      "content": "6997acff65f33b1e682fc8d51b7a934d86d4ae5e73f9790712c42535c1f6d4c2",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-end-v2.webp",
+            "sha256": "f36ae976c7a9b1d8d71e69de2256048a4c08ca662fd7830607c68ea3a38292e0"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-end-v2.webp",
+            "sha256": "f36ae976c7a9b1d8d71e69de2256048a4c08ca662fd7830607c68ea3a38292e0"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-end-v2.webp",
+            "sha256": "f36ae976c7a9b1d8d71e69de2256048a4c08ca662fd7830607c68ea3a38292e0"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-end-v2.webp",
+            "sha256": "f36ae976c7a9b1d8d71e69de2256048a4c08ca662fd7830607c68ea3a38292e0"
+          }
+        ]
+      }
+    },
+    "/blog/9cb110985ce/": {
+      "content": "11374ad6827a0a32038e3e2b158323da7ca49d4147766aef0fd2998d329abbfc",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/142bfa1d51c64151ce9a7628.png",
+            "sha256": "142bfa1d51c64151ce9a76281f45c9fc4b528db2d3b6f9d05f77554e15fb8261"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/142bfa1d51c64151ce9a7628.png",
+            "sha256": "142bfa1d51c64151ce9a76281f45c9fc4b528db2d3b6f9d05f77554e15fb8261"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/142bfa1d51c64151ce9a7628.png",
+            "sha256": "142bfa1d51c64151ce9a76281f45c9fc4b528db2d3b6f9d05f77554e15fb8261"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/142bfa1d51c64151ce9a7628.png",
+            "sha256": "142bfa1d51c64151ce9a76281f45c9fc4b528db2d3b6f9d05f77554e15fb8261"
+          }
+        ]
+      }
+    },
+    "/blog/a11f5d8d2d4/": {
+      "content": "1e6af60d63cfbb30b4e81cbaf105370ae70b634808aedd1ad9ae5ac55405c2fa",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/69d2a15d58c2b55584c114f5.png",
+            "sha256": "69d2a15d58c2b55584c114f59656bc898e7ffe731d1c2d5d23133436d3dec63a"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/69d2a15d58c2b55584c114f5.png",
+            "sha256": "69d2a15d58c2b55584c114f59656bc898e7ffe731d1c2d5d23133436d3dec63a"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/69d2a15d58c2b55584c114f5.png",
+            "sha256": "69d2a15d58c2b55584c114f59656bc898e7ffe731d1c2d5d23133436d3dec63a"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/69d2a15d58c2b55584c114f5.png",
+            "sha256": "69d2a15d58c2b55584c114f59656bc898e7ffe731d1c2d5d23133436d3dec63a"
+          }
+        ]
+      }
+    },
+    "/blog/adc014909c5/": {
+      "content": "544c78cf77ad4c227fcdd188f443f41951225dc0d603ab4ccf3213c383bd3187",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2f841e7338db27dd63234d6c.png",
+            "sha256": "2f841e7338db27dd63234d6ccd52b3edd3651e0bcea20b3de9520a56d95fc54b"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2f841e7338db27dd63234d6c.png",
+            "sha256": "2f841e7338db27dd63234d6ccd52b3edd3651e0bcea20b3de9520a56d95fc54b"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2f841e7338db27dd63234d6c.png",
+            "sha256": "2f841e7338db27dd63234d6ccd52b3edd3651e0bcea20b3de9520a56d95fc54b"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2f841e7338db27dd63234d6c.png",
+            "sha256": "2f841e7338db27dd63234d6ccd52b3edd3651e0bcea20b3de9520a56d95fc54b"
+          }
+        ]
+      }
+    },
+    "/blog/ae76c9eb74d/": {
+      "content": "8abbe141796a5429aca416c9be5eddb5b6b590bd2a17d3f888f2433d834ae0bd",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/d6d991baf9c1f1471ff6479a.png",
+            "sha256": "d6d991baf9c1f1471ff6479abf69e3b7839064ba69c23468fe990a3e672766af"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/d6d991baf9c1f1471ff6479a.png",
+            "sha256": "d6d991baf9c1f1471ff6479abf69e3b7839064ba69c23468fe990a3e672766af"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/d6d991baf9c1f1471ff6479a.png",
+            "sha256": "d6d991baf9c1f1471ff6479abf69e3b7839064ba69c23468fe990a3e672766af"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/d6d991baf9c1f1471ff6479a.png",
+            "sha256": "d6d991baf9c1f1471ff6479abf69e3b7839064ba69c23468fe990a3e672766af"
+          }
+        ]
+      }
+    },
+    "/blog/aoc-web-png/": {
+      "content": "0de1d6b2be4aa59af6af32672b0dce649a3081178dcc96682b0f77c5c8e67c27",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/53b660d6fe5aa632ee4a8fd2.jpg",
+            "sha256": "53b660d6fe5aa632ee4a8fd227968ed33c7e8236e7da226f27c393a41151b056"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/53b660d6fe5aa632ee4a8fd2.jpg",
+            "sha256": "53b660d6fe5aa632ee4a8fd227968ed33c7e8236e7da226f27c393a41151b056"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/53b660d6fe5aa632ee4a8fd2.jpg",
+            "sha256": "53b660d6fe5aa632ee4a8fd227968ed33c7e8236e7da226f27c393a41151b056"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/53b660d6fe5aa632ee4a8fd2.jpg",
+            "sha256": "53b660d6fe5aa632ee4a8fd227968ed33c7e8236e7da226f27c393a41151b056"
+          }
+        ]
+      }
+    },
+    "/blog/apple4g-finalmouse/": {
+      "content": "6a39cc0b97e9904ea78fbfa8223d282de766a765d610928da4418eef55afc513",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/da079421dab16035b22c56b4.png",
+            "sha256": "da079421dab16035b22c56b4ca7d5a4d022b7b03bfd5cf940452cd85c748b842"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/da079421dab16035b22c56b4.png",
+            "sha256": "da079421dab16035b22c56b4ca7d5a4d022b7b03bfd5cf940452cd85c748b842"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/da079421dab16035b22c56b4.png",
+            "sha256": "da079421dab16035b22c56b4ca7d5a4d022b7b03bfd5cf940452cd85c748b842"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/da079421dab16035b22c56b4.png",
+            "sha256": "da079421dab16035b22c56b4ca7d5a4d022b7b03bfd5cf940452cd85c748b842"
+          }
+        ]
+      }
+    },
+    "/blog/atelier/": {
+      "content": "cc0e93df8bc1b79f3694f816a058ca57f585a728408b61956c7c2b16470c89a9",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/8d578a9eaf7b37d16f3faec2.jpg",
+            "sha256": "8d578a9eaf7b37d16f3faec2fbbda0ecf3eed8b7963edc4642df60ee8ae31a27"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/8d578a9eaf7b37d16f3faec2.jpg",
+            "sha256": "8d578a9eaf7b37d16f3faec2fbbda0ecf3eed8b7963edc4642df60ee8ae31a27"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/8d578a9eaf7b37d16f3faec2.jpg",
+            "sha256": "8d578a9eaf7b37d16f3faec2fbbda0ecf3eed8b7963edc4642df60ee8ae31a27"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/8d578a9eaf7b37d16f3faec2.jpg",
+            "sha256": "8d578a9eaf7b37d16f3faec2fbbda0ecf3eed8b7963edc4642df60ee8ae31a27"
+          }
+        ]
+      }
+    },
+    "/blog/c8323f90f40/": {
+      "content": "1f2dcd609e3aefaacaa63adcfd56bae1e555255a094fc3c34db72e78f7a8cd9b",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ]
+      }
+    },
+    "/blog/cod-4abb9c80-6e09-42c2-8cbc-85127ef4426e/": {
+      "content": "7fdddac6694ea6e0078365bc6e9baed1e0863b83873431c852d8837d87a2f1bf",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/bde6eaa6ddcfb411b13791bd.png",
+            "sha256": "bde6eaa6ddcfb411b13791bd63fb6e4ce805b1e3b86dca600625498a672a2d90"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/bde6eaa6ddcfb411b13791bd.png",
+            "sha256": "bde6eaa6ddcfb411b13791bd63fb6e4ce805b1e3b86dca600625498a672a2d90"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/bde6eaa6ddcfb411b13791bd.png",
+            "sha256": "bde6eaa6ddcfb411b13791bd63fb6e4ce805b1e3b86dca600625498a672a2d90"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/bde6eaa6ddcfb411b13791bd.png",
+            "sha256": "bde6eaa6ddcfb411b13791bd63fb6e4ce805b1e3b86dca600625498a672a2d90"
+          }
+        ]
+      }
+    },
+    "/blog/cod-ca4d74d7-0be6-40b9-949b-abb59ed20020/": {
+      "content": "493077209784bcf2b6dbb7943d3c8775eca0be54f599fb8b6abd0e0627db48af",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/1939ad0be55bfe040dc4357a.png",
+            "sha256": "1939ad0be55bfe040dc4357abd3362d2ffa4cdfbea8b4fafcad79c11280be61c"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/1939ad0be55bfe040dc4357a.png",
+            "sha256": "1939ad0be55bfe040dc4357abd3362d2ffa4cdfbea8b4fafcad79c11280be61c"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/1939ad0be55bfe040dc4357a.png",
+            "sha256": "1939ad0be55bfe040dc4357abd3362d2ffa4cdfbea8b4fafcad79c11280be61c"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/1939ad0be55bfe040dc4357a.png",
+            "sha256": "1939ad0be55bfe040dc4357abd3362d2ffa4cdfbea8b4fafcad79c11280be61c"
+          }
+        ]
+      }
+    },
+    "/blog/cod/": {
+      "content": "f4643c1fbf7b2d148deb7663bde5f5db91f6916fd92341ae9c08a02a24effb74",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3ba3ceb80e557182fb0ae594.png",
+            "sha256": "3ba3ceb80e557182fb0ae594da094c4827ffa92bc2c2ee3e609a505f824a1e5b"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3ba3ceb80e557182fb0ae594.png",
+            "sha256": "3ba3ceb80e557182fb0ae594da094c4827ffa92bc2c2ee3e609a505f824a1e5b"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3ba3ceb80e557182fb0ae594.png",
+            "sha256": "3ba3ceb80e557182fb0ae594da094c4827ffa92bc2c2ee3e609a505f824a1e5b"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3ba3ceb80e557182fb0ae594.png",
+            "sha256": "3ba3ceb80e557182fb0ae594da094c4827ffa92bc2c2ee3e609a505f824a1e5b"
+          }
+        ]
+      }
+    },
+    "/blog/csgo-9973abda-5219-48dd-82e4-9661f78e2aba/": {
+      "content": "16ddea6b29790c6f85260872fd8d2302a9921209de62d5e9da9ab7b52a36892b",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/716e1546289ae9f6ea5611ec.png",
+            "sha256": "716e1546289ae9f6ea5611ec0d28bd761124c7287beec1c158af42c2071bcf5a"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/716e1546289ae9f6ea5611ec.png",
+            "sha256": "716e1546289ae9f6ea5611ec0d28bd761124c7287beec1c158af42c2071bcf5a"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/716e1546289ae9f6ea5611ec.png",
+            "sha256": "716e1546289ae9f6ea5611ec0d28bd761124c7287beec1c158af42c2071bcf5a"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/716e1546289ae9f6ea5611ec.png",
+            "sha256": "716e1546289ae9f6ea5611ec0d28bd761124c7287beec1c158af42c2071bcf5a"
+          }
+        ]
+      }
+    },
+    "/blog/csgo-feily/": {
+      "content": "7d08e13306ca8b24f917fd91d4464ec52cfc622dd79d1ab636dbef49649eebfc",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/b83d908ba05b4e57607ea60f.png",
+            "sha256": "b83d908ba05b4e57607ea60fec2adb592f1667600396022f623b764fe9d617ad"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/b83d908ba05b4e57607ea60f.png",
+            "sha256": "b83d908ba05b4e57607ea60fec2adb592f1667600396022f623b764fe9d617ad"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/b83d908ba05b4e57607ea60f.png",
+            "sha256": "b83d908ba05b4e57607ea60fec2adb592f1667600396022f623b764fe9d617ad"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/b83d908ba05b4e57607ea60f.png",
+            "sha256": "b83d908ba05b4e57607ea60fec2adb592f1667600396022f623b764fe9d617ad"
+          }
+        ]
+      }
+    },
+    "/blog/csgo-howzer/": {
+      "content": "e1ea4e75eeb6c2a5364c5463b1e734693413561b9e57fdbd6fed652af525309a",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/official-notice-v2.webp",
+            "sha256": "ae3273bc241fe7e6715e6c0d192b1f5b9b2e06139ee5f5277918118175039b3e"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/official-notice-v2.webp",
+            "sha256": "ae3273bc241fe7e6715e6c0d192b1f5b9b2e06139ee5f5277918118175039b3e"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/official-notice-v2.webp",
+            "sha256": "ae3273bc241fe7e6715e6c0d192b1f5b9b2e06139ee5f5277918118175039b3e"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/official-notice-v2.webp",
+            "sha256": "ae3273bc241fe7e6715e6c0d192b1f5b9b2e06139ee5f5277918118175039b3e"
+          }
+        ]
+      }
+    },
+    "/blog/csgo/": {
+      "content": "0cb9e1cb96e9a3252a24b32067baa12f76a5db20c32363fc001e800d5f665dba",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/a8e18657ad8bc9cebbb7cf4e.png",
+            "sha256": "a8e18657ad8bc9cebbb7cf4e4a41a115e915c04002924a0670febbab3ab175ea"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/a8e18657ad8bc9cebbb7cf4e.png",
+            "sha256": "a8e18657ad8bc9cebbb7cf4e4a41a115e915c04002924a0670febbab3ab175ea"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/a8e18657ad8bc9cebbb7cf4e.png",
+            "sha256": "a8e18657ad8bc9cebbb7cf4e4a41a115e915c04002924a0670febbab3ab175ea"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/a8e18657ad8bc9cebbb7cf4e.png",
+            "sha256": "a8e18657ad8bc9cebbb7cf4e4a41a115e915c04002924a0670febbab3ab175ea"
+          }
+        ]
+      }
+    },
+    "/blog/d8211521a58/": {
+      "content": "57feb3982326383923efa175e664a6509095d828249b38501792c8cf9857f61f",
+      "cards": {
+        "/blog/categories/member-1155238/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/9ba58bf81c7df60cce993ab5.png",
+            "sha256": "9ba58bf81c7df60cce993ab5bb4b1b49f2f1bc5becb78c913ab987a88a2c9ec1"
+          }
+        ],
+        "/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/9ba58bf81c7df60cce993ab5.png",
+            "sha256": "9ba58bf81c7df60cce993ab5bb4b1b49f2f1bc5becb78c913ab987a88a2c9ec1"
+          }
+        ],
+        "/member/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/9ba58bf81c7df60cce993ab5.png",
+            "sha256": "9ba58bf81c7df60cce993ab5bb4b1b49f2f1bc5becb78c913ab987a88a2c9ec1"
+          }
+        ]
+      }
+    },
+    "/blog/e-pngesports-osakapng/": {
+      "content": "7177888010bd7097b89a134949fa46857125eb3f05b5cd9fc09998f3d76f9535",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f7103c37756428ea15d462bd.png",
+            "sha256": "f7103c37756428ea15d462bd115de78cb239e24443a630992b4fd3e519e5e504"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f7103c37756428ea15d462bd.png",
+            "sha256": "f7103c37756428ea15d462bd115de78cb239e24443a630992b4fd3e519e5e504"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f7103c37756428ea15d462bd.png",
+            "sha256": "f7103c37756428ea15d462bd115de78cb239e24443a630992b4fd3e519e5e504"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f7103c37756428ea15d462bd.png",
+            "sha256": "f7103c37756428ea15d462bd115de78cb239e24443a630992b4fd3e519e5e504"
+          }
+        ]
+      }
+    },
+    "/blog/eb1cd25e223/": {
+      "content": "ac243e8d130993dd099ea177723884798c70246d83695f0f9718ebdb4a61f516",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/events-v2.webp",
+            "sha256": "29deeab9ff6410af5b00644f2e7c84bca4bbb6276d3dbca5beaf5018ef66221b"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/events-v2.webp",
+            "sha256": "29deeab9ff6410af5b00644f2e7c84bca4bbb6276d3dbca5beaf5018ef66221b"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/events-v2.webp",
+            "sha256": "29deeab9ff6410af5b00644f2e7c84bca4bbb6276d3dbca5beaf5018ef66221b"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/events-v2.webp",
+            "sha256": "29deeab9ff6410af5b00644f2e7c84bca4bbb6276d3dbca5beaf5018ef66221b"
+          }
+        ]
+      }
+    },
+    "/blog/ed353de741a/": {
+      "content": "4f988fdc5c82a80e64397f44c29f4c8d7eecb0205fa234517dba11c12a47f7a2",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-join-v2.webp",
+            "sha256": "6269c5da014b512322199673bbc9fbb92c6bc45abca79c3b7578318e4c38eada"
+          }
+        ]
+      }
+    },
+    "/blog/evo-japan/": {
+      "content": "891bb86779e03db07644a93be115f40a9bcbb769887d124e84d28d056310faf0",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/35396f33838c574709a5e94c.png",
+            "sha256": "35396f33838c574709a5e94c0f61a92d05bfa6691c7a8beb2a8c88c0c878c96a"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/35396f33838c574709a5e94c.png",
+            "sha256": "35396f33838c574709a5e94c0f61a92d05bfa6691c7a8beb2a8c88c0c878c96a"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/35396f33838c574709a5e94c.png",
+            "sha256": "35396f33838c574709a5e94c0f61a92d05bfa6691c7a8beb2a8c88c0c878c96a"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/35396f33838c574709a5e94c.png",
+            "sha256": "35396f33838c574709a5e94c0f61a92d05bfa6691c7a8beb2a8c88c0c878c96a"
+          }
+        ]
+      }
+    },
+    "/blog/f26d31c59a6/": {
+      "content": "dfd7182b16d87e9005491591f8891b989eba5b1652868e15af5e93719ceeddc1",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/170a98bac33714cde86bc5ad.png",
+            "sha256": "170a98bac33714cde86bc5adb5f4adee848d3dec1ffb31fae9877f95d87e8df7"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/170a98bac33714cde86bc5ad.png",
+            "sha256": "170a98bac33714cde86bc5adb5f4adee848d3dec1ffb31fae9877f95d87e8df7"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/170a98bac33714cde86bc5ad.png",
+            "sha256": "170a98bac33714cde86bc5adb5f4adee848d3dec1ffb31fae9877f95d87e8df7"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/170a98bac33714cde86bc5ad.png",
+            "sha256": "170a98bac33714cde86bc5adb5f4adee848d3dec1ffb31fae9877f95d87e8df7"
+          }
+        ]
+      }
+    },
+    "/blog/f2a43fc69c2/": {
+      "content": "dd460e28f8d2a74c475310534f837f99072d4381b9c53f31c42f1f835440c5bd",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2379f96ff28cc50f20ae4bd7.png",
+            "sha256": "2379f96ff28cc50f20ae4bd772a11917dc3d0511b335e30e5ffc4b3820329565"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2379f96ff28cc50f20ae4bd7.png",
+            "sha256": "2379f96ff28cc50f20ae4bd772a11917dc3d0511b335e30e5ffc4b3820329565"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2379f96ff28cc50f20ae4bd7.png",
+            "sha256": "2379f96ff28cc50f20ae4bd772a11917dc3d0511b335e30e5ffc4b3820329565"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2379f96ff28cc50f20ae4bd7.png",
+            "sha256": "2379f96ff28cc50f20ae4bd772a11917dc3d0511b335e30e5ffc4b3820329565"
+          }
+        ]
+      }
+    },
+    "/blog/f8db13bb13b/": {
+      "content": "cc4d0bae206d9394d94b2a28170a6161c14287fc82d6e3294eb6adff6df0c08b",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/fbbc27290bb765191cecc9e8.png",
+            "sha256": "fbbc27290bb765191cecc9e85d0310900bce0d3c2a04f7bb765a869bb26f9667"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/fbbc27290bb765191cecc9e8.png",
+            "sha256": "fbbc27290bb765191cecc9e85d0310900bce0d3c2a04f7bb765a869bb26f9667"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/fbbc27290bb765191cecc9e8.png",
+            "sha256": "fbbc27290bb765191cecc9e85d0310900bce0d3c2a04f7bb765a869bb26f9667"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/fbbc27290bb765191cecc9e8.png",
+            "sha256": "fbbc27290bb765191cecc9e85d0310900bce0d3c2a04f7bb765a869bb26f9667"
+          }
+        ]
+      }
+    },
+    "/blog/fortnite-a27d50c4-6807-4c9c-b91a-e5be85a0d75f/": {
+      "content": "ca49439df664b04d0e490f325290af5b333f24ab3ae691c4815cdd1d49b60b34",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/adf2df34e42d4a224d7c26b2.png",
+            "sha256": "adf2df34e42d4a224d7c26b263c16c40c8e04f8fe49aed4c0b2b437b21ca5faf"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/adf2df34e42d4a224d7c26b2.png",
+            "sha256": "adf2df34e42d4a224d7c26b263c16c40c8e04f8fe49aed4c0b2b437b21ca5faf"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/adf2df34e42d4a224d7c26b2.png",
+            "sha256": "adf2df34e42d4a224d7c26b263c16c40c8e04f8fe49aed4c0b2b437b21ca5faf"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/adf2df34e42d4a224d7c26b2.png",
+            "sha256": "adf2df34e42d4a224d7c26b263c16c40c8e04f8fe49aed4c0b2b437b21ca5faf"
+          }
+        ]
+      }
+    },
+    "/blog/fortnite-ade02eba-a389-4923-ab3a-5149eddc3030/": {
+      "content": "22a27726cf00140ec75e951ab7fe39c31ebe58d143401bda045ffddec51ac7e0",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/fdc997de6194eb80d9cd2891.png",
+            "sha256": "fdc997de6194eb80d9cd2891df4b91c4637c015fe3afd73b73f8ae364006291d"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/fdc997de6194eb80d9cd2891.png",
+            "sha256": "fdc997de6194eb80d9cd2891df4b91c4637c015fe3afd73b73f8ae364006291d"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/fdc997de6194eb80d9cd2891.png",
+            "sha256": "fdc997de6194eb80d9cd2891df4b91c4637c015fe3afd73b73f8ae364006291d"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/fdc997de6194eb80d9cd2891.png",
+            "sha256": "fdc997de6194eb80d9cd2891df4b91c4637c015fe3afd73b73f8ae364006291d"
+          }
+        ]
+      }
+    },
+    "/blog/fortnite-af448633-a2e8-4469-b112-835769e5f95d/": {
+      "content": "894468961af954927139ef8c02e3caf8d8f80316b4a1cb9e1ea00cc34925c192",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f7669906b5fb8f703701735d.png",
+            "sha256": "f7669906b5fb8f703701735d04a95c226706b3bad762b8260f8d31a3bfa18a29"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f7669906b5fb8f703701735d.png",
+            "sha256": "f7669906b5fb8f703701735d04a95c226706b3bad762b8260f8d31a3bfa18a29"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f7669906b5fb8f703701735d.png",
+            "sha256": "f7669906b5fb8f703701735d04a95c226706b3bad762b8260f8d31a3bfa18a29"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f7669906b5fb8f703701735d.png",
+            "sha256": "f7669906b5fb8f703701735d04a95c226706b3bad762b8260f8d31a3bfa18a29"
+          }
+        ]
+      }
+    },
+    "/blog/fortnite-png-esports-part1-kero/": {
+      "content": "ede1ec44c9225db2710d0695807f171563d73325eb45514ffc5bd5e8b033433a",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/ab58f31f4792d8425cdb682f.png",
+            "sha256": "ab58f31f4792d8425cdb682fa7fd89746b7d3e837cb863a5bed48a3263c34bdd"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/ab58f31f4792d8425cdb682f.png",
+            "sha256": "ab58f31f4792d8425cdb682fa7fd89746b7d3e837cb863a5bed48a3263c34bdd"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/ab58f31f4792d8425cdb682f.png",
+            "sha256": "ab58f31f4792d8425cdb682fa7fd89746b7d3e837cb863a5bed48a3263c34bdd"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/ab58f31f4792d8425cdb682f.png",
+            "sha256": "ab58f31f4792d8425cdb682fa7fd89746b7d3e837cb863a5bed48a3263c34bdd"
+          }
+        ]
+      }
+    },
+    "/blog/fortnite-png-esports-part2-pinky-ponky/": {
+      "content": "3328117141b7d516fbb5fb1cab794655385f56fa1f9e4223a6604c877efed87b",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/13301c068887ed9e7eebb27e.png",
+            "sha256": "13301c068887ed9e7eebb27ef308ecdc093c20135fd5c80ef7a32d2515c47826"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/13301c068887ed9e7eebb27e.png",
+            "sha256": "13301c068887ed9e7eebb27ef308ecdc093c20135fd5c80ef7a32d2515c47826"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/13301c068887ed9e7eebb27e.png",
+            "sha256": "13301c068887ed9e7eebb27ef308ecdc093c20135fd5c80ef7a32d2515c47826"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/13301c068887ed9e7eebb27e.png",
+            "sha256": "13301c068887ed9e7eebb27ef308ecdc093c20135fd5c80ef7a32d2515c47826"
+          }
+        ]
+      }
+    },
+    "/blog/fortnite/": {
+      "content": "a761d6cd6addd50c3a1527deabb205440b43da5bc463415d586e93349503c51f",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/5591f804ead7d7301a91cd2f.png",
+            "sha256": "5591f804ead7d7301a91cd2f1d2f98b078762894a24fff476fcadce72ff6a898"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/5591f804ead7d7301a91cd2f.png",
+            "sha256": "5591f804ead7d7301a91cd2f1d2f98b078762894a24fff476fcadce72ff6a898"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/5591f804ead7d7301a91cd2f.png",
+            "sha256": "5591f804ead7d7301a91cd2f1d2f98b078762894a24fff476fcadce72ff6a898"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/5591f804ead7d7301a91cd2f.png",
+            "sha256": "5591f804ead7d7301a91cd2f1d2f98b078762894a24fff476fcadce72ff6a898"
+          }
+        ]
+      }
+    },
+    "/blog/fyx/": {
+      "content": "1b802c6409abbe6e3ae54972e26f4e010d0fc20220fd6e2a2d55d4d54ca05176",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3ba3ceb80e557182fb0ae594.png",
+            "sha256": "3ba3ceb80e557182fb0ae594da094c4827ffa92bc2c2ee3e609a505f824a1e5b"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3ba3ceb80e557182fb0ae594.png",
+            "sha256": "3ba3ceb80e557182fb0ae594da094c4827ffa92bc2c2ee3e609a505f824a1e5b"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3ba3ceb80e557182fb0ae594.png",
+            "sha256": "3ba3ceb80e557182fb0ae594da094c4827ffa92bc2c2ee3e609a505f824a1e5b"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3ba3ceb80e557182fb0ae594.png",
+            "sha256": "3ba3ceb80e557182fb0ae594da094c4827ffa92bc2c2ee3e609a505f824a1e5b"
+          }
+        ]
+      }
+    },
+    "/blog/happy-new-year/": {
+      "content": "39fa0f49e2c11368dbc617e96ffd14faaad234a50157a501ff00a09958db45f1",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/new-year-v2.webp",
+            "sha256": "721d1fb5afe26b8bf3c2e4d7d5bf806e8330273240b8e58afc8b050d82ee9de8"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/new-year-v2.webp",
+            "sha256": "721d1fb5afe26b8bf3c2e4d7d5bf806e8330273240b8e58afc8b050d82ee9de8"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/new-year-v2.webp",
+            "sha256": "721d1fb5afe26b8bf3c2e4d7d5bf806e8330273240b8e58afc8b050d82ee9de8"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/new-year-v2.webp",
+            "sha256": "721d1fb5afe26b8bf3c2e4d7d5bf806e8330273240b8e58afc8b050d82ee9de8"
+          }
+        ]
+      }
+    },
+    "/blog/hayate/": {
+      "content": "21b91b4ebd22f5bf2c82a44d2bc173889df07b797f6ce002f5c157830d3d8df2",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7c5e73e6a713a8f3c8be15e6.png",
+            "sha256": "7c5e73e6a713a8f3c8be15e689bc1c8d142d821f2f036a432b53d2eefa76ea16"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7c5e73e6a713a8f3c8be15e6.png",
+            "sha256": "7c5e73e6a713a8f3c8be15e689bc1c8d142d821f2f036a432b53d2eefa76ea16"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7c5e73e6a713a8f3c8be15e6.png",
+            "sha256": "7c5e73e6a713a8f3c8be15e689bc1c8d142d821f2f036a432b53d2eefa76ea16"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7c5e73e6a713a8f3c8be15e6.png",
+            "sha256": "7c5e73e6a713a8f3c8be15e689bc1c8d142d821f2f036a432b53d2eefa76ea16"
+          }
+        ]
+      }
+    },
+    "/blog/hp-54c517b8-73a4-4d8d-80ff-d43f2ceb4a91/": {
+      "content": "8858d7990e25911e1e9abe357d1aa70c5c1fb1cb6bf6ea1d8a893255c90d0661",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/website-v2.webp",
+            "sha256": "5df5ebcefbcee87f76dfdac11be4cefbd20fc83fa3a7c4d27b9490c119038f27"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/website-v2.webp",
+            "sha256": "5df5ebcefbcee87f76dfdac11be4cefbd20fc83fa3a7c4d27b9490c119038f27"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/website-v2.webp",
+            "sha256": "5df5ebcefbcee87f76dfdac11be4cefbd20fc83fa3a7c4d27b9490c119038f27"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/website-v2.webp",
+            "sha256": "5df5ebcefbcee87f76dfdac11be4cefbd20fc83fa3a7c4d27b9490c119038f27"
+          }
+        ]
+      }
+    },
+    "/blog/hp/": {
+      "content": "8bfc67d9c165354b3161fc20b91c282880b0be967faf0605b7efc9a856a566d3",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3a950cb9da419371796eca50.png",
+            "sha256": "3a950cb9da419371796eca501b29e1df4737a1ed5ebc813883bf13bfeeac89b6"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3a950cb9da419371796eca50.png",
+            "sha256": "3a950cb9da419371796eca501b29e1df4737a1ed5ebc813883bf13bfeeac89b6"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3a950cb9da419371796eca50.png",
+            "sha256": "3a950cb9da419371796eca501b29e1df4737a1ed5ebc813883bf13bfeeac89b6"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3a950cb9da419371796eca50.png",
+            "sha256": "3a950cb9da419371796eca501b29e1df4737a1ed5ebc813883bf13bfeeac89b6"
+          }
+        ]
+      }
+    },
+    "/blog/kero/": {
+      "content": "ece858f617f410278b4813b622d0dbb0726e45379d6552fcb6c204c3a59fccd8",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/241514c0eefe3b4eadcd1552.png",
+            "sha256": "241514c0eefe3b4eadcd15523198a3977b5c924219c3f12dd63b4d15ac022980"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/241514c0eefe3b4eadcd1552.png",
+            "sha256": "241514c0eefe3b4eadcd15523198a3977b5c924219c3f12dd63b4d15ac022980"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/241514c0eefe3b4eadcd1552.png",
+            "sha256": "241514c0eefe3b4eadcd15523198a3977b5c924219c3f12dd63b4d15ac022980"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/241514c0eefe3b4eadcd1552.png",
+            "sha256": "241514c0eefe3b4eadcd15523198a3977b5c924219c3f12dd63b4d15ac022980"
+          }
+        ]
+      }
+    },
+    "/blog/kira/": {
+      "content": "e7b88b92a66f32ba70eca2c08359806e18791f0af5838e0d0dd3a4af559cc9bd",
+      "cards": {
+        "/blog/categories/member-1155238/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/cc9edf50ad1e5c9eff693d5a.png",
+            "sha256": "cc9edf50ad1e5c9eff693d5aef684b5503821f42d59148502aeb96e5583fe722"
+          }
+        ],
+        "/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/cc9edf50ad1e5c9eff693d5a.png",
+            "sha256": "cc9edf50ad1e5c9eff693d5aef684b5503821f42d59148502aeb96e5583fe722"
+          }
+        ],
+        "/member/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/cc9edf50ad1e5c9eff693d5a.png",
+            "sha256": "cc9edf50ad1e5c9eff693d5aef684b5503821f42d59148502aeb96e5583fe722"
+          }
+        ]
+      }
+    },
+    "/blog/miyu-e0012ca6-a41e-4f95-83e1-6d2ec305bcb9/": {
+      "content": "aaefc02ec5c7e8d212320957a11681fc9c23fdf1ea4a64cc7ae903fb73ca0ef6",
+      "cards": {
+        "/blog/categories/member-1155238/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/a263e1d346ba958fd429f8a5.png",
+            "sha256": "a263e1d346ba958fd429f8a54d726a6af02d56e9060978aeef5ae1c1abd50c7d"
+          }
+        ],
+        "/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/a263e1d346ba958fd429f8a5.png",
+            "sha256": "a263e1d346ba958fd429f8a54d726a6af02d56e9060978aeef5ae1c1abd50c7d"
+          }
+        ],
+        "/member/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/a263e1d346ba958fd429f8a5.png",
+            "sha256": "a263e1d346ba958fd429f8a54d726a6af02d56e9060978aeef5ae1c1abd50c7d"
+          }
+        ]
+      }
+    },
+    "/blog/mushamaru-finalmouse/": {
+      "content": "baf3a02890a187314ae97c627e73e711f476a9e87855e267cfd6bd1bad212987",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3de95162b56f4ffa43271471.png",
+            "sha256": "3de95162b56f4ffa432714713e1ccbc044a9b87b8b0f5cde337561efd55cb72f"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3de95162b56f4ffa43271471.png",
+            "sha256": "3de95162b56f4ffa432714713e1ccbc044a9b87b8b0f5cde337561efd55cb72f"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3de95162b56f4ffa43271471.png",
+            "sha256": "3de95162b56f4ffa432714713e1ccbc044a9b87b8b0f5cde337561efd55cb72f"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/3de95162b56f4ffa43271471.png",
+            "sha256": "3de95162b56f4ffa432714713e1ccbc044a9b87b8b0f5cde337561efd55cb72f"
+          }
+        ]
+      }
+    },
+    "/blog/osakapng-line/": {
+      "content": "93e04b6a06617c29ce26defeb3b4d8a1c253a8f3779c49f5a32d2d05031070bc",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2ee3adf3d48bab0e6d71500f.png",
+            "sha256": "2ee3adf3d48bab0e6d71500f8132808a5a4f9321e51497ab3b06bdf7f3d668d1"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2ee3adf3d48bab0e6d71500f.png",
+            "sha256": "2ee3adf3d48bab0e6d71500f8132808a5a4f9321e51497ab3b06bdf7f3d668d1"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2ee3adf3d48bab0e6d71500f.png",
+            "sha256": "2ee3adf3d48bab0e6d71500f8132808a5a4f9321e51497ab3b06bdf7f3d668d1"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/2ee3adf3d48bab0e6d71500f.png",
+            "sha256": "2ee3adf3d48bab0e6d71500f8132808a5a4f9321e51497ab3b06bdf7f3d668d1"
+          }
+        ]
+      }
+    },
+    "/blog/pc-7186b7a9-6ff8-43af-afec-3b19075d28c0/": {
+      "content": "156233c379a97c959339b02324598538b80f1b91e6cfbddfe1552979098905f8",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/gaming-pc-v2.webp",
+            "sha256": "52f7f39fea06ac67722d71a8090d28539d257aa537eff3b5871a07214d57ea47"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/gaming-pc-v2.webp",
+            "sha256": "52f7f39fea06ac67722d71a8090d28539d257aa537eff3b5871a07214d57ea47"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/gaming-pc-v2.webp",
+            "sha256": "52f7f39fea06ac67722d71a8090d28539d257aa537eff3b5871a07214d57ea47"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/gaming-pc-v2.webp",
+            "sha256": "52f7f39fea06ac67722d71a8090d28539d257aa537eff3b5871a07214d57ea47"
+          }
+        ]
+      }
+    },
+    "/blog/pc/": {
+      "content": "156233c379a97c959339b02324598538b80f1b91e6cfbddfe1552979098905f8",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/gaming-pc-v2.webp",
+            "sha256": "52f7f39fea06ac67722d71a8090d28539d257aa537eff3b5871a07214d57ea47"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/gaming-pc-v2.webp",
+            "sha256": "52f7f39fea06ac67722d71a8090d28539d257aa537eff3b5871a07214d57ea47"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/gaming-pc-v2.webp",
+            "sha256": "52f7f39fea06ac67722d71a8090d28539d257aa537eff3b5871a07214d57ea47"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/gaming-pc-v2.webp",
+            "sha256": "52f7f39fea06ac67722d71a8090d28539d257aa537eff3b5871a07214d57ea47"
+          }
+        ]
+      }
+    },
+    "/blog/png-esports-cod/": {
+      "content": "edab3baf8fa87e286092bbe91909ab87d4bcec80870c494e677e7c0d3179ea22",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/fba3961ae28b7c929ae4aa82.png",
+            "sha256": "fba3961ae28b7c929ae4aa825ed15e5f5fa71e6677bcd5f160f14b1e113ff501"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/fba3961ae28b7c929ae4aa82.png",
+            "sha256": "fba3961ae28b7c929ae4aa825ed15e5f5fa71e6677bcd5f160f14b1e113ff501"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/fba3961ae28b7c929ae4aa82.png",
+            "sha256": "fba3961ae28b7c929ae4aa825ed15e5f5fa71e6677bcd5f160f14b1e113ff501"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/fba3961ae28b7c929ae4aa82.png",
+            "sha256": "fba3961ae28b7c929ae4aa825ed15e5f5fa71e6677bcd5f160f14b1e113ff501"
+          }
+        ]
+      }
+    },
+    "/blog/png-esports-csgo/": {
+      "content": "d668a28f064702b3fee7f4ec5729ac7b9a42b1396a1909790f87eb28502e5c42",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/e6cf3fb57efca07466ef7b8d.png",
+            "sha256": "e6cf3fb57efca07466ef7b8df0a42e0a7fae1dce3be030d133c66242805fb116"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/e6cf3fb57efca07466ef7b8d.png",
+            "sha256": "e6cf3fb57efca07466ef7b8df0a42e0a7fae1dce3be030d133c66242805fb116"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/e6cf3fb57efca07466ef7b8d.png",
+            "sha256": "e6cf3fb57efca07466ef7b8df0a42e0a7fae1dce3be030d133c66242805fb116"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/e6cf3fb57efca07466ef7b8d.png",
+            "sha256": "e6cf3fb57efca07466ef7b8df0a42e0a7fae1dce3be030d133c66242805fb116"
+          }
+        ]
+      }
+    },
+    "/blog/png-esports-part3/": {
+      "content": "426ea1d6df9ef0de56465cfc6177868670e88f6b27b9e27406e1e08eba8fa484",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/118244b444c80422ad7f047a.png",
+            "sha256": "118244b444c80422ad7f047aa87a9862b4506f7a4d872bd86198ee179dddf1e4"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/118244b444c80422ad7f047a.png",
+            "sha256": "118244b444c80422ad7f047aa87a9862b4506f7a4d872bd86198ee179dddf1e4"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/118244b444c80422ad7f047a.png",
+            "sha256": "118244b444c80422ad7f047aa87a9862b4506f7a4d872bd86198ee179dddf1e4"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/118244b444c80422ad7f047a.png",
+            "sha256": "118244b444c80422ad7f047aa87a9862b4506f7a4d872bd86198ee179dddf1e4"
+          }
+        ]
+      }
+    },
+    "/blog/png-esports-part4/": {
+      "content": "98ab9c7429b1582ab5fd76d9e3807a05a669d027ea4c3eb002cf4bf0e73a44d8",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/038b05ad82a15ab59f593f45.png",
+            "sha256": "038b05ad82a15ab59f593f45411b3cb60d5cf4ec322ab9190f1a70d03049bc9d"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/038b05ad82a15ab59f593f45.png",
+            "sha256": "038b05ad82a15ab59f593f45411b3cb60d5cf4ec322ab9190f1a70d03049bc9d"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/038b05ad82a15ab59f593f45.png",
+            "sha256": "038b05ad82a15ab59f593f45411b3cb60d5cf4ec322ab9190f1a70d03049bc9d"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/038b05ad82a15ab59f593f45.png",
+            "sha256": "038b05ad82a15ab59f593f45411b3cb60d5cf4ec322ab9190f1a70d03049bc9d"
+          }
+        ]
+      }
+    },
+    "/blog/png-esports-pubg-467236ae-6a8a-4ebc-9bc3-4608c028d033/": {
+      "content": "c22493bb2a31416286b9e2c38d2fce4c256d93babca60ed2290da4bfd4cd1300",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/acb39c4b67ea331b74d7c06c.png",
+            "sha256": "acb39c4b67ea331b74d7c06ccbb56e35d31c774dea1b6492bd13874d76e0e2ff"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/acb39c4b67ea331b74d7c06c.png",
+            "sha256": "acb39c4b67ea331b74d7c06ccbb56e35d31c774dea1b6492bd13874d76e0e2ff"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/acb39c4b67ea331b74d7c06c.png",
+            "sha256": "acb39c4b67ea331b74d7c06ccbb56e35d31c774dea1b6492bd13874d76e0e2ff"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/acb39c4b67ea331b74d7c06c.png",
+            "sha256": "acb39c4b67ea331b74d7c06ccbb56e35d31c774dea1b6492bd13874d76e0e2ff"
+          }
+        ]
+      }
+    },
+    "/blog/png-esports-pubg/": {
+      "content": "6494ff7cf3c259cf5aae45c2940dcb0b770d8f673dc7835a958d3fba6e30f54d",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/acb39c4b67ea331b74d7c06c.png",
+            "sha256": "acb39c4b67ea331b74d7c06ccbb56e35d31c774dea1b6492bd13874d76e0e2ff"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/acb39c4b67ea331b74d7c06c.png",
+            "sha256": "acb39c4b67ea331b74d7c06ccbb56e35d31c774dea1b6492bd13874d76e0e2ff"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/acb39c4b67ea331b74d7c06c.png",
+            "sha256": "acb39c4b67ea331b74d7c06ccbb56e35d31c774dea1b6492bd13874d76e0e2ff"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/acb39c4b67ea331b74d7c06c.png",
+            "sha256": "acb39c4b67ea331b74d7c06ccbb56e35d31c774dea1b6492bd13874d76e0e2ff"
+          }
+        ]
+      }
+    },
+    "/blog/png-gyazo/": {
+      "content": "bb30b389692b267c3c33157e942356027973d2568e37457e3c7ac38ab9f7454f",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/ddd867f479582170190db0d8.png",
+            "sha256": "ddd867f479582170190db0d8de02a7491bbeb3be2f1d30799bb7328021922195"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/ddd867f479582170190db0d8.png",
+            "sha256": "ddd867f479582170190db0d8de02a7491bbeb3be2f1d30799bb7328021922195"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/ddd867f479582170190db0d8.png",
+            "sha256": "ddd867f479582170190db0d8de02a7491bbeb3be2f1d30799bb7328021922195"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/ddd867f479582170190db0d8.png",
+            "sha256": "ddd867f479582170190db0d8de02a7491bbeb3be2f1d30799bb7328021922195"
+          }
+        ]
+      }
+    },
+    "/blog/png-sofia/": {
+      "content": "cf8bc4d1c91a858f609016df3ca912459af9b026c073facf4775cd3840aa5043",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/c662959f0600196a954fde81.png",
+            "sha256": "c662959f0600196a954fde8168e127ef794533763223e24974430ca9ade472f8"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/c662959f0600196a954fde81.png",
+            "sha256": "c662959f0600196a954fde8168e127ef794533763223e24974430ca9ade472f8"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/c662959f0600196a954fde81.png",
+            "sha256": "c662959f0600196a954fde8168e127ef794533763223e24974430ca9ade472f8"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/c662959f0600196a954fde81.png",
+            "sha256": "c662959f0600196a954fde8168e127ef794533763223e24974430ca9ade472f8"
+          }
+        ]
+      }
+    },
+    "/blog/png-spark-c370431c-bd8a-47e7-a481-b7042f9e2596/": {
+      "content": "21f2692c99c8929bb1f103d9e2d23148a7f9bb26726dc534614ba5bd2862db52",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/recruitment-v2.webp",
+            "sha256": "f477e3d9a34669b582cb2beaf7650eaab805d5ec077e2588bc9730478f384013"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/recruitment-v2.webp",
+            "sha256": "f477e3d9a34669b582cb2beaf7650eaab805d5ec077e2588bc9730478f384013"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/recruitment-v2.webp",
+            "sha256": "f477e3d9a34669b582cb2beaf7650eaab805d5ec077e2588bc9730478f384013"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/recruitment-v2.webp",
+            "sha256": "f477e3d9a34669b582cb2beaf7650eaab805d5ec077e2588bc9730478f384013"
+          }
+        ]
+      }
+    },
+    "/blog/png-spark/": {
+      "content": "573fe0472a5e941c4f92a873d0506cf6f065247b8201bc840d653e6e5d7aa1c9",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ]
+      }
+    },
+    "/blog/png/": {
+      "content": "2577d105487839ddc0414af801e52f64437fb8f0b9d130f036e748eb8648700a",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/0a2c867726f4d64b7cfeb440.png",
+            "sha256": "0a2c867726f4d64b7cfeb440e6ac0df0c7958cc7cf89ced81edd876fddf925d6"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/0a2c867726f4d64b7cfeb440.png",
+            "sha256": "0a2c867726f4d64b7cfeb440e6ac0df0c7958cc7cf89ced81edd876fddf925d6"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/0a2c867726f4d64b7cfeb440.png",
+            "sha256": "0a2c867726f4d64b7cfeb440e6ac0df0c7958cc7cf89ced81edd876fddf925d6"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/0a2c867726f4d64b7cfeb440.png",
+            "sha256": "0a2c867726f4d64b7cfeb440e6ac0df0c7958cc7cf89ced81edd876fddf925d6"
+          }
+        ]
+      }
+    },
+    "/blog/pubg-40a0fe6c-6d7e-442b-a934-8d4414afd8fa/": {
+      "content": "952e89fbe222e05af455b32b39ab1d8dfa6a6948d6d44b3cac5e777a0847237e",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/member-departure-v2.webp",
+            "sha256": "3e1a191a77f9f0cdb28f40b262bb7f547a053210e1bc985c61f8817287868d86"
+          }
+        ]
+      }
+    },
+    "/blog/pubg-949a3d5b-b2c7-4a31-b018-212ed658431b/": {
+      "content": "16f6035687b2ff99736cd12290b453cc33de0825d0bf01af14e9f3ea9dd233e7",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/recruitment-v2.webp",
+            "sha256": "f477e3d9a34669b582cb2beaf7650eaab805d5ec077e2588bc9730478f384013"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/recruitment-v2.webp",
+            "sha256": "f477e3d9a34669b582cb2beaf7650eaab805d5ec077e2588bc9730478f384013"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/recruitment-v2.webp",
+            "sha256": "f477e3d9a34669b582cb2beaf7650eaab805d5ec077e2588bc9730478f384013"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/recruitment-v2.webp",
+            "sha256": "f477e3d9a34669b582cb2beaf7650eaab805d5ec077e2588bc9730478f384013"
+          }
+        ]
+      }
+    },
+    "/blog/pubg-mobile/": {
+      "content": "9d2fc7fb5b4c41717737ed72110c138452e114aca12ec567f376795840805104",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/e0aac4d84d8c0dee605caf04.png",
+            "sha256": "e0aac4d84d8c0dee605caf04802ead2e4279f8e777e5d7ba61a4b38b1b8ccbd5"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/e0aac4d84d8c0dee605caf04.png",
+            "sha256": "e0aac4d84d8c0dee605caf04802ead2e4279f8e777e5d7ba61a4b38b1b8ccbd5"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/e0aac4d84d8c0dee605caf04.png",
+            "sha256": "e0aac4d84d8c0dee605caf04802ead2e4279f8e777e5d7ba61a4b38b1b8ccbd5"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/e0aac4d84d8c0dee605caf04.png",
+            "sha256": "e0aac4d84d8c0dee605caf04802ead2e4279f8e777e5d7ba61a4b38b1b8ccbd5"
+          }
+        ]
+      }
+    },
+    "/blog/pubg-pjs-pna/": {
+      "content": "bfd7c7173a29353c0a4701770f8fe35845d44fd497b4111a9fe1e1141e3f43db",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f293b14aef64eea5b680f297.png",
+            "sha256": "f293b14aef64eea5b680f29732ff669bd56c0acbd6934a58ace235deb182bed4"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f293b14aef64eea5b680f297.png",
+            "sha256": "f293b14aef64eea5b680f29732ff669bd56c0acbd6934a58ace235deb182bed4"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f293b14aef64eea5b680f297.png",
+            "sha256": "f293b14aef64eea5b680f29732ff669bd56c0acbd6934a58ace235deb182bed4"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f293b14aef64eea5b680f297.png",
+            "sha256": "f293b14aef64eea5b680f29732ff669bd56c0acbd6934a58ace235deb182bed4"
+          }
+        ]
+      }
+    },
+    "/blog/pubg-pjs-pnf/": {
+      "content": "a08f0b1de5e681f719e44bc3bd44018d1f80c53ba4bee1ac5f076f25969b0e7e",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6059ad00fff965f77984c91d.png",
+            "sha256": "6059ad00fff965f77984c91d9606c088cdf706ec2c256b19b332ed311ff405cf"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6059ad00fff965f77984c91d.png",
+            "sha256": "6059ad00fff965f77984c91d9606c088cdf706ec2c256b19b332ed311ff405cf"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6059ad00fff965f77984c91d.png",
+            "sha256": "6059ad00fff965f77984c91d9606c088cdf706ec2c256b19b332ed311ff405cf"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6059ad00fff965f77984c91d.png",
+            "sha256": "6059ad00fff965f77984c91d9606c088cdf706ec2c256b19b332ed311ff405cf"
+          }
+        ]
+      }
+    },
+    "/blog/pubg-pjs/": {
+      "content": "c111c4947681ce14e9db0cc1401b368758698c774205bdd90def349d339ad399",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7c601f16687b13528d6b2d38.png",
+            "sha256": "7c601f16687b13528d6b2d385ec143231605c34781a2e09689f896669c8406e6"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7c601f16687b13528d6b2d38.png",
+            "sha256": "7c601f16687b13528d6b2d385ec143231605c34781a2e09689f896669c8406e6"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7c601f16687b13528d6b2d38.png",
+            "sha256": "7c601f16687b13528d6b2d385ec143231605c34781a2e09689f896669c8406e6"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7c601f16687b13528d6b2d38.png",
+            "sha256": "7c601f16687b13528d6b2d385ec143231605c34781a2e09689f896669c8406e6"
+          }
+        ]
+      }
+    },
+    "/blog/pubg-pna-pjs/": {
+      "content": "753f8b804cfa4081f7af7a02393286ebdb1ba3661fbdb368b1ee620d8ee88fdd",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/4327764f8ee049733d198aae.png",
+            "sha256": "4327764f8ee049733d198aae76fa1b47f7676e6b7d4ff8307ebfd0b2f6aeaa77"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/4327764f8ee049733d198aae.png",
+            "sha256": "4327764f8ee049733d198aae76fa1b47f7676e6b7d4ff8307ebfd0b2f6aeaa77"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/4327764f8ee049733d198aae.png",
+            "sha256": "4327764f8ee049733d198aae76fa1b47f7676e6b7d4ff8307ebfd0b2f6aeaa77"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/4327764f8ee049733d198aae.png",
+            "sha256": "4327764f8ee049733d198aae76fa1b47f7676e6b7d4ff8307ebfd0b2f6aeaa77"
+          }
+        ]
+      }
+    },
+    "/blog/pubg-pnf-pjs-season2-g2/": {
+      "content": "49691b2f0acb961571316f8e79630cec370bfa9a2a024b672ae606aca0c61915",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/b5e34b6d51eda46cee5d0830.png",
+            "sha256": "b5e34b6d51eda46cee5d0830324e65852706a6070f87f23c8933a59a2e92ab68"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/b5e34b6d51eda46cee5d0830.png",
+            "sha256": "b5e34b6d51eda46cee5d0830324e65852706a6070f87f23c8933a59a2e92ab68"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/b5e34b6d51eda46cee5d0830.png",
+            "sha256": "b5e34b6d51eda46cee5d0830324e65852706a6070f87f23c8933a59a2e92ab68"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/b5e34b6d51eda46cee5d0830.png",
+            "sha256": "b5e34b6d51eda46cee5d0830324e65852706a6070f87f23c8933a59a2e92ab68"
+          }
+        ]
+      }
+    },
+    "/blog/pubg-pnf-pjs/": {
+      "content": "8526c5beffa8f7c802e460f75a616866ddb5f718dc153b3a34c47b092f62e153",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/072c069ea066cab8ce811468.png",
+            "sha256": "072c069ea066cab8ce8114684a3cd9815bc0cb5c95402102cbca15597b434986"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/072c069ea066cab8ce811468.png",
+            "sha256": "072c069ea066cab8ce8114684a3cd9815bc0cb5c95402102cbca15597b434986"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/072c069ea066cab8ce811468.png",
+            "sha256": "072c069ea066cab8ce8114684a3cd9815bc0cb5c95402102cbca15597b434986"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/072c069ea066cab8ce811468.png",
+            "sha256": "072c069ea066cab8ce8114684a3cd9815bc0cb5c95402102cbca15597b434986"
+          }
+        ]
+      }
+    },
+    "/blog/pubg-pnf/": {
+      "content": "fc62edfc0480b1e7e3d5e8bd226b5ac4ce33a7ab197d830d5082bc3142aff5e5",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7813f14e99ff4a671867b505.png",
+            "sha256": "7813f14e99ff4a671867b50538d22a4330da8af48729152bdd27e96239645960"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7813f14e99ff4a671867b505.png",
+            "sha256": "7813f14e99ff4a671867b50538d22a4330da8af48729152bdd27e96239645960"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7813f14e99ff4a671867b505.png",
+            "sha256": "7813f14e99ff4a671867b50538d22a4330da8af48729152bdd27e96239645960"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/7813f14e99ff4a671867b505.png",
+            "sha256": "7813f14e99ff4a671867b50538d22a4330da8af48729152bdd27e96239645960"
+          }
+        ]
+      }
+    },
+    "/blog/pubg-png-fairy-pjs/": {
+      "content": "5ed149f965f95e2a831417b84bfaae9c72effca7175099c31373c7dc184ccba3",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/1ba06ed3d32e3b770e2b5dc0.png",
+            "sha256": "1ba06ed3d32e3b770e2b5dc053e8daf2b98d931eb28c5877a077786460a586ba"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/1ba06ed3d32e3b770e2b5dc0.png",
+            "sha256": "1ba06ed3d32e3b770e2b5dc053e8daf2b98d931eb28c5877a077786460a586ba"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/1ba06ed3d32e3b770e2b5dc0.png",
+            "sha256": "1ba06ed3d32e3b770e2b5dc053e8daf2b98d931eb28c5877a077786460a586ba"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/1ba06ed3d32e3b770e2b5dc0.png",
+            "sha256": "1ba06ed3d32e3b770e2b5dc053e8daf2b98d931eb28c5877a077786460a586ba"
+          }
+        ]
+      }
+    },
+    "/blog/pubg-png-fairy/": {
+      "content": "a999646240b77f50e033f11e1365c92c6368769f2a4ab8828c453ed712cd5ce2",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6e8de4cec226d2fb2123b42b.png",
+            "sha256": "6e8de4cec226d2fb2123b42b22c4b825a483b229e1811c5f5a1657aa6fc10dea"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6e8de4cec226d2fb2123b42b.png",
+            "sha256": "6e8de4cec226d2fb2123b42b22c4b825a483b229e1811c5f5a1657aa6fc10dea"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6e8de4cec226d2fb2123b42b.png",
+            "sha256": "6e8de4cec226d2fb2123b42b22c4b825a483b229e1811c5f5a1657aa6fc10dea"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6e8de4cec226d2fb2123b42b.png",
+            "sha256": "6e8de4cec226d2fb2123b42b22c4b825a483b229e1811c5f5a1657aa6fc10dea"
+          }
+        ]
+      }
+    },
+    "/blog/pubg/": {
+      "content": "42ae68885172a8c5d1807980d9cf915c5f7898df915dbeb7547675dfcd0743b5",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6f1c38b68ed80db6b97e94f4.png",
+            "sha256": "6f1c38b68ed80db6b97e94f4835d7b20b7b40cbf0786fbeea92566147ee6d215"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6f1c38b68ed80db6b97e94f4.png",
+            "sha256": "6f1c38b68ed80db6b97e94f4835d7b20b7b40cbf0786fbeea92566147ee6d215"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6f1c38b68ed80db6b97e94f4.png",
+            "sha256": "6f1c38b68ed80db6b97e94f4835d7b20b7b40cbf0786fbeea92566147ee6d215"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/6f1c38b68ed80db6b97e94f4.png",
+            "sha256": "6f1c38b68ed80db6b97e94f4835d7b20b7b40cbf0786fbeea92566147ee6d215"
+          }
+        ]
+      }
+    },
+    "/blog/r6s-06c0ee00-af39-4bb5-ba62-f976b86c129e/": {
+      "content": "aa299c72ca5b604156b29b3759132fa23e2054e635e22e7156fdfa374af25087",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f88bb0f5f195936f80fc98ef.png",
+            "sha256": "f88bb0f5f195936f80fc98eff195556bfa0923236e90de489747dc65661636a2"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f88bb0f5f195936f80fc98ef.png",
+            "sha256": "f88bb0f5f195936f80fc98eff195556bfa0923236e90de489747dc65661636a2"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f88bb0f5f195936f80fc98ef.png",
+            "sha256": "f88bb0f5f195936f80fc98eff195556bfa0923236e90de489747dc65661636a2"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/f88bb0f5f195936f80fc98ef.png",
+            "sha256": "f88bb0f5f195936f80fc98eff195556bfa0923236e90de489747dc65661636a2"
+          }
+        ]
+      }
+    },
+    "/blog/r6s/": {
+      "content": "6bd1e7f127b535f6a7e2a11fb711aa23f28ef95c4fe6cbc5e0e72606110b594e",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/de054b7f7a629d6a2a4401c8.png",
+            "sha256": "de054b7f7a629d6a2a4401c8c3b01abadfb9854d7ca82b9e28515a42d77268d6"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/de054b7f7a629d6a2a4401c8.png",
+            "sha256": "de054b7f7a629d6a2a4401c8c3b01abadfb9854d7ca82b9e28515a42d77268d6"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/de054b7f7a629d6a2a4401c8.png",
+            "sha256": "de054b7f7a629d6a2a4401c8c3b01abadfb9854d7ca82b9e28515a42d77268d6"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/de054b7f7a629d6a2a4401c8.png",
+            "sha256": "de054b7f7a629d6a2a4401c8c3b01abadfb9854d7ca82b9e28515a42d77268d6"
+          }
+        ]
+      }
+    },
+    "/blog/re-miyu/": {
+      "content": "1df2e52e41741b1c6dd920aab417841a78465459ed9f4d41a8ef3a8bce416f2b",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/a263e1d346ba958fd429f8a5.png",
+            "sha256": "a263e1d346ba958fd429f8a54d726a6af02d56e9060978aeef5ae1c1abd50c7d"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/a263e1d346ba958fd429f8a5.png",
+            "sha256": "a263e1d346ba958fd429f8a54d726a6af02d56e9060978aeef5ae1c1abd50c7d"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/a263e1d346ba958fd429f8a5.png",
+            "sha256": "a263e1d346ba958fd429f8a54d726a6af02d56e9060978aeef5ae1c1abd50c7d"
+          }
+        ],
+        "/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/a263e1d346ba958fd429f8a5.png",
+            "sha256": "a263e1d346ba958fd429f8a54d726a6af02d56e9060978aeef5ae1c1abd50c7d"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/a263e1d346ba958fd429f8a5.png",
+            "sha256": "a263e1d346ba958fd429f8a54d726a6af02d56e9060978aeef5ae1c1abd50c7d"
+          }
+        ]
+      }
+    },
+    "/blog/s1yuq/": {
+      "content": "eba386bf953f4fa013c87df80e90570e5ca4b7ad17e774f8c9577bf6c8333c5e",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/771a01ce7b54a27e7497ace8.png",
+            "sha256": "771a01ce7b54a27e7497ace898b17ed8122ca5832e776b184db7b06f530ca60d"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/771a01ce7b54a27e7497ace8.png",
+            "sha256": "771a01ce7b54a27e7497ace898b17ed8122ca5832e776b184db7b06f530ca60d"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/771a01ce7b54a27e7497ace8.png",
+            "sha256": "771a01ce7b54a27e7497ace898b17ed8122ca5832e776b184db7b06f530ca60d"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/771a01ce7b54a27e7497ace8.png",
+            "sha256": "771a01ce7b54a27e7497ace898b17ed8122ca5832e776b184db7b06f530ca60d"
+          }
+        ]
+      }
+    },
+    "/blog/streamer-1467d8df-d95f-4366-844f-321a1f1b2504/": {
+      "content": "373adca105d2d6ab1b7a33006fc7df6cb0418982538c87bf04dbfc3b1a9887e1",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/33642fe82de9d6f3a849156b.png",
+            "sha256": "33642fe82de9d6f3a849156baccbc7a447ad849e916ab7cea6f50fa08b241982"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/33642fe82de9d6f3a849156b.png",
+            "sha256": "33642fe82de9d6f3a849156baccbc7a447ad849e916ab7cea6f50fa08b241982"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/33642fe82de9d6f3a849156b.png",
+            "sha256": "33642fe82de9d6f3a849156baccbc7a447ad849e916ab7cea6f50fa08b241982"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/33642fe82de9d6f3a849156b.png",
+            "sha256": "33642fe82de9d6f3a849156baccbc7a447ad849e916ab7cea6f50fa08b241982"
+          }
+        ]
+      }
+    },
+    "/blog/streamer-harley/": {
+      "content": "8565e59e17b3266fd7db08d6d98ad2350858967b6ab4bdebc83acdacd40abb90",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/17964c2025d13f615925f264.png",
+            "sha256": "17964c2025d13f615925f264d22f8c0f7f5acace8ef66dcd23c1540a0fec6f08"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/17964c2025d13f615925f264.png",
+            "sha256": "17964c2025d13f615925f264d22f8c0f7f5acace8ef66dcd23c1540a0fec6f08"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/17964c2025d13f615925f264.png",
+            "sha256": "17964c2025d13f615925f264d22f8c0f7f5acace8ef66dcd23c1540a0fec6f08"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/17964c2025d13f615925f264.png",
+            "sha256": "17964c2025d13f615925f264d22f8c0f7f5acace8ef66dcd23c1540a0fec6f08"
+          }
+        ]
+      }
+    },
+    "/blog/streamer/": {
+      "content": "ba67bd9ccbd67dba8c40858a7676cfcc99071b1a1b7a41cb21e29b7c45d5cefe",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/0459a2f64840e856de760d0c.png",
+            "sha256": "0459a2f64840e856de760d0c4454955481101fe2dc2a806d3d2c10b64f5b10a9"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/0459a2f64840e856de760d0c.png",
+            "sha256": "0459a2f64840e856de760d0c4454955481101fe2dc2a806d3d2c10b64f5b10a9"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/0459a2f64840e856de760d0c.png",
+            "sha256": "0459a2f64840e856de760d0c4454955481101fe2dc2a806d3d2c10b64f5b10a9"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/0459a2f64840e856de760d0c.png",
+            "sha256": "0459a2f64840e856de760d0c4454955481101fe2dc2a806d3d2c10b64f5b10a9"
+          }
+        ]
+      }
+    },
+    "/blog/twitchbonenkai2024/": {
+      "content": "3d551fe03ebfa441266cce77eef563b9430b3a750ba785588cc561b64d0f1660",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/cb7486756b2ea2d23626b523.png",
+            "sha256": "cb7486756b2ea2d23626b52362224416c062c6b1b83f6a3c2d30c79c862102d9"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/cb7486756b2ea2d23626b523.png",
+            "sha256": "cb7486756b2ea2d23626b52362224416c062c6b1b83f6a3c2d30c79c862102d9"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/cb7486756b2ea2d23626b523.png",
+            "sha256": "cb7486756b2ea2d23626b52362224416c062c6b1b83f6a3c2d30c79c862102d9"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/archive/cb7486756b2ea2d23626b523.png",
+            "sha256": "cb7486756b2ea2d23626b52362224416c062c6b1b83f6a3c2d30c79c862102d9"
+          }
+        ]
+      }
+    },
+    "/blog/visionup/": {
+      "content": "831825819adc7ec0800718b466ce2575b7abb915e903b1c14ea2fd0f785ac1ac",
+      "cards": {
+        "/_blog/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-join-v2.webp",
+            "sha256": "7e3e51721ce12c92dc045c13234b3525b9b5c61670915bbdc880f8c7db0c4ddf"
+          }
+        ],
+        "/blog/categories/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-join-v2.webp",
+            "sha256": "7e3e51721ce12c92dc045c13234b3525b9b5c61670915bbdc880f8c7db0c4ddf"
+          }
+        ],
+        "/blog/categories/news-1175894/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-join-v2.webp",
+            "sha256": "7e3e51721ce12c92dc045c13234b3525b9b5c61670915bbdc880f8c7db0c4ddf"
+          }
+        ],
+        "/newsevents/": [
+          {
+            "src": "https://www.pngesports.com/assets/thumbnails/sponsor-join-v2.webp",
+            "sha256": "7e3e51721ce12c92dc045c13234b3525b9b5c61670915bbdc880f8c7db0c4ddf"
+          }
+        ]
+      }
+    }
+  }
+}

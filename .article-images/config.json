@@ -1,0 +1,37 @@
+{
+  "origin": "https://www.pngesports.com",
+  "article_prefixes": [
+    "/blog/"
+  ],
+  "exclude_prefixes": [
+    "/blog/categories/"
+  ],
+  "listing_paths": [
+    "/newsevents/"
+  ],
+  "required_listing_paths": [
+    "/newsevents/"
+  ],
+  "non_article_paths": [
+    "/",
+    "/2020/05/27/atorieinterview/",
+    "/2020/06/08/showheyinterview/",
+    "/2022/04/22/【スマブラ部門】新メンバー加入のお知らせ/",
+    "/2023/04/02/【タレント部門】新メンバー加入のお知らせ/",
+    "/2023/04/02/【タレント部門】新メンバー加入のお知らせ/feed/",
+    "/404.html",
+    "/404/",
+    "/_blog/",
+    "/about/",
+    "/blog/",
+    "/blog/categories/",
+    "/blog/categories/member-1155238/",
+    "/blog/categories/news-1175894/",
+    "/contact/",
+    "/member/",
+    "/member/takopen/",
+    "/newsevents/",
+    "/pages/cookie-policy/",
+    "/stories/"
+  ]
+}

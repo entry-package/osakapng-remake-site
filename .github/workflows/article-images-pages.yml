@@ -1,0 +1,53 @@
+name: Article image gate and Pages
+on:
+  push:
+    branches: [main, 'verify/article-image-*']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install raster decoder
+        run: python3 -m pip install 'Pillow==12.2.0'
+      - name: Reject new or changed articles without reviewed cover images
+        run: python3 .article-images/gate.py --root .
+      - name: Prepare only the public artifact
+        run: |
+          python3 - <<'PY'
+          import shutil
+          from pathlib import Path
+          source=Path('.')
+          out=source/'_site'
+          out.mkdir()
+          for p in source.iterdir():
+              if p.name in ('.git','.github','.article-images','_site'):
+                  continue
+              if p.is_dir(): shutil.copytree(p,out/p.name)
+              else: shutil.copy2(p,out/p.name)
+          PY
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy the validated artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
