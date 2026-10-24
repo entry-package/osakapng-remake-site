@@ -1,3 +1,5 @@
+import subprocess
+import sys
 """Independent content-conservation and static-release checks."""
 import argparse
 import hashlib
@@ -10,6 +12,7 @@ from urllib.parse import urljoin, urlsplit, unquote
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+COVER_ROWS={row['path'].rstrip('/'):row for row in json.loads((ROOT/'content/article-images.json').read_text())['articles']}
 OUT = ROOT / 'dist'
 parser = argparse.ArgumentParser()
 parser.add_argument('--production', action='store_true')
@@ -18,6 +21,7 @@ parser.add_argument('--report', type=Path, default=ROOT / 'content/verification.
 parser.add_argument('--base-path', default='')
 args = parser.parse_args()
 OUT = args.output.resolve()
+subprocess.run([sys.executable,str(ROOT/".article-images/gate.py"),"--root",str(OUT)],check=True)
 pages = json.loads((ROOT/'content/source-pages.json').read_text())
 article_lookup = {p['path']:p for p in pages}
 for file in (ROOT/'content/posts').glob('*.json'):
@@ -83,7 +87,7 @@ for key,entry in thumbnail_assets.items():
     check((OUT/entry['local']).read_bytes()==file.read_bytes(), 'thumbnail_distributed',key)
 for p in (p for p in pages if p['type']=='article'):
     override = thumbnail_overrides.get(p['path'])
-    expected = thumbnail_assets[override['asset']]['local'] if override else media[p['cover']]['local']
+    expected = COVER_ROWS[p['path'].rstrip('/')]['image'].lstrip('/') if p['path'].rstrip('/') in COVER_ROWS else thumbnail_assets[override['asset']]['local'] if override else media[p['cover']]['local']
     soup = BeautifulSoup((OUT/routes[p['path']]['file']).read_text(),'html.parser')
     image_url = 'https://www.pngesports.com/'+expected
     check(soup.select_one('meta[property="og:image"]')['content']==image_url, 'article_cover_matches',p['path'])
@@ -100,7 +104,7 @@ for route in ['/newsevents','/_blog','/blog/categories/news-1175894','/blog/cate
         path=urlsplit(urljoin('https://preview.invalid'+route+'/',card.select_one('h3 a')['href'])).path.rstrip('/')
         p=article_lookup[path]
         override=thumbnail_overrides.get(path)
-        expected=thumbnail_assets[override['asset']]['local'] if override else (media[p['cover']]['local'] if p['cover'] else 'assets/hero-logo.png')
+        expected=COVER_ROWS[path]['image'].lstrip('/') if path in COVER_ROWS else thumbnail_assets[override['asset']]['local'] if override else (media[p['cover']]['local'] if p['cover'] else 'assets/hero-logo.png')
         actual=urlsplit(urljoin('https://preview.invalid'+route+'/',card.select_one('.news-cover img')['src'])).path.lstrip('/')
         check(actual==expected,'news_card_cover_matches',{'listing':route,'article':path})
         if override: seen.add(path)
