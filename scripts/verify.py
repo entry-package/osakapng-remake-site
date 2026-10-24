@@ -21,7 +21,8 @@ parser.add_argument('--report', type=Path, default=ROOT / 'content/verification.
 parser.add_argument('--base-path', default='')
 args = parser.parse_args()
 OUT = args.output.resolve()
-subprocess.run([sys.executable,str(ROOT/".article-images/gate.py"),"--root",str(OUT)],check=True)
+runtime=Path.home()/".local/share/site-image-gate/venv/bin/python"
+subprocess.run([str(runtime) if runtime.is_file() else sys.executable,str(ROOT/".article-images/gate.py"),"--root",str(OUT)],check=True)
 pages = json.loads((ROOT/'content/source-pages.json').read_text())
 article_lookup = {p['path']:p for p in pages}
 for file in (ROOT/'content/posts').glob('*.json'):

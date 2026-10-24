@@ -20,6 +20,8 @@ from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+IMAGE_PYTHON=Path.home()/'.local/share/site-image-gate/venv/bin/python'
+IMAGE_PYTHON=str(IMAGE_PYTHON) if IMAGE_PYTHON.is_file() else sys.executable
 COVER_ROWS = {row['path'].rstrip('/'):row for row in json.loads((ROOT/'content/article-images.json').read_text())['articles']}
 OUT = ROOT / 'dist'
 ORIGIN = 'https://www.pngesports.com'
@@ -400,7 +402,7 @@ def main():
     (OUT/'robots.txt').write_text('User-agent: *\n'+('Allow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n' if opt.production else 'Disallow: /\n'))
     write_redirects()
     subprocess.run([sys.executable,str(ROOT/'.article-images/seal.py'),str(ROOT/'content/article-images.json'),str(OUT/'article-images.json')],check=True)
-    subprocess.run([sys.executable,str(ROOT/'.article-images/gate.py'),'--root',str(OUT)],check=True)
+    subprocess.run([IMAGE_PYTHON,str(ROOT/'.article-images/gate.py'),'--root',str(OUT)],check=True)
     (ROOT/'content/route-manifest.json').write_text(json.dumps(ROUTES,ensure_ascii=False,indent=2)+'\n')
     (ROOT/'content/editorial-decisions.json').write_text(json.dumps({'title_corrections':TITLE_FIXES,'body_policy':'All 101 original article/profile body texts and images retained. Reviewed link corrections are recorded in content/link-corrections.json; original destinations remain in source-pages.json. Use publication dates and separate page notes for temporal context. Thumbnail wording reads as an announcement at the original publication date; no retrospective labels inside images.','profile_copy':'Current roster excludes departed members. Owner confirmed 隣ノあおこ departure on 2026-09-13; original profile body retained with a departure notice. Other summaries use captured public profiles.','cookie_policy':'Platform-specific Strikingly policy replaced with implementation-specific text; original retained in source-pages.json.','contact':'Static mail composer and copy fallback; never show an unverified delivery-success message.','related_news':'Eight official company articles linked with original publication dates, selected from eleven reviewed articles. No unrelated neighboring posts imported.','not_proven':'All disappeared content from pre-existing esportspng.com and unpublished/internal/SNS-only information remains unverified.'},ensure_ascii=False,indent=2)+'\n')
     if requested_output.exists():
