@@ -34,7 +34,7 @@ for(const route of routes)for(const width of widths){
   // Image decode promises can outlive headless virtual-time capture. Verify the
   // actual loaded resources after the eager requests have settled instead.
   await new Promise(r=>setTimeout(r,300));
-  assert(images.length===22&&images.every(i=>i.complete&&i.naturalWidth===Number(i.getAttribute('width'))),'all_editorial_images_loaded',{width,count:images.length});
+  assert(images.length===21&&images.every(i=>i.complete&&i.naturalWidth===Number(i.getAttribute('width'))),'all_editorial_images_loaded',{width,count:images.length});
   const clipped=images.filter(i=>{const r=i.getBoundingClientRect(),c=i.parentElement.getBoundingClientRect();return w.getComputedStyle(i).objectFit!=='contain'||Math.abs(r.width/r.height-i.naturalWidth/i.naturalHeight)>.01||r.bottom>c.bottom+1||r.right>c.right+1});
   assert(!clipped.length,'editorial_titles_not_cropped',{width,clipped:clipped.map(i=>i.src)});
  }
@@ -48,7 +48,7 @@ const fire=()=>search.dispatchEvent(new w.Event('input',{bubbles:true}));
 search.value='桜木';fire();let shown=[...d.querySelectorAll('[data-news]')].filter(c=>!c.hidden);assert(shown.length>0&&shown.every(c=>c.dataset.search.includes('桜木')),'news_text_filter',shown.length);
 search.value='zzzzNOT_A_REAL_NEWS_999';fire();assert(d.querySelector('#news-count').textContent==='0'&&!d.querySelector('#empty-results').hidden,'news_empty_state');
 search.value='';year.value='2018';year.dispatchEvent(new w.Event('change',{bubbles:true}));shown=[...d.querySelectorAll('[data-news]')].filter(c=>!c.hidden);assert(shown.length>0&&shown.every(c=>c.dataset.year==='2018'),'news_year_filter',shown.length);
-search.form.reset();await new Promise(r=>setTimeout(r,30));assert(d.querySelector('#news-count').textContent==='93','news_reset');
+search.form.reset();await new Promise(r=>setTimeout(r,30));assert(d.querySelector('#news-count').textContent==='92','news_reset');
 d=await load('/newsevents/?year=2018',390);assert(d.querySelector('#news-year').value==='2018','year_url_restored');
 d=await load('/member/',390);let toggle=d.querySelector('.menu-toggle');toggle.click();assert(toggle.getAttribute('aria-expanded')==='true'&&d.querySelector('#site-nav').classList.contains('open'),'mobile_menu_open');d.dispatchEvent(new f.contentWindow.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));assert(toggle.getAttribute('aria-expanded')==='false','mobile_menu_escape');
 d=await load('/contact/',390);assert(!d.querySelector('form').checkValidity(),'contact_required_fields');d.querySelector('[name=topic]').value='その他';d.querySelector('[name=name]').value='表示確認';d.querySelector('[name=email]').value='invalid';d.querySelector('[name=message]').value='ローカル動作確認・未送信';assert(!d.querySelector('form').checkValidity(),'contact_reject_invalid_email');d.querySelector('[name=email]').value='test@example.invalid';assert(d.querySelector('form').checkValidity(),'contact_valid_input');

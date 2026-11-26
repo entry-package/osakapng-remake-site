@@ -39,7 +39,8 @@ THUMBNAIL_OVERRIDES = json.loads((ROOT / 'content/thumbnail-overrides.json').rea
 MEMBER_UPDATES = json.loads((ROOT / 'content/member-updates.json').read_text())
 ROSTER_ADDITIONS = json.loads((ROOT / 'content/roster-additions.json').read_text())
 LINK_CORRECTIONS = json.loads((ROOT / 'content/link-corrections.json').read_text())['links']
-ARTICLES = [p for p in PAGES if p['type'] == 'article']
+ARTICLE_ALIASES = json.loads((ROOT / 'content/article-aliases.json').read_text())
+ARTICLES = [p for p in PAGES if p['type'] == 'article' and p['path'] not in ARTICLE_ALIASES]
 MEMBERS = [BY_PATH[path] for path in dict.fromkeys(urlsplit(a['href']).path for a in BY_PATH['/member']['links'] if '/blog/' in a['href'])]
 MEMBER_PATHS = {p['path'] for p in MEMBERS}
 CURRENT_MEMBERS = [p for p in MEMBERS if MEMBER_UPDATES.get(p['path'], {}).get('membership_state') != 'departed']
@@ -77,6 +78,7 @@ def link(target, current):
     path = u.path or current
     if not path.startswith('/'):
         path = urljoin(current.rstrip('/') + '/', path)
+    path = ARTICLE_ALIASES.get(path.rstrip('/'), path)
     # Preserve query/fragment, including legacy categoryId links.
     relative = os.path.relpath(path.lstrip('/') or '.', current.lstrip('/') or '.')
     if not Path(path).suffix:
@@ -335,7 +337,8 @@ LEGACY_REDIRECTS = {
 
 
 def write_redirects():
-    for path, target in LEGACY_REDIRECTS.items():
+    redirects = LEGACY_REDIRECTS | {path: target + '/' for path, target in ARTICLE_ALIASES.items()}
+    for path, target in redirects.items():
         url = ORIGIN + target
         page = ('<!doctype html><html lang="ja"><head><meta charset="utf-8">'
                 '<meta name="viewport" content="width=device-width,initial-scale=1">'
