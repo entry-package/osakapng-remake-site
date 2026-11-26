@@ -34,6 +34,8 @@ routes = json.loads((ROOT/'content/route-manifest.json').read_text())
 member_updates = json.loads((ROOT/'content/member-updates.json').read_text())
 roster_additions = json.loads((ROOT/'content/roster-additions.json').read_text())
 link_corrections = json.loads((ROOT/'content/link-corrections.json').read_text())['links']
+article_aliases = json.loads((ROOT/'content/article-aliases.json').read_text())
+published_pages = [p for p in pages if p['path'] not in article_aliases]
 failures = []
 checks = []
 def check(ok, kind, detail):
@@ -45,9 +47,30 @@ def normalize(text): return re.sub(r'\s+', '', text)
 def normalized_href(href, origin):
     u = urlsplit(urljoin(origin, href))
     host = 'preview.invalid' if u.netloc in {'www.pngesports.com','pngesports.com'} else u.netloc
-    return u._replace(path=u.path.rstrip('/') or '/', netloc=host).geturl()
+    path = u.path.rstrip('/') or '/'
+    if host == 'preview.invalid':
+        path = article_aliases.get(path, path)
+    return u._replace(path=path, netloc=host).geturl()
 
-for p in pages:
+for alias, target in article_aliases.items():
+    original = article_lookup[alias]
+    canonical = article_lookup[target]
+    check(
+        original['type'] == canonical['type'] == 'article'
+        and all(original[key] == canonical[key] for key in ('title', 'source_text', 'links', 'images')),
+        'alias_preserves_article', alias,
+    )
+    redirect = BeautifulSoup((OUT / alias.lstrip('/') / 'index.html').read_text(), 'html.parser')
+    refresh = redirect.select_one('meta[http-equiv="refresh"]')
+    canonical_link = redirect.select_one('link[rel="canonical"]')
+    check(alias not in routes and target in routes, 'alias_routes', alias)
+    check(refresh and refresh.get('content') == f'0; url={target}/', 'alias_redirect', alias)
+    check(
+        canonical_link and canonical_link.get('href') == f'https://www.pngesports.com{target}/',
+        'alias_canonical', alias,
+    )
+
+for p in published_pages:
     check(p['path'] in routes, 'source_route', p['path'])
     if p['type'] != 'article': continue
     file = OUT/routes[p['path']]['file']
@@ -86,7 +109,7 @@ for key,entry in thumbnail_assets.items():
     file = ROOT/entry['local']
     check(file.is_file() and hashlib.sha256(file.read_bytes()).hexdigest()==entry['sha256'], 'thumbnail_checksum',key)
     check((OUT/entry['local']).read_bytes()==file.read_bytes(), 'thumbnail_distributed',key)
-for p in (p for p in pages if p['type']=='article'):
+for p in (p for p in published_pages if p['type']=='article'):
     override = thumbnail_overrides.get(p['path'])
     expected = COVER_ROWS[p['path'].rstrip('/')]['image'].lstrip('/') if p['path'].rstrip('/') in COVER_ROWS else thumbnail_assets[override['asset']]['local'] if override else media[p['cover']]['local']
     soup = BeautifulSoup((OUT/routes[p['path']]['file']).read_text(),'html.parser')
@@ -109,7 +132,7 @@ for route in ['/newsevents','/_blog','/blog/categories/news-1175894','/blog/cate
         actual=urlsplit(urljoin('https://preview.invalid'+route+'/',card.select_one('.news-cover img')['src'])).path.lstrip('/')
         check(actual==expected,'news_card_cover_matches',{'listing':route,'article':path})
         if override: seen.add(path)
-    check(seen==missing_covers,'all_editorial_covers_listed',route)
+    check(seen == missing_covers - article_aliases.keys(), 'all_editorial_covers_listed', route)
 
 for path,entry in routes.items():
     file = OUT/entry['file']; html = file.read_text(); soup=BeautifulSoup(html,'html.parser')
@@ -123,6 +146,14 @@ for path,entry in routes.items():
     ids = [x['id'] for x in soup.select('[id]')]
     check(len(ids)==len(set(ids)), 'unique_ids',path)
     active_links = [a['href'] for a in soup.select('a[href]')]
+    check(
+        not any(
+            url.netloc == 'www.pngesports.com' and url.path.rstrip('/') in article_aliases
+            for url in (urlsplit(urljoin('https://www.pngesports.com' + path.rstrip('/') + '/', href))
+                        for href in active_links)
+        ),
+        'no_article_alias_links', path,
+    )
     check(not any(url in link_corrections for url in active_links), 'no_reviewed_broken_destinations',path)
     check(not any((urlsplit(url).hostname or '').endswith('strikingly.com') for url in active_links), 'no_retired_platform_destinations',path)
     for tag in soup.select('a[href],img[src],script[src],link[href]'):
